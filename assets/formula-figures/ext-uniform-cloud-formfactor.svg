@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Uniform finite cloud and its acoustic form factor</title><desc>A finite sphere of radius Rc contains Nb equal bubble sources with number density nb. The observer lies outside at r. Wave number k and frequency omega compare wave transit to source time.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Finite size changes the coherent source amplitude</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">有限尺寸改变相干源振幅</text>
+<circle cx="268" cy="280" r="143" fill="#173845" stroke="#8fb8ff" stroke-width="3"/>
+<circle cx="220" cy="240" r="14" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="295" cy="205" r="14" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="331" cy="290" r="14" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="215" cy="328" r="14" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="280" cy="353" r="14" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<line x1="268" y1="280" x2="407" y2="280" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="407,280 395.0,275.0 395.0,285.0" fill="#6dd6e7"/>
+<text x="333" y="262" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#6dd6e7" text-anchor="start">R_c</text>
+<text x="485" y="122" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">n_b, N_b, V̂</text>
+<text x="485" y="147" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">density / count / bubble-volume phasor</text>
+<text x="485" y="171" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">数密度／数量／气泡体积复振幅</text>
+<line x1="419" y1="280" x2="794" y2="280" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="794,280 782.0,275.0 782.0,285.0" fill="#8fb8ff"/>
+<text x="560" y="251" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#8fb8ff" text-anchor="start">r; delay r/c</text>
+<rect x="809" y="212" width="151" height="150" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="824" y="252" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">p̂(r,ω)</text>
+<text x="824" y="277" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">far observer</text>
+<text x="824" y="301" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">远场观测点</text>
+<text x="485" y="400" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">kR_c, F(kR_c)</text>
+<text x="485" y="425" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">wave-size ratio / sphere form factor</text>
+<text x="485" y="449" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">波数尺寸比／球形状因子</text>
+<text x="55" y="500" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16.421761076836788" fill="#b1c2cf" text-anchor="start">Compact: F → 1; extended sources can interfere destructively. / 紧致源 F 趋于一；扩展源可能相消。</text>
+<text x="55" y="540" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">Equal volume histories are a closure assumption, not proof of equal activation.</text>
+<text x="55" y="566" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">相同体积历程是闭合假设，不证明激活一致。</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" role="img" aria-labelledby="title desc">
+<title id="title">Acoustic crossing time through a liquid slug / 声波穿过液柱所需时间</title>
+<desc id="desc">A sound disturbance travels from one end of a liquid slug to the other over distance L at sound speed c, taking time t_a. / 声学扰动以声速 c 从液柱一端传播到另一端，走过长度 L，用时 t_a。</desc>
+<defs><marker id="wave-arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#82d9ee" stroke-width="1.7"/></marker></defs>
+<rect width="920" height="330" rx="18" fill="#142330"/>
+<text x="26" y="42" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="22">Sound travels through the slug / 声波穿过液柱</text>
+<rect x="160" y="100" width="600" height="138" fill="#1b4055" stroke="#82d9ee" stroke-width="3"/>
+<line x1="195" y1="168" x2="710" y2="168" stroke="#82d9ee" stroke-width="5" marker-end="url(#wave-arrow)"/>
+<text x="445" y="146" text-anchor="middle" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="24">wave speed c / 声速 c</text>
+<line x1="160" y1="267" x2="760" y2="267" stroke="#82d9ee" stroke-width="2"/>
+<line x1="160" y1="257" x2="160" y2="277" stroke="#82d9ee" stroke-width="2"/>
+<line x1="760" y1="257" x2="760" y2="277" stroke="#82d9ee" stroke-width="2"/>
+<text x="460" y="297" text-anchor="middle" fill="#82d9ee" font-family="Arial,sans-serif" font-size="23">length L / 长度 L</text>
+<text x="894" y="181" text-anchor="end" fill="#ffd39a" font-family="Arial,sans-serif" font-size="21">t_a</text>
+<text x="894" y="209" text-anchor="end" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">travel time / 传播时间</text>
+</svg>

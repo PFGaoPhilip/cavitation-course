@@ -1,0 +1,2607 @@
+[
+  {
+    "file": ".gitignore",
+    "bytes": 45,
+    "sha256": "e570228ece746b73a7fc698195107953586920c4e6f27a89860b9c9e30f00630"
+  },
+  {
+    "file": ".nojekyll",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "README.md",
+    "bytes": 2494,
+    "sha256": "e60b4674555a36f24377a7c3e60f51e4c0245117e7f54c8dc95a667a102ea174"
+  },
+  {
+    "file": "SCHEDULE.html",
+    "bytes": 9687,
+    "sha256": "1d739d50a9300da7bfd845f2af6a7841df0b6f48d98f2206662d73029314d9d8"
+  },
+  {
+    "file": "START.html",
+    "bytes": 1893,
+    "sha256": "df41387766ab8b64da774f4a831d108dd75f0851e663120d205aead54426bcad"
+  },
+  {
+    "file": "analysis/cavitation_extension_model.py",
+    "bytes": 12524,
+    "sha256": "bbd30593d15208da176a5cac20a47bf579ac8ae2b69dc24bde042cd6880f78cb"
+  },
+  {
+    "file": "analysis/curriculum/coverage_manifest.json",
+    "bytes": 434700,
+    "sha256": "76f1e7f08b01f68442cfaeb066d38a57a7a770dc463c43b49dc62e358fd01f59"
+  },
+  {
+    "file": "analysis/curriculum/independent_textbook_audit.md",
+    "bytes": 14331,
+    "sha256": "8f4ff2e982e8e4e21225c317c8e9bdb514962fca65a368e2d38d712280c58bb5"
+  },
+  {
+    "file": "analysis/curriculum/numerical-lab/km_ringdown.csv",
+    "bytes": 819864,
+    "sha256": "ce25addcb2bd11133b105cab555c3bf5f9e0d21c914d1e99783a7eb084c82dfc"
+  },
+  {
+    "file": "analysis/curriculum/numerical-lab/rayleigh_dimensionless.csv",
+    "bytes": 231128,
+    "sha256": "01a4168c45674379f4ec42c5b0707f0e043271b48a10a4988d4a1e414cae3650"
+  },
+  {
+    "file": "analysis/curriculum/numerical-lab/rp_ringdown.csv",
+    "bytes": 819916,
+    "sha256": "a84dcd6adbcb65c552a4e20a6d529707a7d56eb789cef7625cef1afd1cdae1b3"
+  },
+  {
+    "file": "analysis/curriculum/numerical-lab/verification.json",
+    "bytes": 924,
+    "sha256": "0e5b4947c55bba454a72d7c6ac7e1ad93fd27bfbf4cde82d32a6bc839c1120c0"
+  },
+  {
+    "file": "analysis/extension-results/coupled_bubble_summary.csv",
+    "bytes": 1946,
+    "sha256": "f1d3d9335b0f3b19301348aca49f8f345af9aaaa32e4d0ea2e04e3d1053b4f15"
+  },
+  {
+    "file": "analysis/extension-results/finite_uniform_cloud_frequency_response.csv",
+    "bytes": 87007,
+    "sha256": "b16fd701e9deee8a6833013e4374b6b0db5bca98664a1da48b29d864fe895ff3"
+  },
+  {
+    "file": "analysis/extension-results/metrics.json",
+    "bytes": 2498,
+    "sha256": "cfade39ebab7200a596962159f0371bf99a41b55db50385ecf1e9ce745e681ea"
+  },
+  {
+    "file": "analysis/extension-results/verification.json",
+    "bytes": 400,
+    "sha256": "4768cfa0d2c5107f1dc754d93d1171971ef19c77a8836954e96d626184819161"
+  },
+  {
+    "file": "analysis/finite_uniform_cloud.py",
+    "bytes": 4952,
+    "sha256": "8a7c46bff07721f8cb35632d9559d4ac9d70a92b61d57b9d5c4795dcba6784fe"
+  },
+  {
+    "file": "assets/course-rebuild.css",
+    "bytes": 3143,
+    "sha256": "b804c96f85dcef5307725b962ef480371630c8048fd962b6c90747a9445c4c35"
+  },
+  {
+    "file": "assets/course-theme.js",
+    "bytes": 2086,
+    "sha256": "830269f0f38431e33caaa5ec6490b72528cd3da495c052b85f796f3e5fc0a9fc"
+  },
+  {
+    "file": "assets/course.css",
+    "bytes": 4738,
+    "sha256": "efea9d3a806317e21a1337328c8296b669c88cc58b6b4dfc6af0622d7e257e33"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-00d162eaf7a66c97.svg",
+    "bytes": 3724,
+    "sha256": "278f0c8cbf1a44929cffb686e737cafcbda51f385819f94ecb924d0c5ddad881"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-016ee10eb18326f0.svg",
+    "bytes": 3714,
+    "sha256": "ae47b25569c9935d0d5b141b9893298cebd7274fe5d36152fc2358c0686007fb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-03074ee97ce19eb6.svg",
+    "bytes": 3751,
+    "sha256": "72cfc513840526f0848ab3651b80a72a9698d29a100bc71fa0ab132e9f42bdff"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-03977f419a64d0e2.svg",
+    "bytes": 2691,
+    "sha256": "de9d37aa493337c1330612a6cd1401469755849503d5ff227f86b1faa4ab4ed8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0534c2fae77f63df.svg",
+    "bytes": 3075,
+    "sha256": "552502af692a2a293122039e8930878c2371ddf4639e1f659e407a9e98817a85"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-073d5b2a6d4ac692.svg",
+    "bytes": 4099,
+    "sha256": "d4a0fc9903a9249693a12eace1b5633922fc2c0d620b1b3746eebbb91076d073"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-07f952efc72538d7.svg",
+    "bytes": 3288,
+    "sha256": "2b912a85aa96bfc56520198f0f863a1d1d909169df8faff2a70160e678346f5f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-084089d8c5625482.svg",
+    "bytes": 7889,
+    "sha256": "3fa90821b3b3e0c8f16fbd1b77967bf5c3476473b6a10e38711967eff72deb7f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-09fe2bc062d4580f.svg",
+    "bytes": 2757,
+    "sha256": "eabd4e72a7fd063b59552c08033763b5c0193da2a2adfb837284e1eb6866a87a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0a209a7a9b7e1db0.svg",
+    "bytes": 3432,
+    "sha256": "c6d4a15661abf83b68a849de4f084671a55f230a141e8c4d86d608c6c23f5bea"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0a8f7851e7495991.svg",
+    "bytes": 4452,
+    "sha256": "de30f3aeb106887434dceacef7f3cc49868dc04e373676ac487e2bc8d13cb87c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0ad5d5c793d7b656.svg",
+    "bytes": 2799,
+    "sha256": "8795fa0937a60cd1d894bab0094a6e18f1335bf9e84f8f2fe52af417fac285cb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0d1f96032533e367.svg",
+    "bytes": 3029,
+    "sha256": "2a246c055dd71f9221a0305f01c5a80fb7c40c6d3f53c2987ecf3639babba236"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0d24287bb7ade347.svg",
+    "bytes": 4284,
+    "sha256": "ad6a7b2bd0663b6fd7b3bc3cefd5c3c1bd6f87cad76673b049267d4e097725b6"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0d341f52f520d85d.svg",
+    "bytes": 1733,
+    "sha256": "6a040ada07bed48ff6971d79973fe7408f4eec6683f3c671623bc51a85434bd4"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0d86dc037d15b48b.svg",
+    "bytes": 2615,
+    "sha256": "1f16d2b17563aba1bcb02290fedcc750d40ddb97beec6290184df4bfab0af0b9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-0ef35a404a56faba.svg",
+    "bytes": 3144,
+    "sha256": "67e200d79d15fc4e8733c882834886650f077a4a411d4b2e09c8329757bedce3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-11575aa22f4c8625.svg",
+    "bytes": 2927,
+    "sha256": "b660e38573ac473d9a5f6601cc8fa68893bbc674d1a5f4a9156c599f7ded9ef0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-143eb436367d461c.svg",
+    "bytes": 4573,
+    "sha256": "227d58da762da93a9455e483326c459cd880353220241642b46094f01d62e405"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1558b599bc0170b5.svg",
+    "bytes": 2494,
+    "sha256": "403d459f7de534b3068db5426de472c4eeaca39a1969884743622ffdae0f8774"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-15ba428b49c24725.svg",
+    "bytes": 2035,
+    "sha256": "aefcabc444f750f378215a917edb50b5914f2967cc923515d795850634ce6a03"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-15db0d47d0691d80.svg",
+    "bytes": 3746,
+    "sha256": "571c7884a7351b4057c327e5e7e2febd1ef5abe6cccc20762b77d28e66e57307"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-16085d14307978a5.svg",
+    "bytes": 3592,
+    "sha256": "1771549547b04dd5864738ba53edfa20ff7c4afe457e61784ba0445afec894e8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-160ff82232614766.svg",
+    "bytes": 3986,
+    "sha256": "1badf0043e43c05b7ceeaa8468329cb2e25f1de4333e7ee64c238448be3d0012"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1708707f95a306d3.svg",
+    "bytes": 4294,
+    "sha256": "6caffb8f78fae4f2bb9c16d922a8d267a964b4ed95af80f1556204d499ef135c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-17dd878103d140a7.svg",
+    "bytes": 3461,
+    "sha256": "eb73eb8f7026732f6797c99650d70660b281ba98b8d6e39692cc64569f0285f5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1816aeed9751a604.svg",
+    "bytes": 3409,
+    "sha256": "92b1f1ef4d798bb3fb2fecc84d7afde863532923eaea02ae9e0974be68808735"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-183013ec06c95739.svg",
+    "bytes": 3760,
+    "sha256": "21c1f12279f27757c515b286e9c7bb084552d11aac6648401140a41af4cf641e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-18fef646e2b15535.svg",
+    "bytes": 3721,
+    "sha256": "3840ebfdbcf84fdea283e5448587a005bf7f2fedc21fa478c691e2a0bff2fc34"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1960cc4c3f2dfec5.svg",
+    "bytes": 2934,
+    "sha256": "e501ad6fb3de3bcef508393488439d8c0d7f2f1e94fe35aa295f33e0c1c7f998"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1a5430ac88496b46.svg",
+    "bytes": 2733,
+    "sha256": "6fda522890509549070fa954bc2ddd3873345731c3436e130b09527df5a5b70b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1abf8315fca3dc0e.svg",
+    "bytes": 4967,
+    "sha256": "8b9f710d207679975dc4c9143fc1265ac56f67726eefa35f0e2eba8e75b32ee2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1b607a9a87d52be2.svg",
+    "bytes": 2222,
+    "sha256": "1d2bb3bbae7e65e716b72e0c1a51cc9137a3995d7a37965adb3ace9217c4a6c3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1c08afd7ffb46017.svg",
+    "bytes": 5640,
+    "sha256": "4db9c262a7647fb4149c8b5886f4ade0eb443aff4b81860fb3ffc6d3c83d5d1a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1e44171ff51130d3.svg",
+    "bytes": 3761,
+    "sha256": "9c6d595ec222903cafffca25219434e1dc1d2b58da70c02cd62370323c135daf"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1e68bce4849491ac.svg",
+    "bytes": 2851,
+    "sha256": "3fb0f752087493afd9f60b78be9cb6228c05ad81415fa27cbb685a5563837af7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1e8ebb5ae08afcb9.svg",
+    "bytes": 4856,
+    "sha256": "ce2270f23a7890664ab675ec3de0c3f69db4c32d3592306c8002c7765cb4f10f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1ed59c68c866c670.svg",
+    "bytes": 3572,
+    "sha256": "f885f4fb4df2b2a1acf18969b641f0de082ca48ccf987b14ccaa289c803e30fc"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1fb60639373f6c2c.svg",
+    "bytes": 4002,
+    "sha256": "3b955f9daa79ccd43164a552f8d7b2bdde174504219a75f4538b50140b951615"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1fbc1af71db53543.svg",
+    "bytes": 2864,
+    "sha256": "d360806c793b6e170903d90ae90699774444ded2d20a508c36536d814a090ab5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-1fd2ed6b731e3e67.svg",
+    "bytes": 3842,
+    "sha256": "c48b47862d2ec04937b063c1142f914bd58855a964e1cebfdd4fd2c517dc6ab4"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2028e32999dafa4c.svg",
+    "bytes": 2759,
+    "sha256": "648d663dbce7779359aa518b545b9b4550d41e1f8db4fb9b007165b035d1a211"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2283c1937941b73c.svg",
+    "bytes": 4690,
+    "sha256": "219016fca8158805f11a193bc4d02d86f8679ab9aff0212a66091d31208203db"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-229f47582439600e.svg",
+    "bytes": 2796,
+    "sha256": "00869a8231b184c3f5b238220966e88529a48be9d17c1deeecfe13bac043b82f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-24a84bcff0823e0b.svg",
+    "bytes": 4108,
+    "sha256": "54b5eba57d05bf32cf385698b132bf1e803022483f72d3d61b373bcce31eca6a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-258a4c52baa9f6a7.svg",
+    "bytes": 4396,
+    "sha256": "9f7247473a86dfc30b8c3a6b538ac83592a35e27b5213df416f9456d1ab8d16e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-263db7b92eb41d1e.svg",
+    "bytes": 4053,
+    "sha256": "0bc804b58afb966f5ba3a9799e74917f23f754530639236096c9acd4f3c33334"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-28248b37201b7f44.svg",
+    "bytes": 4234,
+    "sha256": "096355ca3a192e3c5f988ec13f0870d56c9647d8d3771cd7c4f502229a17c85e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2879e784131ef803.svg",
+    "bytes": 2997,
+    "sha256": "a8fe0f248202f9d2fcabac7280e4abc7562773f65df9579dbb6dee70080c7a24"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-29a30b9184d55901.svg",
+    "bytes": 3441,
+    "sha256": "acbcbbe8b30d70e15d1a3fc9736992d4bb1cd99b3858a260fafb0f3ef11150ea"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-29e0b5b12a14c80e.svg",
+    "bytes": 3452,
+    "sha256": "4d5bb4b1fb78cb8f48282ca2058d71aabb3ca1a7c414f163fae98a34116ad3a8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-29f26b3ce8db3e26.svg",
+    "bytes": 2822,
+    "sha256": "b53650fbedd90676a2df8b64c5e8327cc47c2555f01cf78a1a2928ff1795cd05"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2c6cfc0c07bbf23f.svg",
+    "bytes": 2822,
+    "sha256": "b53650fbedd90676a2df8b64c5e8327cc47c2555f01cf78a1a2928ff1795cd05"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2f819172b684eec8.svg",
+    "bytes": 2996,
+    "sha256": "49e3f241fc9bf4736df184fccd8f0c5cac5f7344fdaebba24dcd8b56f3e3c581"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2fa4e9e565187312.svg",
+    "bytes": 3434,
+    "sha256": "8465a5f01bbbd0e9ec3c57baa9a6fbf463fb3701019b4ffe027eb964a914a70b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-2fe61f4062aeb59c.svg",
+    "bytes": 3142,
+    "sha256": "57a700f20f961ff4e3456a5b3b0bab8f25a59b65e2bf0ab8973c103cdbb0aa70"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3017746d726b9f62.svg",
+    "bytes": 4081,
+    "sha256": "50663f762ca440024e3e7001c27586a3208d135498bfc7de1a936a2bb0a6b9e6"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-30426bf0c3ea7dee.svg",
+    "bytes": 4411,
+    "sha256": "eb92936f8cb8394e64553e0c451f3913468c8749722940743b0f65eb5caabaf1"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3054ed3a8b2402c8.svg",
+    "bytes": 2992,
+    "sha256": "632e2f2c78433f153fdcaf953e0190a849c9d5bff860218df4e922e1c546dfbc"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-305858af5b4cd520.svg",
+    "bytes": 3620,
+    "sha256": "92426044486d5bc76139768f73dd44579812ad4b99e38348a4e001ae2968b692"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-30807834b82d4cf5.svg",
+    "bytes": 3061,
+    "sha256": "7015019583dfe59c502e857cf921c1c6103a5316f5253eafed509de80df7d2d7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-311203f0610b19bc.svg",
+    "bytes": 2701,
+    "sha256": "37ca61a54714016956bb2c1e8dd98398cf0ac1903d653400dc2ba0a084a3695e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3157c3f62ee69800.svg",
+    "bytes": 3417,
+    "sha256": "6e6f7a07f46dff06b83a0444c1893d83cbe66ea54a42605e45e70aad4dd1165e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3160b3f77d77f052.svg",
+    "bytes": 4430,
+    "sha256": "f3f35b3a5079533ee96d5f52770ba4551bc7c05d578166561e22364933ccca3f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-33c4b2209cd60b67.svg",
+    "bytes": 3561,
+    "sha256": "ebcc14210d3829275bbb01f996efb139757532ed84a505b9501bcc0dc910a72f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-33f650d0417ade06.svg",
+    "bytes": 4680,
+    "sha256": "a935b81e76fb534df95170abf87155c54498b6e1637a22bf53752bbb8f17d207"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-34ae402818e60bc8.svg",
+    "bytes": 2916,
+    "sha256": "8d0998ed5b9bcd560bd48c9745b6f0f58fbee85739919ef55ecf6101c715535a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3515d8158a40f3db.svg",
+    "bytes": 4546,
+    "sha256": "5f69578b2a283d3f9709264b360a4eac215c81ceee28cf9f9627cec52417397f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-35ac931dc7533cf6.svg",
+    "bytes": 2877,
+    "sha256": "a16394eb5c22680611df64ddb029851edaad0848ae1ce58008f6d94af92df1b4"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-38a8bce61f9a7451.svg",
+    "bytes": 3375,
+    "sha256": "df83746a929375f2d6d3c9147026b51bd64ec1236f5e212860e584cc3b4502db"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-391a03c538b6a0ff.svg",
+    "bytes": 3134,
+    "sha256": "b8347d4c28fff125b6fb4bb52cfd352ea15a2a043ce0049b8d91d863bc7ee070"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3a6f66601df6b9e3.svg",
+    "bytes": 2970,
+    "sha256": "92ac35075f8743641f366f799916edd3af8447823e90bffbc550192d9b07ad4b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3a803942ab38f20c.svg",
+    "bytes": 2862,
+    "sha256": "08c11134db5d141d23c73475bc0a900cde35e8f52e8e8ad895658731bba6510c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3aa4d8e8d149fa92.svg",
+    "bytes": 3184,
+    "sha256": "56f1625abd44161683c4caf27bbf3914ae2609af85965d246e7b4ef6db419918"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3b93eb2dcd640094.svg",
+    "bytes": 2591,
+    "sha256": "28dcf39fa1a7902112882365eeeacbe703fe964dd814c27c8b705353852bb656"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3cbb782b92e2e373.svg",
+    "bytes": 2490,
+    "sha256": "63156e518b1b9cda0528fdf1d16bfc29177f621fa49c29d2a70a35d47ed44348"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-3fcb5b0011adc85a.svg",
+    "bytes": 3260,
+    "sha256": "be298f107a4dd740eea47e19a21f8294bec78fdbbba55894715cfa1d3c2b9a99"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-406d8f63f9980f8b.svg",
+    "bytes": 3806,
+    "sha256": "69915aab40bae1cf1d363c363a45ee503811879592a687ae23333e9a31c7f559"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-426847f1fda727e7.svg",
+    "bytes": 2647,
+    "sha256": "7354c4da0c22f0a2bb173e877c4169cc4afd6dfef326e5415459ae11fab58f22"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-444941e112a42707.svg",
+    "bytes": 2973,
+    "sha256": "0ef8417e39a4ebbfdbc98f3c9a25b94b9d4f64e18bd0266717dbd276e3c61224"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-448dbfba8f643040.svg",
+    "bytes": 3025,
+    "sha256": "4a57270b83ed9a0c7107a7acaa7f42d0c3306bf76b083994e7c16682f1cc2502"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4520b735d38fcefc.svg",
+    "bytes": 4029,
+    "sha256": "ca15b1f6e1a2ce5e390b63194b246ef73c2f96d9263bbc52c43cc057ec6ade3f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-46027d27d0b7c0d0.svg",
+    "bytes": 3044,
+    "sha256": "4ccdaf2602f5830b04fd7897641a50906661749ce7aab947896f06ef4e557e08"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-46945ea81710a8f8.svg",
+    "bytes": 2440,
+    "sha256": "b52015c5e3a4981d9d5b95da533fc6407c6641578d647c063c3dcb29670e5bb2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-47109c9f66fb0a45.svg",
+    "bytes": 2474,
+    "sha256": "c8b88f40415d4c66b50708d824bf0108aa4f77e7f086bce7f88bb41ccfc64d5a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-47d101b22f42c6c0.svg",
+    "bytes": 2537,
+    "sha256": "cf028e4d0cfba80b3d67ee106a49bf0253cadc1ad0008688d270396d7701a465"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4861d404ac9b80d5.svg",
+    "bytes": 2966,
+    "sha256": "1f3d058a452d62d00d032a8669158e33386decd680d580caf36399e8f46410bc"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4a1695a39c22c479.svg",
+    "bytes": 2813,
+    "sha256": "07cf4fdccb8440b11475d602eac99397edac93f52bbaab7f108cc1c54128f9ef"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4ad7a8cb2007ccdb.svg",
+    "bytes": 2007,
+    "sha256": "cc9dae74b8de5f00302a927df70227398f91edca34d3df34040a9cb3837653db"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4bc8b1626d90c787.svg",
+    "bytes": 4341,
+    "sha256": "faf19b196276b625bba4dfbd192aeddd41c25ece4aa8efc143e108ab7e9e2ded"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4ca91f359f857a65.svg",
+    "bytes": 2550,
+    "sha256": "4ffcd22b77824d90f6b8335d59eba3042ba97624e5bab6c1fa95f0a923761b86"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4d0b7e9c234583e5.svg",
+    "bytes": 2507,
+    "sha256": "f8e6bfb62ef05d83a21aa51eb138d411e9401c9c0d01fd3fcd245446026c529e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-4f92fd56a077641e.svg",
+    "bytes": 2247,
+    "sha256": "b74edfa1f2586df025b57bfa2b17d8fcb1dcf4e73e3dfbd0749d2f42ac176483"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-503ace99cf84f3b6.svg",
+    "bytes": 3722,
+    "sha256": "c8e44321ab616fca29c38595bf438579cf29d0442437bd4f72f4264097a982f1"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-52319cb0d1ca12aa.svg",
+    "bytes": 3529,
+    "sha256": "dd52030727e3feef13b0134f31be74ab7c8e2667294604eb599e92801c51391e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5235442d793ec56a.svg",
+    "bytes": 2227,
+    "sha256": "d5230a0e624fb5362d50197071d0d865b66a676a5aa2831d60825b827154346e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5276445f2167f62c.svg",
+    "bytes": 1995,
+    "sha256": "8e189083f2d7aeb0e717ca34a76f6635c1c0059bf47583df2b4b26a9582236bd"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-532a4e7f6d91b865.svg",
+    "bytes": 3240,
+    "sha256": "81ce38523255b10545ce3d9d58f00017db56a2ba58768ce1186bcb4ae9b46af6"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-537174be35ea21a6.svg",
+    "bytes": 2978,
+    "sha256": "ea186897c0e32c3a2cd4cbda4ba47933e3c0140abdc50974446e282036cc0ca5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-544b200bd511c654.svg",
+    "bytes": 3789,
+    "sha256": "8ce8b8ba9e1c37617ea8861ea2b7b37ecf83adf1ebc75023434b0b650fc086c5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-551a1e2d06e39812.svg",
+    "bytes": 2604,
+    "sha256": "8b0956057b9aa45cb8a1026a72bb7c12d610924bea9feddbb9a367b47518691b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5691b00bae4fb3fa.svg",
+    "bytes": 3254,
+    "sha256": "36cf8627dc57bbfa590d0c77919ab862a56088ff5fab4e692401bdb2b50695ab"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-57249b23d8250228.svg",
+    "bytes": 3566,
+    "sha256": "0cbe9aea83288a4e0425fdeb4bb77ef270c81d020066de11a07476628ede4bdf"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-57c9320186701203.svg",
+    "bytes": 4461,
+    "sha256": "daecd7ffa92ebfcec4a5ef5b71c82fd4a9e947a6d956996777535b1f28fbfc98"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5b76d24390829925.svg",
+    "bytes": 4292,
+    "sha256": "d36a3947510353a560a57c79064ebb55699280a3029ee396e04dcbb529a4598c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5b790f32f51a92b7.svg",
+    "bytes": 2502,
+    "sha256": "4d6270aca2766033c05886f1973cb17a21be70c324ca7a261b3c167aa9be7ef3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5c242ff31fef9e44.svg",
+    "bytes": 2877,
+    "sha256": "d25c52fde88bed8d89b33922ccbdb6fc649d2391105f4fb47210fba9f168c35c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5c42fbbee97b878b.svg",
+    "bytes": 3298,
+    "sha256": "0e9658f77e8052bd7b0c4a3bf74712345cf25364bd24fd0e23654468aa46fa5c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5c7157dbbc379696.svg",
+    "bytes": 3219,
+    "sha256": "58d60e10bb56955a7804fff309c0ab24778e78754af5a3a1e6dbb61ec9bd28ac"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5cb8fb4c55db933d.svg",
+    "bytes": 3309,
+    "sha256": "dece77e35905a6d6514bc5611082afc8f39bda40076371bf8581b7ef0af60d8b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5dbaea01364fa09d.svg",
+    "bytes": 3510,
+    "sha256": "1544e3cf5c56aef37d02f4cd171d360f6137c2426270914f3ad51654f28d03cb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5e15315593a1d6e1.svg",
+    "bytes": 3084,
+    "sha256": "c4c7a31ba8c86a4b913a2d4ce619e5c427e35219d9469164ea306be4ff9499a0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-5f9c6c054aba6cfe.svg",
+    "bytes": 3366,
+    "sha256": "a0c8bb20af4187bf6bdeccc7d4ff894132d0101e99385b922add075ea6dffc2c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-604bf61b2b947fd3.svg",
+    "bytes": 4200,
+    "sha256": "0d001fc35a56000980d16646a1517236585681e9d889220fadce00e25056da6a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-615abe92beb12405.svg",
+    "bytes": 2749,
+    "sha256": "b89f02d79d16e9f49da258052f93a9c30bb1964c6f552573465588a50de132e9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-62d7f58c7879dbd5.svg",
+    "bytes": 4589,
+    "sha256": "1caaf56cd66e4a38c1875fefda059d9bd1cd45042063c15bc0175223e8b87832"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-63d41734cfa9df71.svg",
+    "bytes": 3498,
+    "sha256": "366fdeb7b4ba1e072818d322b3047aa461094af9ed1ee0d4d88b08afdd793cb7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6401ac5ba3714e05.svg",
+    "bytes": 3522,
+    "sha256": "e25e48fa768bd9175f40726bf0c33f3b3a560b640bd34092a83c239f002a502d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-64ecb634e9123ec5.svg",
+    "bytes": 4007,
+    "sha256": "9b287f0b6b3939635e1d243acc80f7271142304c61d44b2a8d2d4b81d88f2ee3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-665bdd7627d5ac77.svg",
+    "bytes": 3685,
+    "sha256": "41cb4d7a3901f54aeeb0a3278775d938a1e5a02e8b5880a4e5c900559040cc02"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-668ce1c7181fd2ca.svg",
+    "bytes": 2688,
+    "sha256": "a8f79567e766b6b56f3e01d897c8806d7b682d8260505da5f0df7de88ba3769c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-67c5a15976593f18.svg",
+    "bytes": 3144,
+    "sha256": "67e200d79d15fc4e8733c882834886650f077a4a411d4b2e09c8329757bedce3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-680ad9caa35e4fe5.svg",
+    "bytes": 3721,
+    "sha256": "1c3faa2a72d6313b1f5b67d82995c21239ff9704c440de671f1195ba37b06d51"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6816404a33b418c2.svg",
+    "bytes": 3466,
+    "sha256": "a6c82320eecd757f511d2f0c04654706ffe681d112b2f6a947ad764177b4f459"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6a2495a5e393d91f.svg",
+    "bytes": 3063,
+    "sha256": "e53589d73940c4a6c15058a29ed6221fdd52e2455a2e56c14415834cdf671fef"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6acb96cce408521d.svg",
+    "bytes": 3262,
+    "sha256": "efc81c23f782d0024b97f88282f159a3eb0c8bddb4382d8cc51f40ca3102575f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6ae56fea27fb7fe3.svg",
+    "bytes": 1753,
+    "sha256": "5cbaf30bd65d27505cd75f3c84e6fd725c0ec28504b95c92d00a773b5f7947cb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6be0daea6f4a0315.svg",
+    "bytes": 3325,
+    "sha256": "2284e68c40aacfd378bcbabca90f1d9d99011d6ebeeb31bb363d303aa334d0f5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6cdd8fde334d12b3.svg",
+    "bytes": 4218,
+    "sha256": "467cb8f4cdc7021e7a664ff200ede4be3c47de7b7cf758b900e8e5c9d97c6056"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-6d9d8c57868efabd.svg",
+    "bytes": 2710,
+    "sha256": "3f526ef14de982b8f5c7290f752b5b05048df15bdbecd3cfe9409e9f662daa9a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7027b6652bffb15b.svg",
+    "bytes": 2493,
+    "sha256": "ce7832cfc23176d2d6cc8ca48e06f34915584ce74f9b0c39518597b0f67e4df3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-70fe617f7167cc33.svg",
+    "bytes": 2490,
+    "sha256": "63156e518b1b9cda0528fdf1d16bfc29177f621fa49c29d2a70a35d47ed44348"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-71bee352e404c53b.svg",
+    "bytes": 2747,
+    "sha256": "aded70c481042f0e22b0904c331d0e831d09f542a4cbad36470a0b1527c542d2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-72d2c50da4c98973.svg",
+    "bytes": 2852,
+    "sha256": "d428272b60640f6089e4f5ea9d0f1114511ab514d6cc9df976ab4cdf0623cac9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-736c7760152e12f9.svg",
+    "bytes": 3454,
+    "sha256": "82d984e40d53001089e1c65f83829f57b1e015b8ead0cda4134a0a22935f5dcb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-73774f94b9fcc8f9.svg",
+    "bytes": 3871,
+    "sha256": "6ae8e4da80637b6d7283a023f038eece61324ed11fc0007dbb844c941a0b93c0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-73edf59c7fe3b790.svg",
+    "bytes": 3217,
+    "sha256": "d2308153dcdef24e087bb329338504722f7551c411c652163baec01632097e9a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-743b2a9e60ce2293.svg",
+    "bytes": 2439,
+    "sha256": "50b9bd4d4522fdd39b206f043ac5aa25f21806216a188b1f9ebfc03b67f02bfd"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-75802c652fe3e973.svg",
+    "bytes": 3538,
+    "sha256": "8dda6e9556e8f669ffb5cf0baca902b8097b4444c4aa61d81d9a638c8d91cf3c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-75f8599fcf87d550.svg",
+    "bytes": 2249,
+    "sha256": "72042893d3b8689bad7a3c636df044a48b570a95d2ee32e0ab08c4939a0028a5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-775df456a1106547.svg",
+    "bytes": 3484,
+    "sha256": "b3d0cd89f53b30309b542c0ddc3addf884a522fbf25ee034935e1e7a8874268f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-777b54c961c9c006.svg",
+    "bytes": 3488,
+    "sha256": "ea9e444981c4c125eec2e5b4f10031f44bd1fbd692e014ee5bc691510e3be0e2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-77a58f7520617b21.svg",
+    "bytes": 2661,
+    "sha256": "10615d0b80e56767604b75fa90c99353cb6ea195b85187a2655e26582f1c01cd"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-782e087d688769ed.svg",
+    "bytes": 4234,
+    "sha256": "338772bcba62f8d34ae24962af5bb536926f94fd99b41590fc0241936cebb9ba"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-79479ef1e8dec19c.svg",
+    "bytes": 3052,
+    "sha256": "8753cdeac11757a64551938232dde5b8fac83ef7c0ac729b12a0146708ab9bd8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-79e4f09400861fc9.svg",
+    "bytes": 5179,
+    "sha256": "2beb03828d9d50a15db3787833239425c96beceb4bdffc144d7a436594d73d0d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7a5ffbaa29f1f4ee.svg",
+    "bytes": 3893,
+    "sha256": "e599dfcbceb642af387354b03a363daa254a23227e3c1a58ef4a1ae8942d9baf"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7a665f5681fe072f.svg",
+    "bytes": 3216,
+    "sha256": "ec408c60ae08a455e7edf335d65a9526fdc476c1003662ef9f54bac435672068"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7bb9a59d2bb89fa0.svg",
+    "bytes": 4001,
+    "sha256": "d43729fe73ba77b39c282ba470d094cfa849b08172132f7f55a910d3a9f3c7f0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7cffcda8733ad682.svg",
+    "bytes": 2796,
+    "sha256": "8821d8e58e0025ee9871d8c39c03420e295b0eb996c1cbd8938c7a657b00f299"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7e4ffcdc98d80c96.svg",
+    "bytes": 4003,
+    "sha256": "8da46fa0312f828c28a6e571f809f2e5ace311fbf47dfdc7d56bdc2cdf740cf6"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7e73bf0f2a1928d4.svg",
+    "bytes": 4426,
+    "sha256": "adc3808411325faefb979aea5c363652140770bdee0a6054cb729bba07508beb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7efbad68e8ac7034.svg",
+    "bytes": 3325,
+    "sha256": "76518313bef13dfe3ef99e5e5d1c0f2a272cec1c12449029b1c525f2bc3c7b0c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7f3fbcff0d2149af.svg",
+    "bytes": 1983,
+    "sha256": "89dd9d38a0b6ab4db3db72f77f4a0eec0f73ba55ea44ba7a3e599c1cd8c345f6"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7f8fe991271d3f1a.svg",
+    "bytes": 4046,
+    "sha256": "1807830e8ff34d32ff42a396434ef54eb921b28bf3db7eeb5144b01264eff584"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-7fa50c3c721dae43.svg",
+    "bytes": 3021,
+    "sha256": "65664f89c19b9a441e1a2cceb91b08f73d05c44fdd067363cb4f5e77525f9a4d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8036dc401abfa147.svg",
+    "bytes": 2361,
+    "sha256": "4b1929f6ad8ee6ef1651cfdd93567d9893c8d100df00d64b67c1b909eaec5e2f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-804e797798079e43.svg",
+    "bytes": 4019,
+    "sha256": "8e95cd3767a9941625b0a0c5fd65467a090c4064713a72b4aca1c8beb836b9c8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-816704d4d3c6a5e2.svg",
+    "bytes": 3715,
+    "sha256": "7623dd49af3ef78daa298d1d4d6f5ce56a3d18c95029777385e1529dba1c5f6b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8211bc1d80fbc322.svg",
+    "bytes": 2720,
+    "sha256": "b7c4452cd869d429ccde66f98bc495ac54478dc50e0ec5ce5214635631809c7b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-834b4292d708374c.svg",
+    "bytes": 3040,
+    "sha256": "aacd2b5e2b668993c5628134e7a4a5950245d2b13a3084cf9162fb5d343397cb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8354f4421f207929.svg",
+    "bytes": 3624,
+    "sha256": "425fd22a4fb692e947ce986a1a6a19167722a3c1f9c06493a66d81b8e4f76276"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-84af3c29b13e316c.svg",
+    "bytes": 3559,
+    "sha256": "07aa2d899aa0b1a777d01ef50aac33a56f7c002a060be147f312e9ab2bdca608"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-84f71ecb407e8775.svg",
+    "bytes": 3459,
+    "sha256": "1ce2aec1eaf6504975ad05067220f4561a02dde46d3e4c333fc329c8f4e9ecf2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-87ff2367bc66a9d9.svg",
+    "bytes": 2508,
+    "sha256": "3b49ee7660ab68de1ed5f2c85dd96db1434ab0e72cd1e8bfb1cbf46bb336bab5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-880b70e5f2610bb8.svg",
+    "bytes": 3125,
+    "sha256": "c7a2bd008f9b884f4b86e04d09fd2b095d18e90c3e61dd58ab5f89e9b1031f6b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-888e19f6c56ebbd4.svg",
+    "bytes": 3415,
+    "sha256": "182a904f132a3c5c44b6c7d5a6203825563d5c6c197d5a897897e9b3af5ab2bf"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-898b44d2cca84970.svg",
+    "bytes": 3164,
+    "sha256": "e3cb0771dffbc6690c2dc870f781f647b1c82009555a70dc46885c25b8ff90ba"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-89f79872a9de33be.svg",
+    "bytes": 5152,
+    "sha256": "01163d74c8e0c4dff39f6712c0c0b3cef3e422c6094675e9b35dff96aef2d1d5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8b4ca96c4fa034ad.svg",
+    "bytes": 2493,
+    "sha256": "f173c60dd98d7ced84cc78d240261fb103a0123a0cb68d06384165db3716c1f5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8bbc0b2d8b3ffbe4.svg",
+    "bytes": 2203,
+    "sha256": "f572b8c1eb5fb4d68b94740c260bad57b7f2e3af0aa8f4a1becb4725e06815a2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8bfd47b7cdccc26a.svg",
+    "bytes": 2822,
+    "sha256": "b53650fbedd90676a2df8b64c5e8327cc47c2555f01cf78a1a2928ff1795cd05"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8c200f658ef97954.svg",
+    "bytes": 2650,
+    "sha256": "20e634b78931bc12df210ff0182399513f673242f0215d65dcfe75615b7847ca"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8d9ca928b10dfbeb.svg",
+    "bytes": 3469,
+    "sha256": "bd032ef7963e4ce5cf44af9621bd3c2d04a7cf0c37f81a738183623a555c8ffe"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-8e67c4dc4f8216b9.svg",
+    "bytes": 3684,
+    "sha256": "399e2cb9fa1aba110abc80af440dcb8bf4bcb2206740c477611d7819e4b268e9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-900767ac118f0c0a.svg",
+    "bytes": 2851,
+    "sha256": "efaa2f1eeb2d4b8f9a9a75d73444b9e00b92d6c42078ea8ddb9e82c518bb7ac1"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-90920ac440e50551.svg",
+    "bytes": 3440,
+    "sha256": "6c9a7bd9f49b7f016386059cad17e88b0bc2d26388415e393e2c4a340c65ada9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-909df61a724e33cc.svg",
+    "bytes": 3619,
+    "sha256": "d74353161b7fdd8ffab06b485d018bd614a56e3c74e0ab2b30a8489ab88640c8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9235afe619c72b3a.svg",
+    "bytes": 2914,
+    "sha256": "fb2506718678f15152c36874df0e67cdda28474f0030b1d472220e6e44fb434a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-92a1ae036df62873.svg",
+    "bytes": 3946,
+    "sha256": "483a11462707660ca41316e52132dbb8c03989a060ff2a6f354d401d80049ced"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-92b60e3a39ac34d2.svg",
+    "bytes": 3019,
+    "sha256": "5ea81b145b265cca4fd79ff76ccc83c15f8850179069ed7dead381f0b9abcce4"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-949f0cab680b386d.svg",
+    "bytes": 3210,
+    "sha256": "44bd680c8c6f9a4cfa35ac590114e0214c152f4c85d17a33d3b563ae34d74a20"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-94addbbeb06f3e00.svg",
+    "bytes": 3709,
+    "sha256": "5913f11b83ffe9bb1f9c30586298cd76f141355f7fb87c121134a35c425ed63e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-951d1d69a02631e2.svg",
+    "bytes": 3024,
+    "sha256": "bdc9fd8f7bc8048a7d2320464c5d0cfdc8bb6d888680614cc76962cf43cf5e6d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-954e816b58a7dd6a.svg",
+    "bytes": 2784,
+    "sha256": "f54e90fb341319986bfb0e78b12caff7f26290bce37017896d3cff5baf5cae2a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9579c37ead519c55.svg",
+    "bytes": 4681,
+    "sha256": "bae175b9290898ce2daecc17966082652366c304466bec42544654392f1bae3b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-95ddb1b063d46efe.svg",
+    "bytes": 3298,
+    "sha256": "866bb83d9cfc9abd4b31b63f07e0ba0405b66cce9eaf727b6bc8054148c718ec"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-95f114f2652924fa.svg",
+    "bytes": 2799,
+    "sha256": "8795fa0937a60cd1d894bab0094a6e18f1335bf9e84f8f2fe52af417fac285cb"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-96ae3346653776a1.svg",
+    "bytes": 3335,
+    "sha256": "f3334b9888171db17c9fff2f0f1075df6c2b62cda1db25871e3abece2b08215a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-96c1376e81617d85.svg",
+    "bytes": 3126,
+    "sha256": "13cae8b4b2f0976f27001fbb5d9a2789f841f22b8be6225b4b5810eab5486570"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-96f5754e9c28f6d2.svg",
+    "bytes": 3298,
+    "sha256": "fbd01d171d85375e29bda30e1b08196643423f12f6e30164dda88385f4ee54e9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9898ed4e4b11cf34.svg",
+    "bytes": 3678,
+    "sha256": "5c6bf72908bfa2ce391b494b3382802a83eb233fbfbb428da8f41d80238fd14f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-99159a2693fd5100.svg",
+    "bytes": 3414,
+    "sha256": "3721030cc0de028814d986fd32eae8429fb026e06325791b84e2952095b0bcae"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9a8038f15d0fb570.svg",
+    "bytes": 2995,
+    "sha256": "274405d6a1c6f2b91c8a4e85ccb6f0204bf56ee1ba4eeebfffbc96aa22b32e67"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9acc398aba93482d.svg",
+    "bytes": 4063,
+    "sha256": "b52dec517627f81cf7889ddcf0cbf56760bbcab28c25b8013546611021bfcd03"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9cba76bc4a9ed787.svg",
+    "bytes": 3735,
+    "sha256": "cfca4a7b2cb9f7e2599fc91da21e18327ef86a3bc0f3b5fc10bcc2f3557f8746"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-9e805e5307d2559a.svg",
+    "bytes": 3984,
+    "sha256": "9763abb1b431e2db6d2e06e4bb781ca02a73173379a220c717051df3f8187e92"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a2792489a596e1e7.svg",
+    "bytes": 3584,
+    "sha256": "b01fece762264d272c34c6498a7ac2862452509514758b628c5ac3d6b72ac356"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a53f86c53fa077eb.svg",
+    "bytes": 3684,
+    "sha256": "399e2cb9fa1aba110abc80af440dcb8bf4bcb2206740c477611d7819e4b268e9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a6af8d3445008443.svg",
+    "bytes": 2731,
+    "sha256": "2498285be9aff2039c7962dc689f4a39539e41fdb8f666ef1df5670f93db895a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a70bd33587ba0372.svg",
+    "bytes": 4420,
+    "sha256": "9f3c794f41292fdd872fe91d6b696612a8189ae62518ab734a842653cc817c35"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a7508b063a46fd10.svg",
+    "bytes": 2477,
+    "sha256": "5bc0fde35e032294ef89162af937196f63f336b8fd731fabdea6a9d8288e2bf5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a7f5f2569bc82049.svg",
+    "bytes": 2185,
+    "sha256": "5fc8a37de744d110717994e39cdf3b465bed5b759465a55b1290e36f5b662260"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-a91d6964ed9fba33.svg",
+    "bytes": 2514,
+    "sha256": "4c3013e80897cbc99f8a20a8bf42e68da55b321feeaf60ac440bdb381d065942"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-aa3f2dccde034123.svg",
+    "bytes": 2771,
+    "sha256": "932b6b164a8003dc82de98b51d9b4ba44fefeea60d21995106e84c44b41bbbec"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ab507b9f5bbf82e8.svg",
+    "bytes": 2473,
+    "sha256": "ea99e7b6faaa2d48b4f166e7dd97aa1168cb47f6f2bb698774eea3245db24d5b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-acb201fc2f4580df.svg",
+    "bytes": 2715,
+    "sha256": "1dca10dbf9d8245c83c262a3c4aa02241e6ad534dd93d818fefa5924a97d46a9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-acdde12028b1ce40.svg",
+    "bytes": 3242,
+    "sha256": "97184ff798576e1ec099ca7f820999aad893bc70940a3e9600e7afe01b739589"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ad7280829f816669.svg",
+    "bytes": 4287,
+    "sha256": "1fe1c01ad6250616a299b35ada80710261dafad4f73d1196c052392fbaeea13d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-afa813c1d2f3ae58.svg",
+    "bytes": 3803,
+    "sha256": "cc1b0cf54fb80af84ed092aa1461f4ace3fc717913ced2b17c1e365aced0b964"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b0ca2018a239f08e.svg",
+    "bytes": 2543,
+    "sha256": "a27bf9fb08b1ff6610e5b888864d74d5a0d36bf485ce59efec243a2dffd7c34d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b20022897662acc2.svg",
+    "bytes": 4666,
+    "sha256": "362aead680396ae3c17cde154298a408b551054794fe1049e601d2aebdef4711"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b2709cbf290ba285.svg",
+    "bytes": 3130,
+    "sha256": "728c67d49a55f9c4d30582cd96d68b77e952f1b970333884bb8c1eaf175d4cc0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b2f5db8055dc80ae.svg",
+    "bytes": 3015,
+    "sha256": "74cfd422d00b9c7eefbb985d87246199790331afc908fb8741d4fbf082636939"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b366ea764e6920f4.svg",
+    "bytes": 2653,
+    "sha256": "1ccba317d756695d1ce5a8de5fcb1d81b04ad23d0f82dfebab19f31cbac8cb22"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b4b52dd55f8bac4f.svg",
+    "bytes": 3240,
+    "sha256": "8ad1ced4c4cbe97accae3cdbdb499a287b397620d7ded6dc91ec2063b02144a3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b5d7df6b75c9e9f6.svg",
+    "bytes": 2440,
+    "sha256": "d2f9dfdd0fa10a2397693c91f5ecc6d6fb41280436614f6fb088a026476ae1ac"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-b5fac0217eb89565.svg",
+    "bytes": 3382,
+    "sha256": "9b82a5f202f62f1a379a17d37bf1118ff6de805bddfad63d1ddfe56189d33c37"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-bca25e4a80ba951f.svg",
+    "bytes": 2918,
+    "sha256": "8cddeeb62712b95a7ea12a22769576d64e386a587dee1885e509ae125e841343"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-bef7df08ad3fe34d.svg",
+    "bytes": 3764,
+    "sha256": "e2dda3435cfe25d2a34ec80f81a98910f09011a090bbc749dcccd00d9d3a298c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-bf73e716030dd4c8.svg",
+    "bytes": 3035,
+    "sha256": "5a4bd07dc66ff43f72919f9c1c1767e90b2da1d3ff15f5a0cc185671310d7e10"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c04eb2c3e7542c4f.svg",
+    "bytes": 4261,
+    "sha256": "156ee27762a1246a187e0bc595ee3528213507e11f7b83503752d0f865bb5981"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c0508a8cef3c81f9.svg",
+    "bytes": 2911,
+    "sha256": "6e1962c7ca0961cf866b5842967b46a500e03024f575f6d2e6f8ded0ddd42a15"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c0e783f9c4ddcab4.svg",
+    "bytes": 2981,
+    "sha256": "ae5ab9b37f7b6f065f4b39edf4d2753841bb4fbdb84844cded3dccc29f9bff38"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c1ad0e30189fba03.svg",
+    "bytes": 2778,
+    "sha256": "0a91d1c9a69630756d65f526daa91e375a8ba35377fa503c6065eee72001e3d2"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c3bd012fb8496d77.svg",
+    "bytes": 2774,
+    "sha256": "7d94a729976924432d1a5ae65b2939b601dd5b96aa789011dca3d7e317a9e8a5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c4152936e456bee5.svg",
+    "bytes": 4306,
+    "sha256": "54bbf4b574a797b5b6a8af257d698319b687807554224ea3c89cdc5767a06df0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c43c8f059e938c5e.svg",
+    "bytes": 3231,
+    "sha256": "7f2b76ea13cbe91b730f5372eb56841160535cd55ae5a44dbf1bd4309cf18830"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c48cd41e762c22c5.svg",
+    "bytes": 3195,
+    "sha256": "5e0cd153dc5c463838c866638c9987717bbe06b8ea4e6abad3c2b2d468680213"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c543e414f5312588.svg",
+    "bytes": 3464,
+    "sha256": "c5145e8b346ec84c182ea90c91fad5eeeae105da8c2f06be579f3c4243dc6ad7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c5bab50605754464.svg",
+    "bytes": 3014,
+    "sha256": "3e90acc5685a301c896f6712ba556b371cfb7eb96c4687c6df96fd3f5d2e89c3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c5e46af017ca78c7.svg",
+    "bytes": 3549,
+    "sha256": "ab0217e78cefb96add5e5f837023c8350faa871cbd83a6bad3c6619a68150162"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c6f06d9fbfdf81ec.svg",
+    "bytes": 3872,
+    "sha256": "70a0c4034bfc821ad7c3baecb309b1a83e7f574865dfaa2516474b362cc6120e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c73fa51f0e3c1f1e.svg",
+    "bytes": 3584,
+    "sha256": "3853aeb561ad5dea79bbce7c669a46463a976eab800fb4339da9a84a71728e36"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c7ba9358060826c8.svg",
+    "bytes": 3840,
+    "sha256": "5eb2bfa907a4a3b3251f7cf936b5e5095e65f5e9a76abebe4f8ddd203c8f6854"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c95ff24c1114de9f.svg",
+    "bytes": 2973,
+    "sha256": "9645fece0652c79ed143b82f42fd2223de19bbf3d74ed2653239b3bd85d6f672"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-c9f28c882f0af68a.svg",
+    "bytes": 3097,
+    "sha256": "10cdbbc83b6b5c5d2b24fd89e95955a5a6353f88d8cc461da1e08953dc199c35"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-cad83b8b44df83fc.svg",
+    "bytes": 3739,
+    "sha256": "d1ffdbd77d64d1b72f2bcff6e35d30751af0045539a2cbd6b95b986374abf707"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-cc49e2ad654b7de0.svg",
+    "bytes": 2996,
+    "sha256": "e31e256949e53a34f2540b0403a35eafbe2a47b1ad27dfb9c6b4dacacad71052"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ccfb2d6fbfec4acc.svg",
+    "bytes": 2489,
+    "sha256": "00eedca6a28b8fba171d5fc021228b44a02498631f705ebb9fcdfcd34f0c2c80"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-cd593fbe81b1a917.svg",
+    "bytes": 3416,
+    "sha256": "9199576df1de9e318fdfc82ff4c4f977adec9f54e6e9cb42c55bfe0b7759ff4e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-cd7d29ba5af3282a.svg",
+    "bytes": 3211,
+    "sha256": "36cca6e69a2841c530743849d6bdd6c6b58bb6c85f40562f5dad83782284497c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-cdc9c43b9e05f65d.svg",
+    "bytes": 2271,
+    "sha256": "414a6b7cee9e4d38051c887a606c56e7236baea758a50d67a05893463b103c3c"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ce1391dee48e0e1f.svg",
+    "bytes": 2455,
+    "sha256": "28c5b8f306d621765e96b47ef9833cb3ceabe1a20558194020715b9a93befae4"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ce43c25f7bdb3e3a.svg",
+    "bytes": 4182,
+    "sha256": "4b5fcdb335ae9a44280cdd231c8cf392c59db9d9765eb06b4fcb7bd28a85dd7e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ced3c7ddcd7909ac.svg",
+    "bytes": 3701,
+    "sha256": "56dd7dcd6a0c9b1273a00b398d279158c35ccb2f836ce8cf44aba2538e3ccddc"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ceed2fd79a180666.svg",
+    "bytes": 2707,
+    "sha256": "144ab5dd07b6a7551ebd584b9f0b07c14915a44a3f6d4383bc33ea43a2533dec"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d0a8cd2fb39e76d4.svg",
+    "bytes": 2954,
+    "sha256": "aa4d72cfe27c174a16e676d8ed91785b88ecfc644cef1da5849afc0a48a1deec"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d1eccd6d18d4f8e5.svg",
+    "bytes": 2578,
+    "sha256": "b49c310df9ed206087f811f2fbbbb3b3aa45cb62b81a4f2782633a7e4078a782"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d2b9ffb856ef636e.svg",
+    "bytes": 4071,
+    "sha256": "404e16ee540a415872ee9f5767b2a0ec08928d7c84b46a2e3d095a86d7af004a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d57f90d971dfba94.svg",
+    "bytes": 3230,
+    "sha256": "7d15418075eeb7ccac430bf9aa9d453c97759d03d9aeddb3e8010203b67d16c4"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d653637a332abefc.svg",
+    "bytes": 3001,
+    "sha256": "946c19e11fb31761cd2ef1d9d6d51487c6a0340d62dee48d401e25dd8ff1eddd"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d6c312e6eff046b1.svg",
+    "bytes": 4185,
+    "sha256": "49dcc064479d7073773232e67d3c2a11f96a2106812aafd4d9e21dd5d2726812"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d6d7e24c05d22851.svg",
+    "bytes": 4085,
+    "sha256": "cfc95c2ebfddb0afbc0dbf78e8f41536aa9634ec2f5d38ed2069c3945cd33db5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d6da46a520e61977.svg",
+    "bytes": 4025,
+    "sha256": "99a0edf70099b46df17ba9dc38d0cbaf8a1083b6e36c0f5ed09fe0c141981a05"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d6e66ae71fbf9daa.svg",
+    "bytes": 3674,
+    "sha256": "01c8bb480974e554784d7f16d434962e6a856f70911e4c01c8ca60f8df73765d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d8fda3ae30a37676.svg",
+    "bytes": 3404,
+    "sha256": "3d8d59db8e11cefec1cda76b71e80d78a7b07b452c6bc241ff42039e22619e92"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-d9cdadd6e79895ad.svg",
+    "bytes": 3507,
+    "sha256": "d44a71c80e258b7b5aca012b067a7a52dddc7daeac75641997ff4925f3d3442a"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-db111e0c2675ac20.svg",
+    "bytes": 2799,
+    "sha256": "6957184cde4f79e2df0d8945d8c45089ffc7ee9499c611a2155fbfda1ad17329"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-db93f789dd728416.svg",
+    "bytes": 3952,
+    "sha256": "1ae72c2bb535ea548409761340d206c5490489e5d2dedc360318b2a19ebb2ff3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-dbe87d5648644723.svg",
+    "bytes": 3283,
+    "sha256": "0234fd435fdadf26c836bac1f221b4495908735111b0510ef6686a309b542fd3"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-dc40d411688b9018.svg",
+    "bytes": 3559,
+    "sha256": "08a7c2673402d4234e0df241abc3098bfcf5068bc78ec9f7c7ee5c0b1ba18e4e"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-dc4f6a2f6455978b.svg",
+    "bytes": 4215,
+    "sha256": "92688625077ae8441e75b473e28c7e0f9670be838ca30b2398d2e15ab5faca66"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e0d5b602599e4869.svg",
+    "bytes": 3726,
+    "sha256": "c18a4e2d0293948dae8d3ad699370967ebbb3515a5e9a0e63fae97419ce05cfa"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e0df73df907cc3ec.svg",
+    "bytes": 2727,
+    "sha256": "e11560cf9c17a1ac47ed36cefddf3dc3fc523de1daf08904d72649d468f498d7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e10972baaabc73e8.svg",
+    "bytes": 3478,
+    "sha256": "714397060266331d02cced588dd6fe3b4478d1b8f3041cd4e79dec23d7a3acd8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e15f838c92178927.svg",
+    "bytes": 3631,
+    "sha256": "ad33d43fc9ee6b03a619b5bbbe5e9f5aaea553412f4f01137c4e77d50396ee42"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e40fc05f2997705f.svg",
+    "bytes": 7531,
+    "sha256": "d8f83f93481f93db76080c17bff8dd6aca0608899b51f5a0240114c9a6cfc929"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e4a2c3641dfd0f1c.svg",
+    "bytes": 3687,
+    "sha256": "118ee2e98a843d52665f610cfb3da074117eed0c5f5281ed43157a111b1799a7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e56d701dbb1c6557.svg",
+    "bytes": 4586,
+    "sha256": "060c45ce54e63b9484276f740b4fc9d96a649fc71b1541e6542c4b79ae9e773b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e6ebfa50035fe95c.svg",
+    "bytes": 2856,
+    "sha256": "ad72e5fb528deb2587b341a2e442325ebc429844d67f6fa38a3f8740e239b735"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e6eedda8d7e86df1.svg",
+    "bytes": 3210,
+    "sha256": "047d481f5cfe6bd8525273304ba8884a472c97aeab8898a855b1a9b25b55947b"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e70b3d218b7d32b7.svg",
+    "bytes": 3010,
+    "sha256": "be9aee282162ce1feb2837e750ee6856b48cfa1806de86b8cf29e4e02d18ba61"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e7b5bb7715912201.svg",
+    "bytes": 3971,
+    "sha256": "c1e522caeadfecc326a3fd025f7c93bb2cf37686e0b92d6c98e3742e0fc75501"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e83411456be37444.svg",
+    "bytes": 5812,
+    "sha256": "265b0f7e82cc070a26c6a9b839851737b98cf46391bcdaff96db1389395f00db"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e845bcb1d1dbb650.svg",
+    "bytes": 3298,
+    "sha256": "fbd01d171d85375e29bda30e1b08196643423f12f6e30164dda88385f4ee54e9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-e94e4f4e82a8502e.svg",
+    "bytes": 3391,
+    "sha256": "90d96ff3c6cd50c73b8212d389847bcc8d0d4fed2bb9a0f7f8c494ec6e5c3736"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-eaced8dcf0d2c757.svg",
+    "bytes": 4515,
+    "sha256": "c9f1a1552e60006b25ba29469e162b55fbb48fa99271ccf75586ed4fdc8c3fc7"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ec3444c9fd120e60.svg",
+    "bytes": 3603,
+    "sha256": "139b1c09b9a79cdf126b21da1c05a81ab0370b3c2615d17e9bb199c30a112dff"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ec5d5923415f520a.svg",
+    "bytes": 2249,
+    "sha256": "72042893d3b8689bad7a3c636df044a48b570a95d2ee32e0ab08c4939a0028a5"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ee085563f040fd37.svg",
+    "bytes": 2924,
+    "sha256": "9ac93f08c001089182bf870d4f8a17ca91fb175cb30f2e367521d13efb5900e0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-eefd9f87e751154d.svg",
+    "bytes": 2738,
+    "sha256": "c6216f34eef3ce44c57978865e4cc9fce1386e5cbc4b7fe7ff7db3063fda0fc0"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ef20d2b130628b9e.svg",
+    "bytes": 3157,
+    "sha256": "cea3dbaf88d2ca1f0d5e73adecbcd27c69be6b69dfa6ea1caf3a8608eacd4b67"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f0f22db1b3e69e58.svg",
+    "bytes": 4257,
+    "sha256": "d8ba55dd7ca8400e611f0a960fcac1b1850365edfa74c7d8c05c242c8d66d74f"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f101ef508b22dfd9.svg",
+    "bytes": 4846,
+    "sha256": "c048cbab6810da23743126ede767112be67d1e80a1f019c787f897065201b513"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f1c02f5fb34cf9ea.svg",
+    "bytes": 4046,
+    "sha256": "7d51c3ce402111eb363eb3f535b382d16938d5bb10d97d0d5586c59425337126"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f23489f0c0d1cf8c.svg",
+    "bytes": 3446,
+    "sha256": "f968a4a47da2fba90cf91051f2c10d62d6c592976470b27ea4661cbcbec28958"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f24b354c5c5547b4.svg",
+    "bytes": 3002,
+    "sha256": "9782e35c06eef90cbb46c4261ddd2de35bb561811673814d283dd3afe3b091f9"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f2757db6f4b73406.svg",
+    "bytes": 3958,
+    "sha256": "f0d9b7cc16b0d0d4224bee2b36bad6ae5232dac1647d4b73a210898f4fe3ceea"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f380952ac8f9d904.svg",
+    "bytes": 2514,
+    "sha256": "56b70cbd292913f5bc790507f56f577524ea940e634fda13c4a5faad8ebc1314"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f540578191f21357.svg",
+    "bytes": 2567,
+    "sha256": "7391578113574834fe51998436d2a874e8c513e4a62e899fe7066ee9592a9345"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f5d3e13ef17d47da.svg",
+    "bytes": 3101,
+    "sha256": "6a8018476394ed54c138205948c00f3b375e9d65895e6079c381acef53c0575d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f66cf328a16dbd9a.svg",
+    "bytes": 3541,
+    "sha256": "8829512c371d61caeecac25dc4ff91fcf6aa46616754327b563b4ee6e2f04570"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f6f908bef62aedec.svg",
+    "bytes": 3234,
+    "sha256": "52947bc223fb94936e9f71feac587b92cdadb3caba434312b813aad6b83263dd"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f7d9482eaf961025.svg",
+    "bytes": 3114,
+    "sha256": "a84f3638bec3f79e4413db969772216dd9c9ad8f3b31b3c77adc8c4132425623"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f7ed20cebdcd1113.svg",
+    "bytes": 3873,
+    "sha256": "c59634f0af21158ef50b80f9907dfb6aa4b1cde15b2cd60adea335c6452e791d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f8a766d0ef705b22.svg",
+    "bytes": 4781,
+    "sha256": "a7f3d5a65785d0353880a1402eb862eec84809caa7a859e24ab4642d3bf19dfc"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f8d2267765513a21.svg",
+    "bytes": 2860,
+    "sha256": "cc45e019734d952b25ddd20a4165bdb2e82913a0fb063228bcf210573fa7ecae"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-f94b36aea7c16d98.svg",
+    "bytes": 3989,
+    "sha256": "b102f2c285d8c3785c14aba6beccd1e8fb5cc92b8f2bee81f06824c83c096606"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-fb1c6797cadcd134.svg",
+    "bytes": 4272,
+    "sha256": "6e38558c0e58f004367d4ff0b514d4f393c4d34c4ffbac600b0a08070cc226bd"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-fc578272ceb5b3b7.svg",
+    "bytes": 3268,
+    "sha256": "ead1c43b4f10081899532bb42a73df809323c55436d3633f10c18b7c90e4151d"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-febc280b3de5eb42.svg",
+    "bytes": 2995,
+    "sha256": "2a5192fb08e88709a0cdc327370ca82bc97bc901e5af01510e1421aa2d68f2ce"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ff0a62da3867fdd7.svg",
+    "bytes": 4000,
+    "sha256": "a2f2f68814ee018e0aa84183454466ff314ca2316d436fbc675249d5a79dd4b8"
+  },
+  {
+    "file": "assets/curriculum-figures/formula-ff887d0960984836.svg",
+    "bytes": 3074,
+    "sha256": "f33cdd4dde16064f0180136fd8e98193993021b8151b488de29e23461bfde185"
+  },
+  {
+    "file": "assets/formula-figures/answer-collapse-time.svg",
+    "bytes": 2758,
+    "sha256": "67ae9e964feccb67c59da7d4110f799e2d86153f52055478f2b4ba2e201f30fe"
+  },
+  {
+    "file": "assets/formula-figures/answer-gas-equality.svg",
+    "bytes": 2806,
+    "sha256": "c4cbdc8df66b36bf7b9cf57bb2652d8e504bba60c12eacc4b2ee1cbd20a1ce2f"
+  },
+  {
+    "file": "assets/formula-figures/answer-rp-balance.svg",
+    "bytes": 3262,
+    "sha256": "427dace1261a0c52b8dbd3d41ecdbcf6ad763f976fee66b2568bcd9e3a0beadc"
+  },
+  {
+    "file": "assets/formula-figures/boundary-standoff.svg",
+    "bytes": 3013,
+    "sha256": "545a8f4a288bdccb48c5d507041841e92ff53c533baa9f2e7ce6c0234f1df815"
+  },
+  {
+    "file": "assets/formula-figures/bubble-partial-pressures.svg",
+    "bytes": 3161,
+    "sha256": "b20c9a42b9614e3e91be41afa4fb3ad6688f47b11b0a6d60fc09ff8bd2293426"
+  },
+  {
+    "file": "assets/formula-figures/bubble-pressure-closure.svg",
+    "bytes": 4130,
+    "sha256": "00709e6d24ada704c261f426e5c8cf3d70348106126bcb7dd525e1309db9d5cd"
+  },
+  {
+    "file": "assets/formula-figures/collapse-beta-integral.svg",
+    "bytes": 3735,
+    "sha256": "930bae9431f9d4f1ecfd948594298455eb4905c8d11bde586409e3b8f6f00bd0"
+  },
+  {
+    "file": "assets/formula-figures/collapse-energy-conversion.svg",
+    "bytes": 3632,
+    "sha256": "a4e3527f7e544ab61de0690be68f414f447086a8d61d40817610bbef9f0e9519"
+  },
+  {
+    "file": "assets/formula-figures/collapse-pressure-power.svg",
+    "bytes": 3707,
+    "sha256": "a566cf7d5be5b810b7d19085ad410611cf9ff64be1792ea5899a6b13e0a73796"
+  },
+  {
+    "file": "assets/formula-figures/collapse-time-integral.svg",
+    "bytes": 3257,
+    "sha256": "994c2afdf3c6bfa5b408e58a3488aa3a3c6cd2c4a3f61004e7fb895dc6f77a07"
+  },
+  {
+    "file": "assets/formula-figures/collapse-wall-speed.svg",
+    "bytes": 3080,
+    "sha256": "acf85894d30f4a95a0535b5ead3387a67162dd9ee3d9884c3fa9be22f08525a4"
+  },
+  {
+    "file": "assets/formula-figures/collapse-work-inertia-scale.svg",
+    "bytes": 3662,
+    "sha256": "e49c346c7944ed06ff9cdb2fe5d678efb7a58d91b380d605daf2140594761f4c"
+  },
+  {
+    "file": "assets/formula-figures/ext-acoustic-energy-budget.svg",
+    "bytes": 3343,
+    "sha256": "ea16ec5fc7e1253286fe0272531316b329375133afa896d5441bced965a8ce20"
+  },
+  {
+    "file": "assets/formula-figures/ext-cloud-boundary-solution.svg",
+    "bytes": 3648,
+    "sha256": "362a4d1aa101837457ddfc42cad23ffdf264d909536a741e3d74028fa856926b"
+  },
+  {
+    "file": "assets/formula-figures/ext-cluster-radius-results.svg",
+    "bytes": 48557,
+    "sha256": "647fdbd18078eb1e71aec4d95dbac82d05347091d8bdadfa9a20a909bb2a8f8e"
+  },
+  {
+    "file": "assets/formula-figures/ext-continuum-closure.svg",
+    "bytes": 5277,
+    "sha256": "2cdd2a1a8dec7c8016d1d093902797e1fe7ee617010d7307b5522a61a52aa455"
+  },
+  {
+    "file": "assets/formula-figures/ext-coupled-bubbles.svg",
+    "bytes": 7840,
+    "sha256": "f2080e80575ac2d01441f96165af359f84f80f96e2df5281872837170def422b"
+  },
+  {
+    "file": "assets/formula-figures/ext-energy-ledger.svg",
+    "bytes": 5413,
+    "sha256": "4b0a3044782151849b083da274971c64b055fed6e93c1ca28a4e9c218ec31edd"
+  },
+  {
+    "file": "assets/formula-figures/ext-fluid-conservation.svg",
+    "bytes": 3624,
+    "sha256": "7aa4944d9672f12f0480d15144e8fe05f6ac2f54a27f5ac27cad86e18b5e6933"
+  },
+  {
+    "file": "assets/formula-figures/ext-fracture-load.svg",
+    "bytes": 3910,
+    "sha256": "39b87677a8339b2388e8c3e9ebae30c66db0f6bb19774b193b308eac39d4e865"
+  },
+  {
+    "file": "assets/formula-figures/ext-gel-stress.svg",
+    "bytes": 5148,
+    "sha256": "eab91e64b30a44dfaceb74fb902345081b3378dd8c431590084f8524ce5c568d"
+  },
+  {
+    "file": "assets/formula-figures/ext-gel-times.svg",
+    "bytes": 4268,
+    "sha256": "0781f9f34cf125e56061b1c1a11889b475f4d5d9880f95e999bc42140bd71b01"
+  },
+  {
+    "file": "assets/formula-figures/ext-hydrogel-architecture.svg",
+    "bytes": 5086,
+    "sha256": "61084b5210b3227294cf841e70c0038448d1aa771fde03b199a962074f3cfd14"
+  },
+  {
+    "file": "assets/formula-figures/ext-impact-impedance.svg",
+    "bytes": 3474,
+    "sha256": "4aefb0c7a6de5de6e83c197783229f130a10beb3391d7fa5c8b3339272b52802"
+  },
+  {
+    "file": "assets/formula-figures/ext-linear-bubble-response.svg",
+    "bytes": 4133,
+    "sha256": "2d5743457f27c51d6eabab4e3dab2564988d119ac2ac0c27eda49277bcb389d6"
+  },
+  {
+    "file": "assets/formula-figures/ext-pfc-phase.svg",
+    "bytes": 5456,
+    "sha256": "c96c2b702b97c02b1274be1f8775d4034353704e20264e99b7f154e7060fc961"
+  },
+  {
+    "file": "assets/formula-figures/ext-pressure-observer.svg",
+    "bytes": 4147,
+    "sha256": "243a5440cb378ef2dafb4514ffa9304d5394e27f43a4e987d6fd578bddf1b1c4"
+  },
+  {
+    "file": "assets/formula-figures/ext-spherical-source.svg",
+    "bytes": 4613,
+    "sha256": "ef7aa545e7f0e4e0dc6aa2af3012920fdac2141b914c41b0e6156da1b0454091"
+  },
+  {
+    "file": "assets/formula-figures/ext-thermal-power-ledger.svg",
+    "bytes": 3330,
+    "sha256": "9d9ca533c7ab0d82f0fc39d3f8f4e9356a6fd1ed1e98acaa2813da9b525a0b8b"
+  },
+  {
+    "file": "assets/formula-figures/ext-uniform-array.svg",
+    "bytes": 5299,
+    "sha256": "1f40c0003092880bc14d0ac43c70fe8347f8ef832422f50852da9b966de404ef"
+  },
+  {
+    "file": "assets/formula-figures/ext-uniform-cloud-formfactor.svg",
+    "bytes": 4158,
+    "sha256": "2b1e4571001816fbfc46e8731c06f15de558c73ff48a1cba6bba1952dc4cbe7f"
+  },
+  {
+    "file": "assets/formula-figures/flow-at-sample-radii.svg",
+    "bytes": 3520,
+    "sha256": "1bbc93de7052e9272cf4f9ab14862fcec9cea2cc00cb3aa4785e036eb0231484"
+  },
+  {
+    "file": "assets/formula-figures/gas-collapse-compression.svg",
+    "bytes": 3320,
+    "sha256": "295b1b5303eee78f37c69cbef4150a9f5052a9ea34afa5eff65e56b2cfd879b0"
+  },
+  {
+    "file": "assets/formula-figures/gas-modified-pressure-gap.svg",
+    "bytes": 3658,
+    "sha256": "53819b6cba56256f5fff23f5502a606932c39c46a28070c89681a4bcc0cbb2d7"
+  },
+  {
+    "file": "assets/formula-figures/gas-polytropic-compression.svg",
+    "bytes": 3309,
+    "sha256": "3d9479d1d1e2d9ff9f753a01a1ad85649c41e4a7114f442f2bc2006a41009910"
+  },
+  {
+    "file": "assets/formula-figures/ideal-collapse-dynamics.svg",
+    "bytes": 3902,
+    "sha256": "2460b452f5aa5911189612244eafb41e5c87f90b4ef048f09dd0d7332b01eb54"
+  },
+  {
+    "file": "assets/formula-figures/ideal-collapse-pressure-gap.svg",
+    "bytes": 3296,
+    "sha256": "fd1033f085e9ae90314f6564fe88a7aef62ce8ebd211f836b9ac4ad883c62d31"
+  },
+  {
+    "file": "assets/formula-figures/initial-bubble-equilibrium.svg",
+    "bytes": 3167,
+    "sha256": "b80d1211b43d6e48eaf00b93cf30bbb982e40ea5b8794c14f701d2a3d4a91570"
+  },
+  {
+    "file": "assets/formula-figures/jet-asymmetry.svg",
+    "bytes": 2322,
+    "sha256": "9eccbacf3eb54e8e04e368245701c6203511040e697dd7afb1a1c157fc877b4d"
+  },
+  {
+    "file": "assets/formula-figures/jet-boundary-images.svg",
+    "bytes": 2980,
+    "sha256": "e73b185779bba485b3539a06886f05b30ad608596f6dddac269a9b154715451c"
+  },
+  {
+    "file": "assets/formula-figures/jet-impact-scales.svg",
+    "bytes": 2786,
+    "sha256": "5b937cf8f3521a3ab32c4751b8d85e6356731d9fe7db9c6b9146dc686f6e3ecf"
+  },
+  {
+    "file": "assets/formula-figures/jet-pressure-impulse.svg",
+    "bytes": 2598,
+    "sha256": "a76a50ccaad69f0c7e8dec514afde4cda855399dbe2b072a9a0d0d736261fb65"
+  },
+  {
+    "file": "assets/formula-figures/jet-standoff-gap.svg",
+    "bytes": 2227,
+    "sha256": "086dcfe2ddb52a9f88847db7a2aa07d518b1b9a716a84b0c029991b5dd469ee7"
+  },
+  {
+    "file": "assets/formula-figures/jet-two-objects.svg",
+    "bytes": 2968,
+    "sha256": "cdd8c7c1cfc70ebb2d20955fb2ec4392223b0251ef7815f3d4c77b17e261ea6f"
+  },
+  {
+    "file": "assets/formula-figures/liquid-shell-kinetic-energy.svg",
+    "bytes": 4133,
+    "sha256": "50c15892d4a812f80f4d521b3b111c0e9eb73c31b52ce763edbaafda6f702e34"
+  },
+  {
+    "file": "assets/formula-figures/nucleation-critical-radius.svg",
+    "bytes": 3770,
+    "sha256": "5a81d367c3cdbfff707b4a55a0d2988fce4bf1db1780a6aa5d881fa962014da8"
+  },
+  {
+    "file": "assets/formula-figures/nucleation-event-probability.svg",
+    "bytes": 2976,
+    "sha256": "66cf4090d864dc376127d747ecdd25c85f94786824f05d606e9e22eff5074c1f"
+  },
+  {
+    "file": "assets/formula-figures/nucleation-formation-work.svg",
+    "bytes": 3936,
+    "sha256": "7cc7396455a9b4281fbe62f4e9fe81ff5f8aef6100245b1bb235aefab5274d81"
+  },
+  {
+    "file": "assets/formula-figures/nucleation-pressure-gap.svg",
+    "bytes": 2999,
+    "sha256": "443f6091c8398fd829fafc29b6378386212095fac9e98e650353e1fbf103b883"
+  },
+  {
+    "file": "assets/formula-figures/outward-pressure-surplus.svg",
+    "bytes": 4095,
+    "sha256": "f813f1c15fed87ca819c2835d0ccfb5f01203e0305ea4b1110f2ac6837916d79"
+  },
+  {
+    "file": "assets/formula-figures/pressure-step-example.svg",
+    "bytes": 3816,
+    "sha256": "208f3a5a30d34e520454bf58744f13ad71d0fc88843e454415505e7b6d83a851"
+  },
+  {
+    "file": "assets/formula-figures/project-activation-detector.svg",
+    "bytes": 5658,
+    "sha256": "89a2c31c00ab1affb855bc0d8b9f88fb13a41f72d665130d771aed05d090e4aa"
+  },
+  {
+    "file": "assets/formula-figures/project-deposition-layer.svg",
+    "bytes": 4730,
+    "sha256": "bc84869c3a5ba9938fd62514498c9164ea160cb8282b58fe85674c9ca59ecbb0"
+  },
+  {
+    "file": "assets/formula-figures/project-dose-rate-temperature.svg",
+    "bytes": 4184,
+    "sha256": "c7960110b949b7dea47c281be8cbdc85dc36036223961038015082339c6577e2"
+  },
+  {
+    "file": "assets/formula-figures/project-gaussian-energy.svg",
+    "bytes": 4655,
+    "sha256": "708b73cb09fcd6e8db8dc0fa56deb3fa8425b847026908d4336843337480aeec"
+  },
+  {
+    "file": "assets/formula-figures/project-pulse-identifiability.svg",
+    "bytes": 3309,
+    "sha256": "44e81f195524124baf418cc4f820154761cccda1c728a9c02d779a566c122ab2"
+  },
+  {
+    "file": "assets/formula-figures/project-theory-handoffs.svg",
+    "bytes": 5215,
+    "sha256": "d9b32871a419a39c8e5b3af3413a0ce3552b68d1f7fff3291bda8dd6ad0ff2ad"
+  },
+  {
+    "file": "assets/formula-figures/radial-effective-mass.svg",
+    "bytes": 3755,
+    "sha256": "409f8f9531b7209d775d46ed14fbac1897745d87ff2205bd75a6bd976e1bb5a6"
+  },
+  {
+    "file": "assets/formula-figures/rayleigh-collapse-time.svg",
+    "bytes": 3778,
+    "sha256": "b4dc9dfa6a1d5a2a9e16a2bc5a5c3b0ff2e4d79a893058525467091a271b551d"
+  },
+  {
+    "file": "assets/formula-figures/rayleigh-plesset-terms.svg",
+    "bytes": 4869,
+    "sha256": "9e4c02cedbff23929f10f158cf7bf2e3953c8f707a289d96175974aec71cf5b7"
+  },
+  {
+    "file": "assets/formula-figures/slug-acoustic-crossing.svg",
+    "bytes": 1789,
+    "sha256": "a1877ee23a090439ac0c6d3eeb2f72161bf1db98cfdde5213bf2a7794eaa184f"
+  },
+  {
+    "file": "assets/formula-figures/slug-momentum-balance.svg",
+    "bytes": 3215,
+    "sha256": "226b5a916fe468131c8ba04086484962b8396c58a44f9201d7a97dfa058e8074"
+  },
+  {
+    "file": "assets/formula-figures/spherical-velocity-field.svg",
+    "bytes": 3544,
+    "sha256": "cd96f04f2b591222e4e924e318e0415bdfd4f20b0c2a773734b042422fd5e180"
+  },
+  {
+    "file": "assets/formula-figures/spherical-volume-flux.svg",
+    "bytes": 3739,
+    "sha256": "9d33b5141766f5eedf8727579610e58371ccc0342c59d4e1fc101de7af19305b"
+  },
+  {
+    "file": "assets/formula-figures/static-pressure-balance.svg",
+    "bytes": 3881,
+    "sha256": "3cfd87fe6ab8d7eda9652d963e184a151f0cd9a3cb435746187abce7966e1e77"
+  },
+  {
+    "file": "assets/formula-figures/wall-mach-number.svg",
+    "bytes": 3216,
+    "sha256": "abe612a88c321e56bd9dfb5ddbb101c8cda177e4d506e5125816ad496012bb98"
+  },
+  {
+    "file": "assets/source-figures/Li2024_Fig03_bubble_transfer_principle.png",
+    "bytes": 784674,
+    "sha256": "0ab0c97c5beb005ab876fcf2bd78135c9eb966284fd917541b6b2d505f5a2159"
+  },
+  {
+    "file": "assets/source-pages/Theory-original-1.png",
+    "bytes": 328160,
+    "sha256": "7d4e532b10ce30f4ea859b88625f5d30a91ca47ffb14fd436bef8fe457773028"
+  },
+  {
+    "file": "assets/source-pages/Theory-original-2.png",
+    "bytes": 335709,
+    "sha256": "605aff959a6db3047437ec7991c9af8f4565d94f7c51729afbfb4677a0d5a6b9"
+  },
+  {
+    "file": "assets/source-pages/Theory-original-3.png",
+    "bytes": 315337,
+    "sha256": "34a909fef803d808021b3b2f3614c927e5010c136906fbad114bce1c43f071bc"
+  },
+  {
+    "file": "assets/source-pages/Theory-original-4.png",
+    "bytes": 329832,
+    "sha256": "6d953769ff11fc71787fbe55bd024d176dfa2e41f0ddf2ffb4ce7ab607db830f"
+  },
+  {
+    "file": "assets/source-pages/Theory-original-5.png",
+    "bytes": 344966,
+    "sha256": "c786d7cbe8f01ca43384dd1dff0f6b632e76bc8a8f51a1f6a4f1c8a9168ca31a"
+  },
+  {
+    "file": "assets/vendor/katex/LICENSE",
+    "bytes": 1107,
+    "sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_AMS-Regular.ttf",
+    "bytes": 63632,
+    "sha256": "68534840bcfdd2bffb6f0e8deb48684dd01e7f04ea2813267577afb906de1d13"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_AMS-Regular.woff",
+    "bytes": 33516,
+    "sha256": "30da91e84c893f875e252689faebdc590b2871145e8adc7f9a9d4dbd8ce0b251"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_AMS-Regular.woff2",
+    "bytes": 28076,
+    "sha256": "0cdd387c9590a1a9f9794560022dbb59654a7d86f187aa0c81495ad42d3a7308"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Caligraphic-Bold.ttf",
+    "bytes": 12368,
+    "sha256": "07d8e303ce4fc12b4bb54f1004170dd190a1f3db45d400fe68060df3e0897268"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Caligraphic-Bold.woff",
+    "bytes": 7716,
+    "sha256": "1ae6bd7475590e97e7f145a89e09ccde322f7a6bc0b91607b1c8b8ee28290fed"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Caligraphic-Bold.woff2",
+    "bytes": 6912,
+    "sha256": "de7701e42cf1f4cf0b766c03fb27977207eee2f4fd5d76fa82188406da43ea4c"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Caligraphic-Regular.ttf",
+    "bytes": 12344,
+    "sha256": "ed0b74372feefcbb9c0666b2e210da37b7e49fa7fbbf3eeb11db5f693dacfbb7"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Caligraphic-Regular.woff",
+    "bytes": 7656,
+    "sha256": "3398dd02302557a793f2863f88e02d96ce10df2abffa07c8e9fa90775116e65c"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Caligraphic-Regular.woff2",
+    "bytes": 6908,
+    "sha256": "5d53e70ad607c2352162dec9e0923fb54ecdafaccbf604cd8dcf7d00facb989b"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Fraktur-Bold.ttf",
+    "bytes": 19584,
+    "sha256": "9163df9c7122432e6495b4229fa9071cf9ae86a758ae5efc4924ec2e1a6dbce1"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Fraktur-Bold.woff",
+    "bytes": 13296,
+    "sha256": "9be7ceb88004ab8ad124082246fbfcca4091e36385d4ec6ed1df67375dad50fb"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Fraktur-Bold.woff2",
+    "bytes": 11348,
+    "sha256": "74444efd593c005e3f4573b44524704c0af0a937fe911cca9e94068d0d140d3f"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Fraktur-Regular.ttf",
+    "bytes": 19572,
+    "sha256": "1e6f9579e90e2cac37f8f60a597c436e075c114385652b7cbeb0dec0421291b3"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Fraktur-Regular.woff",
+    "bytes": 13208,
+    "sha256": "5e28753be717dac97f559f49bc10be9cf3c124ddcabda6659d11cb68febc6463"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Fraktur-Regular.woff2",
+    "bytes": 11316,
+    "sha256": "51814d270d06ff0255dba0799994fa4d8c84d11f09951d47595f4abb1f3602dc"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Bold.ttf",
+    "bytes": 51336,
+    "sha256": "138ac28d1663b3037e9c5f52371fa5c63d8324f4a38d22cd573e6ea3a3fd0cf8"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Bold.woff",
+    "bytes": 29912,
+    "sha256": "c76c5d696297d51b9cb1639c7da4334f0e7dec81b42b11213b5e25ef671bb822"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Bold.woff2",
+    "bytes": 25324,
+    "sha256": "0f60d1b897938ec918c8ce073092411baf9438f6739465693ff18b0f9d20b021"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-BoldItalic.ttf",
+    "bytes": 32968,
+    "sha256": "70ee1f64a20f2048c21940ef46d0144fd215baa953ca69afd1e31e98544f708f"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-BoldItalic.woff",
+    "bytes": 19412,
+    "sha256": "a6f7ec0d846ac7ad975adb8959c37ed49b94acbc4ae436db9ce9e20287e4a64c"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-BoldItalic.woff2",
+    "bytes": 16780,
+    "sha256": "99cd42a3c072d918f2f44984a807cf7aa16e13545fd0875fc07c6c65f99e715b"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Italic.ttf",
+    "bytes": 33580,
+    "sha256": "0d85ae7cc30f23790a7f1a58c4a112fdca8aae769b6ba11429af1d98b1b6cb3a"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Italic.woff",
+    "bytes": 19676,
+    "sha256": "f1d6ef86f3b11a528bd5185199bd2443ecb2b0dead96d88674b5a2c12be24bdf"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Italic.woff2",
+    "bytes": 16988,
+    "sha256": "97479ca6cce906abc961ecac96faa5f9ca2e61b8e7670d475826bcdee9a7c267"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Regular.ttf",
+    "bytes": 53580,
+    "sha256": "d0332f52868370fd83ae7fa46470f90c8f2eab2fcf12bc4f88080b340c95a830"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Regular.woff",
+    "bytes": 30772,
+    "sha256": "c6368d87e8a1a3a5d337623d83d8dc4b868f242a9ad476237d6f8d1e0f168cdc"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Main-Regular.woff2",
+    "bytes": 26272,
+    "sha256": "c2342cd8b869e01752a9321dc17213fc40d4d04c79688c1d43f2cf316abd7866"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Math-BoldItalic.ttf",
+    "bytes": 31196,
+    "sha256": "f9377ab0271cda59af24bcffbd46a4d0c8a3572ffafdbb38de2ad5ea7b0d5ee5"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Math-BoldItalic.woff",
+    "bytes": 18668,
+    "sha256": "850c0af5c2238497febaf5e461d880bf458c341f42f4f330f1b1ab5698b1998e"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Math-BoldItalic.woff2",
+    "bytes": 16400,
+    "sha256": "dc47344dbb6cb5b655c8460d561f4df5f501b90c804ad3c6cec65fe322351ab1"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Math-Italic.ttf",
+    "bytes": 31308,
+    "sha256": "08ce98e51b04d58945a301e639e02b6998af29fdfd61a7b8afdd07bbfc479d4a"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Math-Italic.woff",
+    "bytes": 18748,
+    "sha256": "8a8d244581371912b8f3f5a23e2437cb2a59cd9bcaebb0346e722c05737a2571"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Math-Italic.woff2",
+    "bytes": 16440,
+    "sha256": "7af58c5ec8f132a2ddde9027c6d7814decce4d3b822a11192a42a20e2e973264"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Bold.ttf",
+    "bytes": 24504,
+    "sha256": "1ece03f79f95277d57dc7f6b435a74e1379b0d46104a8530286b60ff49369ea0"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Bold.woff",
+    "bytes": 14408,
+    "sha256": "ece03cfd83e22c212cdef66feb8442d25a083beb988db3f1883f3f9738d750ba"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Bold.woff2",
+    "bytes": 12216,
+    "sha256": "e99ae51144bf1232efcc1bfe5add36262c6866b0faab24fa75740e1b98577a62"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Italic.ttf",
+    "bytes": 22364,
+    "sha256": "3931dd81faed86ba021bb2bbdc36f5bed9a38d6b4f4077aca59b265aa1b02083"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Italic.woff",
+    "bytes": 14112,
+    "sha256": "91ee67500cc0129aa0ace3ac5c61ff1692102f0f31d02b69347fba35dcb75bf2"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Italic.woff2",
+    "bytes": 12028,
+    "sha256": "00b26ac825e2095056396e0553b8ac26d3f8ad158c3826e28b4c45b385c4714a"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Regular.ttf",
+    "bytes": 19436,
+    "sha256": "f36ea897e19f4a2e571d1e900e4e3710e438deb05a842486045ba0a3e616a4ad"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Regular.woff",
+    "bytes": 12316,
+    "sha256": "11e4dc8a6471ff6d6ee561d53d10fde8f7489e798257ff449c5d37c197435605"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_SansSerif-Regular.woff2",
+    "bytes": 10344,
+    "sha256": "68e8c73ef42afd3ccec58bf0fba302cce448938e7fc020a5e31f8a952eee1342"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Script-Regular.ttf",
+    "bytes": 16648,
+    "sha256": "1c67f068fea8bb09bf099c088b1cf64bd27516a6e07f4684344873564bb66a67"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Script-Regular.woff",
+    "bytes": 10588,
+    "sha256": "d96cdf2b3bdd4d64a8fd5f74a4c467f123a8a73931cd435889f08ffaf9bf947a"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Script-Regular.woff2",
+    "bytes": 9644,
+    "sha256": "036d4e95149b69ff9bcc0cd55771efeb25ffa3947293e69acd78d5ac328c684b"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size1-Regular.ttf",
+    "bytes": 12228,
+    "sha256": "95b6d2f1a50173bfedb8c63e1d1c99b10427d0a4df4201cb44513b226951a22b"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size1-Regular.woff",
+    "bytes": 6496,
+    "sha256": "c943cc986384f59e86bea5fd7dc50a9c4dfe567a7c05eb40d6790720dead97c9"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size1-Regular.woff2",
+    "bytes": 5468,
+    "sha256": "6b47c40166b6dbe21a5dfca7718413f2147fd2399be1ba605d8ad39cedf25dfe"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size2-Regular.ttf",
+    "bytes": 11508,
+    "sha256": "a6b2099fb555c60e3a0db3a08842ebf1d732c6eb4e4bf44913613bed4fc4e39b"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size2-Regular.woff",
+    "bytes": 6188,
+    "sha256": "2014c523c3210bcc166648c4d4cc57f05b747df07a24277bf71c51e67dc79e3d"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size2-Regular.woff2",
+    "bytes": 5208,
+    "sha256": "d04c54219f9eaec6d4d4fd42dfb28785975a4794d6b2fc71e566b9cd6db842dd"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size3-Regular.ttf",
+    "bytes": 7588,
+    "sha256": "500e04d54f0d51666332c9d2089aa803be22aa878eca539e59fa53c6e522b082"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size3-Regular.woff",
+    "bytes": 4420,
+    "sha256": "6ab6b62e9b62dae2c00dd90f791bd10950be0ecc3490d7d6045f51c2e8fe0949"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size3-Regular.woff2",
+    "bytes": 3624,
+    "sha256": "73d591271b1604960cb10bb90fee021670af7297017e0e98480b332d11f51995"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size4-Regular.ttf",
+    "bytes": 10364,
+    "sha256": "c647367d1dd4e162468717d020e1fc0f1dc5c26ebfdffbe55261713bf88c5877"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size4-Regular.woff",
+    "bytes": 5980,
+    "sha256": "99f9c6750b489c9462bf04900bd3f939df9b829339daaaaa99ef5495cdddea58"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Size4-Regular.woff2",
+    "bytes": 4928,
+    "sha256": "a4af7d414440a1c1790825cfb700cf9cf43b0f2c4b04f0ebc523011ad9853ec0"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Typewriter-Regular.ttf",
+    "bytes": 27556,
+    "sha256": "f01f3e87d9c6a61c0c081ceb577abd864eb00a612f7ac1620dd6915fad2ef5aa"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Typewriter-Regular.woff",
+    "bytes": 16028,
+    "sha256": "e14fed02b1aba7ce9f5afd5844b5d0321b22351febc720e0de8b8723527609f7"
+  },
+  {
+    "file": "assets/vendor/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+    "bytes": 13568,
+    "sha256": "71d517d67827787cfabdf186914cc3358eda539e37931941f2b2fd4a21f68c0b"
+  },
+  {
+    "file": "assets/vendor/katex/katex.min.css",
+    "bytes": 24793,
+    "sha256": "d4ab5b8ee16989b070cdb0ea24bd6ad48fc8df1b787f280f29d3ae4f959f2c00"
+  },
+  {
+    "file": "chapters/0000-foundations-of-bubble-dynamics.html",
+    "bytes": 44046,
+    "sha256": "9026c31b6447eeedaabccd8cc1ddd2a9e34ea3fe4c033e4e7dcd3cdf24fd29ea"
+  },
+  {
+    "file": "chapters/0001-beyond-ideal-collapse.html",
+    "bytes": 31274,
+    "sha256": "900036372454ba17387519503c2c3db02fcec26b8c3d37163f73a14c3320c7e0"
+  },
+  {
+    "file": "chapters/0002-how-cavitation-jets-form.html",
+    "bytes": 40936,
+    "sha256": "9e535491ee00777b8c6f0244f446b601828e64a76295e96f1717658709b13284"
+  },
+  {
+    "file": "chapters/0003-from-laser-pulse-to-possible-bubble.html",
+    "bytes": 40149,
+    "sha256": "4b9b30d7fd645cf39b9160b5b588e3c157d3d6641779592aa74dbe1be5505629"
+  },
+  {
+    "file": "chapters/0004-hydrogel-confinement-and-pfc-transfer.html",
+    "bytes": 36906,
+    "sha256": "f39b07c90e465ac972e485dee21d1f25379edc03ded1fd815aec558676f603bd"
+  },
+  {
+    "file": "chapters/0005-pressure-limits-from-one-bubble-to-arrays.html",
+    "bytes": 78754,
+    "sha256": "fc61c47b521ab63e1377766445fe0550fe3a06bd66cfabc247567b9f1c296d2e"
+  },
+  {
+    "file": "course/COVERAGE.html",
+    "bytes": 49456,
+    "sha256": "dddb04d39d8b933647972f6aa91537bcf18d315f18844ac4d2926456de2b3703"
+  },
+  {
+    "file": "course/appendixes/A-hydrogel.html",
+    "bytes": 36947,
+    "sha256": "a1ef9a756ccb6065722ab908350e227cb166518893b2ce8f85164cf9e9939113"
+  },
+  {
+    "file": "course/appendixes/B-pressure-limits.html",
+    "bytes": 79025,
+    "sha256": "3430ab754e6fcb8f3d139300a0ae1a4061c21c3697bfe36947ed5a5a05f6e0ec"
+  },
+  {
+    "file": "course/chapters/G01-mechanical-system.html",
+    "bytes": 85827,
+    "sha256": "a0f2c8f681bcf1962e480e9b43c9989a2acd2f1c4b65a43d3e26f58974d0a705"
+  },
+  {
+    "file": "course/chapters/G02-nucleation.html",
+    "bytes": 135614,
+    "sha256": "61035c6aa5ee9595649436534d0867878065a4f2db70ca36b7dc048b5494fc5c"
+  },
+  {
+    "file": "course/chapters/G03-rayleigh-plesset.html",
+    "bytes": 201171,
+    "sha256": "57d84ab23732edbd1e1027fdcacacc472552b64720ba5af5d56a393e1496fa16"
+  },
+  {
+    "file": "course/chapters/G04-heat-and-mass.html",
+    "bytes": 131589,
+    "sha256": "0ddc73bf4d3affe1ec1ee5045e9be82f8ca4cf1a6c25f2c659e25efa41892bd1"
+  },
+  {
+    "file": "course/chapters/G05-collapse-and-rebound.html",
+    "bytes": 213990,
+    "sha256": "aec31343b1aa3f7119803fbab29a962e788d0afe2a792249cd4819287d426b1c"
+  },
+  {
+    "file": "course/chapters/G06-oscillations.html",
+    "bytes": 141516,
+    "sha256": "994d70e85ec0a6af84e303ff8ac8a3983dd8c08e63127b55c9bbb0df7383a9a3"
+  },
+  {
+    "file": "course/chapters/G07-compressibility.html",
+    "bytes": 163792,
+    "sha256": "df1527daca22993247d2428fcabe9febe59d4c89376a748ba526ceacbdbec08b"
+  },
+  {
+    "file": "course/chapters/G08-shape-and-boundaries.html",
+    "bytes": 100394,
+    "sha256": "5c757d336715e8a072c4899f311ccd63b0dc66d1f5519cf671723c00392b8c1a"
+  },
+  {
+    "file": "course/chapters/G09-jets-and-transfer.html",
+    "bytes": 95331,
+    "sha256": "5204a0ea1c8f395099bc8105d17f254362dc926501a9c672a8f788f4f15a7885"
+  },
+  {
+    "file": "course/chapters/G10-laser-source-pathways.html",
+    "bytes": 57033,
+    "sha256": "62bf38347242b5c3eafc5a991959e86b92b51766e517bac4131e996b55401a34"
+  },
+  {
+    "file": "course/chapters/G11-phase-change-droplets.html",
+    "bytes": 94857,
+    "sha256": "32c171920a20ff6f9336069a8f3a0fec5c02292d409475e6e505d50e1bb3ee2d"
+  },
+  {
+    "file": "course/chapters/G12-films-and-detachment.html",
+    "bytes": 151378,
+    "sha256": "f563363415b452b295dfc0fa590f33973a2c78a95f701c58c98ff5ba592d7ac5"
+  },
+  {
+    "file": "course/chapters/G13-numerical-laboratory.html",
+    "bytes": 100522,
+    "sha256": "997fbc0a00bc4732fd8122b710ab11ac405592c1cf87aa3eb591b05e5709b666"
+  },
+  {
+    "file": "course/chapters/G14-measurement-and-inference.html",
+    "bytes": 100281,
+    "sha256": "b5754842ac9f9287064066902f421c6a4b73bb75030cdb202589a6291f007fe9"
+  },
+  {
+    "file": "course/chapters/G15-liquid-pvc-film-capstone.html",
+    "bytes": 87764,
+    "sha256": "589990647580ca9bd2733e9362498e3037f5d40829e36a2f9dcaf9e33fb3777c"
+  },
+  {
+    "file": "course/chapters/G16-original-worked-problems.html",
+    "bytes": 590466,
+    "sha256": "6d77086ae6da196a932acd53aee2c79f4512c8932b7d35b5db7bdffea28b8b3a"
+  },
+  {
+    "file": "course/chapters/T01-optical-deposition.html",
+    "bytes": 306112,
+    "sha256": "e94184d23e1eae3cbc2621a514885cef6e54a88a0bcef7348b0693e367d0a00a"
+  },
+  {
+    "file": "course/chapters/T02-activation-statistics.html",
+    "bytes": 183211,
+    "sha256": "d193354694e2066c4ea77adadd962a4aa37801d5f1788e6ac111b5758749f3f3"
+  },
+  {
+    "file": "course/chapters/T03-bubble-load-mapping.html",
+    "bytes": 472560,
+    "sha256": "eb05872515837e7d1e404378999dd83baf8da04ebd387aee7b110147e2ac50f2"
+  },
+  {
+    "file": "course/chapters/T04-structural-response-and-release.html",
+    "bytes": 389355,
+    "sha256": "7a417c35d536fcff50d0d86e4e5119a7ed98d07115f06e3c94a9d7baa3a2a79f"
+  },
+  {
+    "file": "course/chapters/T05-sensitivity-and-measurements.html",
+    "bytes": 155186,
+    "sha256": "e2fceaf7577d9d7583d3f91ca8fcae9af8d2e1524c3c6fc621bb779b64744020"
+  },
+  {
+    "file": "course/references/notation-and-model-map.html",
+    "bytes": 116082,
+    "sha256": "a2b2c7c49f52604a0e5cd2341a9bfd25ef155372acaacf1dc89d8f51fb997a7f"
+  },
+  {
+    "file": "course/references/original-theory-pages.html",
+    "bytes": 3100,
+    "sha256": "35b47eee0b7683f5afe484ed434688397cc8a5dab174044825e6f11488b65b0f"
+  },
+  {
+    "file": "course/references/paper-atlas.html",
+    "bytes": 39580,
+    "sha256": "18bbcb2d145fb280368b7a0bff46c295ee0330fa5033757f0afe438b0014dbf8"
+  },
+  {
+    "file": "course/references/theory-original-pages-note.html",
+    "bytes": 2438,
+    "sha256": "1495daedcc6f00eda2f0cc5523f42d4d9a86b0511377f5d526bbc526ea8cf307"
+  },
+  {
+    "file": "index.html",
+    "bytes": 1893,
+    "sha256": "df41387766ab8b64da774f4a831d108dd75f0851e663120d205aead54426bcad"
+  },
+  {
+    "file": "lessons/0001-the-bubble-is-a-moving-boundary.html",
+    "bytes": 6633,
+    "sha256": "ea331179aa1ef086f79c4e28efcd691692ef6ae7c1e6adb8fba1abbbf7997d02"
+  },
+  {
+    "file": "lessons/0002-which-pressure-drives-growth.html",
+    "bytes": 5452,
+    "sha256": "d6fd0e4f96e7f7d9b9b6261477092a1a1e260540cd1d5e2d1d24d73a7d35a622"
+  },
+  {
+    "file": "lessons/0003-why-a-bubble-may-not-form.html",
+    "bytes": 12311,
+    "sha256": "9348d2af07467682b14060095d1396cad324c95b131855149eb08dd37f3060b0"
+  },
+  {
+    "file": "lessons/0004-where-the-liquid-goes.html",
+    "bytes": 9394,
+    "sha256": "c1ea5b4fe1046f73ec93039cf1ffd2f405c6cd72fc3f8a6a43aebc2593fd9429"
+  },
+  {
+    "file": "lessons/0005-liquid-inertia-and-rayleigh-plesset.html",
+    "bytes": 9512,
+    "sha256": "8e32ccd88ee66b7c04b5fd11d7aa529b483970371007362213574f0a1a49f36d"
+  },
+  {
+    "file": "lessons/0006-what-sets-bubble-pressure.html",
+    "bytes": 11089,
+    "sha256": "7ef862e51b4f08666dc3f77bdb9ca34e6d6bb1979d2c271aa1c481f1a5861326"
+  },
+  {
+    "file": "lessons/0007-how-long-ideal-collapse-takes.html",
+    "bytes": 20720,
+    "sha256": "0de4cf1445b98af76349c5565b535324e3c19d6d8caf0bb89193488959ee371b"
+  },
+  {
+    "file": "reading/Bubble_Cavitation_Dynamics.md",
+    "bytes": 213515,
+    "sha256": "25c50c6f8e36b1ac42e701feebfc4734da43a999c9e3eb4e7e56ed3735f586f0"
+  },
+  {
+    "file": "reading/Cavitation_Theory_Step_by_Step_EN_ZH.md",
+    "bytes": 65580,
+    "sha256": "00d6978cf35a2b4ba9d659b11895eaf8ab734c9a2b3ae7e629ee31b0de00d0db"
+  },
+  {
+    "file": "reading/extension-sources/Inherited_Baseline_20261006.json",
+    "bytes": 15981,
+    "sha256": "9ba26e0f75c65e217410ec7ef089b17a5192c183b38e2a8ca57d5f4c3477607f"
+  },
+  {
+    "file": "reading/extension-sources/source_manifest.json",
+    "bytes": 3215,
+    "sha256": "fbc856982c74efb04deb8725481e924e969676b3f88d78e0b844803a9a8ff983"
+  },
+  {
+    "file": "reading/figures/blake_equilibrium.png",
+    "bytes": 71470,
+    "sha256": "6266f01afde9c4a4b751d36f9dd12252ef0bf670e2863eb48445c83c9de3b042"
+  },
+  {
+    "file": "reading/figures/linear_resonance.png",
+    "bytes": 75869,
+    "sha256": "7de50999b0f7ede5c0312c4e6effce2e5d9b3c8dbbd385cec22e156fb6df974f"
+  },
+  {
+    "file": "reading/figures/modal_impulse.png",
+    "bytes": 131270,
+    "sha256": "df1081bf83eb3cb4432716fddfa70b5aeaf26dacf9c523ea5f8b8f98fc145331"
+  },
+  {
+    "file": "reading/figures/monopole_pressure.png",
+    "bytes": 87331,
+    "sha256": "54e1d24c5fbfdde8ff43f1da993e3dc7f2366aa97082a00ed0228bc36a5ab243"
+  },
+  {
+    "file": "reading/figures/rayleigh_collapse.png",
+    "bytes": 51302,
+    "sha256": "9a0e170ddb977d2bdc2e85049f862f4adfeb3338a504f0a06a94c7d60fda36c5"
+  },
+  {
+    "file": "reading/figures/rp_km_ringdown.png",
+    "bytes": 113966,
+    "sha256": "2d52141bd1436174d8ac99906eb4a9e17ee9cc516ebb99555b13d4c2910837f6"
+  },
+  {
+    "file": "reading/figures/time_scales.png",
+    "bytes": 97320,
+    "sha256": "8353cd4683ad2c039a0a83f6bd694f72f48c63037574c113256872b377432163"
+  },
+  {
+    "file": "reference/bubble-language.html",
+    "bytes": 2536,
+    "sha256": "95a668b0028b98374ed22614bf7de68bb24c1d990086fc6d7fe4e2a529ede5c8"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/code/bubble_lab.py",
+    "bytes": 15063,
+    "sha256": "9b335e44efd9c89408adabd04e73999d52779461953b8f8b735a60ecbd73ee0d"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/data/verification.json",
+    "bytes": 905,
+    "sha256": "51b8d413cc3764100c54ef706621969d8e647317751986edfdd226c3fce0a02b"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/blake_equilibrium.png",
+    "bytes": 71470,
+    "sha256": "6266f01afde9c4a4b751d36f9dd12252ef0bf670e2863eb48445c83c9de3b042"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/linear_resonance.png",
+    "bytes": 75869,
+    "sha256": "7de50999b0f7ede5c0312c4e6effce2e5d9b3c8dbbd385cec22e156fb6df974f"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/modal_impulse.png",
+    "bytes": 131270,
+    "sha256": "df1081bf83eb3cb4432716fddfa70b5aeaf26dacf9c523ea5f8b8f98fc145331"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/monopole_pressure.png",
+    "bytes": 87331,
+    "sha256": "54e1d24c5fbfdde8ff43f1da993e3dc7f2366aa97082a00ed0228bc36a5ab243"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/rayleigh_collapse.png",
+    "bytes": 51302,
+    "sha256": "9a0e170ddb977d2bdc2e85049f862f4adfeb3338a504f0a06a94c7d60fda36c5"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/rp_km_ringdown.png",
+    "bytes": 113966,
+    "sha256": "2d52141bd1436174d8ac99906eb4a9e17ee9cc516ebb99555b13d4c2910837f6"
+  },
+  {
+    "file": "sources/generic/Bubble_Cavitation_Dynamics/figures/time_scales.png",
+    "bytes": 97320,
+    "sha256": "8353cd4683ad2c039a0a83f6bd694f72f48c63037574c113256872b377432163"
+  }
+]

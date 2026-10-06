@@ -1,0 +1,8 @@
+{
+  "Rayleigh_quadrature_beta_relative_error": 1.2900430613071354e-11,
+  "optical_expected_Eabs_relative_error": 1.7974597402295812e-16,
+  "maximum_cluster_energy_residual": 2.1559865004405765e-11,
+  "maximum_cluster_cutoff_convergence": 1.9125976043522773e-10,
+  "maximum_cluster_pressure_sample_convergence": 0.000130733683934096,
+  "three_to_five_formal_collapse_slower_than_single": true
+}

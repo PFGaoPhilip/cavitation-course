@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>PFC droplet inventory and phase closure</title><desc>Droplet liquid radius a, density rho_PFC and mass md become vapor radius Rv at chosen p and Tb; molar mass M and gas constant Ru set volume. Heat Q and mass flux j change vapor inventory over time.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Liquid inventory is different from a bubble trajectory</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">液体物质存量不同于气泡运动历程</text>
+<circle cx="170" cy="260" r="61" fill="#3a302b" stroke="#f9b77d" stroke-width="3"/>
+<line x1="170" y1="260" x2="229" y2="260" stroke="#f9b77d" stroke-width="3"/>
+<polygon points="229,260 217.0,255.0 217.0,265.0" fill="#f9b77d"/>
+<text x="195" y="245" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#f9b77d" text-anchor="start">a</text>
+<text x="49" y="144" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">ρ_PFC, m_d</text>
+<text x="49" y="169" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">liquid core density / mass</text>
+<text x="49" y="193" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">液核密度／质量</text>
+<text x="61" y="377" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#f9b77d" text-anchor="start">shell, σ_eff, Δp_shell</text>
+<text x="60" y="406" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">absorber / shell / 吸收体／壳层</text>
+<line x1="268" y1="267" x2="478" y2="267" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="478,267 466.0,262.0 466.0,272.0" fill="#6dd6e7"/>
+<text x="295" y="170" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">Q, c_p, T₀ → T_b, L_v</text>
+<text x="295" y="195" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">sensible / latent energy</text>
+<text x="295" y="219" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">显热／潜热</text>
+<circle cx="668" cy="278" r="108" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<line x1="668" y1="278" x2="772" y2="278" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="772,278 760.0,273.0 760.0,283.0" fill="#6dd6e7"/>
+<text x="705" y="265" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">R_v</text>
+<text x="577" y="117" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">m_v, T_B, p_B</text>
+<text x="577" y="142" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">vapor inventory and state</text>
+<text x="577" y="166" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">蒸气存量与状态</text>
+<text x="803" y="154" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">M, R_u</text>
+<text x="803" y="179" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="14.803324099722992" fill="#b1c2cf" text-anchor="start">mass / gas constant</text>
+<text x="803" y="203" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">摩尔质量／气体常数</text>
+<line x1="860" y1="374" x2="775" y2="320" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="775,320 782.4476776631183,330.6551441767012 787.8100055805634,322.21444282516717" fill="#6dd6e7"/>
+<text x="805" y="417" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">j″, Q̇</text>
+<text x="805" y="442" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">mass / heat flux</text>
+<text x="805" y="466" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">质量／热通量</text>
+<text x="43" y="491" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">V_B, N_eq, N_b; n_s, h_s, U_B: species moles, enthalpy, internal energy</text>
+<text x="43" y="519" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">体积、液滴当量与泡数；物种摩尔数、焓、气泡内能。</text>
+<text x="43" y="549" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">Chosen p and T condition vapor volume; do not double-count pV.</text>
+<text x="43" y="575" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">给定 p、T 才能确定蒸气体积；pV 不应重复计入。</text>
+</svg>

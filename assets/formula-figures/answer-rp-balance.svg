@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" role="img" aria-labelledby="title desc">
+<title id="title">Gas, vapor, ambient, capillary, viscous and inertia terms / 气体、蒸气、环境、毛细、黏性与惯性项</title>
+<desc id="desc">Gas pressure p_g(R) and vapor pressure p_v are inside the bubble; ambient p_infinity and liquid density rho are outside; sigma, mu, R, R-dot, and R-double-dot act at the interface; p_right is the signed right-side sum. / 泡内有气压 p_g(R) 和蒸气压 p_v，泡外有环境压力 p_infinity 和液体密度 rho；sigma、mu、R、R 单点及 R 双点标于界面；p_right 是右侧带符号总和。</desc>
+<defs><marker id="r" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M1 1 L8 4.5 L1 8" fill="none" stroke="#82d9ee" stroke-width="1.6"/></marker></defs>
+<rect width="920" height="390" rx="18" fill="#142330"/>
+<text x="28" y="36" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="20">At one observed radius and wall speed / 在同一观测半径和壁速处</text>
+<circle cx="350" cy="196" r="105" fill="#0b141e" stroke="#82d9ee" stroke-width="4"/>
+<text x="295" y="171" fill="#ef91bf" font-family="Arial,sans-serif" font-size="23">pᵍ(R)</text>
+<text x="314" y="209" fill="#ef91bf" font-family="Arial,sans-serif" font-size="23">pᵥ</text>
+<text x="281" y="238" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="15">inside / 泡内</text>
+<line x1="350" y1="196" x2="455" y2="196" stroke="#82d9ee" stroke-width="3" marker-end="url(#r)"/>
+<text x="405" y="232" fill="#82d9ee" font-family="Arial,sans-serif" font-size="22">R</text>
+<text x="590" y="98" fill="#ffd39a" font-family="Arial,sans-serif" font-size="22">p∞</text>
+<text x="591" y="124" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">far-field / 远场</text>
+<text x="700" y="97" fill="#ffd39a" font-family="Arial,sans-serif" font-size="22">ρ</text>
+<text x="699" y="123" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">liquid / 液体</text>
+<line x1="571" y1="136" x2="470" y2="167" stroke="#ffd39a" stroke-width="2"/>
+<text x="69" y="122" fill="#ffd39a" font-family="Arial,sans-serif" font-size="20">σ at wall</text>
+<text x="69" y="147" fill="#ffd39a" font-family="Arial,sans-serif" font-size="16">界面张力 σ</text>
+<line x1="186" y1="143" x2="258" y2="170" stroke="#ffd39a" stroke-width="2"/>
+<text x="68" y="275" fill="#c5a4f7" font-family="Arial,sans-serif" font-size="20">μ at wall</text>
+<text x="68" y="300" fill="#c5a4f7" font-family="Arial,sans-serif" font-size="16">界面黏性 μ</text>
+<line x1="181" y1="275" x2="260" y2="240" stroke="#c5a4f7" stroke-width="2"/>
+<text x="576" y="203" fill="#82d9ee" font-family="Arial,sans-serif" font-size="22">Ṙ wall speed / 泡壁速度</text>
+<text x="576" y="239" fill="#c5a4f7" font-family="Arial,sans-serif" font-size="22">R̈ acceleration / 加速度</text>
+<text x="212" y="351" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="19">pᵣᵢ₉ₕₜ: signed sum of interior, ambient, capillary and viscous terms</text>
+<text x="248" y="375" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">p_right：泡内、环境、毛细及黏性项的带符号总和</text>
+</svg>

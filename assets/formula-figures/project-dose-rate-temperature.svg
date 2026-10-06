@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Local dose, peak rate, and adiabatic temperature scale</title>
+<desc>At a material point r,z, time-integrated heating gives absorbed dose Dabs; pulse width tau_L sets peak rate for a Gaussian time shape, while material volumetric heat capacity rho_abs cp sets the adiabatic temperature rise.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<rect x="63" y="110" width="315" height="260" rx="10" fill="#1c3540" stroke="#8fb8ff" stroke-width="2"/>
+<circle cx="205" cy="238" r="25" fill="#315769" stroke="#f9b77d" stroke-width="3"/>
+<text x="93" y="175" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">(r,z)</text>
+<text x="93" y="200" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">material point / 材料点</text>
+<text x="96" y="277" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">D_abs</text>
+<text x="96" y="302" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">energy per volume / 单位体积能量</text>
+<text x="96" y="343" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">ρ_abs cₚ</text>
+<text x="96" y="368" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">heated material / 受热材料</text>
+<line x1="395" y1="238" x2="465" y2="238" stroke="#6dd6e7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<rect x="480" y="88" width="450" height="294" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<line x1="535" y1="312" x2="866" y2="312" stroke="#8fb8ff" stroke-width="2" stroke-linecap="round"/>
+<line x1="535" y1="312" x2="535" y2="139" stroke="#8fb8ff" stroke-width="2" stroke-linecap="round"/>
+<path d="M545 310 C612 307 636 165 698 165 C760 165 784 307 855 310" fill="none" stroke="#f9b77d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="700" y="143" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">q&#x27;&#x27;&#x27;_max</text>
+<text x="700" y="168" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">peak deposition rate / 峰值沉积率</text>
+<line x1="634" y1="337" x2="762" y2="337" stroke="#c5a4f7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="695" y="369" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">τ_L</text>
+<text x="695" y="394" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pulse FWHM / 脉冲半高全宽</text>
+<text x="496" y="421" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">ΔT_ad</text>
+<text x="496" y="446" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">adiabatic rise from D_abs / 由剂量求绝热温升</text>
+</svg>

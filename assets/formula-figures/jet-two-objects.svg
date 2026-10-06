@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" role="img" aria-labelledby="title desc">
+<title id="title">Re-entrant bubble jet and ejected free-surface jet / 气泡回入射流与自由面喷出射流</title>
+<desc id="desc">Left: a re-entrant jet crosses a bubble cavity. Right: a separate ejected liquid jet of speed U_j and diameter d_j leaves a free surface; density rho, viscosity mu, and surface tension sigma are labeled. / 左：回入射流穿过气泡空腔。右：独立的喷出液柱以速度 U_j、直径 d_j 离开自由面；图中标出密度 rho、黏度 mu 和表面张力 sigma。</desc>
+<defs><marker id="j" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M1 1 L8 4.5 L1 8" fill="none" stroke="#ef91bf" stroke-width="1.6"/></marker></defs>
+<rect width="920" height="390" rx="18" fill="#142330"/>
+<text x="30" y="38" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="21">Two distinct liquid structures / 两种不同的液体结构</text>
+<line x1="460" y1="60" x2="460" y2="365" stroke="#405466"/>
+<text x="52" y="83" fill="#82d9ee" font-family="Arial,sans-serif" font-size="18">re-entrant / 气泡回入</text>
+<text x="515" y="83" fill="#82d9ee" font-family="Arial,sans-serif" font-size="18">ejected / 离开自由面</text>
+<path d="M220 120 C305 110 355 170 347 235 C340 294 291 328 223 321 C161 315 113 274 110 217 C107 169 141 130 220 120 Z" fill="#0b141e" stroke="#82d9ee" stroke-width="4"/>
+<path d="M224 123 C229 166 222 190 222 244" fill="none" stroke="#ef91bf" stroke-width="9" marker-end="url(#j)"/>
+<text x="68" y="351" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="17">jet crosses cavity / 射流穿过空腔</text>
+<rect x="490" y="280" width="390" height="85" fill="#1b4055"/>
+<path d="M490 280 L660 280 L660 145 Q661 130 675 130 L695 130 Q710 130 710 145 L710 280 L880 280" fill="none" stroke="#82d9ee" stroke-width="4"/>
+<line x1="685" y1="260" x2="685" y2="144" stroke="#ef91bf" stroke-width="4" marker-end="url(#j)"/>
+<text x="722" y="180" fill="#ef91bf" font-family="Arial,sans-serif" font-size="21">Uⱼ</text>
+<line x1="660" y1="105" x2="710" y2="105" stroke="#ffd39a" stroke-width="2"/>
+<line x1="660" y1="96" x2="660" y2="114" stroke="#ffd39a" stroke-width="2"/>
+<line x1="710" y1="96" x2="710" y2="114" stroke="#ffd39a" stroke-width="2"/>
+<text x="674" y="90" fill="#ffd39a" font-family="Arial,sans-serif" font-size="21">dⱼ</text>
+<text x="522" y="320" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="20">ρ, μ</text>
+<text x="759" y="248" fill="#ffd39a" font-family="Arial,sans-serif" font-size="19">σ at surface</text>
+<text x="759" y="270" fill="#ffd39a" font-family="Arial,sans-serif" font-size="16">界面张力 σ</text>
+<text x="502" y="380" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="15">Ejection can accompany bubble motion but is not the same interface / 喷出可伴随气泡运动，但并非同一界面</text>
+</svg>

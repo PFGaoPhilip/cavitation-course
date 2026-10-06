@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Project theory handoffs</title>
+<desc>The PFC-droplet project proceeds from laser deposition to activation, measured bubble motion, fluid and film loading, and possible release; each step needs separate evidence.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<rect x="25" y="125" width="170" height="180" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="110" y="180" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#6dd6e7">Laser</text>
+<text x="110" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="normal" fill="#b1c2cf">optical ledger</text>
+<text x="110" y="262" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="normal" fill="#e8f1f6">激光 / 光学核算</text>
+<rect x="225" y="125" width="170" height="180" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="310" y="180" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#f9b77d">PFC droplets</text>
+<text x="310" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="normal" fill="#b1c2cf">activation unknown</text>
+<text x="310" y="262" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="normal" fill="#e8f1f6">液滴 / 激活待标定</text>
+<rect x="425" y="125" width="170" height="180" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="510" y="180" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#8fb8ff">Bubble</text>
+<text x="510" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="normal" fill="#b1c2cf">R(t) to measure</text>
+<text x="510" y="262" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="normal" fill="#e8f1f6">气泡 / 半径待测</text>
+<rect x="625" y="125" width="170" height="180" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="710" y="180" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#c5a4f7">PVC + film</text>
+<text x="710" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="normal" fill="#b1c2cf">load unresolved</text>
+<text x="710" y="262" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="normal" fill="#e8f1f6">叠层 / 载荷未解</text>
+<rect x="825" y="125" width="170" height="180" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="910" y="180" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#f9b77d">Release</text>
+<text x="910" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" font-weight="normal" fill="#b1c2cf">fracture test</text>
+<text x="910" y="262" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="normal" fill="#e8f1f6">释放 / 断裂检验</text>
+<line x1="197" y1="215" x2="222" y2="215" stroke="#6dd6e7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<line x1="397" y1="215" x2="422" y2="215" stroke="#6dd6e7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<line x1="597" y1="215" x2="622" y2="215" stroke="#6dd6e7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<line x1="797" y1="215" x2="822" y2="215" stroke="#6dd6e7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="500" y="75" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="normal" fill="#e8f1f6">Each arrow needs an input, model, and observation / 每个箭头都需要输入、模型与观测</text>
+<text x="500" y="376" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="normal" fill="#b1c2cf">An energy calculation alone does not prove activation or release / 能量计算本身不能证明激活或释放</text>
+</svg>

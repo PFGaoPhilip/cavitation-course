@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lesson 6 · Bubble pressure / 第六课 · 泡内压力</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation dynamics · Lesson 06 · General mechanics</div>
+<div class="eyebrow zh" lang="zh-CN">空化动力学 · 第六课 · 基础力学</div>
+<h1>What sets the pressure inside the bubble?</h1>
+<h1 class="zh" lang="zh-CN">什么决定气泡内部的压力？</h1>
+<p class="lede">The Rayleigh–Plesset equation needs an internal-pressure law before it can predict a radius history. Gas and vapor require different assumptions.</p>
+<p class="lede zh" lang="zh-CN">Rayleigh–Plesset 方程必须配上泡内压力规律，才能预测半径历程。气体与蒸气需要不同的假设。</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>Lesson 5 related liquid acceleration to the pressure at the bubble wall. But the liquid momentum balance does not, by itself, tell us how that bubble pressure changes when the radius changes. We must supply a <em>closure</em>: a separate law for the bubble contents.</p>
+<p class="zh" lang="zh-CN">第五课将液体加速度与气泡壁面的压力联系起来。但仅凭液体动量平衡，还不能知道半径变化时泡内压力如何变化。我们必须提供一个<em>闭合关系</em>，即描述泡内物质的另一条规律。</p>
+<h2>Separate gas from vapor</h2>
+<h2 class="zh" lang="zh-CN">区分不凝性气体与蒸气</h2>
+<p>For a simple bubble containing noncondensable gas and liquid vapor, treat the interior as approximately uniform and write its total pressure as the sum of the two partial pressures. The ambient liquid pressure <i>p<sub>∞</sub></i> is a separate quantity outside the bubble.</p>
+<p class="zh" lang="zh-CN">对于同时含有不凝性气体和液体蒸气的简单气泡，近似认为泡内状态均匀，并将总压力写成两种组分的分压之和。环境液体压力 <i>p<sub>∞</sub></i> 是气泡外部的另一个量。</p>
+<p class="equation"><i>p<sub>B</sub>(R) = p<sub>g</sub>(R) + p<sub>v</sub>(R)</i></p>
+<figure class="figure formula-figure" data-eq-figure="1">
+<img alt="Gas pressure p_g(R) and vapor pressure p_v(R) occupy the same bubble; p_B(R) is the total interior pressure, distinct from external p_∞. / 气体分压 p_g(R) 与蒸气压 p_v(R) 同在泡内；p_B(R) 是泡内总压，与外部 p_∞ 不同。" src="../assets/formula-figures/bubble-partial-pressures.svg"/>
+<figcaption>
+<p>Gas pressure p_g(R) and vapor pressure p_v(R) occupy the same bubble; p_B(R) is the total interior pressure, distinct from external p_∞.</p>
+<p class="zh" lang="zh-CN">气体分压 p_g(R) 与蒸气压 p_v(R) 同在泡内；p_B(R) 是泡内总压，与外部 p_∞ 不同。</p>
+</figcaption>
+</figure>
+<h2>Choose a law for a fixed amount of gas</h2>
+<h2 class="zh" lang="zh-CN">为固定气体量选择压力规律</h2>
+<p>If the amount of noncondensable gas stays fixed and it is approximated as ideal, a common polytropic law uses a reference radius <i>R<sub>0</sub></i> and gas partial pressure <i>p<sub>g0</sub></i>. Because bubble volume scales as <i>R³</i>, the radius enters with exponent <i>3κ</i>.</p>
+<p class="zh" lang="zh-CN">如果不凝性气体的量保持固定，并近似视为理想气体，一种常用的多方规律需要参考半径 <i>R<sub>0</sub></i> 及对应的气体分压 <i>p<sub>g0</sub></i>。由于气泡体积随 <i>R³</i> 变化，半径项的指数为 <i>3κ</i>。</p>
+<p class="equation"><i>p<sub>g</sub>(R) = p<sub>g0</sub>(R<sub>0</sub>/R)<sup>3κ</sup></i></p>
+<figure class="figure formula-figure" data-eq-figure="2">
+<img alt="The same amount of gas changes from radius R_0 and pressure p_g0 to radius R and pressure p_g(R); κ names the assumed thermal path. / 同一份气体从半径 R_0、压力 p_g0 变为半径 R、压力 p_g(R)；κ 表示假定的热过程路径。" src="../assets/formula-figures/gas-polytropic-compression.svg"/>
+<figcaption>
+<p>The same amount of gas changes from radius R_0 and pressure p_g0 to radius R and pressure p_g(R); κ names the assumed thermal path.</p>
+<p class="zh" lang="zh-CN">同一份气体从半径 R_0、压力 p_g0 变为半径 R、压力 p_g(R)；κ 表示假定的热过程路径。</p>
+</figcaption>
+</figure>
+<p>For an isothermal ideal-gas change, <i>κ = 1</i>. For an ideal reversible adiabatic change, <i>κ = γ = c<sub>p</sub>/c<sub>v</sub></i>. Choosing either value is a thermal modeling assumption; a single exponent need not describe rapid heating, heat transfer, and phase change through an entire collapse.</p>
+<p class="zh" lang="zh-CN">理想气体的等温变化取 <i>κ = 1</i>；理想可逆绝热变化取 <i>κ = γ = c<sub>p</sub>/c<sub>v</sub></i>。选用哪一个值属于热过程的建模假设；在整个塌缩过程中，单一指数未必能同时描述快速升温、传热与相变。</p>
+<h2>State the vapor assumption separately</h2>
+<h2 class="zh" lang="zh-CN">单独说明蒸气的假设</h2>
+<p>A simple model may hold <i>p<sub>v</sub></i> near the saturation pressure at an approximately fixed interface temperature. In that picture vapor can evaporate during growth and condense during collapse: its mass need not be fixed. Holding vapor pressure constant and holding vapor mass constant are different approximations.</p>
+<p class="zh" lang="zh-CN">简单模型可近似认为 <i>p<sub>v</sub></i> 等于近乎恒定的界面温度所对应的饱和蒸气压。在这一图像下，蒸气可在气泡生长时因蒸发而增加，在塌缩时因凝结而减少，因此其质量不必固定。保持蒸气压恒定与保持蒸气质量恒定是两种不同的近似。</p>
+<p>With that constant-vapor-pressure approximation, the complete pressure law used by the bubble-radius equation is:</p>
+<p class="zh" lang="zh-CN">在蒸气压恒定的近似下，供气泡半径方程使用的完整泡内压力规律为：</p>
+<p class="equation"><i>p<sub>B</sub>(R) = p<sub>g0</sub>(R<sub>0</sub>/R)<sup>3κ</sup> + p<sub>v</sub></i></p>
+<figure class="figure formula-figure" data-eq-figure="3">
+<img alt="Gas changes from p_g0 at R_0 to p_g(R) at R while the separate vapor term p_v stays constant; their sum is p_B(R). / 气体从 R_0 时的 p_g0 变为 R 时的 p_g(R)，独立的蒸气项 p_v 保持恒定；两者之和为 p_B(R)。" src="../assets/formula-figures/bubble-pressure-closure.svg"/>
+<figcaption>
+<p>Gas changes from p_g0 at R_0 to p_g(R) at R while the separate vapor term p_v stays constant; their sum is p_B(R).</p>
+<p class="zh" lang="zh-CN">气体从 R_0 时的 p_g0 变为 R 时的 p_g(R)，独立的蒸气项 p_v 保持恒定；两者之和为 p_B(R)。</p>
+</figcaption>
+</figure>
+<div class="callout">
+<span class="label">What the model does and does not determine</span>
+<span class="label zh" lang="zh-CN">模型能确定什么、不能确定什么</span>
+<p>The formula gives a conditional pressure after <i>p<sub>g0</sub></i>, <i>R<sub>0</sub></i>, <i>κ</i>, and <i>p<sub>v</sub></i> are specified. It does not infer them from one measured maximum radius. At a reference equilibrium with the wall at rest, the initial pressure balance can constrain their sum:</p>
+<p class="zh" lang="zh-CN">指定 <i>p<sub>g0</sub></i>、<i>R<sub>0</sub></i>、<i>κ</i> 和 <i>p<sub>v</sub></i> 后，该公式才给出有条件的压力预测。仅测得一个最大半径，无法反推所有这些量。若参考状态为壁面静止的平衡态，初始压力平衡可约束它们的总和：</p>
+</div>
+<p class="equation"><i>p<sub>g0</sub> + p<sub>v</sub> = p<sub>∞0</sub> + 2σ/R<sub>0</sub></i></p>
+<figure class="figure formula-figure" data-eq-figure="4">
+<img alt="At reference radius R_0, gas p_g0 and vapor p_v balance external pressure p_∞0 and surface-tension pressure 2σ/R_0 when the wall is at rest. / 在参考半径 R_0 处，当壁面静止时，气体分压 p_g0 与蒸气压 p_v 平衡外部压力 p_∞0 和表面张力压差 2σ/R_0。" src="../assets/formula-figures/initial-bubble-equilibrium.svg"/>
+<figcaption>
+<p>At reference radius R_0, gas p_g0 and vapor p_v balance external pressure p_∞0 and surface-tension pressure 2σ/R_0 when the wall is at rest.</p>
+<p class="zh" lang="zh-CN">在参考半径 R_0 处，当壁面静止时，气体分压 p_g0 与蒸气压 p_v 平衡外部压力 p_∞0 和表面张力压差 2σ/R_0。</p>
+</figcaption>
+</figure>
+<section class="check">
+<h2>One check</h2>
+<h2 class="zh" lang="zh-CN">一道检查题</h2>
+<p>If <i>R</i> falls from <i>R<sub>0</sub></i> to <i>R<sub>0</sub>/2</i> with <i>κ = 1</i> and constant <i>p<sub>v</sub></i>, does the whole bubble pressure become eight times its initial value? Explain using <i>p<sub>g0</sub></i> and <i>p<sub>v</sub></i>.</p>
+<p class="zh" lang="zh-CN">如果 <i>R</i> 从 <i>R<sub>0</sub></i> 缩小到 <i>R<sub>0</sub>/2</i>，且 <i>κ = 1</i>、<i>p<sub>v</sub></i> 恒定，那么整个气泡的压力是否变为初值的八倍？请用 <i>p<sub>g0</sub></i> 和 <i>p<sub>v</sub></i> 解释。</p>
+</section>
+<nav aria-label="Further reading / 延伸阅读">
+<p><a href="0005-liquid-inertia-and-rayleigh-plesset.html">Previous lesson</a> · <a href="0007-how-long-ideal-collapse-takes.html">Next lesson</a> · <a href="../reference/bubble-language.html">Bubble symbols</a> · <a href="../reading/Bubble_Cavitation_Dynamics.md">Supplied book, Chapter 4</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen, Chapter 2</a></p>
+<p class="zh" lang="zh-CN"><a href="0005-liquid-inertia-and-rayleigh-plesset.html">上一课</a> · <a href="0007-how-long-ideal-collapse-takes.html">下一课</a> · <a href="../reference/bubble-language.html">气泡符号表</a> · <a href="../reading/Bubble_Cavitation_Dynamics.md">所提供教材的第四章</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen 著作第二章</a></p>
+<p>Ask me in chat about any unclear assumption or step; your answer to the check will guide the next lesson.</p>
+<p class="zh" lang="zh-CN">如果任何假设或步骤不清楚，请在聊天中提问；你对检查题的回答将决定下一课的内容。</p>
+</nav>
+</main>
+<footer><span>Prepared for the cavitation dynamics learning workspace · 29 September 2026</span><span class="zh" lang="zh-CN">为空化动力学学习工作区编写 · 2026 年 9 月 29 日</span></footer>
+</body>
+</html>

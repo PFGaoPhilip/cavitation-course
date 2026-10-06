@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Gas and vapor partial pressures inside a bubble</title>
+<desc>Both component pressures are inside the same bubble; p_B is their total, while p_infinity is outside.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="362" cy="227" r="145" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="362" y="157" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">p_g(R)</text>
+<text x="362" y="182" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">noncondensable gas / 不凝性气体</text>
+<text x="362" y="282" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">p_v(R)</text>
+<text x="362" y="307" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">vapor / 蒸气</text>
+<line x1="362" y1="227" x2="489" y2="288" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="509" y="309" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R</text>
+<text x="509" y="334" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">bubble wall / 气泡壁面</text>
+<rect x="628" y="132" width="286" height="118" rx="10" fill="#2c2741" stroke="#6b5a86" stroke-width="2"/>
+<text x="655" y="183" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">p_B(R)</text>
+<text x="655" y="208" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">total inside / 泡内总压力</text>
+<line x1="585" y1="190" x2="628" y2="190" stroke="#c5a4f7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="752" y="330" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">p_∞</text>
+<text x="752" y="355" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">outside liquid / 泡外液体</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Pressure at a defined observer and finite acoustic arrivals</title><desc>Bubble wall pressure pB is not pressure pprime at a remote sensor. Each source volume Vi has retarded travel distance di and activation delay ti. Density rho and sound speed c set monopole radiation and wave transit.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Pressure needs a location and an observation time</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">压力必须指定位置与观测时刻</text>
+<text x="337" y="104" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#8fb8ff" text-anchor="start">ρ, c: carrier / 载液</text>
+<circle cx="123" cy="143" r="44" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="95" y="150" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">V_1(t)</text>
+<line x1="183" y1="143" x2="751" y2="281" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="751,281 740.5196728476417,273.3082678947105 738.1587764274238,283.0255806967666" fill="#8fb8ff"/>
+<text x="395" y="130" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#8fb8ff" text-anchor="start">d_1/c + t_1</text>
+<circle cx="123" cy="280" r="44" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="95" y="287" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">V_2(t)</text>
+<line x1="183" y1="280" x2="751" y2="281" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="751,281 739.0088214007162,275.97888102111915 738.9912157941983,285.97886552323814" fill="#8fb8ff"/>
+<text x="395" y="288" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#8fb8ff" text-anchor="start">d_2/c + t_2</text>
+<circle cx="123" cy="421" r="44" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="95" y="428" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">V_3(t)</text>
+<line x1="183" y1="421" x2="751" y2="281" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="751,281 738.1521179810192,279.0170911200083 740.5452838706643,288.72650701514016" fill="#8fb8ff"/>
+<text x="395" y="408" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#8fb8ff" text-anchor="start">d_3/c + t_3</text>
+<rect x="781" y="204" width="175" height="151" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="798" y="244" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">p′(x,t)</text>
+<text x="798" y="269" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="13.167464114832535" fill="#b1c2cf" text-anchor="start">sensor / film observer</text>
+<text x="798" y="293" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">传感器／薄膜观测点</text>
+<text x="220" y="492" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#e8f1f6" text-anchor="start">p_B: inside; p_w: liquid wall; p′: detector; σ_f: solid stress</text>
+<text x="220" y="520" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#b1c2cf" text-anchor="start">泡内压、液侧壁压、探测点压力与固体应力是不同输出。</text>
+<text x="45" y="552" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">Summation requires consistent source histories and energy budget.</text>
+<text x="45" y="578" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">叠加须满足一致的源历程及能量预算。</text>
+</svg>

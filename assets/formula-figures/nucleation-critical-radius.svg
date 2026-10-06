@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Critical embryo radius at the energy barrier</title>
+<desc>The work curve peaks at r-star; interface tension raises it and pressure advantage lowers the critical radius.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<line x1="145" y1="365" x2="920" y2="365" stroke="#b1c2cf" stroke-width="2" stroke-linecap="round"/>
+<line x1="145" y1="365" x2="145" y2="55" stroke="#b1c2cf" stroke-width="2" stroke-linecap="round"/>
+<path d="M145 365 C265 347 322 135 495 130 C670 124 750 190 851 418" fill="none" stroke="#6dd6e7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="495" y1="130" x2="495" y2="365" stroke="#405466" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 7"/>
+<circle cx="495" cy="130" r="7" fill="#6dd6e7" stroke="#6dd6e7" stroke-width="0"/>
+<text x="495" y="401" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">r*</text>
+<text x="495" y="426" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">critical radius / 临界半径</text>
+<text x="58" y="68" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">ΔG</text>
+<text x="58" y="93" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">work / 形成功</text>
+<text x="908" y="407" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">r</text>
+<text x="908" y="432" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">radius / 半径</text>
+<rect x="185" y="50" width="225" height="85" rx="10" fill="#36291e" stroke="#69533e" stroke-width="2"/>
+<text x="210" y="85" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">σ</text>
+<text x="210" y="110" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">interface cost / 界面代价</text>
+<rect x="660" y="62" width="270" height="85" rx="10" fill="#1d3345" stroke="#526e83" stroke-width="2"/>
+<text x="685" y="100" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">Δp</text>
+<text x="685" y="125" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pressure gain / 压差收益</text>
+<line x1="550" y1="153" x2="647" y2="153" stroke="#c5a4f7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="600" y="191" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" font-weight="normal" fill="#c5a4f7">r* = 2σ/Δp</text>
+</svg>

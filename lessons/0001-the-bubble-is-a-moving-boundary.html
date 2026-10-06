@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lesson 1 · The bubble is a moving boundary</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation dynamics · Lesson 01 · General mechanics</div>
+<h1>The bubble is a moving boundary</h1>
+<p class="lede">A bubble’s radius can change only by moving the liquid around it. That liquid supplies the inertia in the simplest cavitation model.</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>Picture one nearly spherical bubble in liquid. The gas or vapor inside has pressure <i>p<sub>B</sub></i>; liquid far away has pressure <i>p<sub>∞</sub></i>. We describe the boundary by its radius <i>R(t)</i>. When <i>R</i> grows, liquid must flow outward; when <i>R</i> shrinks, liquid flows inward. The bubble is therefore a moving interface, not a small solid bead with a fixed mass.</p>
+<figure class="figure">
+<svg aria-labelledby="diagram-title diagram-desc" role="img" viewbox="0 0 700 290">
+<title id="diagram-title">Pressure and liquid motion around a spherical bubble</title>
+<desc id="diagram-desc">A bubble at the center is surrounded by liquid. Internal pressure points outward, remote pressure acts inward, and the bubble boundary moves the neighboring liquid.</desc>
+<defs>
+<marker id="arr" markerheight="9" markerwidth="9" orient="auto" refx="7" refy="4.5"><path d="M0,0 L9,4.5 L0,9 Z" fill="#6dd6e7"></path></marker>
+<marker id="arrgray" markerheight="9" markerwidth="9" orient="auto" refx="7" refy="4.5"><path d="M0,0 L9,4.5 L0,9 Z" fill="#a9bdcb"></path></marker>
+</defs>
+<circle cx="300" cy="145" fill="#1c2f3d" r="118" stroke="#405466" stroke-dasharray="6 7" stroke-width="2"></circle>
+<circle cx="300" cy="145" fill="#1b3941" r="69" stroke="#6dd6e7" stroke-width="3"></circle>
+<text fill="#e8f1f6" font-family="Arial" font-size="18" text-anchor="middle" x="300" y="144">gas / vapor</text>
+<text fill="#e8f1f6" font-family="Arial" font-size="17" text-anchor="middle" x="300" y="166">p<tspan baseline-shift="sub" font-size="12">B</tspan></text>
+<line marker-end="url(#arr)" stroke="#6dd6e7" stroke-width="3" x1="328" x2="364" y1="145" y2="145"></line>
+<line marker-end="url(#arr)" stroke="#6dd6e7" stroke-width="3" x1="224" x2="187" y1="145" y2="145"></line>
+<line marker-end="url(#arrgray)" stroke="#a9bdcb" stroke-width="3" x1="485" x2="434" y1="100" y2="116"></line>
+<line marker-end="url(#arrgray)" stroke="#a9bdcb" stroke-width="3" x1="485" x2="434" y1="190" y2="174"></line>
+<text fill="#b1c2cf" font-family="Arial" font-size="18" x="486" y="78">far-field liquid pressure p<tspan baseline-shift="sub" font-size="12">∞</tspan></text>
+<text fill="#b1c2cf" font-family="Arial" font-size="17" x="476" y="238">surrounding liquid has inertia</text>
+<text fill="#b1c2cf" font-family="Arial" font-size="17" x="77" y="251">bubble radius R(t)</text>
+<line stroke="#a9bdcb" stroke-width="1.5" x1="212" x2="257" y1="244" y2="202"></line>
+</svg>
+<figcaption>Schematic only. The outward arrows mark the direction of liquid motion during growth; the pressure balance determines whether that motion accelerates or reverses.</figcaption>
+</figure>
+<h2>One balance worth keeping</h2>
+<p>For a <em>stationary, clean, spherical</em> bubble, surface tension holds the interface curved. The inside pressure must be higher than the outside pressure by</p>
+<p class="equation"><i>p<sub>B</sub> − p<sub>∞</sub> = 2σ / R</i>.</p>
+<figure class="figure formula-figure" data-eq-figure="1">
+<img alt="Bubble pressure is inside, far-field pressure is outside, surface tension acts at the interface, and R reaches from center to wall. / 泡内压力在气泡内部，远场压力在液体外侧，表面张力作用于界面，R 从中心延伸到壁面。" src="../assets/formula-figures/static-pressure-balance.svg"/>
+<figcaption>
+<p>Bubble pressure is inside, far-field pressure is outside, surface tension acts at the interface, and R reaches from center to wall.</p>
+<p class="zh" lang="zh-CN">泡内压力在气泡内部，远场压力在液体外侧，表面张力作用于界面，R 从中心延伸到壁面。</p>
+</figcaption>
+</figure>
+<p>Here <i>σ</i> is surface tension. A pressure difference by itself therefore does not prove the bubble is growing. With water’s approximate room-temperature surface tension, <i>σ</i> ≈ 0.072 N/m, a 5 μm bubble can sit at rest with an inside-over-outside pressure difference of about 29 kPa.</p>
+<div class="callout">
+<span class="label">The dynamic idea</span>
+<p>If the outward pressure drive exceeds what surface tension and other resistance can balance, the liquid accelerates outward. When the drive later weakens or the outside pressure rises, the moving liquid does not stop instantly: its inertia can carry the bubble farther before collapse begins. The same liquid then accelerates inward. Gas compression, vapor condensation, and dissipation influence the final collapse and possible rebound.</p>
+</div>
+<p>The static relation above is a starting point. A moving bubble also needs liquid inertia and viscous stress in its equation of motion. A real nanodroplet can add a shell, phase change, and nearby boundaries; we will add those only when the simpler picture is secure.</p>
+<section class="check">
+<h2>Your explanation</h2>
+<p>In your own words, why might a cavitation bubble grow and then collapse? A tentative answer is useful; we will adjust the next lesson to what you already know.</p>
+</section>
+<nav aria-label="Further reading">
+<p>Read: <a href="../reading/Bubble_Cavitation_Dynamics.md">supplied teaching book, Chapter 1</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen, Chapter 2: spherical bubble dynamics</a> · <a href="../reference/bubble-language.html">term sheet</a></p>
+<p>Ask me in chat about any step that is unclear; the next lesson will follow your explanation.</p>
+</nav>
+</main>
+<footer>Prepared for the cavitation dynamics learning workspace · 29 September 2026</footer>
+</body>
+</html>

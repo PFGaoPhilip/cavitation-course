@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Gaussian fluence and pulse-energy ledger</title>
+<desc>The on-axis fluence F0 falls radially over the one-over-e-squared radius w0; integrating over annuli produces incident energy Ep, and an assumed absorbed fraction eta_abs produces Eabs.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="270" cy="228" r="118" fill="#173b47" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="270" cy="228" r="73" fill="none" stroke="#8fb8ff" stroke-width="2" stroke-dasharray="7 6"/>
+<circle cx="270" cy="228" r="35" fill="none" stroke="#8fb8ff" stroke-width="2" stroke-dasharray="7 6"/>
+<line x1="270" y1="228" x2="390" y2="228" stroke="#6dd6e7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="326" y="201" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">w₀</text>
+<text x="326" y="226" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">1/e² radius / 光斑半径</text>
+<line x1="270" y1="228" x2="342" y2="300" stroke="#8fb8ff" stroke-width="2" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="351" y="320" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">r</text>
+<text x="351" y="345" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">radial position / 径向位置</text>
+<text x="49" y="102" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">F₀</text>
+<text x="49" y="127" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">on-axis fluence / 轴上能量面密度</text>
+<text x="46" y="356" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">F(r)</text>
+<text x="46" y="381" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">local fluence / 局部能量面密度</text>
+<rect x="540" y="83" width="405" height="125" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="565" y="132" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">Eₚ</text>
+<text x="565" y="157" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">incident pulse energy / 入射脉冲能量</text>
+<text x="568" y="183" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="normal" fill="#b1c2cf">area integral of F(r) / 对 F(r) 作面积积分</text>
+<line x1="744" y1="210" x2="744" y2="268" stroke="#f9b77d" stroke-width="4" stroke-linecap="round" marker-end="url(#a-orange)"/>
+<text x="767" y="253" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">η_abs</text>
+<text x="767" y="278" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">assumed absorbed fraction / 假定吸收比例</text>
+<rect x="540" y="306" width="405" height="91" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="565" y="352" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">E_abs</text>
+<text x="565" y="377" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">absorbed-energy ledger / 吸收能量核算</text>
+</svg>

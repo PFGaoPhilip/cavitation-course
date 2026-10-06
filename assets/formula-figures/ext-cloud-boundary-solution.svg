@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Solved finite uniform cloud with pressure feedback</title><desc>Inside radius Rc the pressure includes a uniform particular solution p0 and regular spherical function j0 with coefficient A and wave number ki. Outside the cloud pressure pb propagates at kl to the observer r.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Solve the inside field and match it to the host liquid</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">求解内部场，并与外部载液匹配</text>
+<circle cx="285" cy="282" r="133" fill="#173845" stroke="#8fb8ff" stroke-width="3"/>
+<text x="189" y="214" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#6dd6e7" text-anchor="start">n_b, χ_V, α̂_drive</text>
+<text x="174" y="259" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#6dd6e7" text-anchor="start">p₀ + A j₀(k_i r)</text>
+<line x1="285" y1="282" x2="414" y2="282" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="414,282 402.0,277.0 402.0,287.0" fill="#6dd6e7"/>
+<text x="353" y="309" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">R_c</text>
+<text x="43" y="423" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">k_i, j₀, j₀′</text>
+<text x="43" y="448" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">inside wave number / regular mode</text>
+<text x="43" y="472" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">内部波数／正则模态</text>
+<line x1="435" y1="281" x2="798" y2="281" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="798,281 786.0,276.0 786.0,286.0" fill="#8fb8ff"/>
+<text x="512" y="246" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">k_l = ω/c_l; r</text>
+<rect x="814" y="220" width="139" height="133" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="828" y="268" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#f9b77d" text-anchor="start">p̂_out</text>
+<text x="488" y="417" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">p_b, q = ik_l − 1/R_c</text>
+<text x="488" y="442" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">boundary pressure / outward slope</text>
+<text x="488" y="466" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">边界压力／向外斜率</text>
+<text x="52" y="125" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">ρ_l is held equal inside and outside / 内外载液密度 ρ_l 相同</text>
+<text x="46" y="540" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#b1c2cf" text-anchor="start">Pressure and normal velocity match at R_c.</text>
+<text x="46" y="566" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#b1c2cf" text-anchor="start">R_c 处压力与法向速度匹配。</text>
+</svg>

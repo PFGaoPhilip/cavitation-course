@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Linear bubble response and equilibrium frequency</title><desc>An equilibrium radius Re and gas pressure pge set radial stiffness with kappa and surface tension. The incident harmonic pressure has frequency omega. Damping beta changes volume response chiV.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Locate the variables in the linear response law</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">在线性响应规律中标明各变量</text>
+<circle cx="325" cy="280" r="119" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="325" cy="280" r="133" fill="none" stroke="#8fb8ff" stroke-width="3"/>
+<line x1="325" y1="280" x2="439" y2="280" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="439,280 427.0,275.0 427.0,285.0" fill="#6dd6e7"/>
+<text x="367" y="262" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#6dd6e7" text-anchor="start">R_e</text>
+<text x="260" y="229" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#6dd6e7" text-anchor="start">p_g,e, κ</text>
+<text x="260" y="320" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">p_v = constant</text>
+<text x="558" y="145" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">p̂′, ω</text>
+<text x="558" y="170" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">harmonic pressure at the wall</text>
+<text x="558" y="194" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">泡壁处谐波压力</text>
+<line x1="736" y1="225" x2="457" y2="240" stroke="#f9b77d" stroke-width="3"/>
+<polygon points="457,240 469.25112399731563,244.34855847406908 468.71426492644287,234.36297975583636" fill="#f9b77d"/>
+<text x="557" y="288" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">β, ρ, σ</text>
+<text x="557" y="313" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">loss / liquid inertia / surface tension</text>
+<text x="557" y="337" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">损耗／液体惯性／界面张力</text>
+<text x="58" y="425" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">V̂, χ_V(ω)</text>
+<text x="58" y="450" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">volume response to incident pressure</text>
+<text x="58" y="474" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">对入射压力的体积响应</text>
+<text x="558" y="425" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">ω₀, K_eff, c_eff</text>
+<text x="558" y="450" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">resonance / bulk modulus / sound</text>
+<text x="558" y="474" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">共振／体积模量／声速</text>
+<text x="44" y="540" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">α is the gas volume fraction; ρ_mix is mixture density.</text>
+<text x="44" y="566" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">α 为气体体积分数；ρ_mix 为混合密度。</text>
+</svg>

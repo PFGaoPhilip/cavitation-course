@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Gas reduces the inward pressure gap</title>
+<desc>Gas and vapor pressures act from inside; ambient pressure acts from outside.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="395" cy="230" r="125" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="395" cy="230" r="185" fill="none" stroke="#405466" stroke-width="2" stroke-dasharray="8 9"/>
+<line x1="395" y1="230" x2="510" y2="230" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="453" y="260" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R</text>
+<text x="453" y="285" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">wall radius / 壁面半径</text>
+<text x="755" y="88" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">p_∞</text>
+<text x="755" y="113" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">far-field liquid / 远场液体</text>
+<line x1="790" y1="179" x2="594" y2="179" stroke="#8fb8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="741" y="355" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="normal" fill="#b1c2cf">liquid / 液体</text>
+<text x="395" y="157" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">p_v</text>
+<text x="395" y="182" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">vapor pressure / 蒸气压</text>
+<text x="395" y="317" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">p_g(R)</text>
+<text x="395" y="342" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">compressed gas / 受压气体</text>
+<line x1="636" y1="320" x2="529" y2="320" stroke="#c5a4f7" stroke-width="5" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="735" y="318" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">Δp_net(R)</text>
+<text x="735" y="343" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">net inward drive / 净向内压差</text>
+<text x="770" y="407" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="normal" fill="#b1c2cf">R changes → p_g changes / 半径变化使气压变化</text>
+</svg>

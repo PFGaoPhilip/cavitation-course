@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Closed conditional liquid-bubble-solid model</title><desc>Laser dose generates a conditional activation and phase inventory. Compressible liquid carries pressure and energy, bubbles exchange mass and heat, gel and film move with traction continuity, and an observer measures the pressure.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Close the source, propagation and boundary equations together</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">共同闭合源、传播与边界方程</text>
+<rect x="40" y="130" width="225" height="282" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="57" y="175" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">Q‴, n_d, h_act</text>
+<text x="57" y="200" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">optical source / activation hazard</text>
+<text x="57" y="224" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">光学源／激活风险率</text>
+<text x="59" y="281" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">m_v, T_B, j″</text>
+<text x="59" y="313" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">phase / heat balance</text>
+<text x="59" y="340" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">相变／热量守恒</text>
+<line x1="270" y1="265" x2="315" y2="265" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="315,265 303.0,260.0 303.0,270.0" fill="#6dd6e7"/>
+<rect x="327" y="130" width="312" height="282" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="344" y="175" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">ρ, u, p, e, α</text>
+<text x="344" y="200" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">compressible liquid / bubble field</text>
+<text x="344" y="224" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">可压缩液体／气泡场</text>
+<text x="345" y="290" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#c5a4f7" text-anchor="start">χ_V(ω), k(ω), β</text>
+<text x="345" y="323" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">response / dispersion / damping</text>
+<text x="345" y="350" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">响应／色散／阻尼</text>
+<line x1="644" y1="265" x2="687" y2="265" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="687,265 675.0,260.0 675.0,270.0" fill="#6dd6e7"/>
+<rect x="698" y="130" width="267" height="282" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="714" y="175" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">σ_s, w_s, G*(ω)</text>
+<text x="714" y="200" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="11.652916073968706" fill="#b1c2cf" text-anchor="start">solid stress / displacement / modulus</text>
+<text x="714" y="224" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">固体应力／位移／模量</text>
+<text x="715" y="290" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#6dd6e7" text-anchor="start">p_F(x,t), G_I, G_II</text>
+<text x="715" y="323" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="14.31578947368421" fill="#b1c2cf" text-anchor="start">surface load / interface crack</text>
+<text x="715" y="350" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">表面载荷／界面裂纹</text>
+<text x="50" y="469" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#e8f1f6" text-anchor="start">Boundary: normal velocity and traction continuity; geometry and receiver specified.</text>
+<text x="50" y="500" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">边界：法向速度与牵引力连续；还须指定几何及接收体。</text>
+<text x="50" y="545" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">p_max = max over the declared surface, bandwidth and time interval.</text>
+<text x="50" y="571" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">峰值需限定表面、带宽与时间区间。</text>
+</svg>

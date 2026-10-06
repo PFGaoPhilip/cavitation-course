@@ -1,0 +1,95 @@
+:root {
+  color-scheme: dark;
+  --ink: #e8f1f6;
+  --muted: #b1c2cf;
+  --rule: #405466;
+  --accent: #82d9ee;
+  --wash: #1b2c39;
+  --paper: #101b26;
+  --canvas: #0b141e;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 18px; background: var(--canvas); }
+body {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 3.4rem 2rem 5rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.62;
+}
+header { border-bottom: 1px solid var(--rule); margin-bottom: 2rem; padding-bottom: 1rem; }
+.eyebrow, nav, footer, .label {
+  color: var(--muted);
+  font: 0.76rem/1.35 Arial, sans-serif;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+h1, h2 { line-height: 1.15; font-weight: 500; }
+h1 { font-size: 2.35rem; letter-spacing: -0.025em; margin: 0.45rem 0 0.7rem; }
+h2 { font-size: 1.35rem; margin-top: 2.2rem; }
+p { margin: 0.75rem 0 1.15rem; }
+a { color: var(--accent); text-underline-offset: 0.13em; }
+a:hover { color: #b5eefa; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.lede { font-size: 1.18rem; color: var(--muted); max-width: 35em; }
+.callout { background: var(--wash); border-left: 3px solid var(--accent); padding: 0.9rem 1.25rem; margin: 1.6rem 0; }
+.keyword { color: #ffd39a; background: rgba(249, 183, 125, 0.14); border-radius: 0.2rem; padding: 0.03em 0.2em; font-weight: 700; }
+.equation { font-family: "Cambria Math", Georgia, serif; font-size: 1.35rem; text-align: center; margin: 1.5rem 0; white-space: nowrap; overflow-x: auto; }
+.figure { margin: 1.8rem 0; padding: 1rem; border: 1px solid var(--rule); background: #142330; }
+.figure svg { display: block; width: 100%; height: auto; }
+.figure img { display: block; width: 100%; height: auto; }
+.formula-figure { margin-top: 0.5rem; break-inside: avoid; }
+figcaption, .small { color: var(--muted); font-size: 0.84rem; line-height: 1.45; }
+.check { border-top: 1px solid var(--rule); margin-top: 2rem; padding-top: 1rem; }
+.concept { border-top: 1px solid var(--rule); margin-top: 2.4rem; padding-top: 0.4rem; }
+.concept .eyebrow { margin-bottom: 0.2rem; }
+.chapter-problem { background: var(--wash); border: 1px solid var(--rule); border-radius: 0.4rem; margin-top: 2.6rem; padding: 1rem 1.25rem; }
+.chapter-problem ol { padding-left: 1.4rem; }
+.chapter-problem li { margin: 0.9rem 0; }
+.chapter-problem li p { margin-bottom: 0.55rem; }
+.answer { border: 1px solid var(--rule); border-radius: 0.35rem; background: #142330; padding: 0.55rem 0.8rem; margin: 0.45rem 0 1.1rem; }
+.answer summary { color: var(--accent); cursor: pointer; font: 600 0.86rem/1.5 Arial, sans-serif; }
+.answer summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.answer[open] summary { border-bottom: 1px solid var(--rule); padding-bottom: 0.45rem; margin-bottom: 0.7rem; }
+.answer p { font-size: 0.91rem; }
+.answer .equation { font-size: 1.05rem; text-align: left; line-height: 1.6; margin: 1rem 0 0.4rem; }
+.answer .formula-figure { margin: 0.4rem 0 1.1rem; }
+.answer .formula-figure img { max-height: 260px; object-fit: contain; }
+.answer-figure { display: block; width: 100%; max-height: 250px; object-fit: contain; margin: 0.75rem auto; border: 1px solid var(--rule); background: #142330; }
+.data-table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; font: 0.9rem/1.45 Arial, sans-serif; }
+.data-table th, .data-table td { border-bottom: 1px solid var(--rule); padding: 0.65rem 0.55rem; text-align: left; vertical-align: top; }
+.data-table th { color: var(--muted); font-weight: 600; }
+.data-table .zh { display: block; margin-top: 0.1rem; font-size: 0.9em; }
+footer { border-top: 1px solid var(--rule); padding-top: 1rem; margin-top: 3rem; }
+.zh { font-family: "Noto Serif CJK SC", "Microsoft YaHei", "SimSun", serif; color: #cfdee8; }
+p.zh, figcaption p.zh { margin-top: -0.75rem; }
+h1.zh { font-size: 1.72rem; margin-top: -0.3rem; }
+h2.zh { font-size: 1.12rem; margin-top: -0.6rem; }
+.eyebrow.zh { margin-top: 0.25rem; }
+.label.zh { display: block; margin-top: 0.3rem; }
+footer .zh { display: block; margin-top: 0.25rem; }
+@media print {
+  :root {
+    color-scheme: light;
+    --ink: #182736;
+    --muted: #506171;
+    --rule: #c9d5dd;
+    --accent: #176a87;
+    --wash: #f1f7f9;
+    --paper: #fff;
+    --canvas: #fff;
+  }
+  html { font-size: 12pt; }
+  body { max-width: none; padding: 0; }
+  a { color: var(--ink); }
+  .zh { color: #435768; }
+  .keyword { color: #713c0b; background: #fff0d7; }
+  .figure { background: #fff; }
+  .figure img, .figure svg, .answer-figure { filter: invert(1) hue-rotate(180deg); }
+  .answer { background: #f1f7f9; }
+  .figure, .callout, .chapter-problem { break-inside: avoid; }
+  .chapter-problem { background: #f1f7f9; }
+}

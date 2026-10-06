@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Where Rayleigh-Plesset terms act</title>
+<desc>Bubble pressure acts inside, ambient pressure outside, surface tension and viscous stress at the interface, and liquid density with radial inertia outside.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="353" cy="230" r="89" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="353" y="169" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">p_B</text>
+<text x="353" y="194" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">inside / 泡内</text>
+<line x1="353" y1="230" x2="442" y2="230" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="403" y="265" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R</text>
+<text x="403" y="290" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">radius / 半径</text>
+<text x="60" y="86" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">σ</text>
+<text x="60" y="111" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">surface tension / 表面张力</text>
+<line x1="135" y1="98" x2="295" y2="164" stroke="#f9b77d" stroke-width="2" stroke-linecap="round"/>
+<text x="65" y="368" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">μ</text>
+<text x="65" y="393" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">viscous stress at wall / 壁面黏性应力</text>
+<line x1="251" y1="341" x2="307" y2="300" stroke="#c5a4f7" stroke-width="2" stroke-linecap="round"/>
+<text x="755" y="81" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">p_∞</text>
+<text x="755" y="106" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">far-field pressure / 远场压力</text>
+<line x1="756" y1="125" x2="515" y2="165" stroke="#8fb8ff" stroke-width="2" stroke-linecap="round"/>
+<text x="752" y="173" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">ρ</text>
+<text x="752" y="198" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">liquid inertia / 液体惯性</text>
+<line x1="442" y1="214" x2="498" y2="214" stroke="#6dd6e7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="729" y="276" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">Ṙ</text>
+<text x="729" y="301" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">wall velocity / 壁面速度</text>
+<line x1="648" y1="265" x2="498" y2="214" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round"/>
+<text x="731" y="359" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">R̈</text>
+<text x="731" y="384" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">wall acceleration / 壁面加速度</text>
+<line x1="650" y1="343" x2="450" y2="257" stroke="#c5a4f7" stroke-width="2" stroke-linecap="round"/>
+<text x="477" y="422" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="normal" fill="#b1c2cf">R·acceleration + (3/2)·speed²: spherical liquid inertia</text>
+</svg>

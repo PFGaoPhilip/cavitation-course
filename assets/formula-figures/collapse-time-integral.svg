@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Elapsed time accumulated over dimensionless radius</title>
+<desc>The dimensionless radius x=R/R_max runs from 1 at the starting bubble to 0 at the ideal endpoint; t_c accumulates time while Delta p and rho set the prefactor.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="184" cy="177" r="72" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="793" cy="177" r="18" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="184" y="305" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">x = 1</text>
+<text x="184" y="330" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">R = R_max / 起始半径</text>
+<text x="793" y="305" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">x = 0</text>
+<text x="793" y="330" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">R → 0 / 理想终点</text>
+<line x1="282" y1="178" x2="743" y2="178" stroke="#c5a4f7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="497" y="133" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">x = R/R_max</text>
+<text x="497" y="158" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">dimensionless radius / 无量纲半径</text>
+<text x="496" y="250" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">Δp, ρ</text>
+<text x="496" y="275" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pressure and liquid inertia / 压差与液体惯性</text>
+<line x1="176" y1="385" x2="822" y2="385" stroke="#8fb8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="498" y="425" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">t_c</text>
+<text x="498" y="450" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">sum of small time steps / 各小段时间之和</text>
+</svg>

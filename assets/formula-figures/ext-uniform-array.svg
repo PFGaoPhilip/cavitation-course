@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>A uniform droplet grid under a Gaussian beam</title><desc>Pitch ell defines number density; bubble radius R defines gas void fraction alpha. The inherited beam has w0 25 micrometres and cannot excite a 40 micrometre grid uniformly.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Uniform droplet placement is not uniform activation</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">液滴均匀分布不代表均匀激活</text>
+<circle cx="257" cy="285" r="136" fill="none" stroke="#8fb8ff" stroke-width="3"/>
+<text x="137" y="103" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#f9b77d" text-anchor="start">F(r), w₀ = 25 µm</text>
+<circle cx="132" cy="160" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="132" y="203" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">3.6e-05</text>
+<circle cx="132" cy="285" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="132" y="328" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">0.006</text>
+<circle cx="132" cy="410" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="132" y="453" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">3.6e-05</text>
+<circle cx="257" cy="160" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="257" y="203" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">0.006</text>
+<circle cx="257" cy="285" r="22" fill="#285864" stroke="#6dd6e7" stroke-width="3"/>
+<text x="257" y="328" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">1</text>
+<circle cx="257" cy="410" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="257" y="453" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">0.006</text>
+<circle cx="382" cy="160" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="382" y="203" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">3.6e-05</text>
+<circle cx="382" cy="285" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="382" y="328" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">0.006</text>
+<circle cx="382" cy="410" r="22" fill="#1b2c39" stroke="#405466" stroke-width="3"/>
+<text x="382" y="453" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#f9b77d" text-anchor="middle">3.6e-05</text>
+<line x1="258" y1="456" x2="382" y2="456" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="382,456 370.0,451.0 370.0,461.0" fill="#8fb8ff"/>
+<text x="210" y="488" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#8fb8ff" text-anchor="start">ℓ = 40 µm</text>
+<text x="545" y="139" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">n_d, P_act(x,t)</text>
+<text x="545" y="164" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">droplet density / activation law</text>
+<text x="545" y="188" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">液滴数密度／激活规律</text>
+<text x="545" y="259" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">n_b, R, α</text>
+<text x="545" y="284" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">bubble count / radius / void fraction</text>
+<text x="545" y="308" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">气泡数量／半径／空隙率</text>
+<text x="545" y="379" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">R_c, B, kR_c</text>
+<text x="545" y="404" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">cloud size / interaction / coherence</text>
+<text x="545" y="428" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">云尺度／相互作用／相干性</text>
+<text x="40" y="542" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">Numbers at the grid nodes are F/F₀, not activation probabilities.</text>
+<text x="40" y="568" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">节点数值为 F/F₀，并非激活概率。</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Jet impact and impedance variables</title><desc>A liquid jet of velocity Uj, density rho_l and sound speed c_l impacts a solid with impedance Zs. The contact pressure and steady dynamic pressure are different estimates.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Jet speed becomes a boundary load through impact physics</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">射流速度通过冲击物理转化为边界载荷</text>
+<rect x="35" y="190" width="533" height="162" rx="8" fill="#173845" stroke="#405466" stroke-width="2"/>
+<text x="65" y="239" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">ρ_l, c_l, Z_l = ρ_l c_l</text>
+<text x="65" y="264" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">liquid jet / liquid impedance</text>
+<text x="65" y="288" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">液体射流／液体阻抗</text>
+<line x1="176" y1="328" x2="517" y2="328" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="517,328 505.0,323.0 505.0,333.0" fill="#6dd6e7"/>
+<text x="269" y="314" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#f9b77d" text-anchor="start">U_j, U_relative</text>
+<rect x="602" y="160" width="333" height="274" rx="8" fill="#293e55" stroke="#405466" stroke-width="2"/>
+<text x="629" y="210" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">ρ_s, c_s, Z_s</text>
+<text x="629" y="235" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">solid density / sound / impedance</text>
+<text x="629" y="259" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">固体密度／波速／阻抗</text>
+<text x="632" y="341" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#6dd6e7" text-anchor="start">p_contact(x,t)</text>
+<line x1="567" y1="270" x2="603" y2="270" stroke="#f9b77d" stroke-width="3"/>
+<polygon points="603,270 591.0,265.0 591.0,275.0" fill="#f9b77d"/>
+<text x="57" y="432" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">q_j = ½ρ_l U_j²</text>
+<text x="57" y="457" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">steady-flow kinetic scale</text>
+<text x="57" y="481" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">稳态流动动能尺度</text>
+<text x="56" y="534" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">M_j = U_j/c_l tests linear acoustics; p_wh assumes a rigid stop.</text>
+<text x="56" y="560" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#b1c2cf" text-anchor="start">M_j 检验线性声学；p_wh 假设刚性停止。</text>
+</svg>

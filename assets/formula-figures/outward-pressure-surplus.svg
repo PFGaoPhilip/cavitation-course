@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Outward pressure surplus around a bubble</title>
+<desc>D is the net outward pressure surplus after ambient pressure and surface tension.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="395" cy="230" r="125" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="395" cy="230" r="185" fill="none" stroke="#405466" stroke-width="2" stroke-dasharray="8 9"/>
+<line x1="395" y1="230" x2="510" y2="230" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="453" y="260" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R</text>
+<text x="453" y="285" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">wall radius / 壁面半径</text>
+<text x="755" y="88" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">p_∞</text>
+<text x="755" y="113" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">far-field liquid / 远场液体</text>
+<line x1="790" y1="179" x2="594" y2="179" stroke="#8fb8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="110" y="88" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">σ</text>
+<text x="110" y="113" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">surface tension / 界面张力</text>
+<line x1="375" y1="73" x2="375" y2="106" stroke="#f9b77d" stroke-width="4" stroke-linecap="round" marker-end="url(#a-orange)"/>
+<text x="741" y="355" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="normal" fill="#b1c2cf">liquid / 液体</text>
+<text x="395" y="160" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">p_B</text>
+<text x="395" y="185" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">bubble pressure / 泡内压力</text>
+<line x1="395" y1="205" x2="494" y2="205" stroke="#6dd6e7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<line x1="540" y1="318" x2="663" y2="318" stroke="#c5a4f7" stroke-width="5" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="704" y="313" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">D</text>
+<text x="704" y="338" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">net outward surplus / 净向外压差</text>
+<text x="740" y="400" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">ρ, R̈</text>
+<text x="740" y="425" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">liquid inertia, wall acceleration / 液体惯性、壁面加速度</text>
+</svg>

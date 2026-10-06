@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lesson 4 · Where the liquid goes / 第四课 · 液体流向何处</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation dynamics · Lesson 04 · General mechanics</div>
+<div class="eyebrow zh" lang="zh-CN">空化动力学 · 第四课 · 基础力学</div>
+<h1>Where does the liquid go?</h1>
+<h1 class="zh" lang="zh-CN">液体流向何处？</h1>
+<p class="lede">For a spherical bubble in incompressible liquid, the same volume flow passes every concentric sphere. This determines how liquid speed falls with distance.</p>
+<p class="lede zh" lang="zh-CN">对于不可压缩液体中的球形气泡，相同的体积流量穿过每一个同心球面。由此可以确定液体速度如何随距离减小。</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>Now suppose a bubble already exists. Assume its motion is spherical, the surrounding liquid is incompressible, and no mass crosses the bubble interface. Write its radius as <i>R(t)</i>. A dot above <i>R</i> means a time derivative: <i>Ṙ</i> is signed wall velocity (positive outward), and <i>R̈</i> is wall acceleration.</p>
+<p class="zh" lang="zh-CN">现在假设气泡已经存在。设气泡保持球形、周围液体不可压缩，并且没有质量穿过气泡界面。将气泡半径记为 <i>R(t)</i>。<i>R</i> 上方的点表示对时间求导：<i>Ṙ</i> 是带符号的壁面速度（向外为正），<i>R̈</i> 是壁面加速度。</p>
+<h2>Count the volume crossing each sphere</h2>
+<h2 class="zh" lang="zh-CN">计算穿过每个球面的体积流量</h2>
+<p>At the bubble wall, surface area multiplied by wall speed gives the volume flow rate. At any surrounding radius <i>r &gt; R</i>, the area is larger but the same volume per second must cross it. Otherwise liquid would accumulate or disappear between the two spheres.</p>
+<p class="zh" lang="zh-CN">在气泡壁面，球面面积乘以壁面速度就是体积流率。在外侧任意半径 <i>r &gt; R</i> 处，球面面积更大，但每秒穿过的液体体积必须相同。否则，液体就会在两个球面之间凭空积累或消失。</p>
+<p class="equation"><i>4πR²Ṙ = 4πr²u(r,t)</i></p>
+<figure class="figure formula-figure" data-eq-figure="1">
+<img alt="At the wall R, area 4πR² moves at Ṙ. At outer radius r, area 4πr² carries liquid at u(r,t), at the same instant t. / 在壁面 R 处，面积 4πR² 以 Ṙ 运动；在外侧半径 r 处，面积 4πr² 的液体速度为 u(r,t)，两者对应同一时刻 t。" src="../assets/formula-figures/spherical-volume-flux.svg"/>
+<figcaption>
+<p>At the wall R, area 4πR² moves at Ṙ. At outer radius r, area 4πr² carries liquid at u(r,t), at the same instant t.</p>
+<p class="zh" lang="zh-CN">在壁面 R 处，面积 4πR² 以 Ṙ 运动；在外侧半径 r 处，面积 4πr² 的液体速度为 u(r,t)，两者对应同一时刻 t。</p>
+</figcaption>
+</figure>
+<p class="equation"><i>u(r,t) = (R/r)²Ṙ</i></p>
+<figure class="figure formula-figure" data-eq-figure="2">
+<img alt="The wall speed Ṙ and outer liquid speed u(r,t) are attached to their concentric surfaces; greater r means lower radial speed. / 壁面速度 Ṙ 与外侧液体速度 u(r,t) 分别标在对应球面；r 越大，径向速度越低。" src="../assets/formula-figures/spherical-velocity-field.svg"/>
+<figcaption>
+<p>The wall speed Ṙ and outer liquid speed u(r,t) are attached to their concentric surfaces; greater r means lower radial speed.</p>
+<p class="zh" lang="zh-CN">壁面速度 Ṙ 与外侧液体速度 u(r,t) 分别标在对应球面；r 越大，径向速度越低。</p>
+</figcaption>
+</figure>
+<p>Here <i>u(r,t)</i> is radial liquid velocity. At <i>r = 2R</i>, the spherical area is four times the wall area, so the liquid speed is one quarter of the wall speed. At <i>r = 3R</i>, it is one ninth. During collapse, <i>Ṙ</i> and <i>u</i> are negative: the same formula describes inward flow.</p>
+<p class="zh" lang="zh-CN">其中 <i>u(r,t)</i> 是液体的径向速度。在 <i>r = 2R</i> 处，球面面积是壁面面积的四倍，因此液体速度是壁面速度的四分之一；在 <i>r = 3R</i> 处则是九分之一。塌缩时，<i>Ṙ</i> 与 <i>u</i> 为负值：同一公式描述向内流动。</p>
+<figure class="figure">
+<svg aria-labelledby="flow-title flow-desc" role="img" viewbox="0 0 700 285">
+<title id="flow-title">Spherical flow around an expanding bubble / 膨胀气泡周围的球对称流动</title>
+<desc id="flow-desc">A bubble of radius R and a concentric sphere of radius 2R show a shorter outward velocity arrow at the larger sphere. 半径为 R 的气泡与半径为 2R 的同心球面上，外侧球面的向外速度箭头更短。</desc>
+<defs><marker id="flow-arrow" markerheight="9" markerwidth="9" orient="auto" refx="7" refy="4.5"><path d="M0,0 L9,4.5 L0,9 Z" fill="#6dd6e7"></path></marker></defs>
+<circle cx="235" cy="142" fill="#1b3941" r="59" stroke="#6dd6e7" stroke-width="3"></circle>
+<circle cx="235" cy="142" fill="none" r="118" stroke="#526779" stroke-dasharray="7 6" stroke-width="2"></circle>
+<line marker-end="url(#flow-arrow)" stroke="#6dd6e7" stroke-width="4" x1="294" x2="336" y1="142" y2="142"></line>
+<line marker-end="url(#flow-arrow)" stroke="#6dd6e7" stroke-width="4" x1="353" x2="376" y1="95" y2="95"></line>
+<text fill="#e8f1f6" font-family="Arial" font-size="21" x="210" y="150">R</text>
+<text fill="#b1c2cf" font-family="Arial" font-size="21" x="116" y="67">2R</text>
+<text fill="#e8f1f6" font-family="Arial" font-size="20" x="422" y="112">u(R) = Ṙ</text>
+<text fill="#e8f1f6" font-family="Arial" font-size="20" x="422" y="158">u(2R) = Ṙ/4</text>
+</svg>
+<figcaption>
+<p>The arrows are schematic. The factor of four comes from the area of a sphere increasing with the square of its radius.</p>
+<p class="zh" lang="zh-CN">箭头仅为示意。速度变为四分之一，是因为球面面积随半径的平方增大。</p>
+</figcaption>
+</figure>
+<figure class="figure example-figure">
+<img alt="Concentric spheres at R, 2R, and 3R with their corresponding radial flow speeds / 半径为 R、2R、3R 的同心球面及各处对应的径向速度" src="../assets/formula-figures/flow-at-sample-radii.svg"/>
+<figcaption>
+<p>The worked locations <i>2R</i> and <i>3R</i> are marked on the liquid spheres, with their velocity ratios beside them.</p>
+<p class="zh" lang="zh-CN">例题中的 <i>2R</i> 和 <i>3R</i> 标在对应的液体球面上，旁边给出了各处的速度比例。</p>
+</figcaption>
+</figure>
+<div class="callout">
+<span class="label">Model boundary</span>
+<span class="label zh" lang="zh-CN">模型适用边界</span>
+<p>This inverse-square law is for radial <em>liquid velocity</em> in the stated spherical, incompressible flow. A nearby wall changes the flow geometry; evaporation or condensation changes the interface mass balance. We will use this velocity field to derive the liquid inertia in the next lesson.</p>
+<p class="zh" lang="zh-CN">这个平方反比规律描述的是上述球对称、不可压缩流动中的<em>液体径向速度</em>。邻近固壁会改变流动几何；蒸发或凝结会改变界面的质量平衡。下一课将用这一速度场推导液体惯性项。</p>
+</div>
+<section class="check">
+<h2>One check</h2>
+<h2 class="zh" lang="zh-CN">一道检查题</h2>
+<p>A spherical bubble wall moves outward at 8 m/s. Under this model, what are the speed and direction of the liquid at <i>r = 2R</i>, and why?</p>
+<p class="zh" lang="zh-CN">一个球形气泡的壁面以 8 m/s 向外运动。在本课模型下，<i>r = 2R</i> 处液体的速度大小和方向是什么？为什么？</p>
+</section>
+<nav aria-label="Further reading / 延伸阅读">
+<p><a href="0003-why-a-bubble-may-not-form.html">Previous lesson</a> · <a href="../reading/Bubble_Cavitation_Dynamics.md">Supplied book, Chapter 3</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen, Chapter 2</a></p>
+<p class="zh" lang="zh-CN"><a href="0003-why-a-bubble-may-not-form.html">上一课</a> · <a href="../reading/Bubble_Cavitation_Dynamics.md">所提供教材的第三章</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen 著作第二章</a></p>
+<p>Ask me in chat about any unclear step; your answer will determine the next lesson.</p>
+<p class="zh" lang="zh-CN">如果任何一步不清楚，请在聊天中提问；你的回答将决定下一课的内容。</p>
+</nav>
+</main>
+<footer><span>Prepared for the cavitation dynamics learning workspace · 29 September 2026</span><span class="zh" lang="zh-CN">为空化动力学学习工作区编写 · 2026 年 9 月 29 日</span></footer>
+</body>
+</html>

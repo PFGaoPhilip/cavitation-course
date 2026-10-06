@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lesson 2 · Which pressure drives growth?</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation dynamics · Lesson 02 · General mechanics</div>
+<h1>Which pressure drives growth?</h1>
+<p class="lede">Bubble motion responds to the difference between inside and outside pressure, after paying the curvature pressure required by surface tension.</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>You correctly identified the delay caused by liquid inertia. Now make the driving force precise. For a clean spherical bubble, let <i>p<sub>B</sub></i> be its inside pressure, <i>p<sub>∞</sub></i> the surrounding liquid pressure far away, <i>σ</i> surface tension, and <i>R</i> the radius. The outward pressure surplus is</p>
+<p class="equation"><i>D = p<sub>B</sub> − p<sub>∞</sub> − 2σ/R</i>.</p>
+<figure class="figure formula-figure" data-eq-figure="1">
+<img alt="The pressure-surplus arrow D points outward; p_B, p_∞, σ, R, liquid inertia ρ, and wall acceleration are labeled where they act. / 净压差 D 的箭头指向外侧；p_B、p_∞、σ、R、液体惯性 ρ 与壁面加速度都标在其作用位置。" src="../assets/formula-figures/outward-pressure-surplus.svg"/>
+<figcaption>
+<p>The pressure-surplus arrow D points outward; p_B, p_∞, σ, R, liquid inertia ρ, and wall acceleration are labeled where they act.</p>
+<p class="zh" lang="zh-CN">净压差 D 的箭头指向外侧；p_B、p_∞、σ、R、液体惯性 ρ 与壁面加速度都标在其作用位置。</p>
+</figcaption>
+</figure>
+<p>The first two terms form a <em>pressure difference</em>. The last is the curvature penalty for one spherical liquid–gas interface. A bubble at rest can have <i>p<sub>B</sub> &gt; p<sub>∞</sub></i> and still be in balance when <i>D = 0</i>.</p>
+<div class="callout">
+<span class="label">At the instant a resting bubble is disturbed</span>
+<p>In the basic spherical, incompressible model, when the wall speed is zero, <i>ρR R̈ = D</i>. Thus positive <i>D</i> gives outward acceleration; negative <i>D</i> gives inward acceleration. This statement is about <em>acceleration</em>, not an immediate change of the radius or velocity.</p>
+</div>
+<h2>Change the outside pressure</h2>
+<p>For a 5 μm bubble in clean water with <i>σ ≈ 0.072 N/m</i>, the capillary pressure <i>2σ/R</i> is about 28.8 kPa. Suppose the bubble is initially at rest with <i>p<sub>∞</sub> = 101 kPa</i> and <i>p<sub>B</sub> = 129.8 kPa</i>. Its pressure difference is exactly balanced. If <i>p<sub>∞</sub></i> drops to 91 kPa while <i>p<sub>B</sub></i> and <i>R</i> have not yet changed, then <i>D = +10 kPa</i>: the liquid initially accelerates outward even though the bubble's inside pressure did not rise.</p>
+<figure class="figure example-figure">
+<img alt="Five-micrometer bubble with inside pressure, changed outside pressure, surface tension, and resulting outward pressure surplus / 五微米气泡的泡内压力、变化的外部压力、表面张力及净向外压差" src="../assets/formula-figures/pressure-step-example.svg"/>
+<figcaption>
+<p>The numbers are attached to their physical locations: pressure inside, pressure in the liquid outside, capillary pressure at the wall, and the resulting outward surplus.</p>
+<p class="zh" lang="zh-CN">数值标在对应的物理位置：泡内压力、外侧液体压力、壁面的毛细压力，以及最终的净向外压差。</p>
+</figcaption>
+</figure>
+<p>Once the wall moves, liquid inertia and viscous resistance enter the full Rayleigh–Plesset balance. The simple surplus <i>D</i> remains useful for reasoning, provided you keep track of the current radius and wall velocity. A falling <i>D</i> can slow growth before the radius turns around, exactly as you described in Lesson 1.</p>
+<section class="check">
+<h2>One check</h2>
+<p>A clean spherical bubble is initially at rest and in pressure balance. Its inside pressure and radius stay unchanged for the next instant, but the surrounding liquid pressure rises. Which way does the bubble boundary initially accelerate, and why?</p>
+</section>
+<nav aria-label="Further reading">
+<p><a href="0001-the-bubble-is-a-moving-boundary.html">Previous lesson</a> · <a href="../reference/bubble-language.html">Term sheet</a></p>
+<p>Primary source: <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen, Chapter 2, sections 2.1–2.2</a>. The <a href="../reading/Bubble_Cavitation_Dynamics.md">supplied teaching book</a>, Chapters 1 and 3, develops the same balance step by step.</p>
+<p>Ask me in chat about any unclear step; your answer determines the next lesson.</p>
+</nav>
+</main>
+<footer>Prepared for the cavitation dynamics learning workspace · 29 September 2026</footer>
+</body>
+</html>

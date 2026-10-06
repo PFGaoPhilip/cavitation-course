@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Compressible conservation laws in a fluid control volume</title><desc>Mass density rho, velocity u, pressure p and specific total energy etot are inside a control volume. Heat flux q, viscous stress tau and optical heat Q triple prime act at boundaries or in its volume.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Conservation laws refer to fields and fluxes</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">守恒定律对应流场与通量</text>
+<rect x="276" y="157" width="452" height="237" rx="8" fill="#173845" stroke="#405466" stroke-width="2"/>
+<text x="304" y="229" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">ρ, u, p, e_tot</text>
+<text x="304" y="254" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">mass / momentum / energy fields</text>
+<text x="304" y="278" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">质量／动量／能量场</text>
+<text x="303" y="339" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#f9b77d" text-anchor="start">Q‴: laser heat / 激光热源</text>
+<line x1="47" y1="279" x2="265" y2="279" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="265,279 253.0,274.0 253.0,284.0" fill="#8fb8ff"/>
+<text x="44" y="238" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#8fb8ff" text-anchor="start">ρu, ρu⊗u</text>
+<line x1="738" y1="282" x2="952" y2="282" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="952,282 940.0,277.0 940.0,287.0" fill="#8fb8ff"/>
+<text x="746" y="239" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#8fb8ff" text-anchor="start">energy flux / 能流</text>
+<line x1="506" y1="115" x2="506" y2="155" stroke="#f9b77d" stroke-width="3"/>
+<polygon points="506,155 511.0,143.0 501.0,143.0" fill="#f9b77d"/>
+<text x="604" y="126" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#f9b77d" text-anchor="start">q: heat / 热流</text>
+<line x1="277" y1="395" x2="232" y2="444" stroke="#c5a4f7" stroke-width="3"/>
+<polygon points="232,444 243.79950943705987,438.5436663367481 236.43421055278046,431.77961634098136" fill="#c5a4f7"/>
+<text x="30" y="488" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#c5a4f7" text-anchor="start">τ: viscous stress / 黏性应力</text>
+<line x1="728" y1="395" x2="788" y2="444" stroke="#c5a4f7" stroke-width="3"/>
+<polygon points="788,444 781.8682873232724,432.5369245117177 775.5429416146483,440.28224578758415" fill="#c5a4f7"/>
+<text x="635" y="490" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#c5a4f7" text-anchor="start">n, t: normal / traction</text>
+<text x="51" y="543" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">σ_fluid = −pI + τ; p_F is above p_∞; ẇ_s is solid velocity.</text>
+<text x="51" y="569" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">p_F 为相对环境压的法向载荷；ẇ_s 为固体速度。</text>
+</svg>

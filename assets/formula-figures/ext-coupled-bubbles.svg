@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Three, four and five interacting bubbles</title><desc>Equal spherical bubbles arranged as a triangle, tetrahedron and regular pentagon share surrounding liquid inertia. Ri, Rj, Ui, Uj and fixed distance dij locate the coupled monopole terms.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Neighbour motion enters each radial equation</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">相邻气泡的运动进入每个径向方程</text>
+<line x1="110" y1="224" x2="230" y2="224" stroke="#405466" stroke-width="3"/>
+<circle cx="110" cy="224" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="110" y="230" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">1</text>
+<line x1="230" y1="224" x2="170" y2="120" stroke="#405466" stroke-width="3"/>
+<circle cx="230" cy="224" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="230" y="230" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">2</text>
+<circle cx="170" cy="120" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="170" y="126" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">3</text>
+<text x="60" y="362" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">N = 3: triangle / 三角形</text>
+<line x1="419" y1="122" x2="359" y2="245" stroke="#405466" stroke-width="3"/>
+<circle cx="419" cy="122" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="419" y="128" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">1</text>
+<line x1="359" y1="245" x2="489" y2="245" stroke="#405466" stroke-width="3"/>
+<circle cx="359" cy="245" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="359" y="251" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">2</text>
+<line x1="489" y1="245" x2="425" y2="189" stroke="#405466" stroke-width="3"/>
+<circle cx="489" cy="245" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="489" y="251" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">3</text>
+<circle cx="425" cy="189" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="425" y="195" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">4</text>
+<text x="332" y="362" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">N = 4: tetrahedron / 四面体</text>
+<line x1="870.0" y1="190.0" x2="800.9016994374947" y2="285.10565162951536" stroke="#405466" stroke-width="3"/>
+<circle cx="870.0" cy="190.0" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="870.0" y="196.0" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">1</text>
+<line x1="800.9016994374947" y1="285.10565162951536" x2="689.0983005625053" y2="248.77852522924732" stroke="#405466" stroke-width="3"/>
+<circle cx="800.9016994374947" cy="285.10565162951536" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="800.9016994374947" y="291.10565162951536" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">2</text>
+<line x1="689.0983005625053" y1="248.77852522924732" x2="689.0983005625053" y2="131.2214747707527" stroke="#405466" stroke-width="3"/>
+<circle cx="689.0983005625053" cy="248.77852522924732" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="689.0983005625053" y="254.77852522924732" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">3</text>
+<line x1="689.0983005625053" y1="131.2214747707527" x2="800.9016994374947" y2="94.89434837048464" stroke="#405466" stroke-width="3"/>
+<circle cx="689.0983005625053" cy="131.2214747707527" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="689.0983005625053" y="137.2214747707527" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">4</text>
+<circle cx="800.9016994374947" cy="94.89434837048464" r="25" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="800.9016994374947" y="100.89434837048464" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#6dd6e7" text-anchor="middle">5</text>
+<text x="662" y="362" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">N = 5: pentagon / 五边形</text>
+<line x1="110" y1="280" x2="230" y2="280" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="230,280 218.0,275.0 218.0,285.0" fill="#8fb8ff"/>
+<text x="145" y="307" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#8fb8ff" text-anchor="start">d_ij</text>
+<text x="78" y="193" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">R_i</text>
+<text x="228" y="193" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">R_j</text>
+<text x="36" y="395" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">ρ; T, Π; S, C(χ), t_c / 液体密度；能量；邻泡求和、系数与时间</text>
+<text x="35" y="420" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">d_ij, R_i, R_j</text>
+<text x="35" y="445" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">fixed centres / wall radii</text>
+<text x="35" y="469" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">固定质心／壁面半径</text>
+<text x="359" y="420" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">Ṙ_j, R̈_j</text>
+<text x="359" y="445" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">neighbour velocity / acceleration</text>
+<text x="359" y="469" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">邻泡速度／加速度</text>
+<text x="702" y="420" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">χ_i = ΣR_max/d_ij</text>
+<text x="702" y="445" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">interaction inertia ratio</text>
+<text x="702" y="469" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">相互作用惯性比</text>
+<text x="35" y="545" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">No shape deformation, translation, coalescence or jets in this reduced model.</text>
+<text x="35" y="571" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">此降阶模型不解析变形、平移、并合或射流。</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Spherical source with all radial stress variables</title><desc>R and Rmax locate the moving wall. Wall velocity and acceleration, internal pressure, far pressure, density, viscosity, surface tension and sound speed belong to different parts of the liquid/bubble system.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">A radial source has radius, speed and stresses</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">径向源包含半径、速度和各项应力</text>
+<circle cx="365" cy="295" r="165" fill="none" stroke="#8fb8ff" stroke-width="3"/>
+<text x="176" y="479" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#8fb8ff" text-anchor="start">R_max / 最大半径</text>
+<circle cx="365" cy="295" r="107" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<line x1="365" y1="295" x2="467" y2="295" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="467,295 455.0,290.0 455.0,300.0" fill="#6dd6e7"/>
+<text x="404" y="281" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#6dd6e7" text-anchor="start">R</text>
+<text x="310" y="223" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">p_B, T_B</text>
+<text x="286" y="252" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#b1c2cf" text-anchor="start">gas/vapor · 气体/蒸气</text>
+<line x1="466" y1="349" x2="570" y2="349" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="570,349 558.0,344.0 558.0,354.0" fill="#6dd6e7"/>
+<text x="505" y="333" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">Ṙ, R̈</text>
+<text x="637" y="140" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">p_∞, p_v, Δp</text>
+<text x="637" y="165" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">ambient / vapor / imposed gap</text>
+<text x="637" y="189" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">环境压力／蒸气压／施加压差</text>
+<line x1="805" y1="223" x2="552" y2="223" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="552,223 564.0,228.0 564.0,218.0" fill="#8fb8ff"/>
+<text x="637" y="295" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">ρ, μ, c</text>
+<text x="637" y="320" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">liquid inertia, loss, wave speed</text>
+<text x="637" y="344" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">液体惯性、损耗与波速</text>
+<text x="62" y="133" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">σ, p_w</text>
+<text x="62" y="158" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">surface / liquid wall pressure</text>
+<text x="62" y="182" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">界面张力／液侧壁压</text>
+<line x1="164" y1="214" x2="266" y2="234" stroke="#f9b77d" stroke-width="3"/>
+<text x="630" y="405" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">G, η_g, R_g0</text>
+<text x="630" y="430" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">gel shear, loss, reference cavity</text>
+<text x="630" y="454" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">凝胶剪切模量、损耗与参考空腔</text>
+<circle cx="365" cy="295" r="27" fill="none" stroke="#c5a4f7" stroke-width="3"/>
+<text x="302" y="335" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#c5a4f7" text-anchor="start">R_g0</text>
+<text x="52" y="400" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#c5a4f7" text-anchor="start">E, ν → G</text>
+<text x="52" y="430" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#c5a4f7" text-anchor="start">W_el, P_loss</text>
+<text x="45" y="533" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">p_el(R): inward restoring stress for expansion</text>
+<text x="45" y="559" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">p_el(R)：膨胀时向内的恢复应力</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" role="img" aria-labelledby="title desc">
+<title id="title">Gas-compression radius at pressure equality / 气体压缩至压力相等时的半径</title>
+<desc id="desc">At maximum radius R_max gas pressure is p_g,max. At smaller radius R gas pressure p_g(R) plus vapor pressure p_v equals ambient p_infinity outside; the equality does not mark zero wall velocity. / 最大半径 R_max 处气压为 p_g,max。较小半径 R 处气压 p_g(R) 与蒸气压 p_v 之和等于外部环境压力 p_infinity；该等式不代表泡壁速度为零。</desc>
+<defs><marker id="g" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M1 1 L8 4.5 L1 8" fill="none" stroke="#82d9ee" stroke-width="1.6"/></marker></defs>
+<rect width="920" height="390" rx="18" fill="#142330"/>
+<text x="28" y="38" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="20">Compression to a pressure equality / 压缩至压力相等</text>
+<circle cx="239" cy="186" r="105" fill="#0b141e" stroke="#82d9ee" stroke-width="4"/>
+<text x="183" y="170" fill="#ef91bf" font-family="Arial,sans-serif" font-size="22">pᵍ,ₘₐₓ</text>
+<text x="200" y="200" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">same gas / 同一份气体</text>
+<line x1="239" y1="186" x2="344" y2="186" stroke="#82d9ee" stroke-width="3" marker-end="url(#g)"/>
+<text x="283" y="226" fill="#82d9ee" font-family="Arial,sans-serif" font-size="22">Rₘₐₓ</text>
+<line x1="403" y1="185" x2="529" y2="185" stroke="#82d9ee" stroke-width="4" marker-end="url(#g)"/>
+<text x="419" y="156" fill="#82d9ee" font-family="Arial,sans-serif" font-size="17">contract / 收缩</text>
+<circle cx="658" cy="186" r="72" fill="#0b141e" stroke="#82d9ee" stroke-width="4"/>
+<text x="613" y="164" fill="#ef91bf" font-family="Arial,sans-serif" font-size="21">pᵍ(R)</text>
+<text x="635" y="198" fill="#ef91bf" font-family="Arial,sans-serif" font-size="21">pᵥ</text>
+<line x1="658" y1="186" x2="730" y2="186" stroke="#82d9ee" stroke-width="3" marker-end="url(#g)"/>
+<text x="710" y="225" fill="#82d9ee" font-family="Arial,sans-serif" font-size="22">R</text>
+<text x="777" y="99" fill="#ffd39a" font-family="Arial,sans-serif" font-size="22">p∞ outside</text>
+<text x="778" y="123" fill="#ffd39a" font-family="Arial,sans-serif" font-size="16">外部环境压力</text>
+<text x="504" y="295" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="20">at equality: pᵍ(R) + pᵥ = p∞</text>
+<text x="521" y="323" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">相等时：气压 + 蒸气压 = 环境压力</text>
+<text x="192" y="366" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">Wall motion may continue / 此时泡壁仍可能继续运动</text>
+</svg>

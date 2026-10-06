@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Vapor-pressure advantage across an embryo</title>
+<desc>A vapor embryo shows p_v(T) inside, p_infinity outside, and temperature T at the interface.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="340" cy="230" r="116" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="340" y="205" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">p_v(T)</text>
+<text x="340" y="230" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">vapor inside / 胚核内蒸气</text>
+<text x="790" y="115" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">p_∞</text>
+<text x="790" y="140" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">surrounding liquid / 周围液体</text>
+<line x1="770" y1="207" x2="495" y2="207" stroke="#8fb8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="118" y="105" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">T</text>
+<text x="118" y="130" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">interface temperature / 界面温度</text>
+<line x1="198" y1="128" x2="265" y2="162" stroke="#f9b77d" stroke-width="2" stroke-linecap="round"/>
+<line x1="462" y1="295" x2="600" y2="295" stroke="#c5a4f7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="647" y="297" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">Δp</text>
+<text x="647" y="322" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">vapor advantage / 蒸气压优势</text>
+<text x="340" y="396" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="normal" fill="#b1c2cf">embryo interface / 胚核界面</text>
+</svg>

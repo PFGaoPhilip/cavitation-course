@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Blister deformation, interface fracture and dissipation</title><desc>A bubble pressure moves a layer with thickness hf and deflection w. Its crack edge has local GI and GII, and toughness Gc differs from pressure. Area A controls a necessary work budget; gel viscosity dissipates motion.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">A pressure load must become an interface energy release</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">压力载荷必须转化为界面能量释放</text>
+<rect x="60" y="157" width="800" height="154" rx="8" fill="#173845" stroke="#405466" stroke-width="2"/>
+<text x="90" y="199" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#6dd6e7" text-anchor="start">bubble / liquid / 气泡与液体</text>
+<text x="370" y="254" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#6dd6e7" text-anchor="start">p_F(x,t), J_p = ∫p_F dt</text>
+<line x1="445" y1="281" x2="445" y2="339" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="445,339 450.0,327.0 440.0,327.0" fill="#6dd6e7"/>
+<path d="M70.00 363.00 L250.00 361.00 L340.00 420.00 L445.00 449.00 L550.00 420.00 L640.00 361.00 L860.00 363.00" fill="none" stroke="#8fb8ff" stroke-width="3"/>
+<rect x="260" y="480" width="370" height="28" rx="8" fill="#2b3856" stroke="#405466" stroke-width="2"/>
+<text x="283" y="504" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#e8f1f6" text-anchor="start">detached film / 已分离薄膜</text>
+<line x1="630" y1="361" x2="679" y2="310" stroke="#f9b77d" stroke-width="3"/>
+<polygon points="679,310 667.0805633181901,315.1891260524605 674.2916104210644,322.1173869944378" fill="#f9b77d"/>
+<text x="681" y="289" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">G_I, G_II → G_c</text>
+<text x="681" y="314" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15.701188455008488" fill="#b1c2cf" text-anchor="start">crack-tip release and toughness</text>
+<text x="681" y="338" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">裂尖释放率与韧度</text>
+<text x="35" y="435" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">h_f, w(x,t)</text>
+<text x="35" y="460" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">layer thickness / deflection</text>
+<text x="35" y="484" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">层厚／挠度</text>
+<text x="667" y="435" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">A, E_use</text>
+<text x="667" y="460" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">released area / useful work</text>
+<text x="667" y="484" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">释放面积／有效功</text>
+<text x="50" y="547" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">p_F ≠ G_c; viscosity loss: 16πη_g RṘ² ≥ 0.</text>
+<text x="50" y="573" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">压力不等于韧度；黏性耗散始终非负。</text>
+</svg>

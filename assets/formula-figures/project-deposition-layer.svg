@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Spatiotemporal heating in an absorbing layer</title>
+<desc>Fluence F(r) enters the material, normalized pulse g(t) distributes it in time, and absorption coefficient mu_a attenuates it with depth z; finite thickness h captures only part of the semi-infinite profile.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<rect x="90" y="145" width="515" height="245" rx="10" fill="#1d3542" stroke="#8fb8ff" stroke-width="2"/>
+<line x1="90" y1="145" x2="605" y2="145" stroke="#6dd6e7" stroke-width="4" stroke-linecap="round"/>
+<line x1="190" y1="48" x2="190" y2="187" stroke="#f9b77d" stroke-width="3" stroke-linecap="round" marker-end="url(#a-orange)"/>
+<line x1="305" y1="48" x2="305" y2="187" stroke="#f9b77d" stroke-width="3" stroke-linecap="round" marker-end="url(#a-orange)"/>
+<line x1="420" y1="48" x2="420" y2="187" stroke="#f9b77d" stroke-width="3" stroke-linecap="round" marker-end="url(#a-orange)"/>
+<line x1="535" y1="48" x2="535" y2="187" stroke="#f9b77d" stroke-width="3" stroke-linecap="round" marker-end="url(#a-orange)"/>
+<text x="108" y="75" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">F(r)</text>
+<text x="108" y="100" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">surface fluence / 表面能量面密度</text>
+<text x="399" y="76" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">g(t)</text>
+<text x="399" y="101" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pulse shape / 脉冲时间形状</text>
+<text x="160" y="246" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">Q&#x27;&#x27;&#x27;(r,z,t)</text>
+<text x="160" y="271" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">volumetric heating / 体积热源</text>
+<line x1="650" y1="145" x2="650" y2="389" stroke="#8fb8ff" stroke-width="3" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="675" y="245" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">z</text>
+<text x="675" y="270" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">depth / 深度</text>
+<line x1="725" y1="145" x2="725" y2="389" stroke="#c5a4f7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="749" y="291" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">h</text>
+<text x="749" y="316" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">layer thickness / 层厚</text>
+<text x="765" y="73" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">μₐ = 1/δ_abs</text>
+<text x="765" y="98" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">depth attenuation / 深度衰减</text>
+<text x="107" y="358" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">η_abs</text>
+<text x="107" y="383" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">absorbed fraction / 吸收比例</text>
+<text x="750" y="388" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="normal" fill="#b1c2cf">captured fraction: 1 − exp(−μₐh)</text>
+</svg>

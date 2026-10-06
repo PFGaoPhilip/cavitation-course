@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Wall-speed branch during ideal collapse</title>
+<desc>At R_max the speed is zero; as R decreases, the magnitude of inward Ṙ rises. Delta p and liquid density rho set the speed scale.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<line x1="126" y1="380" x2="844" y2="380" stroke="#b1c2cf" stroke-width="2" stroke-linecap="round"/>
+<line x1="126" y1="380" x2="126" y2="63" stroke="#b1c2cf" stroke-width="2" stroke-linecap="round"/>
+<path d="M157 84 C220 153 272 230 390 298 C524 350 680 370 808 380" fill="none" stroke="#6dd6e7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="63" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">|Ṙ|</text>
+<text x="76" y="88" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">speed magnitude / 速度大小</text>
+<text x="795" y="413" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R_max</text>
+<text x="795" y="438" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">starts at rest / 从静止开始</text>
+<text x="390" y="413" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R</text>
+<text x="390" y="438" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">smaller radius / 较小半径</text>
+<rect x="555" y="72" width="325" height="117" rx="10" fill="#2c2741" stroke="#6b5a86" stroke-width="2"/>
+<text x="580" y="110" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">Δp / ρ</text>
+<text x="580" y="135" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pressure-to-inertia scale / 压差惯性尺度</text>
+<text x="580" y="167" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">Ṙ &lt; 0 during collapse / 塌缩时为负</text>
+</svg>

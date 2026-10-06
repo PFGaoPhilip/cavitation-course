@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" role="img" aria-labelledby="title desc">
+<title id="title">Variables in the gas-free Rayleigh collapse time / 无气体 Rayleigh 塌缩时间的变量</title>
+<desc id="desc">Maximum bubble radius R_max surrounds vapor pressure p_v; ambient pressure p_infinity and density rho are in the liquid; the inward gap acts until ideal time t_c. / 最大半径 R_max 的气泡内为蒸气压 p_v，泡外液体中为环境压力 p_infinity 与密度 rho；向内压差作用至理想时间 t_c。</desc>
+<defs><marker id="t" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M1 1 L8 4.5 L1 8" fill="none" stroke="#82d9ee" stroke-width="1.6"/></marker></defs>
+<rect width="920" height="360" rx="18" fill="#142330"/>
+<text x="28" y="39" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="21">Ideal gas-free benchmark / 忽略气体的理想基准</text>
+<circle cx="247" cy="171" r="92" fill="#0b141e" stroke="#82d9ee" stroke-width="4"/>
+<text x="219" y="172" fill="#ef91bf" font-family="Arial,sans-serif" font-size="27">pᵥ</text>
+<text x="202" y="200" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="17">vapor / 蒸气</text>
+<line x1="247" y1="171" x2="339" y2="171" stroke="#82d9ee" stroke-width="3" marker-end="url(#t)"/>
+<text x="279" y="208" fill="#82d9ee" font-family="Arial,sans-serif" font-size="24">Rₘₐₓ</text>
+<text x="46" y="107" fill="#ffd39a" font-family="Arial,sans-serif" font-size="22">p∞</text>
+<text x="46" y="133" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">ambient / 环境</text>
+<text x="420" y="106" fill="#ffd39a" font-family="Arial,sans-serif" font-size="22">ρ</text>
+<text x="420" y="132" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">liquid / 液体</text>
+<line x1="92" y1="171" x2="142" y2="171" stroke="#ffd39a" stroke-width="3" marker-end="url(#t)"/>
+<text x="53" y="254" fill="#ffd39a" font-family="Arial,sans-serif" font-size="18">p∞ − pᵥ inward / 向内压差</text>
+<line x1="530" y1="172" x2="688" y2="172" stroke="#82d9ee" stroke-width="4" marker-end="url(#t)"/>
+<text x="547" y="148" fill="#82d9ee" font-family="Arial,sans-serif" font-size="19">t꜀,ideal / 理想历时</text>
+<circle cx="749" cy="171" r="17" fill="#0b141e" stroke="#82d9ee" stroke-width="3"/>
+<text x="713" y="222" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="18">R → 0 ideal</text>
+<text x="713" y="247" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="17">理想模型中趋零</text>
+<text x="90" y="324" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="17">Initial wall speed Ṙ = 0; no noncondensable gas / 初始泡壁速度 Ṙ = 0；不含不凝性气体</text>
+</svg>

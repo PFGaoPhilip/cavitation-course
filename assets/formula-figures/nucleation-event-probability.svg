@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Observation volume, rate, duration, and event probability</title>
+<desc>J applies throughout observed volume V during duration t; P of at least one event is the outcome.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<rect x="130" y="80" width="580" height="240" rx="18" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="150" y="115" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">V</text>
+<text x="150" y="140" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">observation volume / 观测体积</text>
+<circle cx="260" cy="190" r="8" fill="#c5a4f7" stroke="#c5a4f7" stroke-width="0"/>
+<circle cx="410" cy="237" r="8" fill="#c5a4f7" stroke="#c5a4f7" stroke-width="0"/>
+<circle cx="565" cy="171" r="8" fill="#c5a4f7" stroke="#c5a4f7" stroke-width="0"/>
+<circle cx="605" cy="270" r="8" fill="#c5a4f7" stroke="#c5a4f7" stroke-width="0"/>
+<circle cx="310" cy="270" r="8" fill="#c5a4f7" stroke="#c5a4f7" stroke-width="0"/>
+<text x="540" y="133" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="27" font-weight="bold" fill="#c5a4f7">J</text>
+<line x1="140" y1="370" x2="700" y2="370" stroke="#8fb8ff" stroke-width="4" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="420" y="415" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">t</text>
+<text x="420" y="440" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">observation duration / 观测时长</text>
+<line x1="725" y1="205" x2="805" y2="205" stroke="#c5a4f7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="836" y="150" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">P(≥1)</text>
+<text x="836" y="175" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">at least one event / 至少一次事件</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Hydrogel stamp versus the inherited PFC stack</title><desc>Two physical cross-sections distinguish a sealed hydrogel water-vapor bulge from a PFC liquid cavity and PVC/film stack.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">The actuator architecture controls the mechanism</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">致动结构决定作用机制</text>
+<text x="40" y="108" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#e8f1f6" text-anchor="start">Li 2024: sealed stamp / 密封印章</text>
+<text x="535" y="108" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#e8f1f6" text-anchor="start">PFC scenario / PFC 情景</text>
+<rect x="40" y="145" width="420" height="55" rx="8" fill="#293e55" stroke="#405466" stroke-width="2"/>
+<text x="65" y="177" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#e8f1f6" text-anchor="start">Glass backing / 玻璃背衬</text>
+<rect x="40" y="205" width="420" height="130" rx="8" fill="#1b3941" stroke="#405466" stroke-width="2"/>
+<text x="65" y="239" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="22" fill="#e8f1f6" text-anchor="start">PAAm gel / PAAm 水凝胶</text>
+<text x="65" y="270" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#e8f1f6" text-anchor="start">h_gel: 6 mm reservoir / 储腔</text>
+<circle cx="252" cy="325" r="44" fill="#1b3941" stroke="#f9b77d" stroke-width="3"/>
+<text x="214" y="326" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#f9b77d" text-anchor="start">p_B, V</text>
+<rect x="40" y="358" width="420" height="30" rx="8" fill="#523c32" stroke="#405466" stroke-width="2"/>
+<text x="70" y="380" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">35 µm absorber / 吸收层</text>
+<rect x="40" y="395" width="420" height="28" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="70" y="416" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">15 µm PDMS adhesion / 黏附层</text>
+<rect x="100" y="437" width="300" height="26" rx="8" fill="#2b3856" stroke="#405466" stroke-width="2"/>
+<text x="95" y="489" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#e8f1f6" text-anchor="start">Si: 400 × 400 × 10 µm / 硅片</text>
+<rect x="535" y="180" width="420" height="205" rx="8" fill="#173845" stroke="#405466" stroke-width="2"/>
+<circle cx="730" cy="275" r="61" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="552" y="142" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">λ_L, τ_L, E_abs</text>
+<text x="552" y="167" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">1064 nm, 10 ns laser</text>
+<text x="552" y="191" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">1064 nm、10 ns 激光</text>
+<line x1="730" y1="275" x2="791" y2="275" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="791,275 779.0,270.0 779.0,280.0" fill="#6dd6e7"/>
+<text x="745" y="263" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">R(t)</text>
+<text x="750" y="328" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#e8f1f6" text-anchor="start">PFC vapor / PFC 蒸气</text>
+<rect x="535" y="400" width="420" height="25" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="560" y="420" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">PVC: 10 µm scenario / 情景</text>
+<rect x="535" y="432" width="420" height="25" rx="8" fill="#2b3856" stroke="#405466" stroke-width="2"/>
+<text x="560" y="452" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#e8f1f6" text-anchor="start">Film: 5 µm scenario / 转移膜情景</text>
+<text x="535" y="492" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#e8f1f6" text-anchor="start">d = 8.5 µm; gap = 0.5 µm / 间隙</text>
+<text x="40" y="542" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">Bubble inflation bends the stamp; a liquid jet is a separate observable.</text>
+<text x="40" y="568" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">气泡膨胀使印章弯曲；液体射流需另行观测。</text>
+</svg>

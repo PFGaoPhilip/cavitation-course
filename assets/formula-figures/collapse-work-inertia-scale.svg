@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Pressure work balanced with liquid inertia</title>
+<desc>Maximum bubble radius R_max sets the volume scale; pressure gap Delta p supplies work, liquid density rho carries kinetic energy, and t sets the speed scale.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="257" cy="216" r="105" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<line x1="257" y1="216" x2="362" y2="216" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="337" y="255" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">R_max</text>
+<text x="72" y="88" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">Δp</text>
+<text x="72" y="113" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pressure work / 压力做功</text>
+<line x1="180" y1="111" x2="207" y2="139" stroke="#c5a4f7" stroke-width="2" stroke-linecap="round"/>
+<text x="770" y="84" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">ρ</text>
+<text x="770" y="109" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">moving liquid / 运动液体</text>
+<rect x="510" y="137" width="425" height="83" rx="10" fill="#2c2741" stroke="#6b5a86" stroke-width="2"/>
+<text x="534" y="175" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">W ∼ Δp R_max³</text>
+<text x="534" y="200" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">released pressure work / 释放的压力功</text>
+<rect x="510" y="236" width="425" height="83" rx="10" fill="#1d3345" stroke="#526e83" stroke-width="2"/>
+<text x="534" y="274" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">T ∼ ρ R_max³ U²</text>
+<text x="534" y="299" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">radial-flow inertia / 径向流动惯性</text>
+<line x1="176" y1="360" x2="812" y2="360" stroke="#6dd6e7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="500" y="402" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">t; U ∼ R_max/t</text>
+<text x="500" y="427" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">duration and speed scale / 历时与速度尺度</text>
+</svg>

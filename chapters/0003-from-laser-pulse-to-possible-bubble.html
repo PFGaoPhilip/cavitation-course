@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Chapter 3 · From laser pulse to possible bubble / 第三章 · 从激光脉冲到可能的气泡</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation transfer theory · Chapter 03 · Project-specific stage 1–2</div>
+<div class="eyebrow zh" lang="zh-CN">空化转印理论 · 第三章 · 项目专属阶段一至二</div>
+<h1>From laser pulse to possible bubble</h1>
+<h1 class="zh" lang="zh-CN">从激光脉冲到可能的气泡</h1>
+<p class="lede">Five linked mini-lessons connect the project's optical energy ledger to an observable, formulation-dependent activation probability.</p>
+<p class="lede zh" lang="zh-CN">五节相连的微型课程将本项目的光学能量核算连接到可观测、依赖配方的激活概率。</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>The target is a PFC-nanodroplet dispersion in an aqueous carrier near a PVC/transfer-film stack. The source calculations describe a reference scenario; they do not yet identify the target's PFC core, shell, absorber, concentration, activation law, or measured bubble trajectory. Work through the numerical reference answers directly below the questions, then give only the final brief synthesis in your own words.</p>
+<p class="zh" lang="zh-CN">研究对象是在 PVC／转印薄膜叠层附近、分散于水相载液中的全氟碳（PFC）纳米液滴。资料中的计算描述参考情景；尚未确定目标体系的 PFC 核心、壳层、吸收体、浓度、激活规律或实测气泡轨迹。请在每道题下展开数值参考答案核对，最后只需用自己的话给出简短综合说明。</p>
+<figure class="figure"><img alt="Project chain from laser and PFC droplets through bubble motion, PVC and film loading, to possible release; evidence must cross each arrow. / 从激光和 PFC 液滴，经气泡运动、PVC 与薄膜载荷，到可能释放的项目链条；每个箭头都需要证据。" src="../assets/formula-figures/project-theory-handoffs.svg"/><figcaption><p>Chapter 3 stops at activation probability. Bubble motion, boundary loading, and separation are later handoffs.</p><p class="zh" lang="zh-CN">第三章止于激活概率。气泡运动、边界载荷和界面分离是后续交接环节。</p></figcaption></figure>
+<section class="concept" id="evidence">
+<div class="eyebrow">Mini-lesson 1 · Name what is assumed</div>
+<div class="eyebrow zh" lang="zh-CN">微型课程一 · 明确哪些只是设定值</div>
+<h2>A reference case is not a measured threshold</h2>
+<h2 class="zh" lang="zh-CN">参考情景不是实测阈值</h2>
+<p>The inherited reference uses a 1064 nm, 10 ns laser pulse, a 25 µm Gaussian beam radius, an on-axis fluence of 0.10 J/cm², and an assumed absorbed fraction of 0.30. These numbers let us check units and energy conservation. The project theory labels them scenario inputs, while absorption, droplet formulation and count, event probability, and the bubble history require target-specific measurements. A number obtained from these inputs must keep that evidence label.</p>
+<p class="zh" lang="zh-CN">沿用的参考情景采用 1064 nm、10 ns 的激光脉冲，25 µm 的高斯光斑半径，轴上能量面密度 0.10 J/cm²，以及假定的吸收比例 0.30。这些数值可用于检查单位和能量守恒。项目理论将其标为情景输入；吸收率、液滴配方和数量、事件概率以及气泡历程仍需要目标体系的实测。由这些输入算出的数值也必须保留其证据属性。</p>
+<p class="small">Project sources: <a href="../course/chapters/T01-optical-deposition.html">predictive-theory snapshot, §§1–3</a>; <a href="../reading/Cavitation_Theory_Step_by_Step_EN_ZH.md">supplied bilingual theory, source pages 1–2</a>.</p>
+<p class="small zh" lang="zh-CN">项目资料：<a href="../course/chapters/T01-optical-deposition.html">预测理论快照，第 1–3 节</a>；<a href="../reading/Cavitation_Theory_Step_by_Step_EN_ZH.md">所提供的双语理论，原始资料第 1–2 页</a>。</p>
+</section>
+<section class="concept" id="gaussian">
+<div class="eyebrow">Mini-lesson 2 · Integrate the beam before discussing a bubble</div>
+<div class="eyebrow zh" lang="zh-CN">微型课程二 · 讨论气泡前先积分光束</div>
+<h2>Gaussian fluence gives an incident-energy ledger</h2>
+<h2 class="zh" lang="zh-CN">高斯能量面密度给出入射能量核算</h2>
+<p>The beam's quoted radius is where its fluence has fallen to one over e squared of its central value. Integrating the radial profile over concentric annuli produces half the energy of a uniform disk with central fluence and the same quoted radius.</p>
+<p class="zh" lang="zh-CN">所给光斑半径处的能量面密度已降到轴上值的 e 的负二次方。将径向分布按同心圆环积分，所得能量是以该半径、按轴上能量面密度均匀照明的圆盘能量的一半。</p>
+<p class="equation"><i>F(r) = F<sub>0</sub> exp(−2r²/w<sub>0</sub>²)</i></p>
+<figure class="figure formula-figure"><img alt="Central fluence F0, radial position r, and Gaussian one-over-e-squared radius w0 are marked on the beam. / 在光束上标出轴上能量面密度 F0、径向位置 r 和高斯 1/e² 半径 w0。" src="../assets/formula-figures/project-gaussian-energy.svg"/><figcaption><p>Fluence is pulse energy per area; it is not instantaneous intensity.</p><p class="zh" lang="zh-CN">能量面密度是单脉冲单位面积能量，不是瞬时光强。</p></figcaption></figure>
+<p class="equation"><i>E<sub>p</sub> = πw<sub>0</sub>²F<sub>0</sub>/2<br/>E<sub>abs</sub> = η<sub>abs</sub>E<sub>p</sub></i></p>
+<figure class="figure formula-figure"><img alt="Integration of F(r) over beam area gives incident energy Ep; the assumed fraction eta_abs maps Ep to absorbed energy Eabs. / 对光束上的 F(r) 作面积积分得到入射能量 Ep；假定比例 eta_abs 将 Ep 映射到吸收能量 Eabs。" src="../assets/formula-figures/project-gaussian-energy.svg"/><figcaption><p>The project reference gives 0.98175 µJ incident and 0.29452 µJ assumed absorbed energy.</p><p class="zh" lang="zh-CN">项目参考情景得到入射能量 0.98175 µJ、假定吸收能量 0.29452 µJ。</p></figcaption></figure>
+<p>Neither value is an activation threshold. Absorbed energy is an accounting input until the actual absorber distribution and absorption fraction are measured.</p>
+<p class="zh" lang="zh-CN">两者都不是激活阈值。在实测吸收体分布和吸收比例之前，吸收能量只是核算输入。</p>
+</section>
+<section class="concept" id="source">
+<div class="eyebrow">Mini-lesson 3 · Put the same energy in space and time</div>
+<div class="eyebrow zh" lang="zh-CN">微型课程三 · 将同一份能量分布到空间与时间</div>
+<h2>A heat-source field needs its own conservation check</h2>
+<h2 class="zh" lang="zh-CN">热源场需要单独的守恒检查</h2>
+<p>Let depth z start at the absorbing surface and let g(t) be a normalized pulse shape whose time integral is one. Under a Beer–Lambert depth assumption, the absorption coefficient μ<sub>a</sub> is the reciprocal of the assumed depth δ<sub>abs</sub>. The three primes on Q‴ and q‴ indicate a volumetric rate; they are not time derivatives.</p>
+<p class="zh" lang="zh-CN">令深度 z 从吸收表面起算，g(t) 为时间积分等于一的归一化脉冲形状。按照 Beer–Lambert 深度假设，吸收系数 μ<sub>a</sub> 是假定深度 δ<sub>abs</sub> 的倒数。Q‴ 和 q‴ 上的三个撇号表示单位体积速率，不是时间导数。</p>
+<p class="equation"><i>Q‴(r,z,t) = η<sub>abs</sub>F(r)g(t)μ<sub>a</sub>exp(−μ<sub>a</sub>z)<br/>μ<sub>a</sub> = 1/δ<sub>abs</sub></i></p>
+<figure class="figure formula-figure"><img alt="Surface fluence F(r), pulse shape g(t), absorbed fraction eta_abs, depth z, coefficient mu_a and depth delta_abs locate volumetric heating Q triple-prime. / 表面能量面密度 F(r)、脉冲形状 g(t)、吸收比例 eta_abs、深度 z、系数 mu_a 和深度 delta_abs 共同定位体积热源 Q 三撇。" src="../assets/formula-figures/project-deposition-layer.svg"/><figcaption><p>Integrate over area, all time, and semi-infinite depth to recover E<sub>abs</sub>.</p><p class="zh" lang="zh-CN">对面积、全部时间及半无限深度积分，可恢复 E<sub>abs</sub>。</p></figcaption></figure>
+<p>A finite layer does not contain all of a semi-infinite exponential profile. For thickness h, the source deposits only the following fraction inside that layer:</p>
+<p class="zh" lang="zh-CN">有限厚度层不可能容纳半无限指数分布的全部能量。对于厚度 h，上述热源在该层内只沉积以下比例：</p>
+<p class="equation"><i>E<sub>0→h</sub> = E<sub>abs</sub>[1 − exp(−μ<sub>a</sub>h)]</i></p>
+<figure class="figure formula-figure"><img alt="Layer thickness h spans depth zero to h; Eabs is the semi-infinite target and mu_a controls the fraction retained in the layer. / 层厚 h 对应从零到 h 的深度；Eabs 是半无限区域的目标能量，mu_a 控制层内保留的比例。" src="../assets/formula-figures/project-deposition-layer.svg"/><figcaption><p>Specify whether η<sub>abs</sub> means absorption over the entire profile or within this layer before renormalizing.</p><p class="zh" lang="zh-CN">重新归一化之前，应明确 η<sub>abs</sub> 表示整个分布范围内还是仅该层内的吸收比例。</p></figcaption></figure>
+<p>Passing an energy-integral check verifies bookkeeping. It cannot establish that a droplet nucleated, expanded, or loaded the film.</p>
+<p class="zh" lang="zh-CN">热源积分通过能量检查，只能验证核算；不能证明液滴已经成核、膨胀或对薄膜施加载荷。</p>
+</section>
+<section class="concept" id="local">
+<div class="eyebrow">Mini-lesson 4 · Dose and rate are different inputs</div>
+<div class="eyebrow zh" lang="zh-CN">微型课程四 · 剂量与沉积速率是不同输入</div>
+<h2>The same local energy can arrive at a different peak rate</h2>
+<h2 class="zh" lang="zh-CN">相同局部能量可以具有不同的峰值沉积速率</h2>
+<p>At one material location, time integration of the volumetric heat source gives absorbed dose. For a Gaussian temporal pulse of full width at half maximum τ<sub>L</sub>, a shorter pulse at the same dose has a higher peak rate.</p>
+<p class="zh" lang="zh-CN">在一个材料位置，对体积热源作时间积分得到吸收剂量。对于半高全宽为 τ<sub>L</sub> 的高斯时间脉冲，相同剂量若在更短脉冲内沉积，峰值沉积速率更高。</p>
+<p class="equation"><i>D<sub>abs</sub>(r,z) = η<sub>abs</sub>F(r)μ<sub>a</sub>exp(−μ<sub>a</sub>z)</i></p>
+<figure class="figure formula-figure"><img alt="At depth z and beam location r, fluence F(r), absorption fraction eta_abs and coefficient mu_a determine local absorbed dose Dabs. / 在深度 z 和光束位置 r，能量面密度 F(r)、吸收比例 eta_abs 与系数 mu_a 决定局部吸收剂量 Dabs。" src="../assets/formula-figures/project-deposition-layer.svg"/><figcaption><p>Dose has units J/m³; it is an energy density, not a probability.</p><p class="zh" lang="zh-CN">剂量单位为 J/m³；它是能量密度，不是概率。</p></figcaption></figure>
+<p class="equation"><i>q‴<sub>max</sub> = D<sub>abs</sub>√(4 ln 2/π)/τ<sub>L</sub></i></p>
+<figure class="figure formula-figure"><img alt="At material point r,z, local dose Dabs and pulse FWHM tau_L set the Gaussian peak volumetric rate q triple-prime max. / 在材料点 r,z，局部剂量 Dabs 和脉冲半高全宽 tau_L 决定高斯峰值体积沉积速率 q 三撇 max。" src="../assets/formula-figures/project-dose-rate-temperature.svg"/><figcaption><p>At fixed dose, doubling τ<sub>L</sub> halves this peak rate for the same Gaussian pulse shape.</p><p class="zh" lang="zh-CN">在剂量固定且高斯形状相同时，τ<sub>L</sub> 加倍会使峰值速率减半。</p></figcaption></figure>
+<p class="equation"><i>ΔT<sub>ad</sub> = D<sub>abs</sub>/(ρ<sub>abs</sub>c<sub>p</sub>)</i></p>
+<figure class="figure formula-figure"><img alt="Dose Dabs at the heated point divided by that material's volumetric heat capacity rho_abs cp gives the adiabatic temperature-rise scale. / 受热位置的剂量 Dabs 除以该材料的体积热容 rho_abs cp，得到绝热温升尺度。" src="../assets/formula-figures/project-dose-rate-temperature.svg"/><figcaption><p>This screen omits heat loss and phase-change enthalpy; it does not predict a droplet's activation.</p><p class="zh" lang="zh-CN">该筛查忽略散热和相变焓，不能预测液滴是否激活。</p></figcaption></figure>
+<p>The inherited water-like heat-capacity estimate gives about 7.19 K for the homogenized reference source. A nanoscale absorber hot spot may differ sharply from that bulk estimate. Energy feasibility alone cannot identify a nucleation pathway or the eventual maximum bubble radius.</p>
+<p class="zh" lang="zh-CN">沿用的类水体积热容估计，使均匀化参考热源得到约 7.19 K 的温升。纳米尺度吸收体热点可能与这一体平均估计显著不同。仅有能量可用性不能确定成核路径或最终最大气泡半径。</p>
+</section>
+<section class="concept" id="activation">
+<div class="eyebrow">Mini-lesson 5 · An observed event has a population and a detector</div>
+<div class="eyebrow zh" lang="zh-CN">微型课程五 · 观测事件涉及液滴群体和探测器</div>
+<h2>One-droplet probability is not the reported onset</h2>
+<h2 class="zh" lang="zh-CN">单滴概率不等于报告的起始点</h2>
+<p>The supplied theory proposes a conditional single-droplet logit model. Its predictor ℓ may depend on local dose, peak rate, pulse duration, size, formulation, batch, and shot history. The coefficients have not been calibrated for this target. Here p<sub>1</sub> means a latent physical event for one droplet, such as phase change; detector effects enter the separate observation model below. The broader supplied predictor also lists detector-state covariates, so its endpoint must be defined carefully: do not count detection effects both inside ℓ and again through q<sub>d</sub> and f<sub>d</sub>. Phase change is not automatically inertial collapse or useful film loading.</p>
+<p class="zh" lang="zh-CN">所提供理论提出一个有条件的单滴 logit 模型。预测量 ℓ 可依赖局部剂量、峰值速率、脉冲时长、尺寸、配方、批次和照射历史。这些系数尚未针对目标体系标定。本章将 p<sub>1</sub> 定义为单滴潜在的真实物理事件概率，例如相变；探测效应则进入下方独立的观测模型。所提供资料的更广义预测量还列有探测器状态协变量，因此必须仔细定义事件终点：不能在 ℓ 内和 q<sub>d</sub>、f<sub>d</sub> 中重复计算探测效应。相变也不会自动等于惯性塌缩或有效薄膜加载。</p>
+<p class="equation"><i>p<sub>1</sub> = 1/[1 + exp(−ℓ)]</i></p>
+<figure class="figure formula-figure"><img alt="Conditioned predictor ell maps to a single available droplet's event probability p1 before the count and detector are applied. / 条件预测量 ell 映射为单个可激活液滴的事件概率 p1，之后才考虑液滴数量和探测器。" src="../assets/formula-figures/project-activation-detector.svg"/><figcaption><p>No fitted ℓ or p<sub>1</sub> is available for the target project yet.</p><p class="zh" lang="zh-CN">目前尚无针对目标项目拟合得到的 ℓ 或 p<sub>1</sub>。</p></figcaption></figure>
+<p>For a fixed known number of independent, equal-probability available droplets, take the complement of no events. A detector with per-event sensitivity q<sub>d</sub> and per-observation false-positive probability f<sub>d</sub> changes the reported probability again.</p>
+<p class="zh" lang="zh-CN">对于数量已知、事件独立且单滴概率相同的可激活液滴群体，用“没有任何事件”的补事件求至少一次事件的概率。若探测器对真实事件的检出率为 q<sub>d</sub>，每次观测的误报概率为 f<sub>d</sub>，报告概率还会进一步变化。</p>
+<p class="equation"><i>P<sub>≥1</sub> = 1 − (1 − p<sub>1</sub>)<sup>N<sub>active</sub></sup></i></p>
+<figure class="figure formula-figure"><img alt="Single-droplet chance p1 and available count N_active determine the probability P at least one of a real event. / 单滴概率 p1 和可激活数量 N_active 决定至少一次真实事件的概率 P。" src="../assets/formula-figures/project-activation-detector.svg"/><figcaption><p>The transformation needs the count and independence assumptions.</p><p class="zh" lang="zh-CN">此变换需要数量已知和事件独立的假设。</p></figcaption></figure>
+<p class="equation"><i>P<sub>det</sub> = 1 − (1 − f<sub>d</sub>)(1 − q<sub>d</sub>p<sub>1</sub>)<sup>N<sub>active</sub></sup></i></p>
+<figure class="figure formula-figure"><img alt="The real event probability from p1 and N_active passes through detection sensitivity q_d and false-positive probability f_d to give reported P_det. / 由 p1 和 N_active 得到的真实事件概率，经检出率 q_d 与误报概率 f_d 后成为报告概率 P_det。" src="../assets/formula-figures/project-activation-detector.svg"/><figcaption><p>Observed onset depends on event definition, count, and detection.</p><p class="zh" lang="zh-CN">观测起始点依赖事件定义、液滴数量和探测过程。</p></figcaption></figure>
+<p>Within one exact Gaussian pulse family, dose, peak rate, and width are algebraically linked. A fluence sweep alone cannot identify separate effects for three freely fitted log predictors. Matched-dose pulses of different widths can test whether temporal delivery matters, but cannot isolate peak-rate effects from width effects. To fit all three independent coefficients, also vary temporal shape or remove a redundant term.</p>
+<p class="zh" lang="zh-CN">在同一种严格高斯脉冲族中，剂量、峰值速率和脉宽存在代数联系。只扫描能量面密度，无法独立识别三个自由拟合的对数预测量各自的效应。剂量相同而脉宽不同的脉冲可检验时间分配是否重要，但无法把峰值速率效应与脉宽效应分开。若要拟合全部三个独立系数，还需改变时间形状，或删去一个冗余项。</p>
+<p class="equation"><i>q‴<sub>max</sub> = C D<sub>abs</sub>/τ<sub>L</sub>,   C = √(4 ln 2/π)</i></p>
+<figure class="figure formula-figure"><img alt="Two Gaussian pulses have equal dose D_abs but different widths tau_L and peak rates q triple-prime max; C is the fixed Gaussian shape factor. / 两个高斯脉冲的剂量 D_abs 相同，但半高全宽 tau_L 和峰值速率 q 三撇 max 不同；C 是固定的高斯形状系数。" src="../assets/formula-figures/project-pulse-identifiability.svg"/><figcaption><p>For this pulse family, the three logged predictors span only two independent directions.</p><p class="zh" lang="zh-CN">对这类脉冲，三个取对数的预测量仅有两个独立方向。</p></figcaption></figure>
+<p class="small">Sources: <a href="../reading/Cavitation_Theory_Step_by_Step_EN_ZH.md">supplied theory, source page 2</a>; <a href="../course/chapters/T01-optical-deposition.html">project theory snapshot, §3</a>; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10421047/">Zhao et al., original optical-droplet study</a>. The reported formulation-specific thresholds in that study are not target calibrations.</p>
+<p class="small zh" lang="zh-CN">资料：<a href="../reading/Cavitation_Theory_Step_by_Step_EN_ZH.md">所提供理论，原始资料第 2 页</a>；<a href="../course/chapters/T01-optical-deposition.html">项目理论快照，第 3 节</a>；<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10421047/">Zhao 等关于光学液滴激活的原始研究</a>。该研究报告的配方特定阈值并非目标体系的标定值。</p>
+</section>
+<section class="chapter-problem" id="problem">
+<div class="eyebrow">One integrated calculation · Scenario inputs, not target measurements</div>
+<div class="eyebrow zh" lang="zh-CN">一道综合计算 · 情景输入，而非目标体系实测</div>
+<h2>What has the reference pulse established?</h2>
+<h2 class="zh" lang="zh-CN">参考脉冲究竟确立了什么？</h2>
+<p>Use this explicitly illustrative data set. The optical values reproduce the inherited project reference; the probability and detector values below are invented for this exercise. Keep these stages distinct.</p>
+<p class="zh" lang="zh-CN">使用以下明确标为示例的数据。光学数值复现沿用的项目参考情景；以下概率和探测器数值仅为本题设定。请始终区分各阶段。</p>
+<table class="data-table">
+<thead><tr><th>Quantity / 量</th><th>Given value / 给定值</th><th>Status / 属性</th></tr></thead>
+<tbody>
+<tr><td>Beam and pulse<span class="zh" lang="zh-CN">光束与脉冲</span></td><td>F<sub>0</sub> = 0.10 J/cm²; w<sub>0</sub> = 25 µm; τ<sub>L</sub> = 10 ns</td><td>Inherited scenario / 沿用情景</td></tr>
+<tr><td>Absorption and layer<span class="zh" lang="zh-CN">吸收与层厚</span></td><td>η<sub>abs</sub> = 0.30; δ<sub>abs</sub> = 10 µm; h = 10 µm</td><td>Inherited/illustrative / 沿用／示例</td></tr>
+<tr><td>Volumetric heat capacity<span class="zh" lang="zh-CN">体积热容</span></td><td>ρ<sub>abs</sub>c<sub>p</sub> = 4.17 × 10⁶ J/(m³ K)</td><td>Water-like estimate / 类水估计</td></tr>
+<tr><td>Event and detector<span class="zh" lang="zh-CN">事件与探测器</span></td><td>p<sub>1</sub> = 0.020; N<sub>active</sub> = 30; q<sub>d</sub> = 0.80; f<sub>d</sub> = 0.010</td><td>Exercise only; not fitted / 仅供练习，未经拟合</td></tr>
+</tbody>
+</table>
+<ol>
+<li><p>Convert F<sub>0</sub> to SI units; calculate incident pulse energy E<sub>p</sub> and assumed absorbed energy E<sub>abs</sub>. Explain why the Gaussian factor matters.</p><p class="zh" lang="zh-CN">将 F<sub>0</sub> 换算为 SI 单位；计算入射脉冲能量 E<sub>p</sub> 和假定吸收能量 E<sub>abs</sub>。解释高斯系数为何重要。</p>
+<details class="answer"><summary>Reference answer / 参考答案</summary>
+<p class="equation"><i>E<sub>p</sub> = πw<sub>0</sub>²F<sub>0</sub>/2<br/>E<sub>abs</sub> = η<sub>abs</sub>E<sub>p</sub></i></p>
+<figure class="figure formula-figure"><img alt="F0 and w0 define the radial Gaussian beam whose area integral is Ep; eta_abs scales Ep to Eabs. / F0 与 w0 定义径向高斯光束，其面积积分为 Ep；eta_abs 将 Ep 缩放为 Eabs。" src="../assets/formula-figures/project-gaussian-energy.svg"/><figcaption><p>The factor one-half follows from radial integration, not from a uniform top-hat beam.</p><p class="zh" lang="zh-CN">二分之一来自径向积分，而非均匀平顶光束。</p></figcaption></figure>
+<p>F<sub>0</sub> = 0.10 J/cm² = 1000 J/m². Thus E<sub>p</sub> = π(25 × 10⁻⁶ m)²(1000 J/m²)/2 = <strong>9.8175 × 10⁻⁷ J = 0.98175 µJ</strong>. Multiplying by the assumed 0.30 gives <strong>E<sub>abs</sub> = 2.9452 × 10⁻⁷ J = 0.29452 µJ</strong>. Replacing the Gaussian with a uniform disk at F<sub>0</sub> would double the calculated incident energy incorrectly.</p>
+<p class="zh" lang="zh-CN">F<sub>0</sub> = 0.10 J/cm² = 1000 J/m²。因此 E<sub>p</sub> = π(25 × 10⁻⁶ m)²(1000 J/m²)/2 = <strong>9.8175 × 10⁻⁷ J = 0.98175 µJ</strong>。再乘假定的 0.30，得 <strong>E<sub>abs</sub> = 2.9452 × 10⁻⁷ J = 0.29452 µJ</strong>。若错误地将其视为处处等于 F<sub>0</sub> 的均匀圆盘，入射能量会被高估一倍。</p>
+</details></li>
+<li><p>Using the unrenormalized semi-infinite depth profile, what fraction and energy lie inside the first h = 10 µm? If E<sub>abs</sub> instead means the energy target specifically inside this finite layer, what must be clarified before implementing the source?</p><p class="zh" lang="zh-CN">对未重新归一化的半无限深度分布，最初 h = 10 µm 厚度内包含多少比例和能量？若 E<sub>abs</sub> 专指这一有限层内的目标能量，实现热源前必须澄清什么？</p>
+<details class="answer"><summary>Reference answer / 参考答案</summary>
+<p class="equation"><i>E<sub>0→h</sub> = E<sub>abs</sub>[1 − exp(−μ<sub>a</sub>h)]<br/>μ<sub>a</sub> = 1/δ<sub>abs</sub></i></p>
+<figure class="figure formula-figure"><img alt="From the surface to thickness h, coefficient mu_a and depth delta_abs set the retained fraction of the assumed Eabs energy. / 从表面到厚度 h，系数 mu_a 和深度 delta_abs 决定假定 Eabs 能量的保留比例。" src="../assets/formula-figures/project-deposition-layer.svg"/><figcaption><p>The same symbol η<sub>abs</sub> must have one clearly stated spatial meaning.</p><p class="zh" lang="zh-CN">同一个 η<sub>abs</sub> 必须具有明确且唯一的空间含义。</p></figcaption></figure>
+<p>Here μ<sub>a</sub>h = h/δ<sub>abs</sub> = 1, so the captured fraction is <strong>1 − e⁻¹ = 0.63212</strong>. The first 10 µm contains <strong>0.29452 µJ × 0.63212 = 0.18617 µJ</strong> under the semi-infinite normalization. If 0.29452 µJ is defined as the target specifically within this layer, the depth source would need an additional normalization factor <strong>1/0.63212 = 1.582</strong>, provided the physics supports that definition. Clarify whether η<sub>abs</sub> refers to the full depth profile or this finite layer before applying such a factor.</p>
+<p class="zh" lang="zh-CN">此处 μ<sub>a</sub>h = h/δ<sub>abs</sub> = 1，故层内比例为 <strong>1 − e⁻¹ = 0.63212</strong>。按照半无限区域的归一化，最初 10 µm 内包含 <strong>0.29452 µJ × 0.63212 = 0.18617 µJ</strong>。若把 0.29452 µJ 定义为该层内的目标能量，则在物理定义允许的前提下，深度热源还需要乘以归一化因子 <strong>1/0.63212 = 1.582</strong>。实施前须明确 η<sub>abs</sub> 指整个深度分布还是这一有限层。</p>
+</details></li>
+<li><p>At the beam centre and deposition surface, calculate D<sub>abs,0</sub>, Gaussian peak q‴<sub>max,0</sub>, and the adiabatic temperature-rise scale. If a second pulse has the same local dose but 20 ns FWHM and the same Gaussian shape, what happens to the peak rate? Does the temperature estimate prove activation?</p><p class="zh" lang="zh-CN">在光束中心和沉积表面计算 D<sub>abs,0</sub>、高斯峰值 q‴<sub>max,0</sub> 与绝热温升尺度。若第二个脉冲的局部剂量相同、半高全宽为 20 ns 且高斯形状相同，峰值速率如何变化？温升估计能证明激活吗？</p>
+<details class="answer"><summary>Reference answer / 参考答案</summary>
+<p class="equation"><i>D<sub>abs</sub>(r,z) = η<sub>abs</sub>F(r)μ<sub>a</sub>exp(−μ<sub>a</sub>z)</i></p>
+<figure class="figure formula-figure"><img alt="At r equals zero and z equals zero, F0, eta_abs and mu_a determine local dose Dabs. / 当 r 与 z 均为零时，F0、eta_abs 与 mu_a 决定局部剂量 Dabs。" src="../assets/formula-figures/project-deposition-layer.svg"/><figcaption><p>The on-axis surface is the maximum of this idealized profile.</p><p class="zh" lang="zh-CN">轴上表面是该理想化分布的最大值位置。</p></figcaption></figure>
+<p class="equation"><i>q‴<sub>max</sub> = D<sub>abs</sub>√(4 ln 2/π)/τ<sub>L</sub></i></p>
+<figure class="figure formula-figure"><img alt="Dose Dabs and Gaussian pulse width tau_L determine peak volumetric heating rate q triple-prime max at the same point. / 同一点的剂量 Dabs 和高斯脉宽 tau_L 决定峰值体积加热速率 q 三撇 max。" src="../assets/formula-figures/project-dose-rate-temperature.svg"/><figcaption><p>The Gaussian shape factor is about 0.93944.</p><p class="zh" lang="zh-CN">高斯形状系数约为 0.93944。</p></figcaption></figure>
+<p class="equation"><i>ΔT<sub>ad</sub> = D<sub>abs</sub>/(ρ<sub>abs</sub>c<sub>p</sub>)</i></p>
+<figure class="figure formula-figure"><img alt="Local dose Dabs divided by the heated material's rho_abs cp gives its adiabatic temperature scale. / 局部剂量 Dabs 除以受热材料的 rho_abs cp，得到绝热温度尺度。" src="../assets/formula-figures/project-dose-rate-temperature.svg"/><figcaption><p>The given heat capacity is a water-like estimate, not a measured PFC or absorber property.</p><p class="zh" lang="zh-CN">所给体积热容是类水估计，而非实测 PFC 或吸收体物性。</p></figcaption></figure>
+<p>With μ<sub>a</sub> = 1/(10 µm) = 10⁵ m⁻¹, <strong>D<sub>abs,0</sub> = 0.30(1000)(10⁵) = 3.00 × 10⁷ J/m³</strong>. The 10 ns Gaussian peak is <strong>q‴<sub>max,0</sub> = (3.00 × 10⁷)(0.93944)/(10 × 10⁻⁹) = 2.82 × 10¹⁵ W/m³</strong>. The estimated rise is <strong>ΔT<sub>ad,0</sub> = (3.00 × 10⁷)/(4.17 × 10⁶) = 7.19 K</strong>. At 20 ns and the same dose and shape, the peak rate halves to <strong>1.41 × 10¹⁵ W/m³</strong>; the simple adiabatic rise stays 7.19 K. Neither result includes phase-change enthalpy or proves that a PFC droplet activated.</p>
+<p class="zh" lang="zh-CN">由 μ<sub>a</sub> = 1/(10 µm) = 10⁵ m⁻¹，得 <strong>D<sub>abs,0</sub> = 0.30(1000)(10⁵) = 3.00 × 10⁷ J/m³</strong>。10 ns 高斯脉冲的峰值为 <strong>q‴<sub>max,0</sub> = (3.00 × 10⁷)(0.93944)/(10 × 10⁻⁹) = 2.82 × 10¹⁵ W/m³</strong>。估计温升为 <strong>ΔT<sub>ad,0</sub> = (3.00 × 10⁷)/(4.17 × 10⁶) = 7.19 K</strong>。剂量和形状相同而脉宽变为 20 ns 时，峰值速率减半至 <strong>1.41 × 10¹⁵ W/m³</strong>；简化绝热温升仍为 7.19 K。两者均未包含相变焓，也不能证明 PFC 液滴已经激活。</p>
+</details></li>
+<li><p>For the separate exercise-only activation scenario, calculate the chance of at least one real event among 30 available droplets and the chance of a recorded event. Identify the assumptions that make these formulas usable.</p><p class="zh" lang="zh-CN">对另行设定、仅供练习的激活情景，计算 30 个可激活液滴中至少一次真实事件的概率，以及记录到事件的概率。指出使用这些公式所需的假设。</p>
+<details class="answer"><summary>Reference answer / 参考答案</summary>
+<p class="equation"><i>P<sub>≥1</sub> = 1 − (1 − p<sub>1</sub>)<sup>N<sub>active</sub></sup></i></p>
+<figure class="figure formula-figure"><img alt="Thirty available droplets each have assumed independent event chance p1; their complement gives the at-least-one probability. / 三十个可激活液滴各有假定且独立的事件概率 p1；取补事件得到至少一次事件概率。" src="../assets/formula-figures/project-activation-detector.svg"/><figcaption><p>This is an event probability for the declared endpoint, not an impact probability.</p><p class="zh" lang="zh-CN">这是所定义事件终点的概率，不是冲击概率。</p></figcaption></figure>
+<p class="equation"><i>P<sub>det</sub> = 1 − (1 − f<sub>d</sub>)(1 − q<sub>d</sub>p<sub>1</sub>)<sup>N<sub>active</sub></sup></i></p>
+<figure class="figure formula-figure"><img alt="Detector sensitivity qd and false-positive chance fd alter the reported probability Pdet from p1 and N_active. / 检出率 qd 和误报概率 fd 改变由 p1 与 N_active 得到的报告概率 Pdet。" src="../assets/formula-figures/project-activation-detector.svg"/><figcaption><p>Detection is an additional observation model.</p><p class="zh" lang="zh-CN">探测过程是额外的观测模型。</p></figcaption></figure>
+<p>For p<sub>1</sub> = 0.020 and N<sub>active</sub> = 30, <strong>P<sub>≥1</sub> = 1 − 0.98³⁰ = 0.4545</strong>. With q<sub>d</sub> = 0.80 and f<sub>d</sub> = 0.010, <strong>P<sub>det</sub> = 1 − 0.99(1 − 0.80 × 0.020)³⁰ = 0.3898</strong>. These results require a known fixed active count, independent equal-probability droplets, independent detection of each real event, and the declared false-positive model. The p<sub>1</sub> value is invented for arithmetic practice; it is not fitted to the project.</p>
+<p class="zh" lang="zh-CN">取 p<sub>1</sub> = 0.020、N<sub>active</sub> = 30，得 <strong>P<sub>≥1</sub> = 1 − 0.98³⁰ = 0.4545</strong>。再取 q<sub>d</sub> = 0.80、f<sub>d</sub> = 0.010，得 <strong>P<sub>det</sub> = 1 − 0.99(1 − 0.80 × 0.020)³⁰ = 0.3898</strong>。这些结果要求已知固定的可激活液滴数、液滴事件独立且单滴概率相同、逐个真实事件的独立检出，以及所声明的误报模型。p<sub>1</sub> 是为算术练习设定的值，并非项目拟合结果。</p>
+</details></li>
+<li><p>Within the exact same-shape Gaussian pulse family, can a fluence-only sweep identify three independent coefficients multiplying the logarithms of dose, peak rate, and pulse width? State the mathematical reason, then name the next observations required before claiming an actual bubble and film load.</p><p class="zh" lang="zh-CN">在时间形状完全相同的高斯脉冲族内，仅扫描能量面密度能否独立识别剂量、峰值速率和脉宽这三个对数项的系数？说明数学原因，再指出声称实际产生气泡和薄膜载荷之前需要哪些后续观测。</p>
+<details class="answer"><summary>Reference answer / 参考答案</summary>
+<p class="equation"><i>q‴<sub>max</sub> = C D<sub>abs</sub>/τ<sub>L</sub>,   C = √(4 ln 2/π)</i></p>
+<figure class="figure formula-figure"><img alt="For fixed Gaussian factor C, dose Dabs, peak rate q triple-prime max and pulse width tau_L are algebraically linked. / 对固定高斯系数 C，剂量 Dabs、峰值速率 q 三撇 max 与脉宽 tau_L 存在代数联系。" src="../assets/formula-figures/project-pulse-identifiability.svg"/><figcaption><p>Changing fluence scales dose and rate together at fixed width.</p><p class="zh" lang="zh-CN">脉宽固定时改变能量面密度，会同时缩放剂量与峰值速率。</p></figcaption></figure>
+<p class="equation"><i>ln(q‴<sub>max</sub>/q‴<sub>ref</sub>) = ln(D<sub>abs</sub>/D<sub>ref</sub>) − ln(τ<sub>L</sub>/τ<sub>ref</sub>)</i></p>
+<figure class="figure formula-figure"><img alt="The same Gaussian pulse family links logarithmic peak rate, dose and width relative to the reference quantities qref, Dref and tauref. / 同一高斯脉冲族使峰值速率、剂量和脉宽相对于 qref、Dref 与 tauref 的对数值相关。" src="../assets/formula-figures/project-pulse-identifiability.svg"/><figcaption><p>The identity holds when the reference quantities use the same Gaussian factor C.</p><p class="zh" lang="zh-CN">参考量采用相同高斯系数 C 时，该恒等式成立。</p></figcaption></figure>
+<p>No. The three log columns are linearly dependent: at fixed width, a fluence sweep changes only dose and its proportional peak rate. Even varying width within the same exact Gaussian family leaves only two independent columns. A matched-dose width contrast can test whether temporal delivery matters, but not whether peak rate or width is responsible. Estimating three separate coefficients also needs independent temporal-shape variation or removal of one redundant predictor. Establish target activation/no-activation with a known active count and calibrated detector, then synchronously measure bubble contour R(t), centroid and event branch. A time-resolved film-pressure or calibrated deflection record is still needed to connect that bubble to a film load; energy normalization alone does not do so.</p>
+<p class="zh" lang="zh-CN">不能。三个取对数的数据列线性相关：脉宽固定时，扫描能量面密度只会同时改变剂量及与其成比例的峰值速率。即使在同一严格高斯脉冲族内改变脉宽，也仍只有两个独立数据列。相同剂量下改变脉宽可检验时间分配是否重要，但不能区分原因是峰值速率还是脉宽。要估计三个独立系数，还需要独立改变时间形状，或删去一个冗余预测量。应先在已知可激活数量、已标定探测器的条件下测量目标体系的激活与未激活事件，再同步测量气泡轮廓 R(t)、质心及事件分支。还需时间分辨的薄膜压力或经标定的挠度记录，才能将气泡与薄膜载荷相连接；能量归一化本身不能做到这一点。</p>
+</details></li>
+</ol>
+<div class="callout"><p><strong>Brief response for mastery:</strong> In two or three sentences, explain why a correctly normalized 0.29452 µJ absorbed-energy calculation and even a hypothetical measured group-event fraction at 0.10 J/cm² would still not prove a target-specific activation threshold, predict R(t), or establish film release. Name the next most useful measurement.</p><p class="zh" lang="zh-CN"><strong>用于确认掌握程度的简短回答：</strong>请用两三句话说明：为何正确归一化得到的 0.29452 µJ 吸收能量计算，以及假设在 0.10 J/cm² 下实测到某一群体事件比例，仍不能证明目标体系的激活阈值、预测 R(t) 或确定薄膜释放？请指出下一项最有用的测量。</p></div>
+<details class="answer"><summary>Reference response / 参考回答</summary><p>The absorbed energy is conditional on the assumed optical fraction and profile; a group-event fraction additionally depends on the number of active droplets, detector and event definition, and cannot by itself identify a single-droplet activation law. Neither number supplies a measured bubble trajectory, boundary load, or interfacial fracture response. First calibrate local absorption and event detection while recording size and active count; then measure synchronized branch-labeled bubble contour and film motion before assessing release.</p><p class="zh" lang="zh-CN">吸收能量取决于假定的光学吸收比例和分布；群体事件比例还依赖可激活液滴数量、探测器与事件定义，单凭它不能识别单滴激活规律。两者都没有提供实测气泡历程、边界载荷或界面断裂响应。应先标定局部吸收与事件探测并记录尺寸和可激活数量；随后同步测量按事件分支标记的气泡轮廓和薄膜运动，再评估释放。</p></details>
+<p class="small">Check the arithmetic in the panels, then send only your brief synthesis. Ask about any assumption or unit that is unclear.</p>
+<p class="small zh" lang="zh-CN">请先用答案面板核对算术，再只提交简短综合说明。若假设或单位不清楚，可随时提问。</p>
+</section>
+<nav aria-label="Course navigation / 课程导航"><p><a href="0002-how-cavitation-jets-form.html">Previous: cavitation jets</a> · <a href="../SCHEDULE.html">Course schedule</a> · <a href="0004-hydrogel-confinement-and-pfc-transfer.html">Next: hydrogel confinement</a> · <a href="../course/chapters/T01-optical-deposition.html">Project theory with local figures</a></p><p class="zh" lang="zh-CN"><a href="0002-how-cavitation-jets-form.html">前一章：空化射流</a> · <a href="../SCHEDULE.html">课程安排</a> · <a href="0004-hydrogel-confinement-and-pfc-transfer.html">下一章：水凝胶约束</a> · <a href="../course/chapters/T01-optical-deposition.html">含本地配图的项目理论</a></p></nav>
+</main>
+<footer><span>Cavitation dynamics learning workspace · Chapter 03</span><span class="zh" lang="zh-CN">空化动力学学习工作区 · 第三章</span></footer>
+</body>
+</html>

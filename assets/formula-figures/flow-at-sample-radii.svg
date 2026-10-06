@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Flow speeds at one, two, and three bubble radii</title>
+<desc>Concentric surfaces at R, 2R, and 3R carry outward speeds Ṙ, one quarter of that, and one ninth of that.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="285" cy="226" r="59" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="285" cy="226" r="118" fill="none" stroke="#6dd6e7" stroke-width="2" stroke-dasharray="8 6"/>
+<circle cx="285" cy="226" r="177" fill="none" stroke="#8fb8ff" stroke-width="2" stroke-dasharray="7 7"/>
+<text x="335" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#6dd6e7">R</text>
+<text x="388" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#6dd6e7">2R</text>
+<text x="452" y="218" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#8fb8ff">3R</text>
+<rect x="540" y="70" width="395" height="310" rx="10" fill="#1c2f3d" stroke="#405466" stroke-width="2"/>
+<text x="570" y="111" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">Ṙ</text>
+<text x="570" y="136" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">at wall R / 在壁面 R 处</text>
+<line x1="570" y1="158" x2="839" y2="158" stroke="#6dd6e7" stroke-width="5" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="570" y="216" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">u(2R) = Ṙ/4</text>
+<text x="570" y="241" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">at radius 2R / 在 2R 处</text>
+<line x1="570" y1="264" x2="670" y2="264" stroke="#8fb8ff" stroke-width="5" stroke-linecap="round" marker-end="url(#a-blue)"/>
+<text x="570" y="322" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">u(3R) = Ṙ/9</text>
+<text x="570" y="347" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">at radius 3R / 在 3R 处</text>
+<line x1="570" y1="368" x2="628" y2="368" stroke="#c5a4f7" stroke-width="5" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="285" y="431" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" font-weight="normal" fill="#b1c2cf">same volume flux across all spheres / 各球面的体积流率相同</text>
+</svg>

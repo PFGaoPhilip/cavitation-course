@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Surface cost and volume gain for a vapor embryo</title>
+<desc>Radius r sets interface area and volume; sigma acts at the interface, pressure advantage across it, and Delta G is net work.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="260" cy="235" r="100" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="260" cy="235" r="119" fill="none" stroke="#f9b77d" stroke-width="3" stroke-dasharray="7 6"/>
+<line x1="260" y1="235" x2="355" y2="235" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="307" y="266" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">r</text>
+<text x="307" y="291" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">embryo radius / 胚核半径</text>
+<text x="76" y="93" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">σ</text>
+<text x="76" y="118" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">surface / 界面</text>
+<line x1="143" y1="103" x2="192" y2="155" stroke="#f9b77d" stroke-width="2" stroke-linecap="round"/>
+<text x="72" y="375" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">Δp</text>
+<text x="72" y="400" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">across wall / 跨界面压差</text>
+<line x1="172" y1="350" x2="215" y2="311" stroke="#c5a4f7" stroke-width="2" stroke-linecap="round"/>
+<rect x="480" y="62" width="450" height="90" rx="10" fill="#36291e" stroke="#69533e" stroke-width="2"/>
+<text x="510" y="100" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">+ 4πσr²</text>
+<text x="510" y="125" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">surface-area cost / 表面积代价</text>
+<rect x="480" y="178" width="450" height="90" rx="10" fill="#1d3345" stroke="#526e83" stroke-width="2"/>
+<text x="510" y="216" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">− (4π/3)Δp r³</text>
+<text x="510" y="241" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">volume gain / 体积能收益</text>
+<rect x="480" y="295" width="450" height="90" rx="10" fill="#2c2741" stroke="#6b5a86" stroke-width="2"/>
+<text x="510" y="335" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">ΔG(r)</text>
+<text x="510" y="360" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">net formation work / 净形成功</text>
+</svg>

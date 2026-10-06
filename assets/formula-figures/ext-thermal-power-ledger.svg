@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Power integrated over the stamp heating duration</title><desc>Incident power Pin divides into absorbed power in the layer and silicon ink. Multiplying each declared constant power by duration tau gives the corresponding energy ledger.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Power × duration gives an energy ledger</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">功率乘持续时间得到能量核算</text>
+<rect x="43" y="164" width="267" height="187" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="65" y="213" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">P_in, τ</text>
+<text x="65" y="238" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">incident beam / duration</text>
+<text x="65" y="262" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">入射光束／持续时间</text>
+<text x="70" y="313" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">E_in = P_in τ</text>
+<line x1="316" y1="255" x2="420" y2="255" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="420,255 408.0,250.0 408.0,260.0" fill="#6dd6e7"/>
+<rect x="436" y="123" width="503" height="132" rx="8" fill="#523c32" stroke="#405466" stroke-width="2"/>
+<text x="459" y="164" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">P_abs,layer</text>
+<text x="459" y="189" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">PDMS/dye absorber</text>
+<text x="459" y="213" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">PDMS／染料吸收层</text>
+<rect x="436" y="284" width="503" height="132" rx="8" fill="#293e55" stroke="#405466" stroke-width="2"/>
+<text x="459" y="325" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">P_abs,ink</text>
+<text x="459" y="350" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">silicon platelet absorption</text>
+<text x="459" y="374" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">硅片吸收</text>
+<text x="72" y="479" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="26" fill="#6dd6e7" text-anchor="start">E_heat = (P_abs,layer + P_abs,ink) τ</text>
+<text x="46" y="541" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#b1c2cf" text-anchor="start">Integrate P(t) if power varies.</text>
+<text x="46" y="567" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#b1c2cf" text-anchor="start">若功率变化，应对 P(t) 积分。</text>
+</svg>

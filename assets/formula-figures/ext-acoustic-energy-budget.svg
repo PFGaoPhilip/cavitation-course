@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Acoustic energy and pulse-duration variables</title><desc>Acoustic energy Esh is the declared eta_sh fraction of absorbed energy. Pressure pprime is recorded a distance r from the source, over pulse width tau_sh, in carrier impedance rho c.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Acoustic energy constrains the waveform integral</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">声能约束的是波形积分</text>
+<circle cx="155" cy="268" r="65" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<text x="101" y="275" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="29" fill="#6dd6e7" text-anchor="start">E_sh</text>
+<text x="50" y="133" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">η_sh E_abs</text>
+<text x="50" y="158" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">declared acoustic allocation</text>
+<text x="50" y="182" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">声明的声能分配</text>
+<line x1="244" y1="268" x2="702" y2="268" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="702,268 690.0,263.0 690.0,273.0" fill="#8fb8ff"/>
+<text x="430" y="244" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#8fb8ff" text-anchor="start">r; ρ, c</text>
+<rect x="727" y="175" width="219" height="186" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="747" y="220" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">p′(r,t)</text>
+<text x="747" y="245" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">sensor waveform</text>
+<text x="747" y="269" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">传感器波形</text>
+<line x1="279" y1="465" x2="743" y2="465" stroke="#405466" stroke-width="3"/>
+<line x1="279" y1="465" x2="279" y2="368" stroke="#405466" stroke-width="3"/>
+<path d="M292.00 465.00 L356.00 465.00 L356.00 395.00 L606.00 395.00 L606.00 465.00 L732.00 465.00" fill="none" stroke="#f9b77d" stroke-width="3"/>
+<line x1="356" y1="491" x2="606" y2="491" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="606,491 594.0,486.0 594.0,496.0" fill="#6dd6e7"/>
+<text x="450" y="521" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" fill="#6dd6e7" text-anchor="start">τ_sh</text>
+<text x="46" y="552" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">Rectangular shape is assumed; energy alone does not set a peak.</text>
+<text x="46" y="578" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">矩形波形为假设；单凭能量不能确定峰值。</text>
+</svg>

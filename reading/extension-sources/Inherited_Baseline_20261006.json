@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "case_id": "PFC_REF_1064NM_10NS_V2_FULLTEXT_CORRECTED",
+    "title": "Provisional PFC nanodroplet laser-cavitation-transfer reference case",
+    "status": "screening_scenario_not_calibrated",
+    "date": "2026-09-18",
+    "evidence_labels": {
+      "V": "verified project artifact or numerical result",
+      "M": "project measurement required",
+      "L": "literature-sourced value or relationship",
+      "S": "project scenario assumption inherited from Stage 1",
+      "E": "explicit engineering estimate used only for screening",
+      "N": "numerical control"
+    },
+    "critical_warning": "This file is a reproducible calculation contract, not a calibrated material card or an operator-safe laser prescription. Replace every M or E item before physical prediction. External source pressure is not cohesive traction, and single-cycle impulse must not be multiplied by pulse count without cycle-resolved R(t)."
+  },
+  "optics": {
+    "wavelength_m": {"value": 1.064e-6, "range": [1.064e-6, 1.064e-6], "evidence": "S", "source": "Stage 1 parameter ledger; actual hardware value required"},
+    "pulse_fwhm_s": {"value": 1.0e-8, "range": [7.0e-10, 2.0e-8], "distribution": "loguniform", "evidence": "S", "source": "Stage 1 parameter ledger"},
+    "beam_radius_1e2_m": {"value": 2.5e-5, "range": [1.0e-5, 5.0e-5], "distribution": "uniform", "evidence": "S", "source": "Stage 1 parameter ledger"},
+    "peak_fluence_J_m2": {"value": 1000.0, "range": [100.0, 10000.0], "distribution": "loguniform", "evidence": "S", "source": "Stage 1 parameter ledger; 0.10 J/cm2 reference and 0.01-1 J/cm2 computational screen"},
+    "absorbed_fraction": {"value": 0.30, "range": [0.05, 0.80], "distribution": "uniform", "evidence": "S", "source": "Stage 1 thermal model"},
+    "deposition_depth_m": {"value": 1.0e-5, "range": [1.0e-6, 5.0e-5], "distribution": "loguniform", "evidence": "S", "source": "Stage 1 thermal model"},
+    "initial_temperature_K": {"value": 293.15, "range": [288.15, 310.15], "distribution": "uniform", "evidence": "E", "source": "ambient-temperature screening estimate; measure at specimen"}
+  },
+  "activation": {
+    "model_status": "unidentified stochastic heterogeneous-nucleation model; no hard threshold is authorized",
+    "conditioning_variables": ["local_absorbed_dose_J_m3", "peak_absorbed_power_density_W_m3", "pulse_duration_s", "droplet_radius_m", "core_formulation", "shell_state", "batch_id", "detector_id", "local_temperature_history_K", "local_pressure_history_Pa", "pulse_history_state"],
+    "F50_J_m2": {"value": null, "range": [100.0, 20000.0], "distribution": "loguniform", "evidence": "M", "source": "incident-fluence-only design prior retained for backward comparison; any fit is conditional on beam, formulation, active volume, batch, and detector and is not a material property"},
+    "log_fluence_slope": {"value": null, "range": [2.0, 12.0], "distribution": "uniform", "evidence": "M", "source": "design-only prior for the conditional incident-fluence submodel; replace with a multivariable fit"},
+    "local_absorbed_dose_D50_J_m3": {"value": null, "evidence": "M", "source": "fit from target-specific activation trials after source-normalization and local-dose reconstruction"},
+    "peak_absorbed_power_density_Q50_W_m3": {"value": null, "evidence": "M", "source": "fit jointly with absorbed dose and pulse duration; fluence alone is insufficient"},
+    "active_droplet_number_density_m3": {"value": null, "evidence": "M", "source": "measure for each formulation/batch; required to convert population to single-droplet probability"},
+    "active_fraction": {"value": null, "evidence": "M", "source": "measure or infer by batch; absorber-bearing/activation-capable fraction is formulation dependent"},
+    "detector_event_sensitivity": {"value": null, "evidence": "M", "source": "calibrate against an independent event count; PA/US contrast is not pressure"},
+    "detector_false_positive_probability": {"value": null, "evidence": "M", "source": "estimate from sham trials for the declared detector and event rule"},
+    "low_energy_branch_probability": {"value": null, "evidence": "M", "source": "fit conditional no-event/low-energy/high-energy branch probabilities near onset"},
+    "high_energy_branch_probability": {"value": null, "evidence": "M", "source": "fit conditional no-event/low-energy/high-energy branch probabilities; do not average branch mechanics"},
+    "legacy_ODV_minimum_fluence_J_m2": {"value": 14000.0, "range": [14000.0, 14000.0], "evidence": "L", "source": "Strohm et al., Biomedical Optics Express 2 (2011), DOI 10.1364/BOE.2.001432; PbS-loaded micron PFC droplets, not transferable as target threshold"}
+  },
+  "carrier": {
+    "density_kg_m3": {"value": 998.2, "range": [980.0, 1050.0], "distribution": "uniform", "evidence": "E", "source": "water-like carrier estimate near 20 C; measure formulated suspension"},
+    "dynamic_viscosity_Pa_s": {"value": 1.002e-3, "range": [0.7e-3, 5.0e-3], "distribution": "loguniform", "evidence": "E", "source": "water-like carrier estimate; measure formulated suspension"},
+    "surface_tension_N_m": {"value": 0.0728, "range": [0.03, 0.073], "distribution": "uniform", "evidence": "E", "source": "water-like estimate; surfactant/shell can reduce it, so measure"},
+    "sound_speed_m_s": {"value": 1482.0, "range": [1400.0, 1550.0], "distribution": "uniform", "evidence": "E", "source": "water-like estimate; measure or justify for formulation"},
+    "equilibrium_vapor_pressure_Pa": {"value": 2339.0, "range": [1700.0, 4300.0], "distribution": "uniform", "evidence": "E", "source": "water-vapor estimate over approximately 15-30 C; effective bubble vapor/gas pressure must be inferred"},
+    "heat_capacity_J_kgK": {"value": 4182.0, "range": [3800.0, 4300.0], "distribution": "uniform", "evidence": "E", "source": "water-like estimate; measure or mixture-model"},
+    "thermal_conductivity_W_mK": {"value": 0.598, "range": [0.50, 0.70], "distribution": "uniform", "evidence": "E", "source": "water-like estimate"},
+    "ambient_pressure_Pa": {"value": 101325.0, "range": [95000.0, 105000.0], "distribution": "uniform", "evidence": "E", "source": "laboratory atmospheric-pressure estimate; record during test"}
+  },
+  "illustrative_PFH_core": {
+    "enabled_for_energy_bound_only": true,
+    "identity_warning": "The project PFC core is unknown. These perfluoro-n-hexane values are an illustrative energy bound, not a target material assignment.",
+    "droplet_radius_m": {"value": 2.5e-7, "range": [1.0e-7, 1.0e-6], "distribution": "loguniform", "evidence": "E", "source": "screening radius; replace with batch DLS/microscopy distribution"},
+    "liquid_density_kg_m3": {"value": 1670.0, "range": [1650.0, 1710.0], "distribution": "uniform", "evidence": "L", "source": "perfluorohexane density near 25 C compiled in PubChem/CRC; target identity unconfirmed"},
+    "molar_mass_kg_mol": {"value": 0.3380418, "range": [0.3380418, 0.3380418], "evidence": "L", "source": "NIST Chemistry WebBook, CAS 355-42-0"},
+    "normal_boiling_temperature_K": {"value": 332.2, "range": [330.3, 333.0], "distribution": "uniform", "evidence": "L", "source": "NIST Chemistry WebBook, CAS 355-42-0"},
+    "liquid_heat_capacity_J_kgK": {"value": 710.0, "range": [680.0, 760.0], "distribution": "uniform", "evidence": "L", "source": "NIST liquid Cp 57.41 cal/mol/K at 273 K converted using molar mass; extrapolation uncertainty exposed"},
+    "latent_heat_J_kg": {"value": 93200.0, "range": [90000.0, 102000.0], "distribution": "uniform", "evidence": "L", "source": "NIST vaporization enthalpy 31.5 kJ/mol at 316 K converted using molar mass"}
+  },
+  "bubble_source": {
+    "initial_radius_m": {"value": 1.0e-6, "range": [0.5e-6, 2.0e-6], "distribution": "uniform", "evidence": "S", "source": "Stage 1 effective source seed"},
+    "maximum_radius_m": {"value": 8.0e-6, "range": [5.0e-6, 15.0e-6], "distribution": "uniform", "evidence": "S", "source": "Stage 1 scenario; replace with measured R(t)"},
+    "growth_time_s": {"value": 0.7e-6, "range": [0.5e-6, 2.0e-6], "distribution": "uniform", "evidence": "S", "source": "Stage 1 scenario; replace with measured R(t)"},
+    "collapse_time_s": {"value": 0.6e-6, "range": [0.3e-6, 1.5e-6], "distribution": "uniform", "evidence": "S", "source": "Stage 1 scenario value; range is a calculation-only screen"},
+    "residual_radius_m": {"value": 1.0e-6, "range": [0.5e-6, 3.0e-6], "distribution": "uniform", "evidence": "E", "source": "regularized post-collapse radius; not a physical rebound model"},
+    "boundary_pressure_gain": {"value": 1.0, "range": [0.5, 2.0], "distribution": "uniform", "evidence": "E", "source": "unbounded monopole baseline; sweep brackets pressure-release/rigid-image effects but is not a wall model"}
+  },
+  "geometry": {
+    "liquid_height_m": {"value": 6.0e-5, "range": [3.0e-5, 1.2e-4], "distribution": "uniform", "evidence": "S", "source": "legacy Stage 1 geometry"},
+    "minimum_bubble_to_stack_clearance_m": {"value": 0.5e-6, "range": [0.25e-6, 2.0e-6], "distribution": "uniform", "evidence": "S", "source": "Stage 1 native 3D setup; must stay positive for ALE"},
+    "stand_off_ratio_gamma": {"value": 1.0625, "range": [1.05, 4.0], "distribution": "uniform", "evidence": "E", "source": "defined as bubble-centroid distance divided by Rmax; reference value follows Rmax plus 0.5 um clearance"},
+    "pressure_load_radius_m": {"value": 2.5e-5, "range": [1.0e-5, 5.0e-5], "distribution": "uniform", "evidence": "E", "source": "set equal to optical 1/e2 radius for initial screen"},
+    "clamped_patch_radius_m": {"value": 5.0e-5, "range": [2.5e-5, 1.0e-4], "distribution": "loguniform", "evidence": "E", "source": "screening support radius; replace with device geometry"}
+  },
+  "stack": {
+    "pvc": {
+      "thickness_m": {"value": 1.0e-5, "range": [5.0e-6, 5.0e-5], "distribution": "loguniform", "evidence": "S", "source": "Stage 1 placeholder"},
+      "density_kg_m3": {"value": 1400.0, "range": [1200.0, 1500.0], "distribution": "uniform", "evidence": "E", "source": "generic PVC screening estimate; replace by certificate/measurement"},
+      "young_modulus_Pa": {"value": 1.0e8, "range": [1.0e7, 3.0e9], "distribution": "loguniform", "evidence": "E", "source": "broad flexible-to-rigid PVC screening range; rate/temperature data required"},
+      "poisson_ratio": {"value": 0.40, "range": [0.35, 0.49], "distribution": "uniform", "evidence": "E", "source": "screening estimate"},
+      "acoustic_amplitude_attenuation_Np_m": {"value": 0.0, "range": [0.0, 50000.0], "distribution": "uniform", "evidence": "E", "source": "lossless first-arrival baseline and explicit sensitivity bracket only; measure frequency-dependent target attenuation"}
+    },
+    "transfer_film": {
+      "thickness_m": {"value": 5.0e-6, "range": [2.0e-6, 2.0e-5], "distribution": "loguniform", "evidence": "S", "source": "Stage 1 placeholder"},
+      "density_kg_m3": {"value": 1200.0, "range": [900.0, 1500.0], "distribution": "uniform", "evidence": "E", "source": "generic polymer-film screening estimate; identify actual film"},
+      "young_modulus_Pa": {"value": 1.0e9, "range": [1.0e8, 5.0e9], "distribution": "loguniform", "evidence": "E", "source": "generic polymer-film screening estimate"},
+      "poisson_ratio": {"value": 0.35, "range": [0.30, 0.49], "distribution": "uniform", "evidence": "E", "source": "screening estimate"},
+      "acoustic_amplitude_attenuation_Np_m": {"value": 0.0, "range": [0.0, 50000.0], "distribution": "uniform", "evidence": "E", "source": "lossless first-arrival baseline and explicit sensitivity bracket only; measure frequency-dependent target attenuation"}
+    },
+    "modal_damping_ratio": {"value": 0.05, "range": [0.01, 0.20], "distribution": "loguniform", "evidence": "E", "source": "screening estimate; identify from dynamic test"}
+  },
+  "donor_interface": {
+    "mode_I_fracture_energy_J_m2": {"value": 0.10, "range": [0.01, 10.0], "distribution": "loguniform", "evidence": "E", "source": "screening range only; peel/blister/mixed-mode coupons are blocking"},
+    "normal_strength_Pa": {"value": 1.0e6, "range": [1.0e5, 1.0e7], "distribution": "loguniform", "evidence": "E", "source": "screening range only; cohesive strength measurement is blocking"},
+    "cohesive_process_zone_target_elements": {"value": 8, "range": [5, 12], "evidence": "N", "source": "initial convergence target informed by cohesive-zone practice; verify numerically"},
+    "terminal_substrate_acoustic_impedance_Rayl": {"value": null, "evidence": "M", "source": "identify the material below the transfer film and measure or justify its longitudinal impedance before computing reflected tensile/interface stress"},
+    "mode_II_fracture_energy_J_m2": {"value": null, "evidence": "M", "source": "mixed-mode coupon calibration required"},
+    "tangential_strength_Pa": {"value": null, "evidence": "M", "source": "rate-dependent mixed-mode coupon calibration required"}
+  },
+  "stress_wave": {
+    "longitudinal_speed_closure": "isotropic elastic cL=sqrt(E(1-nu)/(rho(1+nu)(1-2nu))); illustrative until rate-dependent dynamic properties are measured",
+    "quasistatic_minimum_load_time_over_one_way_transit": {"value": 10.0, "evidence": "N", "source": "conservative escalation flag, not a universal physical boundary"},
+    "reflection_amplitude_escalation": {"value": 0.10, "evidence": "N", "source": "model-escalation flag for material impedance mismatch"},
+    "attenuation_exponent_escalation": {"value": 0.10, "evidence": "N", "source": "model-escalation flag for alpha*h; target attenuation is unmeasured"},
+    "terminal_interface_warning": "Without the terminal substrate impedance and a signed transient solution, first-arrival forward compressive stress is not cohesive normal traction; tangential shear and through-thickness stress are also unresolved."
+  },
+  "pulse_history": {
+    "enabled": false,
+    "initial_active_droplet_count": {"value": null, "evidence": "M", "source": "number of activation-capable droplets in the local active volume at pulse 1"},
+    "per_pulse_survival_probability": {"value": null, "evidence": "M", "source": "formulation-, dose-, and detector-conditioned; fit from repeated-shot data"},
+    "recondensation_probability_before_next_pulse": {"value": null, "evidence": "M", "source": "depends on core, shell, temperature, pressure, environment, and observer ultrasound"},
+    "cycle_resolved_Rt_available": false,
+    "cumulative_impulse_authorized": false,
+    "warning": "Do not sum a single-cycle impulse over pulse count unless cycle-to-cycle R(t), source position, phase, and survivor state are measured or validated."
+  },
+  "transferred_material": {
+    "target_type": "solid_patch",
+    "type_evidence": "S",
+    "warning": "Rayleigh-Plateau, jet Weber, and liquid-breakup-length criteria are disabled for the solid-patch branch; use fracture/folding/rotation/contact gates instead."
+  },
+  "receiver": {
+    "gap_m": {"value": 5.0e-5, "range": [1.0e-5, 5.0e-4], "distribution": "loguniform", "evidence": "E", "source": "screening estimate; apparatus metrology required"},
+    "capture_energy_upper_bound_J_m2": {"value": null, "range": [0.001, 10.0], "distribution": "loguniform", "evidence": "M", "source": "receiver adhesion/contact calibration required"}
+  },
+  "numerics": {
+    "time_points": {"value": 4001, "evidence": "N", "source": "resolves the regularized 1.3 us bubble cycle"},
+    "radial_points": {"value": 301, "evidence": "N", "source": "axisymmetric pressure integration grid"},
+    "source_energy_relative_error_gate": {"value": 0.01, "evidence": "N", "source": "Stage 1 predeclared gate"},
+    "two_finest_level_change_gate": {"value": 0.05, "evidence": "N", "source": "Stage 1 predeclared gate"},
+    "monte_carlo_samples": {"value": 3000, "evidence": "N", "source": "deterministic seeded Latin-hypercube uncertainty screen"},
+    "random_seed": {"value": 20260918, "evidence": "N", "source": "reproducibility control"}
+  }
+}

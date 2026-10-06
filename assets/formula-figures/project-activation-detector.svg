@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Droplet activation and detector observation</title>
+<desc>An active count N has single-droplet event chance p1; a detector registers each real event with sensitivity qd and may give a false positive with probability fd, producing a reported probability Pdet distinct from the true at-least-one-event probability.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<text x="68" y="73" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">ℓ</text>
+<text x="68" y="98" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">conditioned activation predictor / 条件激活预测量</text>
+<rect x="45" y="117" width="370" height="262" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<circle cx="93" cy="180" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="146" cy="180" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="199" cy="180" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="252" cy="180" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="305" cy="180" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="358" cy="180" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="93" cy="240" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="146" cy="240" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="199" cy="240" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="252" cy="240" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="305" cy="240" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="358" cy="240" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="93" cy="300" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="146" cy="300" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="199" cy="300" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="252" cy="300" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="305" cy="300" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<circle cx="358" cy="300" r="15" fill="#284457" stroke="#6dd6e7" stroke-width="2"/>
+<text x="68" y="151" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">N_active</text>
+<text x="68" y="176" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">available droplets / 可激活液滴数</text>
+<text x="67" y="362" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">p₁</text>
+<text x="67" y="387" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">chance per droplet / 单滴事件概率</text>
+<line x1="429" y1="237" x2="510" y2="237" stroke="#6dd6e7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<rect x="525" y="92" width="415" height="286" rx="10" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="555" y="139" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">P_≥1</text>
+<text x="555" y="164" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">at least one real event / 至少一次真实事件</text>
+<line x1="729" y1="160" x2="729" y2="211" stroke="#c5a4f7" stroke-width="3" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="551" y="251" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">q_d</text>
+<text x="551" y="276" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">real-event sensitivity / 真事件检出率</text>
+<text x="760" y="251" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">f_d</text>
+<text x="760" y="276" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">false positive / 误报概率</text>
+<text x="555" y="338" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">P_det</text>
+<text x="555" y="363" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">recorded-event probability / 记录事件概率</text>
+</svg>

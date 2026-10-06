@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lesson 3 · Why a bubble may not form / 第三课 · 为何可能不会形成气泡</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation dynamics · Lesson 03 · General mechanics</div>
+<div class="eyebrow zh" lang="zh-CN">空化动力学 · 第三课 · 基础力学</div>
+<h1>Why a bubble may not form</h1>
+<h1 class="zh" lang="zh-CN">为何可能不会形成气泡</h1>
+<p class="lede">A pressure condition that would grow an existing bubble does not guarantee that a new bubble appears.</p>
+<p class="lede zh" lang="zh-CN">能够使已有气泡生长的压力条件，并不保证新气泡会出现。</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>Our first two lessons began with a bubble already present. That is a different question from <em>inception</em>: where does the initial cavity come from? Even if vapor is favored by the local pressure, creating a new liquid–vapor surface costs energy.</p>
+<p class="zh" lang="zh-CN">前两课都从已有气泡出发。<em>空化初生</em>讨论的是另一个问题：最初的空腔从何而来？即使局部压力有利于蒸气存在，新建液–汽界面仍需要能量。</p>
+<h2>The small-embryo barrier</h2>
+<h2 class="zh" lang="zh-CN">微小胚核的能垒</h2>
+<p>Consider an idealized spherical vapor embryo of radius <i>r</i> in a clean, isothermal liquid. Define the positive vapor-pressure advantage <i>Δp</i> using the equilibrium vapor pressure <i>p<sub>v</sub>(T)</i> and surrounding liquid pressure <i>p<sub>∞</sub></i>. Classical nucleation theory then gives the reversible work of formation.</p>
+<p class="zh" lang="zh-CN">考虑洁净、等温液体中一个半径为 <i>r</i> 的理想化球形蒸气胚核。用平衡蒸气压 <i>p<sub>v</sub>(T)</i> 和周围液体压力 <i>p<sub>∞</sub></i> 定义正的蒸气压优势 <i>Δp</i>。经典成核理论据此给出可逆形成功。</p>
+<p class="equation"><i>Δp = p<sub>v</sub>(T) − p<sub>∞</sub> &gt; 0</i></p>
+<figure class="figure formula-figure" data-eq-figure="1">
+<img alt="The embryo contains vapor at p_v(T); the surrounding liquid is at p_∞. The pressure advantage Δp spans the interface. / 胚核内部蒸气压为 p_v(T)，周围液体压力为 p_∞；压差优势 Δp 跨越界面。" src="../assets/formula-figures/nucleation-pressure-gap.svg"/>
+<figcaption>
+<p>The embryo contains vapor at p_v(T); the surrounding liquid is at p_∞. The pressure advantage Δp spans the interface.</p>
+<p class="zh" lang="zh-CN">胚核内部蒸气压为 p_v(T)，周围液体压力为 p_∞；压差优势 Δp 跨越界面。</p>
+</figcaption>
+</figure>
+<p class="equation"><i>ΔG(r) = 4πσr² − (4π/3)Δp r³</i>.</p>
+<figure class="figure formula-figure" data-eq-figure="2">
+<img alt="Radius r sets embryo area and volume. σ acts at its surface, Δp across it, and the surface cost minus volume gain gives ΔG(r). / 半径 r 决定胚核面积与体积；σ 作用于表面，Δp 跨越界面，表面能代价减去体积能收益得到 ΔG(r)。" src="../assets/formula-figures/nucleation-formation-work.svg"/>
+<figcaption>
+<p>Radius r sets embryo area and volume. σ acts at its surface, Δp across it, and the surface cost minus volume gain gives ΔG(r).</p>
+<p class="zh" lang="zh-CN">半径 r 决定胚核面积与体积；σ 作用于表面，Δp 跨越界面，表面能代价减去体积能收益得到 ΔG(r)。</p>
+</figcaption>
+</figure>
+<p>The first term is the <em>surface cost</em> and grows as <i>r²</i>. The second is the <em>pressure-volume gain</em> and grows as <i>r³</i>. The surface cost dominates a very small embryo; the volume gain can dominate once it becomes large enough.</p>
+<p class="zh" lang="zh-CN">第一项是<em>表面能代价</em>，随 <i>r²</i> 增长；第二项是<em>压差带来的体积能收益</em>，随 <i>r³</i> 增长。胚核很小时，表面能代价占主导；胚核足够大时，体积能收益可以占主导。</p>
+<figure class="figure">
+<svg aria-labelledby="diagram-title diagram-desc" role="img" viewbox="0 0 700 290">
+<title id="diagram-title">Schematic nucleation energy barrier / 成核能垒示意图</title>
+<desc id="diagram-desc">Formation work rises from zero to a maximum at the critical radius, then falls for larger embryos. 形成功从零开始上升，在临界半径处达到最大值，随后随胚核增大而下降。</desc>
+<defs><marker id="axis-arrow" markerheight="9" markerwidth="9" orient="auto" refx="7" refy="4.5"><path d="M0,0 L9,4.5 L0,9 Z" fill="#b1c2cf"></path></marker></defs>
+<line marker-end="url(#axis-arrow)" stroke="#b1c2cf" stroke-width="2" x1="74" x2="648" y1="221" y2="221"></line>
+<line marker-end="url(#axis-arrow)" stroke="#b1c2cf" stroke-width="2" x1="74" x2="74" y1="221" y2="29"></line>
+<path d="M74 221 C142 210 171 100 283 79 C392 61 460 119 560 248" fill="none" stroke="#6dd6e7" stroke-width="4"></path>
+<line stroke="#526779" stroke-dasharray="5 6" stroke-width="2" x1="283" x2="283" y1="79" y2="221"></line>
+<circle cx="283" cy="79" fill="#6dd6e7" r="5"></circle>
+<text fill="#e8f1f6" font-family="Arial" font-size="18" x="293" y="69">ΔG*</text>
+<text fill="#e8f1f6" font-family="Arial" font-size="18" x="263" y="248">r*</text>
+<text fill="#b1c2cf" font-family="Arial" font-size="18" x="630" y="251">r</text>
+<text fill="#b1c2cf" font-family="Arial" font-size="18" x="8" y="25">ΔG</text>
+</svg>
+<figcaption>
+<p>Qualitative energy landscape for the idealized model. A pre-existing interface or a solid nucleation site changes the pathway and the barrier.</p>
+<p class="zh" lang="zh-CN">理想化模型的定性能量图景。已有界面或固体成核位点会改变成核路径与能垒。</p>
+</figcaption>
+</figure>
+<p class="equation"><i>r* = 2σ/Δp</i></p>
+<figure class="figure formula-figure" data-eq-figure="3">
+<img alt="The formation-work curve peaks at r*. The diagram locates ΔG, r, surface tension σ, and pressure advantage Δp. / 形成功曲线在 r* 处达到峰值；图中标出了 ΔG、r、表面张力 σ 与压差优势 Δp。" src="../assets/formula-figures/nucleation-critical-radius.svg"/>
+<figcaption>
+<p>The formation-work curve peaks at r*. The diagram locates ΔG, r, surface tension σ, and pressure advantage Δp.</p>
+<p class="zh" lang="zh-CN">形成功曲线在 r* 处达到峰值；图中标出了 ΔG、r、表面张力 σ 与压差优势 Δp。</p>
+</figcaption>
+</figure>
+<p>This is the critical radius at the top of the barrier. In this model, an embryo smaller than <i>r*</i> tends to shrink; one larger than <i>r*</i> can grow if the favorable conditions persist. Lowering the surrounding pressure increases <i>Δp</i> and makes <i>r*</i> smaller.</p>
+<p class="zh" lang="zh-CN">这是能垒顶点处的临界半径。在该模型中，小于 <i>r*</i> 的胚核倾向于缩小；大于 <i>r*</i> 的胚核在有利条件持续时可以生长。降低周围液体压力会增大 <i>Δp</i>，从而减小 <i>r*</i>。</p>
+<div class="callout">
+<span class="label">What this does and does not predict</span>
+<span class="label zh" lang="zh-CN">这一模型能预测什么、不能预测什么</span>
+<p>A trapped gas pocket already has an interface, while a particle or wall defect can provide an easier formation path. These cases do not simply use a smaller barrier in the same clean-liquid embryo formula. A very clean sample can still nucleate stochastically; the probability depends on pressure history, observation time, and volume. The equation above is an idealized energy picture, not a universal threshold for a shelled nanodroplet or a laser experiment.</p>
+<p class="zh" lang="zh-CN">被困气穴本身已有界面，而颗粒或壁面缺陷可能提供更容易的成核路径。这些情形不能简单地用同一个洁净液体胚核公式，只把能垒调低。非常洁净的样品仍可能随机成核；其概率取决于压力历程、观测时间和体积。上式是一幅理想化的能量图景，并非带壳纳米液滴或激光实验的普适阈值。</p>
+</div>
+<p>To see why one empty trial is inconclusive, imagine a constant nucleation rate <i>J</i> per unit volume per unit time in an observation volume <i>V</i> for duration <i>t</i>. An idealized independent-event model gives the probability of at least one event below.</p>
+<p class="zh" lang="zh-CN">要理解为什么一次未观察到事件的试验不能得出定论，设观测体积为 <i>V</i>、持续时间为 <i>t</i>，单位体积、单位时间的成核率恒为 <i>J</i>。理想化的独立事件模型给出如下至少发生一次事件的概率。</p>
+<p class="equation"><i>P(≥1) = 1 − exp(−JVt)</i></p>
+<figure class="figure formula-figure" data-eq-figure="4">
+<img alt="The rate J acts throughout observation volume V during time t; P(≥1) is the chance of one or more events. / 成核率 J 在观测体积 V 内、时间 t 中起作用；P(≥1) 是至少发生一次事件的概率。" src="../assets/formula-figures/nucleation-event-probability.svg"/>
+<figcaption>
+<p>The rate J acts throughout observation volume V during time t; P(≥1) is the chance of one or more events.</p>
+<p class="zh" lang="zh-CN">成核率 J 在观测体积 V 内、时间 t 中起作用；P(≥1) 是至少发生一次事件的概率。</p>
+</figcaption>
+</figure>
+<p>When <i>J &gt; 0</i>, a finite pulse can still produce zero events. Repeating the experiment estimates an event frequency; a single non-event cannot distinguish a small probability from impossibility.</p>
+<p class="zh" lang="zh-CN">即使 <i>J &gt; 0</i>，有限时长的脉冲仍可能没有事件。重复实验可以估计事件发生频率；单次未发生事件无法区分低概率与不可能。</p>
+<section class="check">
+<h2>One check</h2>
+<h2 class="zh" lang="zh-CN">一道检查题</h2>
+<p>Twenty fresh clean samples receive identical short pressure pulses; two show cavitation. What does this say about the claim that the other eighteen were incapable of cavitating under that pulse?</p>
+<p class="zh" lang="zh-CN">二十份新的洁净样品受到相同的短时压力脉冲，其中两份出现空化。这对“另外十八份样品在该脉冲下不可能发生空化”的说法意味着什么？</p>
+</section>
+<nav aria-label="Further reading / 延伸阅读">
+<p><a href="0002-which-pressure-drives-growth.html">Previous lesson</a> · <a href="../reference/bubble-language.html">Term sheet</a></p>
+<p class="zh" lang="zh-CN"><a href="0002-which-pressure-drives-growth.html">上一课</a> · <a href="../reference/bubble-language.html">术语表</a></p>
+<p>Read: <a href="../reading/Bubble_Cavitation_Dynamics.md">supplied teaching book, Chapter 2</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap1.htm">Brennen, Chapter 1: inception and nucleation</a>.</p>
+<p class="zh" lang="zh-CN">阅读：<a href="../reading/Bubble_Cavitation_Dynamics.md">所提供教材的第二章</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap1.htm">Brennen 著作第一章：空化初生与成核</a>。</p>
+<p>Ask me in chat if the surface-energy argument is unclear. We will move to the equation of motion after this distinction is secure.</p>
+<p class="zh" lang="zh-CN">如果表面能的论证有不清楚之处，请在聊天中提问。确认你掌握这一区别后，我们将学习气泡运动方程。</p>
+</nav>
+</main>
+<footer><span>Prepared for the cavitation dynamics learning workspace · 29 September 2026</span><span class="zh" lang="zh-CN">为空化动力学学习工作区编写 · 2026 年 9 月 29 日</span></footer>
+</body>
+</html>

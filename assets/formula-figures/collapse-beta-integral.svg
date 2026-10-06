@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Dimensionless area and the Rayleigh numerical coefficient</title>
+<desc>The area I under a dimensionless integrand from z=0 to z=1 is 0.7468342; multiplying by square root of 3/2 yields 0.9146814.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<line x1="105" y1="357" x2="631" y2="357" stroke="#b1c2cf" stroke-width="2" stroke-linecap="round"/>
+<line x1="105" y1="357" x2="105" y2="62" stroke="#b1c2cf" stroke-width="2" stroke-linecap="round"/>
+<path d="M130 144 C214 265 308 284 393 274 C486 260 549 210 605 94 L605 357 L130 357Z" fill="#1d3345" stroke="#6dd6e7" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M130 144 C214 265 308 284 393 274 C486 260 549 210 605 94" fill="none" stroke="#6dd6e7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="132" y="392" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">z = 0</text>
+<text x="132" y="417" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">substitution start / 代换起点</text>
+<text x="606" y="392" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#6dd6e7">z = 1</text>
+<text x="606" y="417" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">substitution end / 代换终点</text>
+<text x="369" y="317" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">I</text>
+<text x="369" y="342" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">area ≈ 0.7468342 / 积分面积</text>
+<text x="364" y="75" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" font-weight="normal" fill="#6dd6e7">z⁻¹⁄⁶(1−z)⁻¹⁄² / 3</text>
+<rect x="665" y="110" width="285" height="102" rx="10" fill="#2c2741" stroke="#6b5a86" stroke-width="2"/>
+<text x="690" y="150" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">B(5/6, 1/2)/3</text>
+<text x="690" y="175" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">same integral / 同一积分</text>
+<rect x="665" y="255" width="285" height="103" rx="10" fill="#1d3345" stroke="#526e83" stroke-width="2"/>
+<text x="690" y="298" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">√(3/2) I</text>
+<text x="690" y="323" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">≈ 0.9146814 / Rayleigh 系数</text>
+</svg>

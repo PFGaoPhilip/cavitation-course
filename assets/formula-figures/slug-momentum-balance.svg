@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" role="img" aria-labelledby="title desc">
+<title id="title">Momentum balance across a liquid slug / 液柱两端的动量平衡</title>
+<desc id="desc">A liquid slug of cross-sectional area A, length L, and density rho has higher pressure p_left at its left face than p_right at its right face for duration tau. The pressure difference changes its idealized speed by delta U. / 截面积 A、长度 L、密度 rho 的液柱左端面压力 p_left 高于右端面 p_right，持续时间 tau，压差使理想化液柱速度改变 delta U。</desc>
+<defs>
+  <marker id="arrow-cyan" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#82d9ee" stroke-width="1.7"/></marker>
+  <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#ffd39a" stroke-width="1.7"/></marker>
+</defs>
+<rect width="1000" height="400" rx="18" fill="#142330"/>
+<text x="28" y="38" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="22">End-to-end pressure difference / 两端面的压力差</text>
+<rect x="285" y="112" width="420" height="154" fill="#1b4055" stroke="#82d9ee" stroke-width="3"/>
+<rect x="285" y="112" width="13" height="154" fill="#28607a"/>
+<text x="449" y="181" fill="#e8f1f6" font-family="Arial,sans-serif" font-size="26">ρ</text>
+<text x="400" y="215" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="17">liquid / 液体</text>
+<line x1="84" y1="190" x2="260" y2="190" stroke="#ffd39a" stroke-width="5" marker-end="url(#arrow-orange)"/>
+<text x="60" y="150" fill="#ffd39a" font-family="Arial,sans-serif" font-size="20">p_left</text>
+<text x="60" y="174" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">higher / 较高</text>
+<line x1="897" y1="190" x2="729" y2="190" stroke="#ffd39a" stroke-width="5" marker-end="url(#arrow-orange)"/>
+<text x="800" y="150" fill="#ffd39a" font-family="Arial,sans-serif" font-size="20">p_right</text>
+<text x="800" y="174" fill="#b1c2cf" font-family="Arial,sans-serif" font-size="16">lower / 较低</text>
+<line x1="160" y1="91" x2="286" y2="130" stroke="#82d9ee" stroke-width="2" marker-end="url(#arrow-cyan)"/>
+<text x="50" y="82" fill="#82d9ee" font-family="Arial,sans-serif" font-size="19">end-face A / 端面 A</text>
+<line x1="285" y1="304" x2="705" y2="304" stroke="#82d9ee" stroke-width="2"/>
+<line x1="285" y1="293" x2="285" y2="315" stroke="#82d9ee" stroke-width="2"/>
+<line x1="705" y1="293" x2="705" y2="315" stroke="#82d9ee" stroke-width="2"/>
+<text x="493" y="334" text-anchor="middle" fill="#82d9ee" font-family="Arial,sans-serif" font-size="23">L</text>
+<text x="760" y="305" fill="#ffd39a" font-family="Arial,sans-serif" font-size="17">I_p = ∫Δp dt</text>
+<line x1="475" y1="83" x2="665" y2="83" stroke="#ef91bf" stroke-width="3" marker-end="url(#arrow-cyan)"/>
+<text x="483" y="72" fill="#ef91bf" font-family="Arial,sans-serif" font-size="19">ΔU_slug</text>
+<text x="500" y="373" text-anchor="middle" fill="#ffd39a" font-family="Arial,sans-serif" font-size="20">Δp(t) = p_left(t) − p_right(t), acting for τ / 持续 τ</text>
+</svg>

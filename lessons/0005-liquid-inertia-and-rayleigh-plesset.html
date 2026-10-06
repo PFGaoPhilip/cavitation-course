@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Lesson 5 · Liquid inertia / 第五课 · 液体惯性</title>
+<link href="../assets/course.css" rel="stylesheet"/>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script></head>
+<body>
+<header>
+<div class="eyebrow">Cavitation dynamics · Lesson 05 · General mechanics</div>
+<div class="eyebrow zh" lang="zh-CN">空化动力学 · 第五课 · 基础力学</div>
+<h1>The liquid's moving mass changes</h1>
+<h1 class="zh" lang="zh-CN">参与运动的液体质量会变化</h1>
+<p class="lede">The velocity field from Lesson 4 fills the surrounding liquid. Integrating its kinetic energy reveals why bubble inertia depends on radius.</p>
+<p class="lede zh" lang="zh-CN">第四课得到的速度场分布在气泡周围的液体中。对动能积分可以看出，为什么气泡的惯性效应取决于半径。</p>
+</header>
+<main><div class="callout" id="historical-route-note"><p>Historical lesson/review. Use the <a href="../SCHEDULE.html">complete textbook course</a> for the current study order. Former Chapters 4 and 5 are now Appendixes A and B.</p><p class="zh" lang="zh-CN">历史课程／复习材料。当前学习顺序请使用<a href="../SCHEDULE.html">完整教材课程</a>。原第四、五章现为附录 A、B。</p></div>
+<p>Keep the idealized model: an isolated spherical bubble in an effectively infinite, incompressible liquid of density <i>ρ</i>. The wall moves without interfacial mass transfer. Lesson 4 showed that radial liquid speed falls with the square of distance.</p>
+<p class="zh" lang="zh-CN">继续采用理想化模型：一个孤立球形气泡处在可视为无限延伸、密度为 <i>ρ</i> 的不可压缩液体中。壁面运动时不发生界面质量传递。第四课已表明液体径向速度随距离的平方增大而减小。</p>
+<p class="equation"><i>u(r,t) = [R(t)/r]²Ṙ</i></p>
+<figure class="figure formula-figure" data-eq-figure="1">
+<img alt="The radius R and outer location r identify where wall speed Ṙ and liquid speed u(r,t) are measured. / R 与外侧位置 r 标明了壁面速度 Ṙ 和液体速度 u(r,t) 各自的测量位置。" src="../assets/formula-figures/spherical-velocity-field.svg"/>
+<figcaption>
+<p>The radius R and outer location r identify where wall speed Ṙ and liquid speed u(r,t) are measured.</p>
+<p class="zh" lang="zh-CN">R 与外侧位置 r 标明了壁面速度 Ṙ 和液体速度 u(r,t) 各自的测量位置。</p>
+</figcaption>
+</figure>
+<h2>Add up the kinetic energy</h2>
+<h2 class="zh" lang="zh-CN">累加液体动能</h2>
+<p>A thin spherical liquid shell has volume <i>4πr²dr</i>. Multiply that volume by its kinetic-energy density and integrate from the bubble wall outward. The result is the total kinetic energy of the radial liquid motion.</p>
+<p class="zh" lang="zh-CN">一层薄球壳液体的体积为 <i>4πr²dr</i>。将这一体积乘以该处的动能密度，再从气泡壁面向外积分，即得到液体径向运动的总动能。</p>
+<p class="equation"><i>T = ½ρ∫<sub>R</sub><sup>∞</sup>u²4πr²dr = 2πρR³Ṙ²</i></p>
+<figure class="figure formula-figure" data-eq-figure="2">
+<img alt="A liquid shell at r has thickness dr, density ρ, and speed u(r,t). Summing shells from R outward gives the flow energy T. / 半径 r 处的液层厚度为 dr、密度为 ρ、速度为 u(r,t)；从 R 向外累加各液层得到流场动能 T。" src="../assets/formula-figures/liquid-shell-kinetic-energy.svg"/>
+<figcaption>
+<p>A liquid shell at r has thickness dr, density ρ, and speed u(r,t). Summing shells from R outward gives the flow energy T.</p>
+<p class="zh" lang="zh-CN">半径 r 处的液层厚度为 dr、密度为 ρ、速度为 u(r,t)；从 R 向外累加各液层得到流场动能 T。</p>
+</figcaption>
+</figure>
+<p>Compare this with the familiar kinetic-energy form for one coordinate. The resulting <em>effective radial mass</em> grows as the cube of bubble radius. It describes the surrounding liquid set in motion, not a fixed material mass inside the bubble or the translational added mass of a solid sphere.</p>
+<p class="zh" lang="zh-CN">将它与单个坐标的常见动能形式比较，可见所得<em>径向等效质量</em>随气泡半径的三次方增长。它描述被带动的周围液体，不是泡内固定的物质质量，也不是固体球平移时的附加质量。</p>
+<p class="equation"><i>T = ½M<sub>R</sub>(R)Ṙ²,   M<sub>R</sub>(R) = 4πρR³</i></p>
+<figure class="figure formula-figure" data-eq-figure="3">
+<img alt="R and wall speed Ṙ set distributed radial motion in liquid density ρ; M_R(R) is its energy-equivalent mass and T its kinetic energy. / R 与壁面速度 Ṙ 决定密度为 ρ 的液体径向运动；M_R(R) 是能量等效质量，T 是动能。" src="../assets/formula-figures/radial-effective-mass.svg"/>
+<figcaption>
+<p>R and wall speed Ṙ set distributed radial motion in liquid density ρ; M_R(R) is its energy-equivalent mass and T its kinetic energy.</p>
+<p class="zh" lang="zh-CN">R 与壁面速度 Ṙ 决定密度为 ρ 的液体径向运动；M_R(R) 是能量等效质量，T 是动能。</p>
+</figcaption>
+</figure>
+<div class="callout">
+<span class="label">Why the velocity-squared term appears</span>
+<span class="label zh" lang="zh-CN">为什么会出现速度平方项</span>
+<p>Because the effective radial mass changes as <i>R</i> changes, the pressure force must account for more than wall acceleration alone. Applying the radial energy balance gives an inertia term containing both the wall acceleration and its velocity squared. The coefficient <i>3/2</i> follows from the spherical flow geometry.</p>
+<p class="zh" lang="zh-CN">由于径向等效质量随 <i>R</i> 改变，压力驱动力所需平衡的不只是壁面加速度。对径向运动应用能量平衡，会得到同时含有壁面加速度和壁面速度平方的惯性项。系数 <i>3/2</i> 来自球对称流动的几何关系。</p>
+</div>
+<p>Combining that liquid inertia with the bubble-wall pressure, surface tension, and viscous stress gives the common incompressible Rayleigh–Plesset equation:</p>
+<p class="zh" lang="zh-CN">将液体惯性与气泡壁面的压力、表面张力和黏性应力结合，得到常用的不可压缩 Rayleigh–Plesset 方程：</p>
+<p class="equation"><i>ρ[R R̈ + (3/2)Ṙ²] =<br/>p<sub>B</sub> − p<sub>∞</sub> − 2σ/R − (4μ/R)Ṙ</i></p>
+<figure class="figure formula-figure" data-eq-figure="4">
+<img alt="The diagram locates interior p_B, exterior p_∞ and ρ, interfacial σ and μ, radius R, wall speed Ṙ, and acceleration R̈. / 图中标出了泡内 p_B、外侧 p_∞ 与 ρ、界面处的 σ 与 μ、半径 R、壁面速度 Ṙ 及加速度 R̈。" src="../assets/formula-figures/rayleigh-plesset-terms.svg"/>
+<figcaption>
+<p>The diagram locates interior p_B, exterior p_∞ and ρ, interfacial σ and μ, radius R, wall speed Ṙ, and acceleration R̈.</p>
+<p class="zh" lang="zh-CN">图中标出了泡内 p_B、外侧 p_∞ 与 ρ、界面处的 σ 与 μ、半径 R、壁面速度 Ṙ 及加速度 R̈。</p>
+</figcaption>
+</figure>
+<p>This equation evolves a bubble only after its initial radius and wall speed, external pressure history, and internal-pressure law are supplied. It does not create the first nucleus. Its spherical, incompressible assumptions also become questionable near a wall, during a jetting collapse, or when acoustic compression matters.</p>
+<p class="zh" lang="zh-CN">只有给定初始半径和壁面速度、外部压力历程以及泡内压力规律后，该方程才能求出气泡演化；它本身不会产生最初的气核。在邻近固壁、塌缩形成射流或声学压缩效应显著时，其球对称、不可压缩假设也需要重新审视。</p>
+<section class="check">
+<h2>One check</h2>
+<h2 class="zh" lang="zh-CN">一道检查题</h2>
+<p>If the wall speed stays fixed while the bubble radius grows, what physical change in the surrounding liquid makes a constant-mass particle model for the bubble wall inaccurate?</p>
+<p class="zh" lang="zh-CN">如果气泡半径增大而壁面速度保持不变，周围液体发生了什么物理变化，使得用恒定质量的粒子模型描述气泡壁面不准确？</p>
+</section>
+<nav aria-label="Further reading / 延伸阅读">
+<p><a href="0004-where-the-liquid-goes.html">Previous lesson</a> · <a href="../reading/Bubble_Cavitation_Dynamics.md">Supplied book, Chapter 3</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen, Chapter 2</a></p>
+<p class="zh" lang="zh-CN"><a href="0004-where-the-liquid-goes.html">上一课</a> · <a href="../reading/Bubble_Cavitation_Dynamics.md">所提供教材的第三章</a> · <a href="https://media.library.caltech.edu/CaltechBOOK%3A1995.001/chap2.htm">Brennen 著作第二章</a></p>
+<p>Ask me in chat about any unclear step; your answer will determine how we interpret the equation next.</p>
+<p class="zh" lang="zh-CN">如果任何一步不清楚，请在聊天中提问；你的回答将决定下一步如何理解这一方程。</p>
+</nav>
+</main>
+<footer><span>Prepared for the cavitation dynamics learning workspace · 29 September 2026</span><span class="zh" lang="zh-CN">为空化动力学学习工作区编写 · 2026 年 9 月 29 日</span></footer>
+</body>
+</html>

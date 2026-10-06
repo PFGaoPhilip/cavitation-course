@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Fixed laser energy and finite pressure or velocity budgets</title><desc>Incident Gaussian energy Ep is reduced by absorption eta_abs and energy allocation eta_b or eta_sh. Bubble volume, acoustic distance and pulse width limit conditional estimates.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Follow the same energy through the calculation</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">沿计算链追踪同一份能量</text>
+<rect x="35" y="120" width="250" height="160" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="58" y="162" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">E_p = πw₀²F₀/2</text>
+<text x="58" y="187" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">w₀: radius; F₀: dose</text>
+<text x="58" y="211" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">光斑半径／中心剂量</text>
+<line x1="290" y1="200" x2="357" y2="200" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="357,200 345.0,195.0 345.0,205.0" fill="#6dd6e7"/>
+<text x="300" y="180" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#f9b77d" text-anchor="start">η_abs</text>
+<rect x="368" y="120" width="267" height="160" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="395" y="164" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#6dd6e7" text-anchor="start">E_abs</text>
+<text x="395" y="189" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">absorbed pulse energy</text>
+<text x="395" y="213" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">脉冲吸收能量</text>
+<line x1="640" y1="200" x2="713" y2="200" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="713,200 701.0,195.0 701.0,205.0" fill="#6dd6e7"/>
+<text x="646" y="151" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#f9b77d" text-anchor="start">η_b</text>
+<text x="646" y="179" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#f9b77d" text-anchor="start">η_sh</text>
+<rect x="725" y="120" width="242" height="160" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="746" y="163" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">E_b / E_sh</text>
+<text x="746" y="188" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="13.473684210526317" fill="#b1c2cf" text-anchor="start">bubble / acoustic allocation</text>
+<text x="746" y="212" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">气泡／声波分配能量</text>
+<circle cx="187" cy="400" r="58" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<line x1="187" y1="400" x2="242" y2="400" stroke="#6dd6e7" stroke-width="3"/>
+<polygon points="242,400 230.0,395.0 230.0,405.0" fill="#6dd6e7"/>
+<text x="206" y="390" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#6dd6e7" text-anchor="start">R_max</text>
+<text x="63" y="503" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#e8f1f6" text-anchor="start">Δp V: pressure work / 压差功</text>
+<rect x="364" y="350" width="272" height="155" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="385" y="388" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">E_j, m_j, U_j</text>
+<text x="385" y="413" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">jet energy / mass / speed</text>
+<text x="385" y="437" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">射流能量／质量／速度</text>
+<rect x="719" y="350" width="248" height="155" rx="8" fill="#1b2c39" stroke="#405466" stroke-width="2"/>
+<text x="738" y="389" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">p′(r,t), τ_sh</text>
+<text x="738" y="414" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="15.028340080971661" fill="#b1c2cf" text-anchor="start">r: distance; ρc: impedance</text>
+<text x="738" y="438" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">测距／声阻抗</text>
+<text x="35" y="547" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">The pulse budget must be shared by all bubbles.</text>
+<text x="35" y="573" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" fill="#b1c2cf" text-anchor="start">所有气泡必须共享同一脉冲的能量预算。</text>
+</svg>

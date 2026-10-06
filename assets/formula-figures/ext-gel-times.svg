@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img">
+<title>Shear, acoustic and collapse times in the same geometry</title><desc>Length Rmax controls shear crossing Rmax/cs, acoustic crossing Rmax/cL and ideal collapse Rmax sqrt(rho/Delta p). G determines cs; bulk modulus determines longitudinal sound speed.</desc>
+<rect x="1" y="1" width="998" height="618" rx="12" fill="#12202b" stroke="#405466"/>
+<text x="35" y="38" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="23" fill="#6dd6e7" text-anchor="start">Static softness does not specify the pulse response</text>
+<text x="35" y="68" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#e8f1f6" text-anchor="start">静态柔软程度不能确定脉冲响应</text>
+<line x1="60" y1="160" x2="513" y2="160" stroke="#c5a4f7" stroke-width="3"/>
+<polygon points="513,160 501.0,155.0 501.0,165.0" fill="#c5a4f7"/>
+<text x="65" y="132" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">c_s = √(G/ρ_g) / 剪切波</text>
+<line x1="60" y1="180" x2="513" y2="180" stroke="#405466" stroke-width="3"/>
+<text x="252" y="210" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#b1c2cf" text-anchor="start">L = R_max</text>
+<line x1="60" y1="287" x2="513" y2="287" stroke="#8fb8ff" stroke-width="3"/>
+<polygon points="513,287 501.0,282.0 501.0,292.0" fill="#8fb8ff"/>
+<text x="65" y="259" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">c_L / 纵波</text>
+<line x1="60" y1="307" x2="513" y2="307" stroke="#405466" stroke-width="3"/>
+<text x="252" y="337" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#b1c2cf" text-anchor="start">L = R_max</text>
+<line x1="60" y1="410" x2="513" y2="410" stroke="#f9b77d" stroke-width="3"/>
+<polygon points="513,410 501.0,405.0 501.0,415.0" fill="#f9b77d"/>
+<text x="65" y="382" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">U_c = √(Δp/ρ) / 塌缩尺度</text>
+<line x1="60" y1="430" x2="513" y2="430" stroke="#405466" stroke-width="3"/>
+<text x="252" y="460" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="21" fill="#b1c2cf" text-anchor="start">L = R_max</text>
+<text x="626" y="133" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#c5a4f7" text-anchor="start">t_s = L/c_s</text>
+<text x="626" y="158" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">shear rearrangement time</text>
+<text x="626" y="182" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">剪切重排时间</text>
+<text x="626" y="262" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#8fb8ff" text-anchor="start">t_a = L/c_L</text>
+<text x="626" y="287" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">longitudinal crossing time</text>
+<text x="626" y="311" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">纵波传播时间</text>
+<text x="626" y="391" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#f9b77d" text-anchor="start">t_R = C_R L/U_c</text>
+<text x="626" y="416" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">inertial collapse scale</text>
+<text x="626" y="440" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" fill="#b1c2cf" text-anchor="start">惯性塌缩尺度</text>
+<text x="42" y="539" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#b1c2cf" text-anchor="start">G controls shear; K controls volume compression. Measure both at the relevant rate.</text>
+<text x="42" y="565" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#b1c2cf" text-anchor="start">G 控制剪切，K 控制体积压缩；须在相应速率下测量。</text>
+</svg>

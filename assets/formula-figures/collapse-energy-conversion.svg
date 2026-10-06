@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img">
+<title>Lost cavity volume becomes liquid kinetic energy</title>
+<desc>The bubble contracts from R_max to R; pressure gap Delta p does work over lost volume, stored as radial kinetic energy T in liquid density rho.</desc>
+<defs><marker id="a-teal" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#6dd6e7"/></marker><marker id="a-blue" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#8fb8ff"/></marker><marker id="a-orange" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#f9b77d"/></marker><marker id="a-purple" markerWidth="11" markerHeight="11" refX="9" refY="5.5" orient="auto"><path d="M0 0 L11 5.5 L0 11Z" fill="#c5a4f7"/></marker></defs>
+<rect x="1" y="1" width="998" height="458" rx="14" fill="#12202b" stroke="#405466"/>
+<circle cx="226" cy="220" r="103" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<circle cx="611" cy="220" r="62" fill="#1b3941" stroke="#6dd6e7" stroke-width="3"/>
+<line x1="226" y1="220" x2="329" y2="220" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="304" y="258" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#6dd6e7">R_max</text>
+<line x1="611" y1="220" x2="673" y2="220" stroke="#6dd6e7" stroke-width="2" stroke-linecap="round" marker-end="url(#a-teal)"/>
+<text x="657" y="258" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#6dd6e7">R</text>
+<line x1="363" y1="220" x2="524" y2="220" stroke="#c5a4f7" stroke-width="4" stroke-linecap="round" marker-end="url(#a-purple)"/>
+<text x="453" y="178" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#c5a4f7">Δp</text>
+<text x="453" y="203" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">pressure gap / 压力差</text>
+<text x="447" y="295" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#f9b77d">R_max³ − R³</text>
+<text x="447" y="320" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">lost cavity volume / 消失的空腔体积</text>
+<rect x="697" y="104" width="269" height="127" rx="10" fill="#1d3345" stroke="#526e83" stroke-width="2"/>
+<text x="722" y="151" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">T</text>
+<text x="722" y="176" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">liquid energy / 液体动能</text>
+<text x="722" y="202" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="bold" fill="#8fb8ff">ρ</text>
+<text x="722" y="227" text-anchor="start" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="17" font-weight="normal" fill="#b1c2cf">liquid density / 液体密度</text>
+<text x="497" y="403" text-anchor="middle" font-family="Segoe UI, Microsoft YaHei, Arial, sans-serif" font-size="19" font-weight="normal" fill="#b1c2cf">pressure work = radial-flow energy / 压力功 = 径向流动能</text>
+</svg>

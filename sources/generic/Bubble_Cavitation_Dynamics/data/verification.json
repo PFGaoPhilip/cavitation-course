@@ -1,0 +1,21 @@
+{
+  "RP_equilibrium_max_relative_radius_error": 0.0,
+  "KM_equilibrium_max_relative_radius_error": 0.0,
+  "small_amplitude_period_relative_error": 3.970073190195933e-07,
+  "inviscid_RP_energy_relative_drift": 7.292480821859291e-11,
+  "viscous_RP_energy_balance_relative_residual": 6.3256581926166645e-09,
+  "KM_infinite_sound_speed_max_radius_difference_over_R0": 1.2621045023973251e-10,
+  "KM_tolerance_refinement_max_radius_difference_over_R0": 3.5873270025636897e-09,
+  "Rayleigh_collapse_constant": 0.9146813564901609,
+  "Rayleigh_cutoff_time_relative_error": 4.160145475437918e-12,
+  "strong_collapse_stop_reason": "mach_guard",
+  "strong_collapse_terminal_Mach": 0.09999999999999788,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "all_checks_passed": true,
+  "RP_ringdown_max_Mach": 0.0175381494543041,
+  "KM_ringdown_max_Mach": 0.016531457124852596
+}
