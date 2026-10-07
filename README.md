@@ -9,6 +9,9 @@ Open **index.html** or **SCHEDULE.html** to read the bilingual course.
 The course contains 16 generic dynamics chapters, five project-theory chapters, two research appendixes, labeled formula figures, integrated calculations and formula-first reference answers. Historical mini-lessons and review chapters are retained. Every HTML page has a day/night toggle. All fonts, styles and figures are local.
 课程包含通用动力学 16 章、项目理论五章、两份研究附录、标注公式图、综合计算和先列公式的参考答案；保留早期微型课程和复习章节。每页均可切换日夜主题，字体、样式和配图均在本地。
 
+Corresponding English and Chinese technical terms share a color throughout the chapters and earlier lessons; different terms within a paired paragraph use different colors. Hover over a highlighted term to see its bilingual counterpart.
+各章节及早期课程中，同一术语的英文与中文使用相同颜色，同一组英中段落内的不同术语使用不同颜色。将鼠标悬停于高亮术语上，可查看其双语对应名称。
+
 Follow G01–G07 → G13 numerical laboratory → G08–G12 → G14–G16 → T01–T05 → Appendixes A and B. Prepared chapters do not establish learner mastery, and the conditional models do not establish experimental project validation.
 学习顺序为 G01—G07 → G13 数值实验 → G08—G12 → G14—G16 → T01—T05 → 附录 A、B。备妥章节不代表已掌握，条件模型也不构成项目的实验验证。
 

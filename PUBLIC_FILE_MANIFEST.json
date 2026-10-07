@@ -11,18 +11,18 @@
   },
   {
     "file": "README.md",
-    "bytes": 2494,
-    "sha256": "e60b4674555a36f24377a7c3e60f51e4c0245117e7f54c8dc95a667a102ea174"
+    "bytes": 2943,
+    "sha256": "c095cd88af2a0fd6818657ea9e7d3d2d3026105b038b439ab3843207d27a162a"
   },
   {
     "file": "SCHEDULE.html",
-    "bytes": 9687,
-    "sha256": "1d739d50a9300da7bfd845f2af6a7841df0b6f48d98f2206662d73029314d9d8"
+    "bytes": 13351,
+    "sha256": "29e065d4fa9f29ccae59f2f3d176bc6b9e70ffc6ac435de5fac0fbf1a322c52d"
   },
   {
     "file": "START.html",
-    "bytes": 1893,
-    "sha256": "df41387766ab8b64da774f4a831d108dd75f0851e663120d205aead54426bcad"
+    "bytes": 2141,
+    "sha256": "9b4809fa361e7301a313ed74b7b1e2652632a01e7c749aa768e721f41b5bdf7d"
   },
   {
     "file": "analysis/cavitation_extension_model.py",
@@ -85,6 +85,11 @@
     "sha256": "8a7c46bff07721f8cb35632d9559d4ac9d70a92b61d57b9d5c4795dcba6784fe"
   },
   {
+    "file": "assets/bilingual-terms.css",
+    "bytes": 26494,
+    "sha256": "73ff0f2985efd0d415caecb8b523c9b0932e849ad07ee9e7082dd0503fac7198"
+  },
+  {
     "file": "assets/course-rebuild.css",
     "bytes": 3143,
     "sha256": "b804c96f85dcef5307725b962ef480371630c8048fd962b6c90747a9445c4c35"
@@ -96,8 +101,8 @@
   },
   {
     "file": "assets/course.css",
-    "bytes": 4738,
-    "sha256": "efea9d3a806317e21a1337328c8296b669c88cc58b6b4dfc6af0622d7e257e33"
+    "bytes": 4824,
+    "sha256": "279f0382712d93248117a2006758f8676355ea53c9f81f9dfc37b76784386f22"
   },
   {
     "file": "assets/curriculum-figures/formula-00d162eaf7a66c97.svg",
@@ -2291,213 +2296,213 @@
   },
   {
     "file": "chapters/0000-foundations-of-bubble-dynamics.html",
-    "bytes": 44046,
-    "sha256": "9026c31b6447eeedaabccd8cc1ddd2a9e34ea3fe4c033e4e7dcd3cdf24fd29ea"
+    "bytes": 56104,
+    "sha256": "dc51eef6bedddb08b100c5a9e5d71390523aa62f3dab6125ddaae3d9d786f255"
   },
   {
     "file": "chapters/0001-beyond-ideal-collapse.html",
-    "bytes": 31274,
-    "sha256": "900036372454ba17387519503c2c3db02fcec26b8c3d37163f73a14c3320c7e0"
+    "bytes": 40597,
+    "sha256": "424a3d4e84076cc99c959a2d65be4269cdffa9b156e1020b936d041ecb82ebfa"
   },
   {
     "file": "chapters/0002-how-cavitation-jets-form.html",
-    "bytes": 40936,
-    "sha256": "9e535491ee00777b8c6f0244f446b601828e64a76295e96f1717658709b13284"
+    "bytes": 58472,
+    "sha256": "8cf8487c225333295f726e01705e960790cca0a2038862b05aeca82615844069"
   },
   {
     "file": "chapters/0003-from-laser-pulse-to-possible-bubble.html",
-    "bytes": 40149,
-    "sha256": "4b9b30d7fd645cf39b9160b5b588e3c157d3d6641779592aa74dbe1be5505629"
+    "bytes": 44737,
+    "sha256": "1082086525d3184481a9edf0243088d9a873ebe4118a468fdbc2bc4ad4355f96"
   },
   {
     "file": "chapters/0004-hydrogel-confinement-and-pfc-transfer.html",
-    "bytes": 36906,
-    "sha256": "f39b07c90e465ac972e485dee21d1f25379edc03ded1fd815aec558676f603bd"
+    "bytes": 49853,
+    "sha256": "7f86eed84c71677502e554d214a8d728dfea7a4bf79517993ad7bab859d980b1"
   },
   {
     "file": "chapters/0005-pressure-limits-from-one-bubble-to-arrays.html",
-    "bytes": 78754,
-    "sha256": "fc61c47b521ab63e1377766445fe0550fe3a06bd66cfabc247567b9f1c296d2e"
+    "bytes": 100041,
+    "sha256": "0a18862c2f98c72822d84d3ea49717f62eb0b86dd722b99e066f342092eb5028"
   },
   {
     "file": "course/COVERAGE.html",
-    "bytes": 49456,
-    "sha256": "dddb04d39d8b933647972f6aa91537bcf18d315f18844ac4d2926456de2b3703"
+    "bytes": 63580,
+    "sha256": "c146e6bb8f5df11709ae1f4c291a216675c054dd00119b3116b0ba2f5355b877"
   },
   {
     "file": "course/appendixes/A-hydrogel.html",
-    "bytes": 36947,
-    "sha256": "a1ef9a756ccb6065722ab908350e227cb166518893b2ce8f85164cf9e9939113"
+    "bytes": 49735,
+    "sha256": "08b46a10f53564bc9cb94d2d2c32c64f2bc1fa56b97c9f19aeb78dd9cee2a54e"
   },
   {
     "file": "course/appendixes/B-pressure-limits.html",
-    "bytes": 79025,
-    "sha256": "3430ab754e6fcb8f3d139300a0ae1a4061c21c3697bfe36947ed5a5a05f6e0ec"
+    "bytes": 100303,
+    "sha256": "e5dce8f67b24b83d0f8174c1bfc12090ee183c51152241043edc1176ee4aea88"
   },
   {
     "file": "course/chapters/G01-mechanical-system.html",
-    "bytes": 85827,
-    "sha256": "a0f2c8f681bcf1962e480e9b43c9989a2acd2f1c4b65a43d3e26f58974d0a705"
+    "bytes": 93832,
+    "sha256": "f1d69537cc097e402951e9e9340f7ce39f56c75a95d605299d1e6b7c975b5a03"
   },
   {
     "file": "course/chapters/G02-nucleation.html",
-    "bytes": 135614,
-    "sha256": "61035c6aa5ee9595649436534d0867878065a4f2db70ca36b7dc048b5494fc5c"
+    "bytes": 141181,
+    "sha256": "0fc8991f5643aaa493e7335962c9ae00a4ad6ef4a34f841a5900d5828aff9890"
   },
   {
     "file": "course/chapters/G03-rayleigh-plesset.html",
-    "bytes": 201171,
-    "sha256": "57d84ab23732edbd1e1027fdcacacc472552b64720ba5af5d56a393e1496fa16"
+    "bytes": 206563,
+    "sha256": "0600ccb5ce27fd8cc327f6973c4a353180d4f0d61b2868a2dce6d89f1c0f2538"
   },
   {
     "file": "course/chapters/G04-heat-and-mass.html",
-    "bytes": 131589,
-    "sha256": "0ddc73bf4d3affe1ec1ee5045e9be82f8ca4cf1a6c25f2c659e25efa41892bd1"
+    "bytes": 136430,
+    "sha256": "f5374549f9f87fd2e4e62983e7a4c487dc167d4fd4e403c1c23323571828d2ac"
   },
   {
     "file": "course/chapters/G05-collapse-and-rebound.html",
-    "bytes": 213990,
-    "sha256": "aec31343b1aa3f7119803fbab29a962e788d0afe2a792249cd4819287d426b1c"
+    "bytes": 220705,
+    "sha256": "857aab95ee7de9322c9edb767f2f730cd8d75c88b415519d9b9bf256e979308d"
   },
   {
     "file": "course/chapters/G06-oscillations.html",
-    "bytes": 141516,
-    "sha256": "994d70e85ec0a6af84e303ff8ac8a3983dd8c08e63127b55c9bbb0df7383a9a3"
+    "bytes": 146666,
+    "sha256": "2e369dee1cdbf300a3e70d11f0debd22119b48e14e78d927d978739b0da22ad9"
   },
   {
     "file": "course/chapters/G07-compressibility.html",
-    "bytes": 163792,
-    "sha256": "df1527daca22993247d2428fcabe9febe59d4c89376a748ba526ceacbdbec08b"
+    "bytes": 168558,
+    "sha256": "627804756528d31c47459ae77d251a7b4c56cdee96ce9d205ada3cd6f37781c0"
   },
   {
     "file": "course/chapters/G08-shape-and-boundaries.html",
-    "bytes": 100394,
-    "sha256": "5c757d336715e8a072c4899f311ccd63b0dc66d1f5519cf671723c00392b8c1a"
+    "bytes": 106192,
+    "sha256": "7cd1f28113194859a387e91cf950d4433a006585b3a13970b6478c74dc1283a0"
   },
   {
     "file": "course/chapters/G09-jets-and-transfer.html",
-    "bytes": 95331,
-    "sha256": "5204a0ea1c8f395099bc8105d17f254362dc926501a9c672a8f788f4f15a7885"
+    "bytes": 103717,
+    "sha256": "7629575e202215ff759355f1740e61c5726b81a558d98b2e753b615d931e66d0"
   },
   {
     "file": "course/chapters/G10-laser-source-pathways.html",
-    "bytes": 57033,
-    "sha256": "62bf38347242b5c3eafc5a991959e86b92b51766e517bac4131e996b55401a34"
+    "bytes": 63032,
+    "sha256": "bdeabdfedbae1491403594e1b407ab9afe003ccac40df60c28822ecd95063d26"
   },
   {
     "file": "course/chapters/G11-phase-change-droplets.html",
-    "bytes": 94857,
-    "sha256": "32c171920a20ff6f9336069a8f3a0fec5c02292d409475e6e505d50e1bb3ee2d"
+    "bytes": 103092,
+    "sha256": "e70b25e237ff0bbfbe723cea5d31264849eec48e99b58baab7b7125b0a2c14e5"
   },
   {
     "file": "course/chapters/G12-films-and-detachment.html",
-    "bytes": 151378,
-    "sha256": "f563363415b452b295dfc0fa590f33973a2c78a95f701c58c98ff5ba592d7ac5"
+    "bytes": 153810,
+    "sha256": "8454e41b899ff62b90170fa9531aca078eb89d0dff8de423eee6a6006bf08be9"
   },
   {
     "file": "course/chapters/G13-numerical-laboratory.html",
-    "bytes": 100522,
-    "sha256": "997fbc0a00bc4732fd8122b710ab11ac405592c1cf87aa3eb591b05e5709b666"
+    "bytes": 102642,
+    "sha256": "fde70603ab6f83fc8dc49a684b9121c1c1971c48e25f1d1c28a81313077c1ac8"
   },
   {
     "file": "course/chapters/G14-measurement-and-inference.html",
-    "bytes": 100281,
-    "sha256": "b5754842ac9f9287064066902f421c6a4b73bb75030cdb202589a6291f007fe9"
+    "bytes": 101134,
+    "sha256": "b4d70349f4979c19cc290c22d5de549004bc00a8af08d3cccfe5d8ab8b8436b9"
   },
   {
     "file": "course/chapters/G15-liquid-pvc-film-capstone.html",
-    "bytes": 87764,
-    "sha256": "589990647580ca9bd2733e9362498e3037f5d40829e36a2f9dcaf9e33fb3777c"
+    "bytes": 90042,
+    "sha256": "dc68d66982385f02709b407ab7f682e29f98916292575e6b201914412f159f3a"
   },
   {
     "file": "course/chapters/G16-original-worked-problems.html",
-    "bytes": 590466,
-    "sha256": "6d77086ae6da196a932acd53aee2c79f4512c8932b7d35b5db7bdffea28b8b3a"
+    "bytes": 602909,
+    "sha256": "17af73e1268d638bc23ecea89c44f1f6a690afee87e45da13a8458b416b41f87"
   },
   {
     "file": "course/chapters/T01-optical-deposition.html",
-    "bytes": 306112,
-    "sha256": "e94184d23e1eae3cbc2621a514885cef6e54a88a0bcef7348b0693e367d0a00a"
+    "bytes": 309619,
+    "sha256": "27d417c34596ac3198b5e25307e73f47ba497bfd63111194866db9da2d71b57b"
   },
   {
     "file": "course/chapters/T02-activation-statistics.html",
-    "bytes": 183211,
-    "sha256": "d193354694e2066c4ea77adadd962a4aa37801d5f1788e6ac111b5758749f3f3"
+    "bytes": 183923,
+    "sha256": "eb3f7a8fb3d91cdbdf6f07a81ef871352fd632694db1b0ef4f426b95878fe4e5"
   },
   {
     "file": "course/chapters/T03-bubble-load-mapping.html",
-    "bytes": 472560,
-    "sha256": "eb05872515837e7d1e404378999dd83baf8da04ebd387aee7b110147e2ac50f2"
+    "bytes": 478899,
+    "sha256": "bb4f8fbbe28291bfe9812abd42599a161739c17cfa2ddb3f70ef1d7bc29d248e"
   },
   {
     "file": "course/chapters/T04-structural-response-and-release.html",
-    "bytes": 389355,
-    "sha256": "7a417c35d536fcff50d0d86e4e5119a7ed98d07115f06e3c94a9d7baa3a2a79f"
+    "bytes": 390211,
+    "sha256": "64494e837e50221504299ecd6e62c5e7f62d106898847efe836e920a1a333932"
   },
   {
     "file": "course/chapters/T05-sensitivity-and-measurements.html",
-    "bytes": 155186,
-    "sha256": "e2fceaf7577d9d7583d3f91ca8fcae9af8d2e1524c3c6fc621bb779b64744020"
+    "bytes": 156874,
+    "sha256": "25bfa743498c6cdacf6cae97c41612545cb292ab6a09d342fd5f6d791752b611"
   },
   {
     "file": "course/references/notation-and-model-map.html",
-    "bytes": 116082,
-    "sha256": "a2b2c7c49f52604a0e5cd2341a9bfd25ef155372acaacf1dc89d8f51fb997a7f"
+    "bytes": 121512,
+    "sha256": "ecfc195ffce078eea06f22093de12f26e9800b8e28715e47d39d7e1f8ea840c9"
   },
   {
     "file": "course/references/original-theory-pages.html",
-    "bytes": 3100,
-    "sha256": "35b47eee0b7683f5afe484ed434688397cc8a5dab174044825e6f11488b65b0f"
+    "bytes": 3164,
+    "sha256": "a7ff4c423dc7e65ab3e134486bc5f54b602f9fa1e1ade39d8be56da7c9be56fe"
   },
   {
     "file": "course/references/paper-atlas.html",
-    "bytes": 39580,
-    "sha256": "18bbcb2d145fb280368b7a0bff46c295ee0330fa5033757f0afe438b0014dbf8"
+    "bytes": 58599,
+    "sha256": "4b8c8e46c474768c5338d5de8c434d30fbc6d814222edacfd19dc50348cbfe6f"
   },
   {
     "file": "course/references/theory-original-pages-note.html",
-    "bytes": 2438,
-    "sha256": "1495daedcc6f00eda2f0cc5523f42d4d9a86b0511377f5d526bbc526ea8cf307"
+    "bytes": 2502,
+    "sha256": "a4d92fa34bc90b4d6121d00ad145ce9eccad1c27311149c1fa71b82e528a089b"
   },
   {
     "file": "index.html",
-    "bytes": 1893,
-    "sha256": "df41387766ab8b64da774f4a831d108dd75f0851e663120d205aead54426bcad"
+    "bytes": 2141,
+    "sha256": "9b4809fa361e7301a313ed74b7b1e2652632a01e7c749aa768e721f41b5bdf7d"
   },
   {
     "file": "lessons/0001-the-bubble-is-a-moving-boundary.html",
-    "bytes": 6633,
-    "sha256": "ea331179aa1ef086f79c4e28efcd691692ef6ae7c1e6adb8fba1abbbf7997d02"
+    "bytes": 8227,
+    "sha256": "42692cea79407d6be1a3b1857f33deda9c1ffda97b8314a0aa79154f4e2e7b9f"
   },
   {
     "file": "lessons/0002-which-pressure-drives-growth.html",
-    "bytes": 5452,
-    "sha256": "d6fd0e4f96e7f7d9b9b6261477092a1a1e260540cd1d5e2d1d24d73a7d35a622"
+    "bytes": 6764,
+    "sha256": "8a3d889d9e7f7236a23010ba9f71c6235ee9f0bcf0332e82a76fffaec70dd14d"
   },
   {
     "file": "lessons/0003-why-a-bubble-may-not-form.html",
-    "bytes": 12311,
-    "sha256": "9348d2af07467682b14060095d1396cad324c95b131855149eb08dd37f3060b0"
+    "bytes": 15294,
+    "sha256": "cf5c28ee3b30c1531022e1c33d1965d3c9aee4a555eef8f40243b2201eb3451f"
   },
   {
     "file": "lessons/0004-where-the-liquid-goes.html",
-    "bytes": 9394,
-    "sha256": "c1ea5b4fe1046f73ec93039cf1ffd2f405c6cd72fc3f8a6a43aebc2593fd9429"
+    "bytes": 10579,
+    "sha256": "4eccb7cb548fcd5e8ab0701371411d37ed4f1d6e0f4b2103bbbaed5e317c561d"
   },
   {
     "file": "lessons/0005-liquid-inertia-and-rayleigh-plesset.html",
-    "bytes": 9512,
-    "sha256": "8e32ccd88ee66b7c04b5fd11d7aa529b483970371007362213574f0a1a49f36d"
+    "bytes": 12917,
+    "sha256": "cf88e602a79fac405437232e199b754d81206789915ee70fff64f414277b7304"
   },
   {
     "file": "lessons/0006-what-sets-bubble-pressure.html",
-    "bytes": 11089,
-    "sha256": "7ef862e51b4f08666dc3f77bdb9ca34e6d6bb1979d2c271aa1c481f1a5861326"
+    "bytes": 13567,
+    "sha256": "dbd8fbe17241274e8ff1b7ab717f66cba68a67f58abef9ed1cccd4986296591a"
   },
   {
     "file": "lessons/0007-how-long-ideal-collapse-takes.html",
-    "bytes": 20720,
-    "sha256": "0de4cf1445b98af76349c5565b535324e3c19d6d8caf0bb89193488959ee371b"
+    "bytes": 28126,
+    "sha256": "c2750aa6c53b05df9f97c7eca76c7bf5f749a21a766bc8e71b52b47f5f0e045f"
   },
   {
     "file": "reading/Bubble_Cavitation_Dynamics.md",
@@ -2556,8 +2561,8 @@
   },
   {
     "file": "reference/bubble-language.html",
-    "bytes": 2536,
-    "sha256": "95a668b0028b98374ed22614bf7de68bb24c1d990086fc6d7fe4e2a529ede5c8"
+    "bytes": 3121,
+    "sha256": "048b1df3889b166c350bb98156970c5230ce135720bf0ccb63308b472b914df4"
   },
   {
     "file": "sources/generic/Bubble_Cavitation_Dynamics/code/bubble_lab.py",
