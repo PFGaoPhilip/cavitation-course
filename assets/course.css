@@ -37,7 +37,6 @@ a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .lede { font-size: 1.18rem; color: var(--muted); max-width: 35em; }
 .callout { background: var(--wash); border-left: 3px solid var(--accent); padding: 0.9rem 1.25rem; margin: 1.6rem 0; }
 .keyword { color: #ffd39a; background: rgba(249, 183, 125, 0.14); border-radius: 0.2rem; padding: 0.03em 0.2em; font-weight: 700; }
-.technical-term { -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .equation { font-family: "Cambria Math", Georgia, serif; font-size: 1.35rem; text-align: center; margin: 1.5rem 0; white-space: nowrap; overflow-x: auto; }
 .figure { margin: 1.8rem 0; padding: 1rem; border: 1px solid var(--rule); background: #142330; }
 .figure svg { display: block; width: 100%; height: auto; }

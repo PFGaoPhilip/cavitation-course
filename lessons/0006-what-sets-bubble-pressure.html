@@ -6,7 +6,7 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Lesson 6 · Bubble pressure / 第六课 · 泡内压力</title>
 <link href="../assets/course.css" rel="stylesheet"/>
-<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script><link href="../assets/bilingual-terms.css" rel="stylesheet"/></head>
+<link href="../assets/course-rebuild.css" rel="stylesheet"/><script src="../assets/course-theme.js"></script><link href="../assets/bilingual-terms.css?v=fb986cd1b103" rel="stylesheet"/></head>
 <body>
 <header>
 <div class="eyebrow">Cavitation dynamics · Lesson 06 · General mechanics</div>
@@ -20,7 +20,7 @@
 <p>Lesson 5 related liquid acceleration to the pressure at the bubble wall. But the liquid momentum balance does not, by itself, tell us how that bubble pressure changes when the radius changes. We must supply a <em>closure</em>: a separate law for the bubble contents.</p>
 <p class="zh" lang="zh-CN">第五课将液体加速度与气泡壁面的压力联系起来。但仅凭液体动量平衡，还不能知道半径变化时泡内压力如何变化。我们必须提供一个<em>闭合关系</em>，即描述泡内物质的另一条规律。</p>
 <h2>Separate gas from vapor</h2>
-<h2 class="zh" lang="zh-CN">区分<span class="keyword technical-term" data-term="noncondensable-gas" title="noncondensable gas / 不凝性气体">不凝性气体</span>与蒸气</h2>
+<h2 class="zh" lang="zh-CN">区分不凝性气体与蒸气</h2>
 <p>For a simple bubble containing <span class="keyword technical-term" data-term="noncondensable-gas" title="noncondensable gas / 不凝性气体">noncondensable gas</span> and liquid vapor, treat the interior as approximately uniform and write its total pressure as the sum of the two partial pressures. The ambient liquid pressure <i>p<sub>∞</sub></i> is a separate quantity outside the bubble.</p>
 <p class="zh" lang="zh-CN">对于同时含有<span class="keyword technical-term" data-term="noncondensable-gas" title="noncondensable gas / 不凝性气体">不凝性气体</span>和液体蒸气的简单气泡，近似认为泡内状态均匀，并将总压力写成两种组分的分压之和。环境液体压力 <i>p<sub>∞</sub></i> 是气泡外部的另一个量。</p>
 <p class="equation"><i>p<sub>B</sub>(R) = p<sub>g</sub>(R) + p<sub>v</sub>(R)</i></p>
@@ -47,7 +47,7 @@
 <p class="zh" lang="zh-CN">理想气体的等温变化取 <i>κ = 1</i>；理想可逆绝热变化取 <i>κ = γ = c<sub>p</sub>/c<sub>v</sub></i>。选用哪一个值属于热过程的建模假设；在整个塌缩过程中，单一指数未必能同时描述快速升温、<span class="keyword technical-term" data-term="heat-transfer" title="heat transfer / 传热">传热</span>与<span class="keyword technical-term" data-term="phase-change" title="phase change / 相变">相变</span>。</p>
 <h2>State the vapor assumption separately</h2>
 <h2 class="zh" lang="zh-CN">单独说明蒸气的假设</h2>
-<p>A simple model may hold <i>p<sub>v</sub></i> near the saturation pressure at an approximately fixed interface temperature. In that picture vapor can evaporate during growth and condense during collapse: its mass need not be fixed. Holding <span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">vapor pressure</span> constant and holding vapor mass constant are different approximations.</p>
+<p>A simple model may hold <i>p<sub>v</sub></i> near the saturation pressure at an approximately fixed interface temperature. In that picture vapor can evaporate during growth and <span class="keyword technical-term" data-term="condensation" title="condensation / 凝结">condense</span> during collapse: its mass need not be fixed. Holding <span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">vapor pressure</span> constant and holding vapor mass constant are different approximations.</p>
 <p class="zh" lang="zh-CN">简单模型可近似认为 <i>p<sub>v</sub></i> 等于近乎恒定的界面温度所对应的饱和<span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">蒸气压</span>。在这一图像下，蒸气可在气泡生长时因蒸发而增加，在塌缩时因<span class="keyword technical-term" data-term="condensation" title="condensation / 凝结">凝结</span>而减少，因此其质量不必固定。保持<span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">蒸气压</span>恒定与保持蒸气质量恒定是两种不同的近似。</p>
 <p>With that constant-<span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">vapor-pressure</span> approximation, the complete pressure law used by the bubble-radius equation is:</p>
 <p class="zh" lang="zh-CN">在<span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">蒸气压</span>恒定的近似下，供气泡半径方程使用的完整泡内压力规律为：</p>
@@ -70,7 +70,7 @@
 <img alt="At reference radius R_0, gas p_g0 and vapor p_v balance external pressure p_∞0 and surface-tension pressure 2σ/R_0 when the wall is at rest. / 在参考半径 R_0 处，当壁面静止时，气体分压 p_g0 与蒸气压 p_v 平衡外部压力 p_∞0 和表面张力压差 2σ/R_0。" src="../assets/formula-figures/initial-bubble-equilibrium.svg"/>
 <figcaption>
 <p>At reference radius R_0, gas p_g0 and vapor p_v balance external pressure p_∞0 and <span class="keyword technical-term" data-term="surface-tension" title="surface tension / 表面张力">surface-tension</span> pressure 2σ/R_0 when the wall is at rest.</p>
-<p class="zh" lang="zh-CN">在参考半径 R_0 处，当壁面静止时，气体分压 p_g0 与<span class="keyword technical-term" data-term="vapor-pressure" title="vapor pressure / 蒸气压">蒸气压</span> p_v 平衡外部压力 p_∞0 和<span class="keyword technical-term" data-term="surface-tension" title="surface tension / 表面张力">表面张力</span>压差 2σ/R_0。</p>
+<p class="zh" lang="zh-CN">在参考半径 R_0 处，当壁面静止时，气体分压 p_g0 与蒸气压 p_v 平衡外部压力 p_∞0 和<span class="keyword technical-term" data-term="surface-tension" title="surface tension / 表面张力">表面张力</span>压差 2σ/R_0。</p>
 </figcaption>
 </figure>
 <section class="check">

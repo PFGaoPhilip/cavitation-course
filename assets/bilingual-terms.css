@@ -3,142 +3,142 @@
   -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .technical-term[data-term="absorption-coefficient"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="absorption-coefficient"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="acoustic-crossing-time"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="acoustic-crossing-time"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="acoustic-impedance"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="acoustic-impedance"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="acoustic-crossing-time"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="acoustic-crossing-time"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="acoustic-impedance"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="acoustic-impedance"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="acoustic-radiation"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="acoustic-radiation"] { --term-ink: #13386c; --term-wash: #e5eefa; }
 .technical-term[data-term="blake-threshold"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="blake-threshold"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="bubble-cloud"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
-html[data-theme="light"] .technical-term[data-term="bubble-cloud"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+.technical-term[data-term="bubble-cloud"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="bubble-cloud"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="bubble-dynamics"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="bubble-dynamics"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="bubble-interaction"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="bubble-interaction"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="bulk-modulus"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="bulk-modulus"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+.technical-term[data-term="bulk-modulus"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="bulk-modulus"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
 .technical-term[data-term="capillary-pressure"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="capillary-pressure"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="cavitation"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="cavitation"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
+.technical-term[data-term="cavitation-inception"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="cavitation-inception"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
 .technical-term[data-term="coalescence"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="coalescence"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="collapse-time"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="collapse-time"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-.technical-term[data-term="compliant-boundary"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="compliant-boundary"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="compressibility"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="compressibility"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="condensation"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="condensation"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
+.technical-term[data-term="collapse-time"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="collapse-time"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+.technical-term[data-term="compliant-boundary"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="compliant-boundary"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="compressibility"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="compressibility"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="condensation"] { --term-ink: #8df6dc; --term-wash: rgba(141, 246, 220, .14); }
+html[data-theme="light"] .technical-term[data-term="condensation"] { --term-ink: #136c56; --term-wash: #e5faf5; }
 .technical-term[data-term="critical-radius"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="critical-radius"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-.technical-term[data-term="damping"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="damping"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-.technical-term[data-term="elastic-boundary"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="elastic-boundary"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+.technical-term[data-term="damping"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="damping"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="elastic-boundary"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="elastic-boundary"] { --term-ink: #13386c; --term-wash: #e5eefa; }
 .technical-term[data-term="energy-barrier"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="energy-barrier"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="equation-of-state"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="equation-of-state"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="equation-of-state"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="equation-of-state"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="fluence"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="fluence"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-.technical-term[data-term="free-surface"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="free-surface"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="gas-cushioning"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="gas-cushioning"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="free-surface"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="free-surface"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+.technical-term[data-term="gas-cushioning"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="gas-cushioning"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
 .technical-term[data-term="gas-nuclei"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
 html[data-theme="light"] .technical-term[data-term="gas-nuclei"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="gilmore"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="gilmore"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="heat-transfer"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="heat-transfer"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+.technical-term[data-term="heat-transfer"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="heat-transfer"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
 .technical-term[data-term="heterogeneous-nucleation"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="heterogeneous-nucleation"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="homogeneous-nucleation"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="homogeneous-nucleation"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="hydrogel"] { --term-ink: #8df6dc; --term-wash: rgba(141, 246, 220, .14); }
-html[data-theme="light"] .technical-term[data-term="hydrogel"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+.technical-term[data-term="homogeneous-nucleation"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
+html[data-theme="light"] .technical-term[data-term="homogeneous-nucleation"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+.technical-term[data-term="hydrogel"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
+html[data-theme="light"] .technical-term[data-term="hydrogel"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="incompressibility"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="incompressibility"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="inertia"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
 html[data-theme="light"] .technical-term[data-term="inertia"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="interfacial-adhesion"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="interfacial-adhesion"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="interfacial-fracture"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="interfacial-fracture"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+.technical-term[data-term="interfacial-fracture"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="interfacial-fracture"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="jet"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="jet"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="jet-speed"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="jet-speed"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="jet-speed"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
+html[data-theme="light"] .technical-term[data-term="jet-speed"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="keller-miksis"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
 html[data-theme="light"] .technical-term[data-term="keller-miksis"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="kelvin-impulse"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="kelvin-impulse"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="kinetic-energy"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="kinetic-energy"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
+.technical-term[data-term="kinetic-energy"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="kinetic-energy"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
 .technical-term[data-term="laplace-pressure"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="laplace-pressure"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="latent-heat"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="latent-heat"] { --term-ink: #13386c; --term-wash: #e5eefa; }
-.technical-term[data-term="liquid-inertia"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="liquid-inertia"] { --term-ink: #13386c; --term-wash: #e5eefa; }
-.technical-term[data-term="mach-number"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
-html[data-theme="light"] .technical-term[data-term="mach-number"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+.technical-term[data-term="latent-heat"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
+html[data-theme="light"] .technical-term[data-term="latent-heat"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+.technical-term[data-term="mach-number"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="mach-number"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
 .technical-term[data-term="mass-transfer"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
 html[data-theme="light"] .technical-term[data-term="mass-transfer"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="microbubble"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="microbubble"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
 .technical-term[data-term="microjet"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="microjet"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="nanodroplet"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="nanodroplet"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-.technical-term[data-term="noncondensable-gas"] { --term-ink: #8df6dc; --term-wash: rgba(141, 246, 220, .14); }
-html[data-theme="light"] .technical-term[data-term="noncondensable-gas"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+.technical-term[data-term="nanodroplet"] { --term-ink: #8df6dc; --term-wash: rgba(141, 246, 220, .14); }
+html[data-theme="light"] .technical-term[data-term="nanodroplet"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+.technical-term[data-term="noncondensable-gas"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="noncondensable-gas"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
 .technical-term[data-term="nonspherical-collapse"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="nonspherical-collapse"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="nucleation"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="nucleation"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-.technical-term[data-term="nucleation-barrier"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
-html[data-theme="light"] .technical-term[data-term="nucleation-barrier"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+.technical-term[data-term="nucleation"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="nucleation"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+.technical-term[data-term="nucleation-barrier"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="nucleation-barrier"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="ohnesorge-number"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="ohnesorge-number"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="optical-breakdown"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="optical-breakdown"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="optoacoustic"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
-html[data-theme="light"] .technical-term[data-term="optoacoustic"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
-.technical-term[data-term="peak-pressure"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="peak-pressure"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-.technical-term[data-term="pfc"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="pfc"] { --term-ink: #13386c; --term-wash: #e5eefa; }
-.technical-term[data-term="phase-change"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="phase-change"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+.technical-term[data-term="optoacoustic"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="optoacoustic"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="peak-pressure"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="peak-pressure"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
+.technical-term[data-term="pfc"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="pfc"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+.technical-term[data-term="phase-change"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="phase-change"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="poisson-ratio"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="poisson-ratio"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="polytropic-exponent"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="polytropic-exponent"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="pressure-impulse"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
-html[data-theme="light"] .technical-term[data-term="pressure-impulse"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
-.technical-term[data-term="rayleigh-plesset"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="rayleigh-plesset"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-.technical-term[data-term="rebound"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="rebound"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+.technical-term[data-term="pressure-impulse"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="pressure-impulse"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+.technical-term[data-term="rayleigh-plesset"] { --term-ink: #8df6dc; --term-wash: rgba(141, 246, 220, .14); }
+html[data-theme="light"] .technical-term[data-term="rayleigh-plesset"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+.technical-term[data-term="rebound"] { --term-ink: #8db9f6; --term-wash: rgba(141, 185, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="rebound"] { --term-ink: #13386c; --term-wash: #e5eefa; }
 .technical-term[data-term="resonance"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="resonance"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="reynolds-number"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="reynolds-number"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="rigid-boundary"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
-html[data-theme="light"] .technical-term[data-term="rigid-boundary"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="rigid-wall"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
-html[data-theme="light"] .technical-term[data-term="rigid-wall"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+.technical-term[data-term="rigid-boundary"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="rigid-boundary"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+.technical-term[data-term="rigid-wall"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="rigid-wall"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
 .technical-term[data-term="shock-wave"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
 html[data-theme="light"] .technical-term[data-term="shock-wave"] { --term-ink: #29136c; --term-wash: #eae5fa; }
 .technical-term[data-term="spherical-collapse"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="spherical-collapse"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="stand-off"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="stand-off"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+.technical-term[data-term="stand-off"] { --term-ink: #8df696; --term-wash: rgba(141, 246, 150, .14); }
+html[data-theme="light"] .technical-term[data-term="stand-off"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
 .technical-term[data-term="superheat"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="superheat"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="surface-tension"] { --term-ink: #f6968d; --term-wash: rgba(246, 150, 141, .14); }
@@ -151,12 +151,12 @@ html[data-theme="light"] .technical-term[data-term="thermal-diffusivity"] { --te
 html[data-theme="light"] .technical-term[data-term="thermocavitation"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
 .technical-term[data-term="vapor-pressure"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="vapor-pressure"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-.technical-term[data-term="vaporization"] { --term-ink: #a78df6; --term-wash: rgba(167, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="vaporization"] { --term-ink: #29136c; --term-wash: #eae5fa; }
-.technical-term[data-term="viscoelasticity"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="viscoelasticity"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-.technical-term[data-term="viscosity"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
-html[data-theme="light"] .technical-term[data-term="viscosity"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="vaporization"] { --term-ink: #f6f68d; --term-wash: rgba(246, 246, 141, .14); }
+html[data-theme="light"] .technical-term[data-term="vaporization"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
+.technical-term[data-term="viscoelasticity"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="viscoelasticity"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+.technical-term[data-term="viscosity"] { --term-ink: #f68df6; --term-wash: rgba(246, 141, 246, .14); }
+html[data-theme="light"] .technical-term[data-term="viscosity"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
 .technical-term[data-term="water-hammer"] { --term-ink: #f6cb8d; --term-wash: rgba(246, 203, 141, .14); }
 html[data-theme="light"] .technical-term[data-term="water-hammer"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 .technical-term[data-term="weber-number"] { --term-ink: #8ddcf6; --term-wash: rgba(141, 220, 246, .14); }
@@ -165,83 +165,83 @@ html[data-theme="light"] .technical-term[data-term="weber-number"] { --term-ink:
 html[data-theme="light"] .technical-term[data-term="young-modulus"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
 @media print {
   html .technical-term[data-term="absorption-coefficient"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="acoustic-crossing-time"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="acoustic-impedance"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="acoustic-crossing-time"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="acoustic-impedance"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="acoustic-radiation"] { --term-ink: #13386c; --term-wash: #e5eefa; }
   html .technical-term[data-term="blake-threshold"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="bubble-cloud"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+  html .technical-term[data-term="bubble-cloud"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="bubble-dynamics"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="bubble-interaction"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="bulk-modulus"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+  html .technical-term[data-term="bulk-modulus"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
   html .technical-term[data-term="capillary-pressure"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="cavitation"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
+  html .technical-term[data-term="cavitation-inception"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
   html .technical-term[data-term="coalescence"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="collapse-time"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-  html .technical-term[data-term="compliant-boundary"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="compressibility"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="condensation"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
+  html .technical-term[data-term="collapse-time"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+  html .technical-term[data-term="compliant-boundary"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="compressibility"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="condensation"] { --term-ink: #136c56; --term-wash: #e5faf5; }
   html .technical-term[data-term="critical-radius"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-  html .technical-term[data-term="damping"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-  html .technical-term[data-term="elastic-boundary"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+  html .technical-term[data-term="damping"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="elastic-boundary"] { --term-ink: #13386c; --term-wash: #e5eefa; }
   html .technical-term[data-term="energy-barrier"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="equation-of-state"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="equation-of-state"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="fluence"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-  html .technical-term[data-term="free-surface"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="gas-cushioning"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="free-surface"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+  html .technical-term[data-term="gas-cushioning"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
   html .technical-term[data-term="gas-nuclei"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="gilmore"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="heat-transfer"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+  html .technical-term[data-term="heat-transfer"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
   html .technical-term[data-term="heterogeneous-nucleation"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="homogeneous-nucleation"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="hydrogel"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+  html .technical-term[data-term="homogeneous-nucleation"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+  html .technical-term[data-term="hydrogel"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="incompressibility"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="inertia"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="interfacial-adhesion"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="interfacial-fracture"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+  html .technical-term[data-term="interfacial-fracture"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="jet"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="jet-speed"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="jet-speed"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="keller-miksis"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="kelvin-impulse"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="kinetic-energy"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
+  html .technical-term[data-term="kinetic-energy"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
   html .technical-term[data-term="laplace-pressure"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="latent-heat"] { --term-ink: #13386c; --term-wash: #e5eefa; }
-  html .technical-term[data-term="liquid-inertia"] { --term-ink: #13386c; --term-wash: #e5eefa; }
-  html .technical-term[data-term="mach-number"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+  html .technical-term[data-term="latent-heat"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+  html .technical-term[data-term="mach-number"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
   html .technical-term[data-term="mass-transfer"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="microbubble"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
   html .technical-term[data-term="microjet"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="nanodroplet"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-  html .technical-term[data-term="noncondensable-gas"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+  html .technical-term[data-term="nanodroplet"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+  html .technical-term[data-term="noncondensable-gas"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
   html .technical-term[data-term="nonspherical-collapse"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="nucleation"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-  html .technical-term[data-term="nucleation-barrier"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+  html .technical-term[data-term="nucleation"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+  html .technical-term[data-term="nucleation-barrier"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="ohnesorge-number"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="optical-breakdown"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="optoacoustic"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
-  html .technical-term[data-term="peak-pressure"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
-  html .technical-term[data-term="pfc"] { --term-ink: #13386c; --term-wash: #e5eefa; }
-  html .technical-term[data-term="phase-change"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+  html .technical-term[data-term="optoacoustic"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="peak-pressure"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
+  html .technical-term[data-term="pfc"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
+  html .technical-term[data-term="phase-change"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="poisson-ratio"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="polytropic-exponent"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="pressure-impulse"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
-  html .technical-term[data-term="rayleigh-plesset"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
-  html .technical-term[data-term="rebound"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+  html .technical-term[data-term="pressure-impulse"] { --term-ink: #13386c; --term-wash: #e5eefa; }
+  html .technical-term[data-term="rayleigh-plesset"] { --term-ink: #136c56; --term-wash: #e5faf5; }
+  html .technical-term[data-term="rebound"] { --term-ink: #13386c; --term-wash: #e5eefa; }
   html .technical-term[data-term="resonance"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="reynolds-number"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="rigid-boundary"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="rigid-wall"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
+  html .technical-term[data-term="rigid-boundary"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+  html .technical-term[data-term="rigid-wall"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
   html .technical-term[data-term="shock-wave"] { --term-ink: #29136c; --term-wash: #eae5fa; }
   html .technical-term[data-term="spherical-collapse"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="stand-off"] { --term-ink: #29136c; --term-wash: #eae5fa; }
+  html .technical-term[data-term="stand-off"] { --term-ink: #136c1b; --term-wash: #e5fae7; }
   html .technical-term[data-term="superheat"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="surface-tension"] { --term-ink: #6c1b13; --term-wash: #fae7e5; }
   html .technical-term[data-term="thermal-diffusion"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="thermal-diffusivity"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="thermocavitation"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
   html .technical-term[data-term="vapor-pressure"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
-  html .technical-term[data-term="vaporization"] { --term-ink: #29136c; --term-wash: #eae5fa; }
-  html .technical-term[data-term="viscoelasticity"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
-  html .technical-term[data-term="viscosity"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="vaporization"] { --term-ink: #6c6c13; --term-wash: #fafae5; }
+  html .technical-term[data-term="viscoelasticity"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
+  html .technical-term[data-term="viscosity"] { --term-ink: #6c136c; --term-wash: #fae5fa; }
   html .technical-term[data-term="water-hammer"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
   html .technical-term[data-term="weber-number"] { --term-ink: #13566c; --term-wash: #e5f5fa; }
   html .technical-term[data-term="young-modulus"] { --term-ink: #6c4713; --term-wash: #faf1e5; }
