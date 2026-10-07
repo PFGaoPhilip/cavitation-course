@@ -17,147 +17,155 @@
       "source_id": "G01",
       "title": "A bubble as a mechanical system",
       "path": "course/chapters/G01-mechanical-system.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 2,
       "source_id": "G02",
       "title": "Nucleation and static stability",
       "path": "course/chapters/G02-nucleation.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 3,
       "source_id": "G03",
       "title": "Deriving Rayleigh–Plesset",
       "path": "course/chapters/G03-rayleigh-plesset.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 4,
       "source_id": "G04",
       "title": "Gas, vapor, heat and mass",
       "path": "course/chapters/G04-heat-and-mass.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 5,
       "source_id": "G05",
       "title": "Inertial collapse, energy focusing and rebound",
       "path": "course/chapters/G05-collapse-and-rebound.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 6,
       "source_id": "G06",
       "title": "Bubble oscillations as vibration theory",
       "path": "course/chapters/G06-oscillations.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 7,
       "source_id": "G07",
       "title": "Compressibility, sound and model limits",
       "path": "course/chapters/G07-compressibility.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 8,
       "source_id": "G13",
       "title": "A reproducible numerical laboratory",
       "path": "course/chapters/G13-numerical-laboratory.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 9,
       "source_id": "G08",
       "title": "Shape, boundaries and translation",
       "path": "course/chapters/G08-shape-and-boundaries.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 10,
       "source_id": "G09",
       "title": "Jets, pressure impulse and liquid transfer",
       "path": "course/chapters/G09-jets-and-transfer.html",
-      "status": "prepared; mastery not inferred"
+      "status": "solved_inherited",
+      "completion_basis": "accepted prior work; completion inherited by learner request"
     },
     {
       "position": 11,
       "source_id": "G10",
       "title": "How lasers create bubbles and loading",
       "path": "course/chapters/G10-laser-source-pathways.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 12,
       "source_id": "G11",
       "title": "Phase-change perfluorocarbon droplets",
       "path": "course/chapters/G11-phase-change-droplets.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 13,
       "source_id": "G12",
       "title": "Bubble-driven films, membranes and detachment",
       "path": "course/chapters/G12-films-and-detachment.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 14,
       "source_id": "G14",
       "title": "Measurement, inference and uncertainty",
       "path": "course/chapters/G14-measurement-and-inference.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 15,
       "source_id": "G15",
       "title": "Capstone: a liquid–PVC–film research model",
       "path": "course/chapters/G15-liquid-pvc-film-capstone.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 16,
       "source_id": "G16",
       "title": "Thirty original worked problems",
       "path": "course/chapters/G16-original-worked-problems.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 17,
       "source_id": "T01",
       "title": "Optical deposition",
       "path": "course/chapters/T01-optical-deposition.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 18,
       "source_id": "T02",
       "title": "Activation",
       "path": "course/chapters/T02-activation-statistics.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 19,
       "source_id": "T03",
       "title": "Bubble dynamics and load mapping",
       "path": "course/chapters/T03-bubble-load-mapping.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 20,
       "source_id": "T04",
       "title": "Structural motion and interfacial release",
       "path": "course/chapters/T04-structural-response-and-release.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     },
     {
       "position": 21,
       "source_id": "T05",
       "title": "Sensitivity and next measurements",
       "path": "course/chapters/T05-sensitivity-and-measurements.html",
-      "status": "prepared; mastery not inferred"
+      "status": "pending"
     }
   ],
   "extension_appendixes": [
@@ -14426,5 +14434,7 @@
     }
   ],
   "original_problem_count": 30,
-  "source_atlas_card_count": 35
+  "source_atlas_card_count": 35,
+  "progress_updated": "2026-10-08",
+  "next_chapter": "G06"
 }

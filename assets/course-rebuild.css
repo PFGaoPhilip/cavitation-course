@@ -31,6 +31,15 @@ a:hover { color: var(--ink); }
 .section-toc a { display: block; padding: .25rem 0; break-inside:avoid; }
 .prepared { border: 1px solid var(--rule); padding: .25rem .45rem; display:inline-block; font-size:.72rem; }
 .checklist { font-size: .9rem; }
+.course-progress { border-left: 4px solid #83e5a4; }
+.progress-cell { min-width: 9rem; }
+.progress-status { display: inline-block; border: 1px solid currentColor; border-radius: .3rem; padding: .25rem .45rem; font-weight: 600; }
+.progress-solved { color: #83e5a4; background: #123527; }
+.progress-next { color: #92d7ff; background: #123047; }
+.progress-pending { color: var(--muted); }
+html[data-theme="light"] .course-progress { border-left-color: #17653b; }
+html[data-theme="light"] .progress-solved { color: #17653b; background: #e5f7ec; }
+html[data-theme="light"] .progress-next { color: #075b79; background: #e3f3fc; }
 .chapter-problem .equation { text-align: center; }
 .chapter-problem li { padding-bottom: .7rem; }
 .source-line { color: var(--muted); font: .7rem Arial,sans-serif; }
