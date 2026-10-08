@@ -1,0 +1,1265 @@
+{
+  "date": "2026-10-08",
+  "teaching_sequence": [
+    "J01",
+    "J02",
+    "J03",
+    "J04",
+    "L01"
+  ],
+  "arrangement_reference": "chapters/0005-pressure-limits-from-one-bubble-to-arrays.html",
+  "chapter_modules": [
+    {
+      "code": "J01",
+      "title_en": "Pressure impulse, cavity energy and symmetry breaking",
+      "title_zh": "压力冲量、腔体能量与对称性破缺",
+      "path": "course/chapters/J01-impulse-energy-and-asymmetry.html",
+      "status": "pending"
+    },
+    {
+      "code": "J02",
+      "title_en": "Moving interfaces, jet formation and geometric focusing",
+      "title_zh": "运动界面、射流形成与几何聚焦",
+      "path": "course/chapters/J02-interface-motion-and-focusing.html",
+      "status": "pending"
+    },
+    {
+      "code": "J03",
+      "title_en": "Jet transport, capillary instability and breakup",
+      "title_zh": "射流输运、毛细失稳与破碎",
+      "path": "course/chapters/J03-transport-instability-and-breakup.html",
+      "status": "pending"
+    },
+    {
+      "code": "J04",
+      "title_en": "Jet impact, observed pressure and finite limits",
+      "title_zh": "射流冲击、观测压力与有限极限",
+      "path": "course/chapters/J04-impact-pressure-and-finite-limits.html",
+      "status": "pending"
+    }
+  ],
+  "scope": "Original governing-equation derivations and solved declared benchmarks; no target nonlinear simulation or achieved experimental maximum claimed.",
+  "equations": {
+    "J01-01": {
+      "tex": "\\Delta p=p_\\infty-p_b>0,\\qquad E_B=\\Delta p V_{\\max}=\\frac{4\\pi}{3}\\Delta p R_{\\max}^{3}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-01.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "p_b: fixed cavity pressure [Pa]",
+        "p_∞: fixed far-liquid pressure [Pa]",
+        "R_max: initial maximum radius [m]",
+        "V_max: initial cavity volume [m³]",
+        "E_B: ideal available pressure work [J]"
+      ],
+      "title_en": "Pressure-work scale for the supplied cavity",
+      "title_zh": "给定腔体的压力做功尺度"
+    },
+    "J01-02": {
+      "tex": "u_r(r,t)=\\frac{R^2\\dot R}{r^2},\\qquad K_l=\\frac12\\rho\\int_R^\\infty u_r^2\\,4\\pi r^2\\,\\mathrm dr=2\\pi\\rho R^3\\dot R^2",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-02.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "r: distance from cavity center [m]",
+        "R(t): current cavity radius [m]",
+        "Ṙ: signed outward wall speed [m/s]",
+        "ρ: liquid density [kg/m³]",
+        "K_l: integrated liquid kinetic energy [J]"
+      ],
+      "title_en": "Radial velocity and the kinetic energy of surrounding liquid",
+      "title_zh": "径向速度与周围液体的动能"
+    },
+    "J01-03": {
+      "tex": "R\\ddot R+\\frac32\\dot R^2=-\\frac{\\Delta p}{\\rho},\\quad y(R)=\\dot R^2,\\quad \\ddot R=\\frac12\\frac{\\mathrm dy}{\\mathrm dR},\\quad \\frac{\\mathrm d}{\\mathrm dR}(R^3y)=-\\frac{2\\Delta p}{\\rho}R^2",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-03.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "Initial state: R = R_max, Ṙ = 0",
+        "y(R): squared wall speed [m²/s²]",
+        "R̈: radial acceleration [m/s²]",
+        "ρ and Δp are constant in this control",
+        "Derivative in R applies along collapse branch"
+      ],
+      "title_en": "Reducing Rayleigh collapse to a first integral",
+      "title_zh": "将 Rayleigh 塌缩化为第一积分"
+    },
+    "J01-04": {
+      "tex": "\\dot R=-\\sqrt{\\frac{2\\Delta p}{3\\rho}\\left[\\left(\\frac{R_{\\max}}{R}\\right)^3-1\\right]},\\qquad K_l=\\frac{4\\pi}{3}\\Delta p(R_{\\max}^3-R^3)",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-04.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "R ≤ R_max on the shrinking branch",
+        "Ṙ < 0: inward wall motion",
+        "Lost volume: 4π(R_max³ − R³)/3",
+        "K_l equals released work in this model",
+        "This wall speed is not an exterior jet speed"
+      ],
+      "title_en": "Solved wall speed and work-to-energy conversion",
+      "title_zh": "已解壁速与做功到动能的转换"
+    },
+    "J01-05": {
+      "tex": "\\begin{aligned}t_c&=R_{\\max}\\sqrt{\\frac{3\\rho}{2\\Delta p}}\\int_0^1\\frac{x^{3/2}}{\\sqrt{1-x^3}}\\,\\mathrm dx\\\\ &=C_tR_{\\max}\\sqrt{\\frac{\\rho}{\\Delta p}},\\qquad C_t=\\frac{\\sqrt{3/2}}{3}B\\!\\left(\\frac56,\\frac12\\right)=0.914681\\ldots,\\quad x=R/R_{\\max}.\\end{aligned}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-05.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "x: dimensionless shrinking radius",
+        "B(a,b): beta integral, not bubble pressure",
+        "t_c: time from maximum radius to ideal zero",
+        "C_t: dimensionless scenario coefficient",
+        "Time scale: R_max √(ρ/Δp) [s]"
+      ],
+      "title_en": "Collapse time from the complete radius integral",
+      "title_zh": "由完整半径积分得到塌缩时间"
+    },
+    "J01-06": {
+      "tex": "\\Pi(\\boldsymbol x)=\\int_{t_0}^{t_1}p\\prime(\\boldsymbol x,t)\\,\\mathrm dt,\\qquad \\boldsymbol u^+-\\boldsymbol u^-=-\\frac{\\nabla\\Pi}{\\rho},\\qquad \\nabla^2\\Pi=0",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-06.svg",
+      "diagram_kind": "impulse",
+      "variables": [
+        "Π(x): pressure impulse [Pa s]",
+        "∇Π: spatial gradient [Pa s/m]",
+        "u⁻, u⁺: velocities before/after pulse",
+        "ρ: constant incompressible liquid density",
+        "Laplace equation follows from ∇·Δu = 0"
+      ],
+      "title_en": "Time-integrated Euler equation on frozen geometry",
+      "title_zh": "冻结几何中的 Euler 方程时间积分"
+    },
+    "J01-07": {
+      "tex": "\\Pi(z)=\\Pi_0\\left(1-\\frac zL\\right),\\quad \\Delta u=\\frac{\\Pi_0}{\\rho L},\\quad \\Pi_0=\\Delta p\\tau\\ \\text{for a rectangular pulse},\\quad t_a=\\frac Lc",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-07.svg",
+      "diagram_kind": "impulse",
+      "variables": [
+        "z: axial position between 0 and L",
+        "L: liquid-column length [m]",
+        "τ: source pulse duration [s]",
+        "c: liquid sound speed [m/s]",
+        "t_a is a time; Π₀ is not a time"
+      ],
+      "title_en": "An exactly solved straight-column impulse control",
+      "title_zh": "可精确求解的直液柱压力冲量对照"
+    },
+    "J01-13": {
+      "tex": "\\Delta\\boldsymbol u=-\\frac{\\nabla\\Pi}{\\rho}-\\int(\\boldsymbol u\\!\\cdot\\nabla)\\boldsymbol u\\,\\mathrm dt+\\nu\\int\\nabla^2\\boldsymbol u\\,\\mathrm dt,\\quad \\epsilon_{\\mathrm{adv}}\\sim U\\tau/L,\\quad \\epsilon_\\nu\\sim\\nu\\tau/L^2,\\quad \\nu=\\mu/\\rho",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-13.svg",
+      "diagram_kind": "impulse",
+      "variables": [
+        "L: local flow-variation length [m]",
+        "U: local velocity scale [m/s]",
+        "τ: forcing interval [s]",
+        "ν: kinematic viscosity [m²/s]",
+        "Residual estimates are not error guarantees"
+      ],
+      "title_en": "Residual terms behind the pressure-impulse approximation",
+      "title_zh": "压力冲量近似背后的残项"
+    },
+    "J01-08": {
+      "tex": "p_{\\mathrm{bg}}=p_0+\\boldsymbol g_p\\!\\cdot(\\boldsymbol x-\\boldsymbol x_c),\\qquad \\boldsymbol F_{\\mathrm{anis}}=-\\oint_{\\Gamma_b}p_{\\mathrm{bg}}\\boldsymbol n_b\\,\\mathrm dA=-V\\boldsymbol g_p",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-08.svg",
+      "diagram_kind": "gradient",
+      "variables": [
+        "g_p = ∇p_bg: imposed gradient [Pa/m]",
+        "n_b points cavity → liquid",
+        "x_c: cavity center; Γ_b: cavity surface",
+        "V: instantaneous cavity volume [m³]",
+        "F_anis: directional pressure force [N]"
+      ],
+      "title_en": "Gradient force with the cavity-to-liquid normal",
+      "title_zh": "使用腔体指向液体法向的梯度力"
+    },
+    "J01-09": {
+      "tex": "\\begin{aligned}\\boldsymbol I_c&=-\\boldsymbol g_p\\int_0^{t_c}V\\,\\mathrm dt,\\\\ \\int_0^{t_c}V\\,\\mathrm dt&=C_VR_{\\max}^4\\sqrt{\\rho/\\Delta p},\\\\ C_V&=\\frac{4\\pi}{3}\\sqrt{\\frac32}\\int_0^1\\frac{x^{9/2}}{\\sqrt{1-x^3}}\\,\\mathrm dx=2.394630\\ldots.\\end{aligned}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-09.svg",
+      "diagram_kind": "gradient",
+      "variables": [
+        "I_c: collapse-branch impulse [N s]",
+        "V(t): volume on the radial reference",
+        "x = R/R_max: radius variable",
+        "C_V: collapse-only numerical integral",
+        "Direction: opposite to g_p"
+      ],
+      "title_en": "Integrating the gradient force over Rayleigh collapse",
+      "title_zh": "沿 Rayleigh 塌缩积分梯度力"
+    },
+    "J01-10": {
+      "tex": "\\boldsymbol\\zeta=-\\frac{R_{\\max}}{\\Delta p}\\boldsymbol g_p,\\qquad \\boldsymbol I_{\\mathrm{sym}}=4.789260\\ldots R_{\\max}^{3}\\sqrt{\\rho\\Delta p}\\,\\boldsymbol\\zeta",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-10.svg",
+      "diagram_kind": "gradient",
+      "variables": [
+        "ζ vector: dimensionless asymmetry and direction",
+        "I_sym: growth + collapse reference [N s]",
+        "R_max³√(ρΔp): momentum scale [N s]",
+        "ζ = |ζ vector| when used as a scalar",
+        "Not an identity for jet mass times tip speed"
+      ],
+      "title_en": "Dimensionless anisotropy and a symmetric-cycle impulse",
+      "title_zh": "无量纲不对称性与对称周期冲量"
+    },
+    "J01-11": {
+      "tex": "\\gamma=\\frac{h}{R_{\\max}},\\qquad \\boldsymbol\\zeta_{\\mathrm{rigid}}\\simeq-0.195\\gamma^{-2}\\boldsymbol n_{\\mathrm{wall}},\\qquad \\boldsymbol\\zeta_{\\mathrm{free}}\\simeq+0.195\\gamma^{-2}\\boldsymbol n_{\\mathrm{wall}}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-11.svg",
+      "diagram_kind": "wall",
+      "variables": [
+        "h: plane-to-cavity-center distance [m]",
+        "n_wall points plane → cavity center",
+        "γ: center stand-off / maximum radius",
+        "Rigid limit: jet tendency toward plane",
+        "Pressure-release limit: tendency away"
+      ],
+      "title_en": "Planar boundary image limits and the stand-off ratio",
+      "title_zh": "平面边界镜像极限与离壁比"
+    },
+    "J01-12": {
+      "tex": "U_c=\\sqrt{\\Delta p/\\rho},\\qquad U_{\\mathrm{jet}}\\simeq\\frac{0.9}{\\zeta}U_c,\\qquad \\frac{V_{\\mathrm{impact}}}{V_{\\max}}\\simeq0.11\\zeta^2\\quad(10^{-4}\\lesssim\\zeta\\lesssim0.1\\text{ in the fitted calculation})",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-12.svg",
+      "diagram_kind": "gradient",
+      "variables": [
+        "U_c: inertial speed scale [m/s]",
+        "U_jet: maximum pre-opposite-wall-impact speed",
+        "V_impact: cavity volume at jet impact",
+        "V_impact is not the liquid-jet volume",
+        "Fit: incompressible potential-flow jet regime"
+      ],
+      "title_en": "Conditional internal-jet speed and cavity volume at impact",
+      "title_zh": "有条件的内部射流速度与冲击时腔体体积"
+    },
+    "J01-14": {
+      "tex": "\\boldsymbol\\zeta_{\\mathrm{net}}\\simeq0.195R_{\\max}^2\\left(h_R^{-2}-h_L^{-2}\\right)\\boldsymbol e_z,\\qquad h_L=h_R\\ \\Longrightarrow\\ \\boldsymbol\\zeta_{\\mathrm{net}}\\simeq\\boldsymbol0",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-14.svg",
+      "diagram_kind": "two-wall",
+      "variables": [
+        "+z points from left plane to right plane",
+        "h_L, h_R: center distances [m]",
+        "Use the leading weak-image approximation",
+        "Equal distances retain higher shape effects",
+        "Do not insert ζ = 0 into the speed fit"
+      ],
+      "title_en": "Leading directional cancellation between two distant planes",
+      "title_zh": "两个远平面间的首阶定向抵消"
+    },
+    "J01-A1": {
+      "tex": "E_B=\\frac{4\\pi}{3}\\Delta pR_{\\max}^3,\\quad t_c=C_tR_{\\max}\\sqrt{\\rho/\\Delta p},\\quad \\dot R=-\\sqrt{\\frac{2\\Delta p}{3\\rho}[(R_{\\max}/R)^3-1]}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-A1.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "R_max = 100 μm; Δp = 100 kPa",
+        "ρ = 1000 kg/m³; C_t = 0.914681…",
+        "Evaluation radius R = 50 μm",
+        "Wall-speed sign is inward",
+        "No direction in a spherical solution"
+      ],
+      "title_en": "Original formulas for cavity work, time and wall speed",
+      "title_zh": "腔体做功、时间与壁速的原始公式"
+    },
+    "J01-A2": {
+      "tex": "\\Pi_0=\\Delta p\\tau,\\quad \\Delta u=\\Pi_0/(\\rho L),\\quad t_a=L/c",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-A2.svg",
+      "diagram_kind": "impulse",
+      "variables": [
+        "Δp = 0.60 MPa; τ = 0.50 μs",
+        "L = 100 μm; c = 1500 m/s",
+        "Π₀ measured in Pa s",
+        "Δu measured in m/s",
+        "t_a measured in seconds"
+      ],
+      "title_en": "Original straight-column impulse formulas",
+      "title_zh": "直液柱压力冲量的原始公式"
+    },
+    "J01-A3": {
+      "tex": "\\boldsymbol\\zeta=-R_{\\max}\\boldsymbol g_p/\\Delta p,\\quad \\boldsymbol I_c=-C_V\\boldsymbol g_pR_{\\max}^4\\sqrt{\\rho/\\Delta p},\\quad \\boldsymbol I_{\\mathrm{sym}}=2\\boldsymbol I_c",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-A3.svg",
+      "diagram_kind": "gradient",
+      "variables": [
+        "g_p points +z; |g_p| = 2×10⁷ Pa/m",
+        "C_V = 2.394630…",
+        "Collapse-only uses one shrinking branch",
+        "Symmetric reference adds mirrored growth",
+        "Actual growth requires its own V(t)"
+      ],
+      "title_en": "Original anisotropy and impulse formulas",
+      "title_zh": "不对称性与冲量的原始公式"
+    },
+    "J01-A4": {
+      "tex": "\\gamma=h/R_{\\max},\\quad \\zeta=0.195\\gamma^{-2},\\quad U_{\\mathrm{jet}}=0.9\\sqrt{\\Delta p/\\rho}/\\zeta,\\quad M=U_{\\mathrm{jet}}/c,\\quad V_{\\mathrm{impact}}/V_{\\max}=0.11\\zeta^2",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-A4.svg",
+      "diagram_kind": "wall",
+      "variables": [
+        "h = 200 μm; R_max = 100 μm",
+        "c = 1500 m/s; U_c = 10 m/s",
+        "Fit gives pre-opposite-wall-impact speed",
+        "V_impact means cavity volume",
+        "Compressibility remains a regime check"
+      ],
+      "title_en": "Original plane and conditional jet formulas",
+      "title_zh": "平面与有条件射流的原始公式"
+    },
+    "J01-A5": {
+      "tex": "\\gamma=100/100=1,\\qquad \\zeta\\simeq0.195>0.1",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J01-A5.svg",
+      "diagram_kind": "wall",
+      "variables": [
+        "Plane moves to h = 100 μm",
+        "γ = 1: cavity can meet the plane",
+        "ζ = 0.195: strong-asymmetry reference",
+        "Weak/intermediate speed fit not justified",
+        "Exterior surface and exit geometry needed"
+      ],
+      "title_en": "Check the fit domain before using its velocity",
+      "title_zh": "使用速度拟合前检查适用域"
+    },
+    "J02-01": {
+      "tex": "\\boldsymbol u=\\nabla\\phi,\\qquad \\nabla\\!\\cdot\\boldsymbol u=0\\ \\Longrightarrow\\ \\nabla^2\\phi=0\\quad\\text{in the liquid domain }\\Omega(t)",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-01.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "φ: velocity potential [m²/s]",
+        "u = ∇φ: liquid velocity [m/s]",
+        "Ω(t): connected liquid region",
+        "Γ(t): actual liquid–gas interface",
+        "No bulk vorticity in this reference"
+      ],
+      "title_en": "Potential flow in the instantaneous liquid geometry",
+      "title_zh": "瞬时液体几何中的势流"
+    },
+    "J02-02": {
+      "tex": "\\frac{\\mathrm d\\boldsymbol X}{\\mathrm dt}=\\boldsymbol u(\\boldsymbol X,t),\\qquad V_n=\\boldsymbol u\\!\\cdot\\boldsymbol n=\\frac{\\partial\\phi}{\\partial n},\\qquad \\boldsymbol n\\colon\\text{liquid}\\to\\text{gas}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-02.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "X: a tracked material surface point [m]",
+        "V_n: signed interface normal speed [m/s]",
+        "n: outward normal of liquid domain",
+        "For an inner cavity n points inward",
+        "No evaporation slip in this control"
+      ],
+      "title_en": "Kinematic closure at the moving interface",
+      "title_zh": "运动界面的运动学闭合"
+    },
+    "J02-03": {
+      "tex": "p_l=p_g+\\sigma\\kappa,\\qquad \\kappa=\\nabla_s\\!\\cdot\\boldsymbol n,\\qquad \\kappa_{\\mathrm{cavity}}=-2/R,\\quad\\kappa_{\\mathrm{cylinder}}=1/a",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-03.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "p_l, p_g: liquid and gas pressures [Pa]",
+        "σ: constant surface tension [N/m]",
+        "κ: signed curvature [1/m]",
+        "R: spherical cavity radius [m]",
+        "a: exterior cylindrical jet radius [m]"
+      ],
+      "title_en": "One curvature convention for inner and outer surfaces",
+      "title_zh": "内外表面使用同一曲率约定"
+    },
+    "J02-04": {
+      "tex": "\\partial_t\\phi+\\frac12|\\boldsymbol u|^2=\\frac{p_\\infty-p_l}{\\rho},\\qquad \\frac{D\\phi}{Dt}=\\partial_t\\phi+\\boldsymbol u\\!\\cdot\\nabla\\phi=\\frac12|\\boldsymbol u|^2+\\frac{p_\\infty-p_g-\\sigma\\kappa}{\\rho}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-04.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "∂tφ: derivative at fixed spatial location",
+        "Dφ/Dt: derivative following X(t)",
+        "p_∞ fixes the far-field potential gauge",
+        "p_g and κ evaluated on moving Γ",
+        "Each term has units m²/s²"
+      ],
+      "title_en": "Eulerian Bernoulli and its material surface form",
+      "title_zh": "Euler 型 Bernoulli 与材料表面形式"
+    },
+    "J02-05": {
+      "tex": "\\phi(r,t)=-\\frac{R^2\\dot R}{r},\\quad\\phi_\\Gamma=-R\\dot R,\\quad\\frac{D\\phi_\\Gamma}{Dt}=-\\dot R^2-R\\ddot R\\quad\\Longrightarrow\\quad\\rho(R\\ddot R+\\tfrac32\\dot R^2)=p_g-p_\\infty-2\\sigma/R",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-05.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "φ(r,t) decays to zero at infinity",
+        "φ_Γ is evaluated at r = R(t)",
+        "Dφ_Γ/Dt follows the surface",
+        "Cavity normal gives κ = −2/R",
+        "Viscosity omitted consistently here"
+      ],
+      "title_en": "Spherical reduction verifies the dynamic sign",
+      "title_zh": "球形还原核验动力学符号"
+    },
+    "J02-06": {
+      "tex": "c_\\Gamma(\\boldsymbol x)\\phi(\\boldsymbol x)=\\int_{\\partial\\Omega}\\left[G\\frac{\\partial\\phi}{\\partial n_y}-\\phi\\frac{\\partial G}{\\partial n_y}\\right]\\,\\mathrm dA_y,\\quad G=\\frac{1}{4\\pi|\\boldsymbol x-\\boldsymbol y|},\\quad c_\\Gamma=\\frac12\\text{ on a smooth boundary}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-06.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "x: observation point on ∂Ω",
+        "y: integration point on ∂Ω",
+        "n_y: outward normal of liquid",
+        "G: Laplace kernel [1/m]",
+        "Unknown normal derivative supplies V_n"
+      ],
+      "title_en": "Boundary integral for the instantaneous potential",
+      "title_zh": "瞬时势的边界积分"
+    },
+    "J02-07": {
+      "tex": "\\begin{aligned}p_g(V)&=p_v+p_{g0}(V_0/V)^k,\\qquad V(t)=\\text{volume enclosed by }\\Gamma_b(t),\\\\ \\partial_n\\phi&=\\boldsymbol V_{\\mathrm{wall}}\\!\\cdot\\boldsymbol n\\quad\\text{at an impermeable wall},\\\\ (\\Gamma,\\phi_\\Gamma)_{t=0}&=(\\Gamma_0,\\phi_0),\\qquad \\phi\\to0\\text{ at infinity}.\\end{aligned}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-07.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "V₀ and p_g0: declared gas reference",
+        "p_v: prescribed constant vapor contribution",
+        "k: polytropic exponent for this control",
+        "V_wall: actual wall velocity [m/s]",
+        "Γ₀, φ₀: initial shape and flow state"
+      ],
+      "title_en": "Example mechanical closure and initial/boundary data",
+      "title_zh": "示例力学闭合与初始／边界数据"
+    },
+    "J02-12": {
+      "tex": "\\Pi(r,\\theta)=\\Pi_0(r/L)^\\lambda\\cos(\\lambda\\theta),\\quad \\lambda=\\frac{\\pi}{2\\alpha},\\quad\\partial_\\theta\\Pi|_{\\theta=0}=0,\\quad\\Pi|_{\\theta=\\alpha}=0,\\quad\\Pi(L,\\theta)=\\Pi_0\\cos(\\lambda\\theta)",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-12.svg",
+      "diagram_kind": "wedge",
+      "variables": [
+        "α: liquid sector angle, in radians",
+        "0 < r ≤ L; 0 ≤ θ ≤ α",
+        "θ = 0: impermeable straight side",
+        "θ = α: pressure-release straight side",
+        "Outer boundary impulse is nonuniform by input"
+      ],
+      "title_en": "An exact harmonic impulse in a mixed-boundary sector",
+      "title_zh": "混合边界扇区中的精确调和冲量"
+    },
+    "J02-13": {
+      "tex": "|\\Delta\\boldsymbol u|=\\frac{\\lambda\\Pi_0}{\\rho L}(r/L)^{\\lambda-1},\\qquad \\frac{K_l}{b_\\perp}=\\frac\\rho2\\int_0^L\\int_0^\\alpha|\\Delta\\boldsymbol u|^2r\\,\\mathrm d\\theta\\,\\mathrm dr=\\frac{\\alpha\\lambda\\Pi_0^2}{4\\rho}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-13.svg",
+      "diagram_kind": "wedge",
+      "variables": [
+        "b_⊥: out-of-plane depth [m]",
+        "K_l/b_⊥ has units J/m",
+        "Velocity is an initial increment, not final jet speed",
+        "λ > 0 makes total kinetic energy finite",
+        "Rounded vertex and motion regularize the ideal limit"
+      ],
+      "title_en": "Corner speed concentration with finite energy per depth",
+      "title_zh": "角部速度集中与有限单位深度能量"
+    },
+    "J02-08": {
+      "tex": "Q=A_iU_i=A_jU_j,\\qquad A_i=\\pi a_i^2,\\quad A_j=\\pi a_j^2,\\qquad U_j=(a_i/a_j)^2U_i",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-08.svg",
+      "diagram_kind": "nozzle",
+      "variables": [
+        "Q: steady volume flux [m³/s]",
+        "A_i, U_i: solid-tube inlet section",
+        "A_j, U_j: free cylindrical jet section",
+        "a_i, a_j: respective radii [m]",
+        "Fixed Q is an assumption, not free energy"
+      ],
+      "title_en": "Continuity gives a conditional focusing gain",
+      "title_zh": "连续性给出有条件聚焦增益"
+    },
+    "J02-09": {
+      "tex": "p_i-p_g=\\frac12\\rho(U_j^2-U_i^2)+\\frac{\\sigma}{a_j}+\\Delta p_{\\mathrm{loss}}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-09.svg",
+      "diagram_kind": "nozzle",
+      "variables": [
+        "p_i: inlet liquid pressure [Pa]",
+        "p_g: exterior gas pressure [Pa]",
+        "σ/a_j: cylindrical exit pressure [Pa]",
+        "Δp_loss ≥ 0: irreversible requirement",
+        "No σ/a_i term at a solid-tube inlet"
+      ],
+      "title_en": "Pressure and energy required by a steady focused jet",
+      "title_zh": "稳态聚焦射流所需压力与能量"
+    },
+    "J02-10": {
+      "tex": "U_j=\\sqrt{\\frac{2[(p_i-p_g)-\\sigma/a_j-\\Delta p_{\\mathrm{loss}}]}{\\rho[1-(A_j/A_i)^2]}},\\qquad (p_i-p_g)>\\sigma/a_j+\\Delta p_{\\mathrm{loss}}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-10.svg",
+      "diagram_kind": "nozzle",
+      "variables": [
+        "Pressure budget now given at inlet",
+        "Q and U_i now emerge from the solution",
+        "Area ratio held fixed for comparison",
+        "Radicand must be positive",
+        "Steady control; start-up time excluded"
+      ],
+      "title_en": "Solving the pressure-limited nozzle rather than prescribing its flux",
+      "title_zh": "求解限压喷嘴，而不是规定其流量"
+    },
+    "J02-11": {
+      "tex": "\\phi^+-\\phi^-=-\\Pi/\\rho+C,\\qquad \\boldsymbol u^+=\\nabla\\phi^+,\\qquad (\\Gamma_0,\\phi_\\Gamma^+)\\longrightarrow (\\Gamma(t),\\boldsymbol u(t))",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-11.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "Π: solved on initial liquid geometry",
+        "C: irrelevant spatially constant gauge",
+        "Γ₀: measured or declared initial interface",
+        "φ⁺: initial potential after the impulse",
+        "Pressure history continues if pulse is not over"
+      ],
+      "title_en": "Match a short-pulse impulse state to interface evolution",
+      "title_zh": "将短脉冲冲量状态匹配到界面演化"
+    },
+    "J02-A1": {
+      "tex": "p_l=p_g-2\\sigma/R,\\quad V_n=-\\dot R,\\quad\\ddot R=\\frac{(p_g-p_\\infty-2\\sigma/R)/\\rho-\\tfrac32\\dot R^2}{R}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-A1.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "n points inward at a cavity",
+        "R = 50 μm; Ṙ = −20 m/s",
+        "p_g = 2 kPa; p_∞ = 100 kPa",
+        "σ = 0.072 N/m; ρ = 1000 kg/m³",
+        "Pressure gauge is common on both sides"
+      ],
+      "title_en": "Original spherical stress and acceleration formulas",
+      "title_zh": "球形应力与加速度的原始公式"
+    },
+    "J02-A2": {
+      "tex": "\\phi_\\Gamma=-R\\dot R,\\quad\\frac{D\\phi_\\Gamma}{Dt}=-\\dot R^2-R\\ddot R=\\frac12\\dot R^2+\\frac{p_\\infty-p_g+2\\sigma/R}{\\rho}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-A2.svg",
+      "diagram_kind": "radial",
+      "variables": [
+        "φ_Γ has units m²/s",
+        "Dφ_Γ/Dt has units m²/s²",
+        "The tracked evaluation radius moves",
+        "The material derivative adds u·∇φ",
+        "Use acceleration obtained in part 1"
+      ],
+      "title_en": "Original two equivalent material derivatives",
+      "title_zh": "两个等价材料导数的原始公式"
+    },
+    "J02-A3": {
+      "tex": "U_j=(a_i/a_j)^2U_i,\\qquad (p_i-p_g)_{\\min}=\\tfrac12\\rho(U_j^2-U_i^2)+\\sigma/a_j",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-A3.svg",
+      "diagram_kind": "nozzle",
+      "variables": [
+        "a_i = 40 μm; a_j = 10 μm",
+        "U_i = 3 m/s; area ratio = 16",
+        "Lossless minimum sets Δp_loss = 0",
+        "Exit is a cylindrical free surface",
+        "Inlet is liquid inside a solid tube"
+      ],
+      "title_en": "Original flux and lossless pressure formulas",
+      "title_zh": "流量与无损压力的原始公式"
+    },
+    "J02-A4": {
+      "tex": "U_j=\\sqrt{\\frac{2[(p_i-p_g)-\\sigma/a_j]}{\\rho[1-(a_j/a_i)^4]}},\\qquad U_i=(a_j/a_i)^2U_j",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-A4.svg",
+      "diagram_kind": "nozzle",
+      "variables": [
+        "p_i − p_g = 200000 Pa",
+        "σ/a_j = 7200 Pa",
+        "(a_j/a_i)⁴ = 1/256",
+        "Flux is solved, not separately imposed",
+        "Viscous losses would lower both speeds"
+      ],
+      "title_en": "Original lossless pressure-limited nozzle solution",
+      "title_zh": "无损限压喷嘴解的原始公式"
+    },
+    "J02-A5": {
+      "tex": "\\nabla^2\\phi=0,\\quad V_n=\\partial_n\\phi,\\quad D\\phi/Dt=\\tfrac12|\\nabla\\phi|^2+(p_\\infty-p_g-\\sigma\\kappa)/\\rho",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-A5.svg",
+      "diagram_kind": "interface",
+      "variables": [
+        "Initial Γ₀ and φ₀ on all free boundaries",
+        "Pressure history or specified p_g(V,t)",
+        "Actual solid/free/outer boundary data",
+        "Liquid ρ and interface σ",
+        "Topology and compressibility escalation"
+      ],
+      "title_en": "Original bulk, kinematic and dynamic formation equations",
+      "title_zh": "体内、运动学及动力学形成的原始方程"
+    },
+    "J02-A6": {
+      "tex": "\\lambda=\\pi/(2\\alpha)=3/4,\\quad U(r)/U(L)=(r/L)^{-1/4},\\quad K_l/b_\\perp=\\alpha\\lambda\\Pi_0^2/(4\\rho)",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J02-A6.svg",
+      "diagram_kind": "wedge",
+      "variables": [
+        "α = 2π/3 rad; λ = 0.75",
+        "r/L = 0.01; Π₀ = 0.30 Pa s",
+        "ρ = 1000 kg/m³; L = 100 μm",
+        "Mixed solid/free boundaries, frozen initial shape",
+        "No infinite usable jet energy follows"
+      ],
+      "title_en": "Original sector exponent, gain and energy formulas",
+      "title_zh": "扇区指数、增益及能量的原始公式"
+    },
+    "J03-01": {
+      "tex": "A(z,t)=\\pi h^2,\\quad Q=Au,\\quad m_j=\\rho\\pi\\int h^2\\,\\mathrm dz,\\quad \\partial_t h^2+\\partial_z(h^2u)=0",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-01.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "z: axial position [m]; h: local radius [m]",
+        "u: section-averaged axial speed [m/s]",
+        "A: local area [m²]; Q: volume flux [m³/s]",
+        "m_j: liquid mass in the chosen segment [kg]",
+        "Ends supply or remove flux when open"
+      ],
+      "title_en": "Mass and volume flux in a slender liquid jet",
+      "title_zh": "细长液体射流中的质量与体积流量"
+    },
+    "J03-02": {
+      "tex": "\\kappa=\\frac{1}{h\\sqrt{1+h_z^2}}-\\frac{h_{zz}}{(1+h_z^2)^{3/2}},\\qquad p_l-p_g=\\sigma\\kappa",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-02.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "h_z: axial surface slope [dimensionless]",
+        "h_zz: axial second derivative [1/m]",
+        "n points liquid → exterior gas",
+        "κ = 1/a for a uniform cylinder",
+        "p_g assumed spatially uniform here"
+      ],
+      "title_en": "Signed cylindrical and axial curvature of a jet",
+      "title_zh": "射流的带符号圆柱与轴向曲率"
+    },
+    "J03-03": {
+      "tex": "\\partial_tu+u\\partial_zu=-\\frac{\\sigma}{\\rho}\\partial_z\\kappa+\\frac{3\\mu}{\\rho h^2}\\partial_z(h^2\\partial_zu)+g_z",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-03.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "μ: dynamic liquid viscosity [Pa s]",
+        "ρ: liquid density [kg/m³]",
+        "g_z: axial body acceleration [m/s²]",
+        "3μ: Newtonian extensional coefficient",
+        "All terms have units m/s²"
+      ],
+      "title_en": "Inertial, capillary and extensional-viscous dynamics",
+      "title_zh": "惯性、毛细及拉伸黏性动力学"
+    },
+    "J03-04": {
+      "tex": "\\begin{aligned}E_k&=\\frac{\\rho\\pi}{2}\\int h^2u^2\\,\\mathrm dz,\\quad E_\\sigma=2\\pi\\sigma\\int h\\sqrt{1+h_z^2}\\,\\mathrm dz,\\\\ \\frac{\\mathrm d}{\\mathrm dt}(E_k+E_\\sigma)&=-3\\pi\\mu\\int h^2(\\partial_zu)^2\\,\\mathrm dz\\le0\\quad\\text{for periodic ends, }g_z=0.\\end{aligned}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-04.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "E_k: integrated axial kinetic energy [J]",
+        "E_σ: actual surface energy [J]",
+        "μ ≥ 0 makes dissipation nonnegative",
+        "Periodic ends cancel boundary power/flux",
+        "Open ends require their energy-flux terms"
+      ],
+      "title_en": "A mechanical energy check for the periodic reduced model",
+      "title_zh": "周期降阶模型的机械能核验"
+    },
+    "J03-05": {
+      "tex": "h=a+\\epsilon\\cos kz-\\frac{\\epsilon^2}{4a}+O(\\epsilon^3),\\qquad \\Delta S=\\frac{\\pi L\\epsilon^2}{2a}[(ka)^2-1]+O(\\epsilon^3),\\qquad \\lambda=\\frac{2\\pi}{k}>2\\pi a\\ \\text{permits area decrease}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-05.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "a: undisturbed jet radius [m]",
+        "ε ≪ a: disturbance amplitude [m]",
+        "k: axial wavenumber [1/m]",
+        "L: integer-wavelength periodic length",
+        "Mean shift −ε²/(4a) preserves volume"
+      ],
+      "title_en": "Fixed-volume surface-area test for capillary instability",
+      "title_zh": "毛细失稳的定体积表面积检验"
+    },
+    "J03-06": {
+      "tex": "\\eta=\\epsilon_0e^{st}\\cos[k(z-Ut)],\\quad \\phi_1=B I_0(kr)e^{st}\\cos[k(z-Ut)],\\quad s\\epsilon_0=BkI_1(ka),\\quad \\rho sB I_0(ka)=\\sigma(a^{-2}-k^2)\\epsilon_0",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-06.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "r: radial coordinate within liquid thread",
+        "U: unperturbed axial translation [m/s]",
+        "I₀ and I₁: modified Bessel functions",
+        "B: perturbation-potential amplitude",
+        "s: growth rate [1/s]; η: radius perturbation"
+      ],
+      "title_en": "Kinematic and dynamic equations for one growing mode",
+      "title_zh": "一个增长模式的运动学与动力学方程"
+    },
+    "J03-07": {
+      "tex": "s^2=\\frac{\\sigma}{\\rho a^3}\\,q(1-q^2)\\frac{I_1(q)}{I_0(q)},\\qquad q=ka,\\qquad t_\\sigma=\\sqrt{\\frac{\\rho a^3}{\\sigma}}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-07.svg",
+      "diagram_kind": "spectrum",
+      "variables": [
+        "q: dimensionless axial wavenumber",
+        "0 < q < 1: growing varicose modes",
+        "q > 1: restoring modes in this limit",
+        "t_σ: radius-based capillary time [s]",
+        "Spectrum is computed from the equation"
+      ],
+      "title_en": "Exact inviscid-cylinder growth spectrum",
+      "title_zh": "精确无黏圆柱增长谱"
+    },
+    "J03-08": {
+      "tex": "q_*\\simeq0.697019,\\qquad \\lambda_*\\simeq9.01437a,\\qquad s_*\\simeq0.343339/t_\\sigma,\\qquad t_{\\mathrm{e-fold}}=1/s_*\\simeq2.91258t_\\sigma",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-08.svg",
+      "diagram_kind": "spectrum",
+      "variables": [
+        "q_*: maximizer of the growth spectrum",
+        "λ_*: wavelength, not droplet diameter",
+        "s_*: maximum linear growth rate",
+        "E-fold time is not a breakup time",
+        "Use radius a in t_σ, not diameter"
+      ],
+      "title_en": "Fastest-mode constants from the inviscid spectrum",
+      "title_zh": "由无黏增长谱得到的最快模式常数"
+    },
+    "J03-14": {
+      "tex": "s\\epsilon=-\\frac a2\\mathrm ikv,\\qquad (s+3\\nu k^2)v=\\frac{\\sigma}{\\rho}\\mathrm ik(a^{-2}-k^2)\\epsilon",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-14.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "ε: radius-mode amplitude [m]",
+        "v: axial velocity-mode amplitude [m/s]",
+        "i: imaginary unit for complex Fourier notation",
+        "Physical fields are real parts",
+        "Velocity and radius have different spatial phases"
+      ],
+      "title_en": "Linearized mass and momentum before eliminating velocity",
+      "title_zh": "消去速度前的线性化质量与动量"
+    },
+    "J03-09": {
+      "tex": "s(s+3\\nu k^2)=s_0^2,\\qquad s_0^2=\\frac{\\sigma}{2\\rho a^3}q^2(1-q^2),\\qquad s=\\frac{\\sqrt{(3\\nu k^2)^2+4s_0^2}-3\\nu k^2}{2},\\quad\\nu=\\mu/\\rho",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-09.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "ν: kinematic viscosity [m²/s]",
+        "k = q/a: physical axial wavenumber",
+        "s₀: inviscid slender growth rate",
+        "3νk²: extensional viscous damping [1/s]",
+        "Formula used only for 0 < q < 1"
+      ],
+      "title_en": "Positive growth root of the viscous long-wave control",
+      "title_zh": "黏性长波对照的正增长根"
+    },
+    "J03-10": {
+      "tex": "t_f=H/U,\\quad \\epsilon(H)=\\epsilon_0\\exp(sH/U),\\quad t_{\\mathrm{lin}}=s^{-1}\\ln(\\epsilon_{\\mathrm{crit}}/\\epsilon_0),\\quad\\ell_j=U\\tau_e",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-10.svg",
+      "diagram_kind": "growth",
+      "variables": [
+        "H: source-to-receiver travel distance [m]",
+        "ε₀: initial disturbance amplitude [m]",
+        "ε_crit: declared linear threshold, e.g. 0.1a",
+        "τ_e: duration of uniform emitted stream [s]",
+        "ℓ_j: resulting emitted length [m]"
+      ],
+      "title_en": "Flight amplification and the end of a chosen linear regime",
+      "title_zh": "飞行放大及选定线性范围的终点"
+    },
+    "J03-15": {
+      "tex": "k_n=2\\pi n/\\ell,\\quad q_n=2\\pi na/\\ell,\\quad 0<n<\\ell/(2\\pi a)\\text{ gives growing modes},\\quad n_*\\in\\operatorname*{arg\\,max}_n s(q_n)",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-15.svg",
+      "diagram_kind": "spectrum",
+      "variables": [
+        "ℓ: specified periodic length [m]",
+        "n: positive integer axial mode index",
+        "Evaluate exact inviscid s(q_n)",
+        "Not all continuous wavelengths are allowed",
+        "Periodic ends differ from physical free ends"
+      ],
+      "title_en": "Discrete capillary modes in a declared periodic cylinder",
+      "title_zh": "声明周期圆柱中的离散毛细模式"
+    },
+    "J03-16": {
+      "tex": "\\frac{Da}{Dt}=-\\frac a2\\partial_zu,\\quad \\frac{Dk}{Dt}=-k\\partial_zu,\\quad \\ln\\frac{\\epsilon/a}{\\epsilon_0/a_0}\\simeq\\int s[a(t),k(t),\\mu,\\rho,\\sigma]\\,\\mathrm dt,\\quad |\\partial_zu|,\\ |D\\ln s/Dt|\\ll s",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-16.svg",
+      "diagram_kind": "growth",
+      "variables": [
+        "D/Dt follows a local material section",
+        "a(t), k(t): radius and mode wavenumber",
+        "First two relations describe uniform local strain",
+        "Compare relative disturbance ε/a",
+        "Growth diagnostic requires slow strain/variation",
+        "Rapidly changing geometry uses full dynamics"
+      ],
+      "title_en": "Conditional local stretching and accumulated relative growth",
+      "title_zh": "有条件的局部拉伸与累计相对增长"
+    },
+    "J03-11": {
+      "tex": "\\mathrm{We}_d=\\frac{\\rho U^2d}{\\sigma},\\quad \\mathrm{Re}_d=\\frac{\\rho Ud}{\\mu},\\quad \\mathrm{Oh}_d=\\frac{\\mu}{\\sqrt{\\rho\\sigma d}}=\\frac{\\sqrt{\\mathrm{We}_d}}{\\mathrm{Re}_d},\\qquad d=2a",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-11.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "We_d: inertia relative to capillarity",
+        "Re_d: inertia relative to viscosity",
+        "Oh_d: viscous-capillary ratio",
+        "All three use the same diameter d",
+        "Growth time above instead uses radius a"
+      ],
+      "title_en": "Diameter-based force ratios and their consistency identity",
+      "title_zh": "按直径定义的作用比及其一致性恒等式"
+    },
+    "J03-12": {
+      "tex": "Q\\text{ fixed},\\ a_2=a_1/2\\ \\Longrightarrow\\ U_2=4U_1,\\quad s_{*,2}=2^{3/2}s_{*,1},\\quad \\frac{s_{*,2}H/U_2}{s_{*,1}H/U_1}=\\frac{1}{\\sqrt2}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-12.svg",
+      "diagram_kind": "growth",
+      "variables": [
+        "Same Q, liquid and flight distance H",
+        "Use fastest inviscid-cylinder rate",
+        "Compare accumulated exponent sH/U",
+        "Noise fraction and emitted length also matter",
+        "Not a universal benefit of smaller jets"
+      ],
+      "title_en": "A conditional focusing-versus-flight comparison",
+      "title_zh": "有条件的聚焦与飞行比较"
+    },
+    "J03-13": {
+      "tex": "\\pi a^2\\lambda=\\frac{4\\pi}{3}a_d^3,\\qquad a_d=(3a^2\\lambda/4)^{1/3},\\qquad \\lambda=\\lambda_*\\ \\Longrightarrow\\ d_{\\mathrm{drop}}/d_{\\mathrm{jet}}\\simeq1.89089",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-13.svg",
+      "diagram_kind": "drop",
+      "variables": [
+        "a: original jet radius",
+        "λ: captured wavelength of liquid",
+        "a_d: resulting spherical-drop radius",
+        "No satellite droplets in this benchmark",
+        "Not a breakup time or a transfer guarantee"
+      ],
+      "title_en": "A one-drop-per-wavelength volume benchmark",
+      "title_zh": "每波长一个液滴的体积对照"
+    },
+    "J03-A1": {
+      "tex": "m_j=\\rho\\pi a^2\\ell_j,\\quad t_f=H/U,\\quad \\mathrm{We}_d=\\rho U^2d/\\sigma,\\quad\\mathrm{Re}_d=\\rho Ud/\\mu,\\quad\\mathrm{Oh}_d=\\mu/\\sqrt{\\rho\\sigma d}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-A1.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "a = 5 μm; d = 10 μm",
+        "U = 20 m/s; ℓ_j = 300 μm",
+        "H = 100 μm",
+        "ρ = 1000 kg/m³; μ = 0.001 Pa s",
+        "σ = 0.072 N/m"
+      ],
+      "title_en": "Original mass, flight and force-ratio formulas",
+      "title_zh": "质量、飞行及作用比的原始公式"
+    },
+    "J03-A2": {
+      "tex": "t_\\sigma=\\sqrt{\\rho a^3/\\sigma},\\quad\\lambda_*=9.01437a,\\quad s_*=0.343339/t_\\sigma,\\quad N_\\lambda=\\ell_j/\\lambda_*",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-A2.svg",
+      "diagram_kind": "spectrum",
+      "variables": [
+        "Capillary time uses a = 5 μm",
+        "No diameter substituted for radius",
+        "λ_* belongs to an infinite cylinder",
+        "Finite length must support the mode",
+        "End effects still need checking"
+      ],
+      "title_en": "Original fastest-cylinder-mode formulas",
+      "title_zh": "最快圆柱模式的原始公式"
+    },
+    "J03-A3": {
+      "tex": "t_{\\mathrm{lin}}=s_*^{-1}\\ln(0.1/0.01),\\qquad \\epsilon(H)/a=0.01\\exp(s_*H/U)",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-A3.svg",
+      "diagram_kind": "growth",
+      "variables": [
+        "ε₀/a = 0.01",
+        "ε_crit/a = 0.1",
+        "Use fastest inviscid mode",
+        "H/U = 5 μs",
+        "Do not extrapolate a linear neck to pinch-off"
+      ],
+      "title_en": "Original linear threshold and flight formulas",
+      "title_zh": "线性阈值与飞行的原始公式"
+    },
+    "J03-A4": {
+      "tex": "k=q/a,\\quad s_0^2=\\sigma q^2(1-q^2)/(2\\rho a^3),\\quad s=[\\sqrt{(3\\mu k^2/\\rho)^2+4s_0^2}-3\\mu k^2/\\rho]/2",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-A4.svg",
+      "diagram_kind": "slender",
+      "variables": [
+        "q = 0.2; k = 40000 m⁻¹",
+        "Compare identical radius and wavelength",
+        "Long-wave slender control, not exact viscosity",
+        "Zero-μ limit must recover s₀",
+        "Larger μ increases extensional dissipation"
+      ],
+      "title_en": "Original reduced viscous growth root",
+      "title_zh": "降阶黏性增长根的原始公式"
+    },
+    "J03-A5": {
+      "tex": "a_d=(3a^2\\lambda_*/4)^{1/3},\\qquad d_{\\mathrm{drop}}/d_{\\mathrm{jet}}=(3\\lambda_*/4a)^{1/3}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J03-A5.svg",
+      "diagram_kind": "drop",
+      "variables": [
+        "Jet diameter = 10 μm",
+        "λ_* ≈ 45.0718 μm",
+        "One spherical drop per wavelength",
+        "Satellite liquid omitted in the estimate",
+        "Nonlinear neck/end/ambient dynamics separate"
+      ],
+      "title_en": "Original one-wavelength droplet-volume formula",
+      "title_zh": "一个波长液滴体积的原始公式"
+    },
+    "J04-01": {
+      "tex": "m_j=\\rho A_j\\ell_j,\\qquad P_j=m_jU,\\qquad E_j=\\tfrac12m_jU^2,\\qquad A_j=\\pi a^2",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-01.svg",
+      "diagram_kind": "impact",
+      "variables": [
+        "a: arriving jet radius [m]",
+        "ℓ_j: finite arriving length [m]",
+        "U: uniform incident speed [m/s]",
+        "P_j: axial momentum [N s]",
+        "E_j: incident kinetic energy [J]"
+      ],
+      "title_en": "Finite uniform-jet arrival inventory",
+      "title_zh": "有限均匀射流的到达存量"
+    },
+    "J04-02": {
+      "tex": "\\dot m=\\rho A_jU,\\quad F_z=\\dot m(U-U_{\\mathrm{out},z})\\simeq\\rho A_jU^2,\\quad q_j=\\tfrac12\\rho U^2,\\quad \\overline p_{A_r}=F_z/A_r",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-02.svg",
+      "diagram_kind": "impact",
+      "variables": [
+        "ṁ: mass flux reaching the receiver [kg/s]",
+        "U_out,z: outgoing axial speed [m/s]",
+        "F_z: receiver force [N]",
+        "A_r: declared receiver footprint [m²]",
+        "Approximation uses lateral axial-zero outflow"
+      ],
+      "title_en": "Momentum-flux force versus dynamic pressure",
+      "title_zh": "动量通量受力与动压"
+    },
+    "J04-03": {
+      "tex": "w=U-V_s,\\quad F_z\\simeq\\rho A_jw^2,\\qquad M_s\\ddot x_s+C_s\\dot x_s+K_sx_s=F_z,\\quad V_s=\\dot x_s",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-03.svg",
+      "diagram_kind": "impact",
+      "variables": [
+        "V_s: receiver speed in incident direction",
+        "w > 0: incoming relative speed [m/s]",
+        "M_s: specified effective receiver mass [kg]",
+        "C_s, K_s: stated support damping/stiffness",
+        "Lumped motion does not resolve local stress"
+      ],
+      "title_en": "A declared moving-receiver mechanical control",
+      "title_zh": "声明的运动接收体力学对照"
+    },
+    "J04-04": {
+      "tex": "J_r=\\int F_z\\,\\mathrm dt=P_{j,\\mathrm{in}}-P_{j,\\mathrm{out}}\\simeq m_jU,\\qquad \\tau_{\\mathrm{pass}}=\\ell_j/U,\\qquad (\\rho A_jU^2)\\tau_{\\mathrm{pass}}=m_jU",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-04.svg",
+      "diagram_kind": "impact",
+      "variables": [
+        "J_r: delivered receiver impulse [N s]",
+        "No other axial force/input in this control",
+        "P_out,z = 0 for lateral redirection",
+        "τ_pass: finite length divided by speed",
+        "Do not keep an early peak for this whole time"
+      ],
+      "title_en": "Finite capture impulse and the passage-time check",
+      "title_zh": "有限截获冲量与通过时间核验"
+    },
+    "J04-05": {
+      "tex": "\\partial_tu=-\\rho^{-1}\\partial_zp\\prime,\\quad \\partial_tp\\prime=-\\rho c^2\\partial_zu,\\quad \\left(\\partial_t\\pm c\\partial_z\\right)\\left(u\\pm\\frac{p\\prime}{\\rho c}\\right)=0,\\quad Z_l=\\rho c",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-05.svg",
+      "diagram_kind": "acoustic",
+      "variables": [
+        "p′: increment above common initial pressure",
+        "c: local liquid sound speed [m/s]",
+        "Z_l: longitudinal acoustic impedance",
+        "u: axial particle velocity [m/s]",
+        "Small relative compression and U/c ≪ 1"
+      ],
+      "title_en": "Linear liquid characteristics and acoustic impedance",
+      "title_zh": "线性液体特征线与声阻抗"
+    },
+    "J04-06": {
+      "tex": "p_h=Z_l(U-V_s),\\quad V_s=p_h/Z_s\\quad\\Longrightarrow\\quad p_h=\\frac{Z_lZ_s}{Z_l+Z_s}U,\\quad V_s=\\frac{Z_l}{Z_l+Z_s}U,\\quad p_{h,\\mathrm{rigid}}=\\rho cU",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-06.svg",
+      "diagram_kind": "acoustic",
+      "variables": [
+        "Z_s: specified receiver longitudinal impedance",
+        "Receiver initially at rest and semi-infinite",
+        "p_h: common early interface pressure [Pa]",
+        "Z_s → ∞: rigid arrest reference",
+        "Z_s → 0: vanishing-pressure reference"
+      ],
+      "title_en": "Solved liquid–receiver early acoustic match",
+      "title_zh": "已解液体与接收体早期声学匹配"
+    },
+    "J04-07": {
+      "tex": "M=U/c,\\qquad t_{\\mathrm{side}}\\sim a/c,\\qquad t_{\\mathrm{axial}}\\sim\\ell_j/c,\\qquad t\\ll\\min(t_{\\mathrm{side}},t_{\\mathrm{axial}},t_{\\mathrm{return},s})",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-07.svg",
+      "diagram_kind": "acoustic",
+      "variables": [
+        "M: incident Mach number",
+        "a/c: side-release travel scale",
+        "ℓ_j/c: axial end-reflection scale",
+        "t_return,s: receiver reflection return time",
+        "Finite contact edge shrinks the 1D central region"
+      ],
+      "title_en": "Check the early one-dimensional contact window",
+      "title_zh": "检查早期一维接触时窗"
+    },
+    "J04-11": {
+      "tex": "\\begin{aligned}\\partial_t\\rho+\\nabla\\!\\cdot(\\rho\\boldsymbol u)&=0,\\\\\\partial_t(\\rho\\boldsymbol u)+\\nabla\\!\\cdot(\\rho\\boldsymbol u\\otimes\\boldsymbol u+p\\boldsymbol I)&=\\nabla\\!\\cdot\\boldsymbol\\tau_v,\\\\\\partial_t(\\rho E)+\\nabla\\!\\cdot[(\\rho E+p)\\boldsymbol u]&=\\nabla\\!\\cdot(\\boldsymbol\\tau_v\\boldsymbol u-\\boldsymbol q),\\\\E&=e+\\tfrac12|\\boldsymbol u|^2,\\qquad p=\\mathcal P(\\rho,e).\\end{aligned}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-11.svg",
+      "diagram_kind": "cell",
+      "variables": [
+        "ρ, u, p, e: local liquid state",
+        "E: specific total energy [J/kg]",
+        "τ_v: constitutive viscous stress [Pa]",
+        "q: conductive heat flux [W/m²]",
+        "P(ρ,e): specified equation of state",
+        "Receiver work enters through contact boundary"
+      ],
+      "title_en": "Conservative nonlinear liquid impact problem",
+      "title_zh": "守恒非线性液体冲击问题"
+    },
+    "J04-14": {
+      "tex": "\\boldsymbol\\tau_v=\\mu[\\nabla\\boldsymbol u+(\\nabla\\boldsymbol u)^T-\\tfrac23(\\nabla\\!\\cdot\\boldsymbol u)\\boldsymbol I]+\\mu_b(\\nabla\\!\\cdot\\boldsymbol u)\\boldsymbol I,\\qquad \\boldsymbol q=-k_T\\nabla T",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-14.svg",
+      "diagram_kind": "cell",
+      "variables": [
+        "μ ≥ 0: shear viscosity [Pa s]",
+        "μ_b ≥ 0: bulk viscosity [Pa s]",
+        "k_T ≥ 0: conductivity [W/(m K)]",
+        "T: temperature provided by thermal EOS",
+        "Body forces absent in this first control",
+        "All coefficients must be declared"
+      ],
+      "title_en": "Specified Newtonian stress and conductive closure",
+      "title_zh": "规定的 Newton 应力与导热闭合"
+    },
+    "J04-15": {
+      "tex": "\\boldsymbol T_l=-p\\boldsymbol I+\\boldsymbol\\tau_v,\\quad\\boldsymbol T_l\\boldsymbol n_\\Gamma=-(p_g+\\sigma\\kappa)\\boldsymbol n_\\Gamma,\\quad V_n=\\boldsymbol u\\!\\cdot\\boldsymbol n_\\Gamma,\\quad\\boldsymbol u\\!\\cdot\\boldsymbol n_s=\\boldsymbol V_s\\!\\cdot\\boldsymbol n_s",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-15.svg",
+      "diagram_kind": "impact-boundary",
+      "variables": [
+        "n_Γ points liquid → gas",
+        "Constant σ; specified exterior p_g",
+        "No phase transfer in this impact control",
+        "n_s: common receiver interface normal",
+        "Receiver receives opposite liquid reaction",
+        "Choose slip/no-slip and heat/contact laws too"
+      ],
+      "title_en": "Free-surface traction and receiver normal compatibility",
+      "title_zh": "自由表面牵引与接收体法向相容"
+    },
+    "J04-12": {
+      "tex": "p=(\\Gamma_l-1)\\rho e-\\Gamma_l p_*,\\quad e=c_vT+p_*/\\rho,\\quad c^2=\\Gamma_l(p+p_*)/\\rho,\\quad p_*=\\rho_0c_0^2/\\Gamma_l-p_0",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-12.svg",
+      "diagram_kind": "thermo",
+      "variables": [
+        "Γ_l > 1: reference thermodynamic exponent",
+        "p_*: stiffening pressure [Pa]",
+        "c_v: specified constant heat capacity [J/(kg K)]",
+        "p₀, ρ₀, c₀: consistent reference state",
+        "p is absolute in this EOS",
+        "Not a calibrated neat-PFC property law"
+      ],
+      "title_en": "A stated stiffened-gas verification closure",
+      "title_zh": "声明的刚化气体核验闭合"
+    },
+    "J04-13": {
+      "tex": "\\begin{aligned}\\rho_0D&=\\rho_1(D-w),\\quad p_1-p_0=\\rho_0Dw,\\\\ e_1-e_0&=\\tfrac12(p_1+p_0)(\\rho_0^{-1}-\\rho_1^{-1}),\\\\ D&=bw+\\sqrt{c_0^2+b^2w^2},\\quad b=(\\Gamma_l+1)/4,\\quad w=U-V_s.\\end{aligned}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-13.svg",
+      "diagram_kind": "shock",
+      "variables": [
+        "D: shock speed relative to initial liquid",
+        "w: removed speed; 0 < w < D",
+        "Subscripts 0 and 1: ahead/behind shock",
+        "ρ₁ = ρ₀D/(D − w)",
+        "e₁ uses the same EOS energy datum",
+        "This EOS yields the explicit D formula"
+      ],
+      "title_en": "Conservative planar-shock arrest benchmark",
+      "title_zh": "守恒平面激波制动对照"
+    },
+    "J04-08": {
+      "tex": "p_{\\mathrm{obs}}(t)=\\int_0^\\infty g(s)\\left[\\frac1{A_r}\\int_{A_r}p(\\boldsymbol x,t-s)\\,\\mathrm dA\\right]\\mathrm ds,\\quad g\\ge0,\\quad\\int_0^\\infty g\\,\\mathrm ds=1",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-08.svg",
+      "diagram_kind": "observer",
+      "variables": [
+        "A_r: fixed spatial footprint [m²]",
+        "g(s): causal temporal averaging kernel [1/s]",
+        "p_obs: observed pressure [Pa]",
+        "s: time lag, not instability growth rate",
+        "A box kernel has support 0 ≤ s ≤ τ_g"
+      ],
+      "title_en": "Fixed-area, causal pressure observation",
+      "title_zh": "固定面积的因果压力观察"
+    },
+    "J04-09": {
+      "tex": "P_z=\\int u_z\\,\\mathrm dm,\\quad E_j=\\frac12\\int|\\boldsymbol u|^2\\,\\mathrm dm\\quad\\Longrightarrow\\quad P_z^2\\le2m_jE_j,\\quad U_{\\mathrm{rms}}\\le\\sqrt{2E_{\\mathrm{available}}/m_j}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-09.svg",
+      "diagram_kind": "energy",
+      "variables": [
+        "m_j fixed before comparing sources",
+        "E_available: assigned kinetic-energy budget",
+        "P_z: axial momentum of this tracked mass",
+        "U_rms: mass-weighted vector-speed RMS",
+        "Equality requires uniform aligned flow"
+      ],
+      "title_en": "Finite-mass momentum and kinetic-speed ceilings",
+      "title_zh": "有限质量的动量与动能速度上限"
+    },
+    "J04-10": {
+      "tex": "E_w=\\frac{A}{Z_l}\\int_0^\\tau p\\prime(t)^2\\,\\mathrm dt,\\qquad \\left|\\overline{p\\prime}_\\tau\\right|=\\left|\\tau^{-1}\\int_0^\\tau p\\prime\\,\\mathrm dt\\right|\\le\\sqrt{\\frac{Z_lE_w}{A\\tau}}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-10.svg",
+      "diagram_kind": "energy",
+      "variables": [
+        "E_w: assigned outgoing wave energy [J]",
+        "A: fixed plane-wave observation area [m²]",
+        "τ: fixed observation duration [s]",
+        "Z_l: liquid impedance [Pa s/m]",
+        "Equality: constant pressure over this window"
+      ],
+      "title_en": "Outgoing plane-wave energy bounds a window mean",
+      "title_zh": "外传平面波能量约束时窗平均值"
+    },
+    "J04-A1": {
+      "tex": "m_j=\\rho\\pi a^2\\ell_j,\\quad P_j=m_jU,\\quad E_j=\\tfrac12m_jU^2,\\quad q_j=\\tfrac12\\rho U^2,\\quad F=\\rho\\pi a^2U^2,\\quad \\tau_{\\mathrm{pass}}=\\ell_j/U",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A1.svg",
+      "diagram_kind": "impact",
+      "variables": [
+        "a = 5 μm; ℓ_j = 300 μm; U = 20 m/s",
+        "Mass = 23.5619 ng",
+        "No continuing source behind this jet",
+        "Fixed target removes axial momentum",
+        "F τ_pass must equal initial P_j"
+      ],
+      "title_en": "Original arrival, steady load and duration formulas",
+      "title_zh": "到达、稳态载荷及持续时间的原始公式"
+    },
+    "J04-A2": {
+      "tex": "Z_l=\\rho c,\\quad p_{h,\\mathrm{rigid}}=Z_lU,\\quad p_h=\\frac{Z_lZ_s}{Z_l+Z_s}U,\\quad V_s=\\frac{Z_l}{Z_l+Z_s}U,\\quad M=U/c,\\quad t_{\\mathrm{side}}=a/c,\\quad t_{\\mathrm{axial}}=\\ell_j/c",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A2.svg",
+      "diagram_kind": "acoustic",
+      "variables": [
+        "Z_l = 1.50×10⁶ Pa s/m",
+        "Z_s = 0.30×10⁶ Pa s/m",
+        "c = 1500 m/s",
+        "Central early estimate, not whole-disk proof",
+        "Finite receiver reflections also matter"
+      ],
+      "title_en": "Original early impedance and time checks",
+      "title_zh": "早期阻抗与时间核验的原始公式"
+    },
+    "J04-A3": {
+      "tex": "\\frac{p_{h,\\mathrm{rigid}}A_j\\tau_{\\mathrm{pass}}}{m_jU}=\\frac{\\rho cU A_j\\ell_j/U}{\\rho A_j\\ell_jU}=c/U",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A3.svg",
+      "diagram_kind": "impact",
+      "variables": [
+        "Pressure kept at ρcU in the trial",
+        "Footprint kept at A_j in the trial",
+        "Duration wrongly kept at ℓ_j/U",
+        "Compare against available m_jU",
+        "Ratio c/U measures the inconsistency"
+      ],
+      "title_en": "Original impulse-ratio check",
+      "title_zh": "冲量比核验的原始公式"
+    },
+    "J04-A4": {
+      "tex": "p_{\\mathrm{tail}}=\\frac{m_jU/A_j-p_h\\tau_h}{\\tau_{\\mathrm{pass}}-\\tau_h},\\qquad p_{\\mathrm{obs}}(\\tau_g)=\\frac{p_h\\tau_h+p_{\\mathrm{tail}}(\\tau_g-\\tau_h)}{\\tau_g}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A4.svg",
+      "diagram_kind": "observer",
+      "variables": [
+        "p_h = 30 MPa; τ_h = 1 ns",
+        "τ_pass = 15 μs; τ_g = 20 ns",
+        "Pressure uniform over A_j by prescription",
+        "History is synthetic, not impact simulation",
+        "Its area-time integral matches m_jU"
+      ],
+      "title_en": "Original synthetic traction and box-average formulas",
+      "title_zh": "合成牵引与箱式平均的原始公式"
+    },
+    "J04-A5": {
+      "tex": "U_{\\mathrm{rms}}\\le\\sqrt{2E_{\\mathrm{available}}/m_j},\\qquad |\\overline{p\\prime}_{\\tau}|\\le\\sqrt{Z_lE_w/(A_j\\tau)}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A5.svg",
+      "diagram_kind": "energy",
+      "variables": [
+        "Jet budget = 6 nJ; fixed mass = 23.5619 ng",
+        "Separate wave control: E_w = 0.20 nJ",
+        "Wave area = π(5 μm)²",
+        "Wave window = 20 ns",
+        "Not a shared-budget claim for the synthetic history"
+      ],
+      "title_en": "Original fixed-mass and outgoing-wave bounds",
+      "title_zh": "固定质量及外传波界限的原始公式"
+    },
+    "J04-A6": {
+      "tex": "E_B=\\Delta pV_{\\max},\\quad \\Pi(\\boldsymbol x)=\\int p\\prime\\,\\mathrm dt,\\quad Q_j(t)=\\int_{A_j}\\boldsymbol u\\!\\cdot\\boldsymbol n_A\\,\\mathrm dA,\\quad p_{\\mathrm{obs}}=g*\\overline p_{A_r}",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A6.svg",
+      "diagram_kind": "chain",
+      "variables": [
+        "Source must supply finite pressure/volume history",
+        "Spatial geometry determines jet flow Q_j",
+        "Track actual liquid mass and arrival velocity",
+        "Hold receiver/observer definitions for comparison",
+        "Laser energy is not automatically E_B"
+      ],
+      "title_en": "Original mechanical inputs and compared outputs",
+      "title_zh": "力学输入及比较输出的原始公式"
+    },
+    "J04-A7": {
+      "tex": "p_*=\\rho_0c_0^2/\\Gamma_l-p_0,\\quad b=(\\Gamma_l+1)/4,\\quad D=bU+\\sqrt{c_0^2+b^2U^2},\\quad p_1-p_0=\\rho_0DU",
+      "display": true,
+      "figure": "assets/jet-foundation-figures/J04-A7.svg",
+      "diagram_kind": "shock",
+      "variables": [
+        "Γ_l = 7; b = 2",
+        "p₀ = 0.10 MPa absolute",
+        "U = 20 m/s; rigid receiver V_s = 0",
+        "c₀ = 1500 m/s; ρ₀ = 1000 kg/m³",
+        "EOS is a declared reference, not calibration"
+      ],
+      "title_en": "Original stiffened-gas shock formulas",
+      "title_zh": "刚化气体激波的原始公式"
+    }
+  }
+}

@@ -11,18 +11,18 @@
   },
   {
     "file": "README.md",
-    "bytes": 3324,
-    "sha256": "bb0bf6f3ea392611ea3dcbceeff79be1757e88a7bee8951fe0594aee172ed7ed"
+    "bytes": 3947,
+    "sha256": "25ac96d46d29527531fabc93b2e7647e0311bb733c0c2e9c2de1e88c55b6360c"
   },
   {
     "file": "SCHEDULE.html",
-    "bytes": 26725,
-    "sha256": "cd59aa213bfa8761f79ae5c72036333f5bfbd22ca0d175120e92e5b7b9658408"
+    "bytes": 30791,
+    "sha256": "fcfa3bb7e8995ea4af3b176424f34460b86ae0b0b1599fc82eda9d301ffd8b74"
   },
   {
     "file": "START.html",
-    "bytes": 10409,
-    "sha256": "6427bff37112e58ade3b815d144a9fc9288abf02669f25a18661b1e42f480822"
+    "bytes": 14475,
+    "sha256": "0549301353f1469b6129c49b34c87fa5b7c40aa5a794ac46097d8f29f5970d9c"
   },
   {
     "file": "analysis/cavitation_extension_model.py",
@@ -32,7 +32,7 @@
   {
     "file": "analysis/curriculum/coverage_manifest.json",
     "bytes": 420746,
-    "sha256": "8fba17b91c4528a1da79f1eb5d524ed7972d5e265fd87deff9ea6c4668d3dce9"
+    "sha256": "37f8d6f31f14ff280aaa50e7eb99934fbc0f8696e66f9dd7c8e8da77de4222b0"
   },
   {
     "file": "analysis/curriculum/independent_textbook_audit.md",
@@ -86,8 +86,8 @@
   },
   {
     "file": "assets/bilingual-terms.css",
-    "bytes": 29746,
-    "sha256": "aa6e7a49eaa70c6f8be0da298cfcbdb410b0d4c5580d219575aa8a616e9ca192"
+    "bytes": 33366,
+    "sha256": "e1fc75e796da57215935c5e17d891c1d555a8af850ec50d3adf4fe2431850bae"
   },
   {
     "file": "assets/course-rebuild.css",
@@ -1955,6 +1955,411 @@
     "sha256": "abe612a88c321e56bd9dfb5ddbb101c8cda177e4d506e5125816ad496012bb98"
   },
   {
+    "file": "assets/jet-foundation-figures/J01-01.svg",
+    "bytes": 2538,
+    "sha256": "6dc91297c8b5d3ae05288326cd340791a6492382681ea3336ba2d4e8c58ff8aa"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-02.svg",
+    "bytes": 2564,
+    "sha256": "8ed5067e45351f211401b99c9917c11238c93c5a95c46ca96cc540f800963312"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-03.svg",
+    "bytes": 2564,
+    "sha256": "60a1165ac61da265ad97df886c94b7eabef5e7b4e49799d34ac0359f0d3d742f"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-04.svg",
+    "bytes": 2564,
+    "sha256": "148a6135f93971e1717611737e8f1109db8ebf58b2f5b2833a6ae1d4006e8202"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-05.svg",
+    "bytes": 2580,
+    "sha256": "2ba49cd5a1c3663f04e23506b93a9b18fb4b7b4f93ba391ece32c109ae52e7ee"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-06.svg",
+    "bytes": 2740,
+    "sha256": "8480ddd60e9f8cc64da044e424600e3a9654c949ac0d6125fb49f4c15f4598e3"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-07.svg",
+    "bytes": 2666,
+    "sha256": "a8f02f4f38cad4588fb1cfe792117917db68071ee8c0e066d628abf5e47f1a3b"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-08.svg",
+    "bytes": 2813,
+    "sha256": "f0a103f514b3297eefb093e8c76160c6e7f58f84b09e7e809349b43719141df1"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-09.svg",
+    "bytes": 2787,
+    "sha256": "914a313bbb151e227ee2065ed037026c81f8d81b590629322d445d2d45b2e614"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-10.svg",
+    "bytes": 2885,
+    "sha256": "62203348c0e590083ca41ab697d98a2f49b70a9c1be240b4b724b08e3b2d4e7a"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-11.svg",
+    "bytes": 2864,
+    "sha256": "b15bb018e497554f78f93b21ee14cc966f98b426c49b1d66984d1c53be797d84"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-12.svg",
+    "bytes": 2865,
+    "sha256": "e070680bf30b97955227142b33f6a2f6a56d8ebb4f1d6992893efadb51be63e9"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-13.svg",
+    "bytes": 2702,
+    "sha256": "00d6d9728935f57f61dce23241ec6c84d96858278251afd11f1110a3cf8cbbb8"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-14.svg",
+    "bytes": 2765,
+    "sha256": "6287855c47950680322eaa200d979acadb6badf3c0074bf91e6fa4d065f5fa0c"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-A1.svg",
+    "bytes": 2522,
+    "sha256": "2548f18f99fc0760dcd1255b2a3ec34851d572b8670205cb90df3c52e21e9c3a"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-A2.svg",
+    "bytes": 2586,
+    "sha256": "2a33d2b541b6ea15943faa52b66ba787ac4268ba24b370ffccc4f5cf4697256a"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-A3.svg",
+    "bytes": 2773,
+    "sha256": "0b941918cd83bac84feeee340111f9b524c05e5c1e9f538ec544610fd9787252"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-A4.svg",
+    "bytes": 2792,
+    "sha256": "f7cfc28b2856573ff07d1c4b41e858c8ccf5be6ac8cf2bad7d6aab8e039d9d8d"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J01-A5.svg",
+    "bytes": 2836,
+    "sha256": "285462c9800c4b91b13670d5e6ed3c4168e25116bed8caf19a6151e217a804d0"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-01.svg",
+    "bytes": 2484,
+    "sha256": "bde6874f127e7a1a9edd3b415b544fd3d76383e2ada6510df1925c138d67ca5e"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-02.svg",
+    "bytes": 2504,
+    "sha256": "cb065079099b89ee5d3324cec710ac0f13d4d3d0087cf30944c653b1d4615a62"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-03.svg",
+    "bytes": 2496,
+    "sha256": "6097a4cc8032ac35699432c89231520feeb223bd93f94d14e73535ffa196ff01"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-04.svg",
+    "bytes": 2508,
+    "sha256": "3b24195615aea35fd09f886a15a4541cfe75aa9e04c58c41e2c4f8d5ae941737"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-05.svg",
+    "bytes": 2514,
+    "sha256": "ec3c9737db6b147fda62bda7eccd69b0e86187c153d7e3f4349c351876df08a8"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-06.svg",
+    "bytes": 2450,
+    "sha256": "3d8efc1982914b7c070f21d536ef41da9d1762572cd92d5b7c7e5cb9e6500a1e"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-07.svg",
+    "bytes": 2550,
+    "sha256": "7dbcfcb915222c9888c2c04d5fa42c439503575fc2cd226d753bfe8d7d050060"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-08.svg",
+    "bytes": 2739,
+    "sha256": "a670ad1e0db610e3fa9c5672a9f06e2e1f2d64cd5d2fc80c30649ad05bd8173b"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-09.svg",
+    "bytes": 2763,
+    "sha256": "1a1e588211129d01bf94a31625a5b3d2d4a8c9b7390ad8c14a71575c26328e95"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-10.svg",
+    "bytes": 2785,
+    "sha256": "c9a24c3b77520649c119916795f433422f799fc64b781af483f8ad08c7ef84c1"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-11.svg",
+    "bytes": 2586,
+    "sha256": "32ec1a5d4878b31c86d174dee50d81a8b4be31d4ad62ec1f24cd097018e10b8a"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-12.svg",
+    "bytes": 2583,
+    "sha256": "a51459858b9eeb8467752f4fdb7e301482e04c70f4b1d2c2cce7b4162d733b12"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-13.svg",
+    "bytes": 2779,
+    "sha256": "52dc994a79d030b82ab6fa0652e6f92e8a09afb4d7b6ed03ea74f9bafd3d2297"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-A1.svg",
+    "bytes": 2462,
+    "sha256": "4c1cc7f5db0c06f66115bf8ee2ccc987eef7f2a5258fc98876f378d0c11a1076"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-A2.svg",
+    "bytes": 2504,
+    "sha256": "93959b5e022a72f9c16816ae030e86b1065df77fdab7390ea7ee02462366092d"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-A3.svg",
+    "bytes": 2709,
+    "sha256": "b50544bbbb0b695a1e6f5cd2116282213e54cbcf55d37000fde756f639d07286"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-A4.svg",
+    "bytes": 2677,
+    "sha256": "21c5ac66bc668d553c3f402a450112ea1949d878b2654b94c041b1394a10efaa"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-A5.svg",
+    "bytes": 2540,
+    "sha256": "9ef7244cc92773ed2b270bda5579dd08158129ffc36abb0ba2fe6e6dcff96eb7"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J02-A6.svg",
+    "bytes": 2551,
+    "sha256": "cd387269945b0dead766b33fd85928a9dd2f0d303691c07ca656764f02193f98"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-01.svg",
+    "bytes": 2806,
+    "sha256": "5040d42dc79e5d4c04e00089d9c25c5b55e7f3eadfa23102d19cece0dabf0012"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-02.svg",
+    "bytes": 2754,
+    "sha256": "76e8fea66cf85723a2e0f4edd0c910860c04c0c6bfedb418b794c7ad411cf67d"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-03.svg",
+    "bytes": 2744,
+    "sha256": "eab8e9732aee0b02475fd4747bd6253d53b3230854170cfdfd4f453bdf76853c"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-04.svg",
+    "bytes": 2808,
+    "sha256": "6b4e1a03811f7896973cf0445c5fe2f94b3202ef2fb9ab60fd826a7473f2a333"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-05.svg",
+    "bytes": 2760,
+    "sha256": "a570ebbe1a70cce1c2348befa3a54da259a0be7a7537ff9db8bc4155f976df6f"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-06.svg",
+    "bytes": 2818,
+    "sha256": "33d5a8cc7f2f9b20f8e828df24e6f7e64b3b7eeb35ffbb5354aae3cda6501fcd"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-07.svg",
+    "bytes": 5580,
+    "sha256": "511a04229c547e9888a2695069f6873b034385f2a0d0e510b8cc1a59b0c48e90"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-08.svg",
+    "bytes": 5574,
+    "sha256": "bdfc6b14d2439941eba4203d41f884f5d95365f63e7ee9b84f2b0301f1e97fa9"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-09.svg",
+    "bytes": 2776,
+    "sha256": "19d1962be756882c6672b608368da25e047769439ec63a65e7c9b05e6f3497ac"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-10.svg",
+    "bytes": 2638,
+    "sha256": "8c87f83b447aa5ff64a41b6044fe7f68fd3d751b3837cd688d912887b63e93d2"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-11.svg",
+    "bytes": 2778,
+    "sha256": "5a6134e88c61f610a934d2b990835ca80bd7e1062eab28692d04db2d31d058e7"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-12.svg",
+    "bytes": 2580,
+    "sha256": "30154e5ad7ccdba90c3558628b8c47965151bbe51f589bdad3bfb7522547ba04"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-13.svg",
+    "bytes": 2619,
+    "sha256": "db6ad0ffe3d0855817069e2a1f0caba48d7c5cd73330689b7a5fff829476fd3c"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-14.svg",
+    "bytes": 2812,
+    "sha256": "6113c6ceae771529f40c78f71a014a016e5743e95e4455c0113b013a888a1bfa"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-15.svg",
+    "bytes": 5614,
+    "sha256": "25d797a0db34da730ec0c1057e96daf097bfd47fd8985183a358e7afede5c9b7"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-16.svg",
+    "bytes": 2811,
+    "sha256": "ecd4e187ba87cf6b20e10bd7093165c811f429a594708fa5eb256ea603ad80de"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-A1.svg",
+    "bytes": 2620,
+    "sha256": "15a27b4af3d04ba5358becd9652a36202703733c5b001d11a66993ced9b118c1"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-A2.svg",
+    "bytes": 5538,
+    "sha256": "ba050ea2985239c403b829d4e57ccf569baf99c3fbdced134764901db2b886b8"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-A3.svg",
+    "bytes": 2422,
+    "sha256": "1a1dbb592586e9dd3b3535f8ee795fccd6780bcbbb6bf9d39315c5b0342fd214"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-A4.svg",
+    "bytes": 2756,
+    "sha256": "67960ac45ad4a27afe95f168ff155d1ee8262418ba411cfe8f2be8a6f5402bec"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J03-A5.svg",
+    "bytes": 2599,
+    "sha256": "6fb05d87cbfdef2b0108e926e1fd21e305345ef852feeff8503f6bc4aabbb7c8"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-01.svg",
+    "bytes": 2619,
+    "sha256": "592cca676e1539cc5a55b184f6b2fdae99897deb44498969d91ae4bd06c430fb"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-02.svg",
+    "bytes": 2707,
+    "sha256": "a56a976095eaafc93863f21d27334d34093149c0e8ad9f4c1c356c6dbb098cbd"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-03.svg",
+    "bytes": 2759,
+    "sha256": "08e0f1f8a564776911efe5a54b1390d1f7dc8a24d436868e50b74729e117b8ce"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-04.svg",
+    "bytes": 2747,
+    "sha256": "182ae921135659c9019f61fb8789905df38dbbf6612941ab878b41f96e7f2658"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-05.svg",
+    "bytes": 2700,
+    "sha256": "feb90eb569a8d392cca081f43c20511f3bbc308dd54410ac28bb0fdcf1f81346"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-06.svg",
+    "bytes": 2724,
+    "sha256": "b41fce4c6899f2cdf59afbd714f63b1dea55a058fb0692e6372c1c24f80ebbf7"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-07.svg",
+    "bytes": 2676,
+    "sha256": "5c185e894b41f666b571ea159cf42b3e31291b117ac724ee2fbdbb8034af546d"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-08.svg",
+    "bytes": 2661,
+    "sha256": "e4118db1f19a67784fe7fd58d4176c347f05c1a52b09ac70f91293d1b9e0cff0"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-09.svg",
+    "bytes": 2679,
+    "sha256": "6a2c0ed2e1d62daf9152eb0231ea5d6bca2bfa9844204beaf83f4534eb0d566c"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-10.svg",
+    "bytes": 2671,
+    "sha256": "b5419517913cb5c4411a9b68ff866527b2581caee2114303d2d820a07711f5f4"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-11.svg",
+    "bytes": 2716,
+    "sha256": "4560841dc7c7821603d99b274bd51c6baa84584d2109f21fdcebc3fc80d6d831"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-12.svg",
+    "bytes": 2817,
+    "sha256": "4c11c7c46390f62ff876e742866a578009af1b8f3cd770ab4d61f7528eaecb98"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-13.svg",
+    "bytes": 2740,
+    "sha256": "ad5e88605902d62cb9e425e156b146dc2e2604352801bec2937f047b6c9aa4fa"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-14.svg",
+    "bytes": 2720,
+    "sha256": "cccdfe675abade0bc6f5237280ebbe58607498bf5bf8c6ff27f70732a302db99"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-15.svg",
+    "bytes": 3172,
+    "sha256": "a8ad1c1e0ded9042999135afbe0f768569a9a55ae1ae465effc67f89436f0aac"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A1.svg",
+    "bytes": 2671,
+    "sha256": "9dc1e46c5e9ac086b286ad2688ff239334718ccb2cdff50c99c64632b084592c"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A2.svg",
+    "bytes": 2590,
+    "sha256": "33ab5a571ec0f87a14e2bb8e3d650a60747cc9a54493e2983e9cc54dc55c656c"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A3.svg",
+    "bytes": 2641,
+    "sha256": "e6f2c61baffc377f88b823ff9c4eeb7d6e3edabcd5099b651cc91275ec5dc2c6"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A4.svg",
+    "bytes": 2659,
+    "sha256": "34ab070d1376e2b8c0164b1e944aed31e336e4e62d32eec604210fb4bb757806"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A5.svg",
+    "bytes": 2709,
+    "sha256": "4ed09478a5060fd866a620360f0ffe431ebf10bfeb0ec653106b8571b5237cd3"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A6.svg",
+    "bytes": 2887,
+    "sha256": "900301a287a0d183075338d42c107af2ad1687a6beb3401a69389cc631506a9b"
+  },
+  {
+    "file": "assets/jet-foundation-figures/J04-A7.svg",
+    "bytes": 2537,
+    "sha256": "0709e2177d6c545df8fed81544d326fd56182fab5f40bf3164b070c9d2301c51"
+  },
+  {
     "file": "assets/laser-focus-figures/L01-A01-thermal.svg",
     "bytes": 1479,
     "sha256": "0a7caa3fda680f6909723ac68a65dad553f8aca1ba0ec25d2c0f6ba6bf2b4517"
@@ -2467,167 +2872,202 @@
   {
     "file": "chapters/0000-foundations-of-bubble-dynamics.html",
     "bytes": 57193,
-    "sha256": "74f8ca0722111a4e80c82a2060159faee3cd482b9e1a5d94aa52a2aeaa3abf92"
+    "sha256": "3f4a25bfaaf7fbfeaf55e2fb5aa8b3135144a64ed65496878d2224616a36b213"
   },
   {
     "file": "chapters/0001-beyond-ideal-collapse.html",
     "bytes": 43084,
-    "sha256": "3cc378d57f1d9598d82a0a0d6aeefda8ac7b96dabaf8483829d08113791e3e40"
+    "sha256": "68606e2592591cdb57b276b00f95d34c1d44ed182e40ba740c0c69552d00b459"
   },
   {
     "file": "chapters/0002-how-cavitation-jets-form.html",
-    "bytes": 62649,
-    "sha256": "4ed66a130ab86d025a032f2efc1c83b2089dce5ad85cfc600edd39ba6adddd5e"
+    "bytes": 62855,
+    "sha256": "186001be8b87d3e983d4aa01e6fb5fe34aaab20e6b7d9a37389d18f1f37ad693"
   },
   {
     "file": "chapters/0003-from-laser-pulse-to-possible-bubble.html",
     "bytes": 46724,
-    "sha256": "8a5a4eaf2202317dfcf1533792345e4150c046ebb11f8ed5882f9b2e6353810a"
+    "sha256": "23114cf4fc12f8cebe516f22c96e47bcf509caa4c67ff10e44289a6261b85928"
   },
   {
     "file": "chapters/0004-hydrogel-confinement-and-pfc-transfer.html",
     "bytes": 52689,
-    "sha256": "d840e18f9f64d49c016cda728fa6f47d31b805eaac4db51755d387b7950c0dae"
+    "sha256": "2c0c94c091f823328b7a80b96c3486bc918503c095c7ab66e926c1f096948680"
   },
   {
     "file": "chapters/0005-pressure-limits-from-one-bubble-to-arrays.html",
     "bytes": 107896,
-    "sha256": "02153c4f25dd34319350fb99b11ae30881df6be807829f0fc6e7e2ce6f4b7916"
+    "sha256": "517faa83d6d78f4c61d174a05d12468466fc461392d2acccbc255ee8eb926ab0"
   },
   {
     "file": "course/COURSE_SETTINGS.json",
-    "bytes": 3674,
-    "sha256": "7cd096599c19cb78185915645b53ea8217fbee45b2b2c437145a492e7bb5626f"
+    "bytes": 6623,
+    "sha256": "e4b4b32d0ff9a246b1f98daae2219411174926682c9ef95d1b52dce257b8c697"
   },
   {
     "file": "course/COVERAGE.html",
-    "bytes": 64981,
-    "sha256": "20fe0b4a63c56e9f3994b03e6f97f1f9e57747f849560d818caf8d6b9bbe4938"
+    "bytes": 65209,
+    "sha256": "444dd3bc423a421c56cfb82254c2c80fa4c048b9463c95030d8cbea3bcab9e08"
   },
   {
     "file": "course/appendixes/A-hydrogel.html",
     "bytes": 52571,
-    "sha256": "b5fa24bb0d05911726ea4c642152c971b9145b0c579aa74e13e2773c684dd9a3"
+    "sha256": "2f729a846984714e531a9349faf3139ab08ee4b34dcebcd2160f7b71df7c7765"
   },
   {
     "file": "course/appendixes/B-pressure-limits.html",
     "bytes": 108176,
-    "sha256": "a5e83d2df3437d64b801ee35653ca628001f624eb158d2e8639f151da4b9495f"
+    "sha256": "758f9bb828dda9f477e2316a2d462686f15b3ec76a7d500cb222d85a42da7285"
   },
   {
     "file": "course/chapters/G01-mechanical-system.html",
     "bytes": 95642,
-    "sha256": "55d85b9183dcdd5efdde30b9f0eae9f357b79841c4f097f05afea520e05c0740"
+    "sha256": "ea35dc86eb0ccf2fd7b6a7ac2fc976be682e4beb0c88785a6e3910c4e9352826"
   },
   {
     "file": "course/chapters/G02-nucleation.html",
     "bytes": 143314,
-    "sha256": "0e3c04535d788372920bc2ba2c524e6120af606d1d46d0104cd7b8cb81be7734"
+    "sha256": "bf5e702bad27575f6e5e909a5fa1cf011de672f01e09fe3a09d774e923642359"
   },
   {
     "file": "course/chapters/G03-rayleigh-plesset.html",
-    "bytes": 208515,
-    "sha256": "a0d8d8cf1bd59a82bfbe84373b4fbd2cad4a9afd3ee4b8901c5f2920f4e3bfe1"
+    "bytes": 208759,
+    "sha256": "0e5e1af6f782a6a3557b3f7fd4d8898874fab714b48cbb277b3eabb94bdbbc2b"
   },
   {
     "file": "course/chapters/G04-heat-and-mass.html",
-    "bytes": 138389,
-    "sha256": "6133781e5dbb7f4b41890ee58b13d8cecd79da7e8ed712add0e68984b5009d02"
+    "bytes": 138633,
+    "sha256": "d1943b7d0c47f1273b2bb46029a77088b43b45df2764c92ab0859dfac12ed6f7"
   },
   {
     "file": "course/chapters/G05-collapse-and-rebound.html",
     "bytes": 222596,
-    "sha256": "cb03451801547b2ce13424da451d108ad3bdc47d67a912bcf5af92e25936fb63"
+    "sha256": "a14e1127fb74d6c02f7d5b39ff4b8a382a1045dc06904638a5f1f5b7967ad00f"
   },
   {
     "file": "course/chapters/G06-oscillations.html",
     "bytes": 148632,
-    "sha256": "e5b2c7423f2eaa7a249c8010ddae219bc003b27cac68dc976b003ae9499054c4"
+    "sha256": "ae14d335d595cf142968496e03729196d97596530af5caae8210bee72749ffc8"
   },
   {
     "file": "course/chapters/G07-compressibility.html",
     "bytes": 171048,
-    "sha256": "6797fcd1f40f2f1548eca49affed8cdf47d7668e3ca316e94d723344d5d6ee65"
+    "sha256": "be6641f58382029c4f935ac1c19029c09a15ca1db7d7d16151dadb9a2674f83e"
   },
   {
     "file": "course/chapters/G08-shape-and-boundaries.html",
-    "bytes": 108786,
-    "sha256": "1a25d3cc53f36f9d42364c398e1f9577042f04cf8d9ae7e539a7fc62f8b20af3"
+    "bytes": 109464,
+    "sha256": "86e8112d6d26ec516a8d788539297d671fdac1c43f51b52a77430e79967aae9e"
   },
   {
     "file": "course/chapters/G09-jets-and-transfer.html",
     "bytes": 106427,
-    "sha256": "469f05016a2142a5bfa9c00bc27b33c0c04394314911f3600d8d1ac1eab598fd"
+    "sha256": "376bb0936b0cc2c03c86309a63f77e19377b03cac70257c90d9c4f59ba23678a"
   },
   {
     "file": "course/chapters/G10-laser-source-pathways.html",
     "bytes": 68214,
-    "sha256": "562e7f23dd02cefb9caece8d4e557b276820168ec7aa17211cadd65edb55bd42"
+    "sha256": "cfc4d847e88c58ff825a484f0078d8d0f891e953516e1d670342995d81cbe0e9"
   },
   {
     "file": "course/chapters/G11-phase-change-droplets.html",
     "bytes": 104641,
-    "sha256": "2504ca6df92100426e0a944392b944273f6edf565ac42e53a64811d70f7f444d"
+    "sha256": "d84d400bb2ae31c4d6b744751c241bfad0275e80a543629d2deba913072e0fea"
   },
   {
     "file": "course/chapters/G12-films-and-detachment.html",
     "bytes": 155814,
-    "sha256": "9982c8b04e5f9cc3455af0dee472fa29c17b9a0971c6ceb5ece0e3716f14dddc"
+    "sha256": "30a527556e9e0afefc28a8bc6dbb992c5849b9f15ab37030a84153ca65e2ddad"
   },
   {
     "file": "course/chapters/G13-numerical-laboratory.html",
     "bytes": 104372,
-    "sha256": "d6c2e5f9544ac3a5d4ff0c4b11c4e885118ffbd59a32f9e14ef9d3e3c736dcd6"
+    "sha256": "7af52d78fa62957522839946f0702e549dc79cedf161ab1d6c4f32452905495e"
   },
   {
     "file": "course/chapters/G14-measurement-and-inference.html",
     "bytes": 101590,
-    "sha256": "3b6b9dc5ba159cca8b7072f4c95b3bfe993b710f1541122a0d1f79db8c621f65"
+    "sha256": "7e2694fa8080c0d084a5fbe30f7d0be70f85e1d1d1019ce590d4bcc2614a4a16"
   },
   {
     "file": "course/chapters/G15-liquid-pvc-film-capstone.html",
     "bytes": 91090,
-    "sha256": "9f7a20b015078ccfc5e3aaba0d9d683b494553dc5d0da0901769e8447ea93bf3"
+    "sha256": "c6a527027f355ce29fc0839f871a2348951ef878bccc6e7995041839c9bbe12c"
   },
   {
     "file": "course/chapters/G16-original-worked-problems.html",
     "bytes": 603445,
-    "sha256": "725386b78a0812e354559565a55ed8ef718427d191e63eb8013def86d70aff1b"
+    "sha256": "41c3bc04fff9c705f395161ba3302a4ee3a0750f8ba1355a599732b3226cdc08"
+  },
+  {
+    "file": "course/chapters/J01-impulse-energy-and-asymmetry.html",
+    "bytes": 245018,
+    "sha256": "5bb585f1e275878b0ec41abf910ab62d6e345606e5ece60f2c01e59f118fc25b"
+  },
+  {
+    "file": "course/chapters/J02-interface-motion-and-focusing.html",
+    "bytes": 242434,
+    "sha256": "87098117abf419221de5f454d6f521103bdff39c3faa0359221d0a13ed1b0b7d"
+  },
+  {
+    "file": "course/chapters/J03-transport-instability-and-breakup.html",
+    "bytes": 254870,
+    "sha256": "e40835efa9ffa77e53e95b754b9156a0e5cb147b85bc6701204e76e95bb9ce40"
+  },
+  {
+    "file": "course/chapters/J04-impact-pressure-and-finite-limits.html",
+    "bytes": 343261,
+    "sha256": "4db6fad6b567dc445c60198657db4505e5fc3d4916525c3c26124131ca6af981"
   },
   {
     "file": "course/chapters/L01-laser-phase-and-jet-mechanisms.html",
-    "bytes": 221068,
-    "sha256": "0f0e051c05833d676e533d9bd9906dc14d4e6b917d9ffc999daa44dd46b2a3aa"
+    "bytes": 221644,
+    "sha256": "f60cd803e29d1dab2c0a2cfd789d072dc16f47588592a02c186e49fea7647d61"
   },
   {
     "file": "course/chapters/T01-optical-deposition.html",
     "bytes": 310820,
-    "sha256": "852aba4cf02e7a70b2834a63ef30d936352663773d86440d0e09f2f76b8f7e38"
+    "sha256": "63216ddca3cd308c0270048719dabef69237bed55547e920973035fa36b07878"
   },
   {
     "file": "course/chapters/T02-activation-statistics.html",
     "bytes": 183975,
-    "sha256": "3c9ede0795b014336373456023ca9497977dae1828d0c07130ca0e554f9fe9e6"
+    "sha256": "8a7bec4e5c8fb165e80925f072b3296ff647a36a2b0faf5833099e46e1786bf2"
   },
   {
     "file": "course/chapters/T03-bubble-load-mapping.html",
-    "bytes": 480060,
-    "sha256": "d9731e83de747c2ed707f8271f88e39217edd4d1c47711890bba55d17548ff1c"
+    "bytes": 480836,
+    "sha256": "9afc28fa40ce0f3713699f68cb10a2bd93f73cedcb8bec56860b5cfb8a25ffaa"
   },
   {
     "file": "course/chapters/T04-structural-response-and-release.html",
     "bytes": 392081,
-    "sha256": "2653fc16552d875098a66864fd32f8370a13f97b9db4b711b2a29368c4cd942d"
+    "sha256": "467a2df36be6469808fe197d884c96aac065ad18451928318210b51f02f474c3"
   },
   {
     "file": "course/chapters/T05-sensitivity-and-measurements.html",
     "bytes": 157410,
-    "sha256": "6a3c13d7e04e13c2e6e5b3b137b52bacf2f4dc164cab1ce07379806875152c6f"
+    "sha256": "047b1adeefdf7205302627746200cf61f8bb50065d72490c39525c01a5d3617e"
+  },
+  {
+    "file": "course/references/jet-foundation-equations.json",
+    "bytes": 60080,
+    "sha256": "1ae9e3242ccada3fcb065f251336c7a72dff1d4dd0148290e20922292ffff742"
+  },
+  {
+    "file": "course/references/jet-foundation-verification.json",
+    "bytes": 25641,
+    "sha256": "4276479b757d3f3ac1bf8f33589354c95d15bc998bd32ea92c9847de7f0717a7"
+  },
+  {
+    "file": "course/references/jet-theory-chain.html",
+    "bytes": 15108,
+    "sha256": "fc055fc241a7cf7c728d56d9445b7d72371d50de5a0b214505d434345dc7cd38"
   },
   {
     "file": "course/references/laser-pfc-exploration.html",
-    "bytes": 27243,
-    "sha256": "20059d1b97e97beef7bf552ad78d35993a6fc3e80ecdb3257a61ba962b976df1"
+    "bytes": 27473,
+    "sha256": "c595134d90520e33cd7639e9ec3e2abfae113dce05eda2ff43b7ace8d93e812f"
   },
   {
     "file": "course/references/laser-pfc-parameter-ledger.json",
@@ -2642,22 +3082,22 @@
   {
     "file": "course/references/notation-and-model-map.html",
     "bytes": 122066,
-    "sha256": "a0bba5d44dbc0d876cd9d5e4bb091ef43cf92c42c48ffb40171883dfbe18b7ff"
+    "sha256": "1cd020057c6f8114d533c73de1a180245374eeacdd86650ad0b13bce1a5cd571"
   },
   {
     "file": "course/references/original-theory-pages.html",
     "bytes": 3194,
-    "sha256": "9a783320b07175d0a182c8663ca381b3d5cbfe826f7d1b51a7ba1594d6d67137"
+    "sha256": "9f1492934bbca75194c4cdf3f212e2fb69a2d9fce6a86f74ac934c72c4f50ee5"
   },
   {
     "file": "course/references/paper-atlas.html",
     "bytes": 62660,
-    "sha256": "6cf49f0099bd95cf18607213cf15bf76d094f5baec2b0136d3edca74779f94fc"
+    "sha256": "67387a009011be1a046bb2d7129a2cf3316957b150766ba36e726fd549987b45"
   },
   {
     "file": "course/references/pfc-material-cards.html",
     "bytes": 17082,
-    "sha256": "b1b476a3dd4098e50db5de109b5bce378d6353291f1dbf07792155cd894ef581"
+    "sha256": "b1e72fe669b16e287890d5faa91c9b83b56a8a8ccffe34ce4949e304220aa345"
   },
   {
     "file": "course/references/pfc-material-cards.json",
@@ -2667,47 +3107,47 @@
   {
     "file": "course/references/theory-original-pages-note.html",
     "bytes": 2532,
-    "sha256": "8a25386ca906822715e916234a4ad19c56cb62406ab189f83648dc7824e5d3a2"
+    "sha256": "e15daeb5620fcdc7c81aebe2a3884ac43460ab5e765faebbee8ce2ae3c8c03e6"
   },
   {
     "file": "index.html",
-    "bytes": 10409,
-    "sha256": "6427bff37112e58ade3b815d144a9fc9288abf02669f25a18661b1e42f480822"
+    "bytes": 14475,
+    "sha256": "0549301353f1469b6129c49b34c87fa5b7c40aa5a794ac46097d8f29f5970d9c"
   },
   {
     "file": "lessons/0001-the-bubble-is-a-moving-boundary.html",
     "bytes": 8330,
-    "sha256": "ac5560d76c0dcf1a556f9cc57c1a97756a61ce24711daf003f7110d54aafce6f"
+    "sha256": "fa7eb879b6584f99954fc3833e1a4e93b4a315df96a21e1874f77e1475962347"
   },
   {
     "file": "lessons/0002-which-pressure-drives-growth.html",
     "bytes": 6807,
-    "sha256": "c6ae3b94ee95673de0c8f977ec9645f452bbe2098e3177c68fe3c0ad65c85bd1"
+    "sha256": "4e6d8241c01c444812cc972457160b75227f5e68eda0fcc19694ba7f66b530b1"
   },
   {
     "file": "lessons/0003-why-a-bubble-may-not-form.html",
     "bytes": 15872,
-    "sha256": "05609aa3dffa3f8b9ab2113e661143c6978a75498d9f17c91740a22494cdbb39"
+    "sha256": "e48c2b5758b2aed8c1bc0b920927d02b6b1188a6ba42acd1b0c667e8b2e368e9"
   },
   {
     "file": "lessons/0004-where-the-liquid-goes.html",
     "bytes": 10569,
-    "sha256": "4244976b84a1c8ec90a1db31f33247ac2c52c7d311f3a280c1672231feabc1d0"
+    "sha256": "fba10d0a4037fba0c89a12b6812cc087be00bf46b2d206c4c6a0ce6335ca2326"
   },
   {
     "file": "lessons/0005-liquid-inertia-and-rayleigh-plesset.html",
     "bytes": 13291,
-    "sha256": "dea3a50ed17a76324e594ca8443ee526a4d293699acc53af3e1b384b0b00710e"
+    "sha256": "56226cdc2a6debe0eea3b670deb23bf2974f351b629320777dfab1ce1ef66739"
   },
   {
     "file": "lessons/0006-what-sets-bubble-pressure.html",
     "bytes": 13652,
-    "sha256": "799a7db5b44f2132f3b6b0963ac83af44cba8738cd8b695201940a040d6d9e45"
+    "sha256": "f813f432d939afbba6186d1a9d0c8679ed04d8597195e630cb2e7258045a58b0"
   },
   {
     "file": "lessons/0007-how-long-ideal-collapse-takes.html",
     "bytes": 28035,
-    "sha256": "c5da8aa1bd6e33580bbbe1cd6bc6ba863ea36173fed35de1d9911232f1977afc"
+    "sha256": "f18834bea9c4bee5ec757966805d86e2964c083fb8b68f36c275c530831de21f"
   },
   {
     "file": "reading/Bubble_Cavitation_Dynamics.md",
@@ -2767,7 +3207,7 @@
   {
     "file": "reference/bubble-language.html",
     "bytes": 3131,
-    "sha256": "5f3745d03e8024a174338ebe26cdd31095d369075e31fb7c8fa05aac46bd44df"
+    "sha256": "ce7f4678100e0d960f349914a7f5682dc76ad71f92a5220d7898fc5517d2b642"
   },
   {
     "file": "sources/generic/Bubble_Cavitation_Dynamics/code/bubble_lab.py",

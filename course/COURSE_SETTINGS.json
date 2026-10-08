@@ -1,6 +1,51 @@
 {
   "updated_date": "2026-10-08",
   "project": "Laser-induced PFC cavitation transfer",
+  "required_study_sequence": [
+    "J01",
+    "J02",
+    "J03",
+    "J04",
+    "L01",
+    "L02",
+    "L03",
+    "L04",
+    "A",
+    "B"
+  ],
+  "jet_foundation_modules": [
+    {
+      "code": "J01",
+      "title_en": "Pressure impulse, cavity energy and symmetry breaking",
+      "title_zh": "压力冲量、腔体能量与对称性破缺",
+      "path": "course/chapters/J01-impulse-energy-and-asymmetry.html",
+      "status": "pending"
+    },
+    {
+      "code": "J02",
+      "title_en": "Moving interfaces, jet formation and geometric focusing",
+      "title_zh": "运动界面、射流形成与几何聚焦",
+      "path": "course/chapters/J02-interface-motion-and-focusing.html",
+      "status": "pending"
+    },
+    {
+      "code": "J03",
+      "title_en": "Jet transport, capillary instability and breakup",
+      "title_zh": "射流输运、毛细失稳与破碎",
+      "path": "course/chapters/J03-transport-instability-and-breakup.html",
+      "status": "pending"
+    },
+    {
+      "code": "J04",
+      "title_en": "Jet impact, observed pressure and finite limits",
+      "title_zh": "射流冲击、观测压力与有限极限",
+      "path": "course/chapters/J04-impact-pressure-and-finite-limits.html",
+      "status": "pending"
+    }
+  ],
+  "teaching_order": "Complete generic jet forcing, formation, transport and impact theory before laser/PFC source specialization.",
+  "chapter_arrangement": "Substantial multi-concept chapters: assumptions, derivations, solved benchmarks, refinements, integrated calculations and formula-first reference answers. Arrangement follows earlier pressure-limit chapters.",
+  "theory_completion_scope": "Governing/closure/initial/boundary data and solved analytical controls, with conservation and regime checks. Actual nonlinear target jets still require spatial solutions; no universal closed-form maximum is claimed.",
   "required_theory_path": [
     "optical deposition",
     "heat transport",
@@ -10,6 +55,34 @@
     "transmitted load and release"
   ],
   "project_modules": [
+    {
+      "code": "J01",
+      "title_en": "Pressure impulse, cavity energy and symmetry breaking",
+      "title_zh": "压力冲量、腔体能量与对称性破缺",
+      "path": "course/chapters/J01-impulse-energy-and-asymmetry.html",
+      "status": "pending"
+    },
+    {
+      "code": "J02",
+      "title_en": "Moving interfaces, jet formation and geometric focusing",
+      "title_zh": "运动界面、射流形成与几何聚焦",
+      "path": "course/chapters/J02-interface-motion-and-focusing.html",
+      "status": "pending"
+    },
+    {
+      "code": "J03",
+      "title_en": "Jet transport, capillary instability and breakup",
+      "title_zh": "射流输运、毛细失稳与破碎",
+      "path": "course/chapters/J03-transport-instability-and-breakup.html",
+      "status": "pending"
+    },
+    {
+      "code": "J04",
+      "title_en": "Jet impact, observed pressure and finite limits",
+      "title_zh": "射流冲击、观测压力与有限极限",
+      "path": "course/chapters/J04-impact-pressure-and-finite-limits.html",
+      "status": "pending"
+    },
     {
       "code": "L01",
       "title_en": "Laser energy, phase thermodynamics and jet mechanisms",

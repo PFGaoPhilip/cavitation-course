@@ -6,8 +6,8 @@
 Open **index.html** or **SCHEDULE.html** to read the bilingual course.
 打开 **index.html** 或 **SCHEDULE.html** 阅读双语课程。
 
-The course contains 21 complete textbook-reference chapters, two research appendixes, and a focused laser/PFC chapter with an exploration map, mathematical setup and evidence ledger. The required project route begins at L01. Historical mini-lessons and accepted progress are retained. Every HTML page has a day/night toggle. All fonts, styles and figures are local.
-课程包含完整教材参考 21 章、两份研究附录，以及激光／PFC 聚焦章节、探索图、数学框架和证据清单。项目必学路线从 L01 开始。保留早期微型课程与已接受进度，每页均可切换日夜主题，字体、样式和配图均在本地。
+The course contains 21 complete textbook-reference chapters, two research appendixes, four substantial generic jet chapters and a laser/PFC bridge with an exploration map, mathematical setup and evidence ledger. Required study follows J01 pressure impulse and asymmetry → J02 interface motion and focusing → J03 jet transport and breakup → J04 impact pressure and finite limits, then L01 laser/PFC source thermodynamics. Derivations, solved controls, labeled equation figures and comprehensive formula-first reference answers accompany each new chapter. Historical mini-lessons and accepted progress are retained. Every HTML page has a day/night toggle. All fonts, styles and figures are local.
+课程包含完整教材参考 21 章、两份研究附录、四章完整通用射流理论，以及激光／PFC 桥接章、探索图、数学框架和证据清单。必学顺序为 J01 压力冲量与不对称性 → J02 界面运动与聚焦 → J03 射流输运与破碎 → J04 冲击压力与有限极限，然后学习 L01 激光／PFC 源热力学。每个新章均配推导、已解对照、变量标注公式图及先列公式的综合参考答案。保留早期微型课程与已接受进度，每页均可切换日夜主题，字体、样式和配图均在本地。
 
 Corresponding English and Chinese technical terms share a color throughout the chapters and earlier lessons; different terms within a paired paragraph use different colors. Hover over a highlighted term to see its bilingual counterpart.
 各章节及早期课程中，同一术语的英文与中文使用相同颜色，同一组英中段落内的不同术语使用不同颜色。将鼠标悬停于高亮术语上，可查看其双语对应名称。

@@ -1,0 +1,1072 @@
+{
+  "date": "2026-10-08",
+  "scope": "Independent analytical quadrature, exact limiting cases, conservation residuals, arithmetic and static chapter gates. No nonlinear target simulation or experimental maximum claimed.",
+  "checks": [
+    {
+      "check": "Rayleigh time: direct quadrature agrees with beta reduction",
+      "passed": true,
+      "value": 0.9146813564901628
+    },
+    {
+      "check": "Collapse impulse: direct volume-time quadrature agrees with beta",
+      "passed": true,
+      "value": 2.3946301916372628
+    },
+    {
+      "check": "J01 energy, J",
+      "passed": true,
+      "value": 4.1887902047863915e-07
+    },
+    {
+      "check": "J01 ideal time, s",
+      "passed": true,
+      "value": 9.146813564901628e-06
+    },
+    {
+      "check": "J01 half-radius wall speed, m/s",
+      "passed": true,
+      "value": -21.602468994692867
+    },
+    {
+      "check": "Radial kinetic energy equals released pressure work",
+      "passed": true,
+      "value": 3.6651914291880924e-07
+    },
+    {
+      "check": "Pressure impulse, Pa s",
+      "passed": true,
+      "value": 0.3
+    },
+    {
+      "check": "Column speed increment, m/s",
+      "passed": true,
+      "value": 2.9999999999999996
+    },
+    {
+      "check": "Crossing time, s",
+      "passed": true,
+      "value": 6.666666666666667e-08
+    },
+    {
+      "check": "Column convective displacement ratio",
+      "passed": true,
+      "value": 0.015
+    },
+    {
+      "check": "Gradient anisotropy magnitude",
+      "passed": true,
+      "value": 0.02
+    },
+    {
+      "check": "Collapse-only impulse, N s",
+      "passed": true,
+      "value": 4.789260383274526e-10
+    },
+    {
+      "check": "Symmetric-cycle impulse, N s",
+      "passed": true,
+      "value": 9.578520766549053e-10
+    },
+    {
+      "check": "Plane conditional speed, m/s",
+      "passed": true,
+      "value": 184.6153846153846
+    },
+    {
+      "check": "Plane Mach diagnostic",
+      "passed": true,
+      "value": 0.12307692307692307
+    },
+    {
+      "check": "Cavity impact-volume ratio (not liquid-jet volume)",
+      "passed": true,
+      "value": 0.000261421875
+    },
+    {
+      "check": "Plane at stand-off one is outside intermediate fit",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Opposite equal leading wall contributions cancel",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "check": "J02 capillary radial pressure, Pa",
+      "passed": true,
+      "value": -100880.0
+    },
+    {
+      "check": "J02 radial acceleration, m/s²",
+      "passed": true,
+      "value": -14017600.0
+    },
+    {
+      "check": "J02 surface potential, m²/s",
+      "passed": true,
+      "value": 0.001
+    },
+    {
+      "check": "Spherical material Bernoulli reduces to RP",
+      "passed": true,
+      "value": 300.88
+    },
+    {
+      "check": "J02 material derivative, m²/s²",
+      "passed": true,
+      "value": 300.88
+    },
+    {
+      "check": "Eulerian derivative plus convection is material derivative",
+      "passed": true,
+      "value": 300.88
+    },
+    {
+      "check": "J02 maintained-flow nozzle speed, m/s",
+      "passed": true,
+      "value": 48.0
+    },
+    {
+      "check": "J02 nozzle pressure budget, Pa",
+      "passed": true,
+      "value": 1154700.0
+    },
+    {
+      "check": "J02 pressure-limited jet speed, m/s",
+      "passed": true,
+      "value": 19.67516599327043
+    },
+    {
+      "check": "J02 pressure-limited inlet speed, m/s",
+      "passed": true,
+      "value": 1.2296978745794018
+    },
+    {
+      "check": "Nozzle solved flux, m³/s",
+      "passed": true,
+      "value": 6.181135694261812e-09
+    },
+    {
+      "check": "Nozzle pressure-work and kinetic/capillary budgets match",
+      "passed": true,
+      "value": 200000.0
+    },
+    {
+      "check": "Mixed sector exponent",
+      "passed": true,
+      "value": 0.75
+    },
+    {
+      "check": "Sector pressure-release boundary",
+      "passed": true,
+      "value": 6.123233995736766e-17
+    },
+    {
+      "check": "Sector solid normal derivative at zero angle",
+      "passed": true,
+      "value": -0.0
+    },
+    {
+      "check": "Sector separation solves radial/angular Laplace terms",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "check": "Corner velocity at one percent radius, m/s",
+      "passed": true,
+      "value": 7.115124735378853
+    },
+    {
+      "check": "Corner finite-energy integral, J/m",
+      "passed": true,
+      "value": 3.534291735288517e-05
+    },
+    {
+      "check": "Corner integrated value, J/m",
+      "passed": true,
+      "value": 3.534291735288517e-05
+    },
+    {
+      "check": "J03 fastest dimensionless wavenumber",
+      "passed": true,
+      "value": 0.6970188972947595
+    },
+    {
+      "check": "J03 fastest growth coefficient",
+      "passed": true,
+      "value": 0.34333870186129933
+    },
+    {
+      "check": "J03 e-fold capillary-time multiplier",
+      "passed": true,
+      "value": 2.912575816762936
+    },
+    {
+      "check": "J03 capillary time, s",
+      "passed": true,
+      "value": 1.317615691736825e-06
+    },
+    {
+      "check": "J03 fastest wavelength, m",
+      "passed": true,
+      "value": 4.507184332853544e-05
+    },
+    {
+      "check": "J03 growth rate, 1/s",
+      "passed": true,
+      "value": 260575.75362412757
+    },
+    {
+      "check": "J03 ten-percent threshold time, s",
+      "passed": true,
+      "value": 8.836528575546032e-06
+    },
+    {
+      "check": "J03 arrival noise fraction",
+      "passed": true,
+      "value": 0.036798749407834806
+    },
+    {
+      "check": "J03 Weber number",
+      "passed": true,
+      "value": 55.55555555555556
+    },
+    {
+      "check": "J03 Reynolds number",
+      "passed": true,
+      "value": 200.0
+    },
+    {
+      "check": "J03 Ohnesorge identity",
+      "passed": true,
+      "value": 0.03726779962499649
+    },
+    {
+      "check": "J03 Ohnesorge value",
+      "passed": true,
+      "value": 0.03726779962499649
+    },
+    {
+      "check": "J03 nominal droplet/jet diameter",
+      "passed": true,
+      "value": 1.8908867836639978
+    },
+    {
+      "check": "Viscous quadratic residual at μ=0",
+      "passed": true,
+      "value": 11059200000.000002
+    },
+    {
+      "check": "Viscous quadratic residual at μ=0.001",
+      "passed": true,
+      "value": 11059200000.000004
+    },
+    {
+      "check": "Viscous quadratic residual at μ=0.01",
+      "passed": true,
+      "value": 11059200000.000002
+    },
+    {
+      "check": "Viscous zero-viscosity limit",
+      "passed": true,
+      "value": 105162.7310409919
+    },
+    {
+      "check": "Viscous growth decreases across the three controls",
+      "passed": true,
+      "value": [
+        105162.7310409919,
+        102790.11360389342,
+        83866.58426037231
+      ]
+    },
+    {
+      "check": "J03 viscosity 0.01 reference rate",
+      "passed": true,
+      "value": 83866.58426037231
+    },
+    {
+      "check": "Periodic allowed fastest integer is seven",
+      "passed": true,
+      "value": 7.0
+    },
+    {
+      "check": "Periodic fastest rate, 1/s",
+      "passed": true,
+      "value": 259197.81136529282
+    },
+    {
+      "check": "Periodic arrival noise fraction",
+      "passed": true,
+      "value": 0.03654608802984889
+    },
+    {
+      "check": "Periodic mode ten is outside the growing interval",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Fixed-volume surface-area perturbation agrees with geometry",
+      "passed": true,
+      "value": -2.0726169579023957e-07
+    },
+    {
+      "check": "Area-perturbed liquid volume stays fixed",
+      "passed": true,
+      "value": 1.0
+    },
+    {
+      "check": "Small-q exact cylinder reduces to inviscid slender dispersion",
+      "passed": true,
+      "value": 2879.999967599998
+    },
+    {
+      "check": "Fixed-flux half-radius growth-exponent ratio",
+      "passed": true,
+      "value": 0.7071067811865476
+    },
+    {
+      "check": "J04 mass, kg",
+      "passed": true,
+      "value": 2.3561944901923452e-11
+    },
+    {
+      "check": "J04 momentum, N s",
+      "passed": true,
+      "value": 4.712388980384691e-10
+    },
+    {
+      "check": "J04 kinetic energy, J",
+      "passed": true,
+      "value": 4.712388980384691e-09
+    },
+    {
+      "check": "J04 steady force, N",
+      "passed": true,
+      "value": 3.1415926535897935e-05
+    },
+    {
+      "check": "J04 passage time, s",
+      "passed": true,
+      "value": 1.4999999999999999e-05
+    },
+    {
+      "check": "Finite momentum capture matches steady-force integral",
+      "passed": true,
+      "value": 4.71238898038469e-10
+    },
+    {
+      "check": "Matched receiver pressure, Pa",
+      "passed": true,
+      "value": 5000000.0
+    },
+    {
+      "check": "Matched receiver speed, m/s",
+      "passed": true,
+      "value": 16.666666666666668
+    },
+    {
+      "check": "Both receiver and liquid acoustic relations agree",
+      "passed": true,
+      "value": 4999999.999999998
+    },
+    {
+      "check": "Wrong peak/passage impulse ratio",
+      "passed": true,
+      "value": 75.0
+    },
+    {
+      "check": "J04 synthetic tail, Pa",
+      "passed": true,
+      "value": 398026.53510234016
+    },
+    {
+      "check": "J04 first box mean, Pa",
+      "passed": true,
+      "value": 1878125.2083472235
+    },
+    {
+      "check": "Synthetic history exactly preserves incident momentum",
+      "passed": true,
+      "value": 4.712388980384691e-10
+    },
+    {
+      "check": "Causal box mean lies between prescribed tail and peak",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04 fixed-mass speed ceiling, m/s",
+      "passed": true,
+      "value": 22.56758334191025
+    },
+    {
+      "check": "J04 separate plane-wave mean bound, Pa",
+      "passed": true,
+      "value": 13819765.978853418
+    },
+    {
+      "check": "Uniform aligned jet saturates momentum-energy inequality",
+      "passed": true,
+      "value": 2.2206609902451063e-19
+    },
+    {
+      "check": "J04 stiffening pressure, Pa",
+      "passed": true,
+      "value": 321328571.4285714
+    },
+    {
+      "check": "J04 planar shock speed, m/s",
+      "passed": true,
+      "value": 1540.5332385522154
+    },
+    {
+      "check": "J04 nonlinear shock pressure rise, Pa",
+      "passed": true,
+      "value": 30810664.771044306
+    },
+    {
+      "check": "Shock mass jump",
+      "passed": true,
+      "value": 1540533.2385522153
+    },
+    {
+      "check": "Shock momentum jump",
+      "passed": true,
+      "value": 2373342659.084177
+    },
+    {
+      "check": "Shock total-enthalpy jump",
+      "passed": true,
+      "value": 1561621.3295420886
+    },
+    {
+      "check": "Shock Hugoniot energy jump",
+      "passed": true,
+      "value": 201.2982517676428
+    },
+    {
+      "check": "EOS reference sound-speed check",
+      "passed": true,
+      "value": 1500.0
+    },
+    {
+      "check": "Nonlinear shock recovers small-speed acoustic arrest",
+      "passed": true,
+      "value": 0.15000000002
+    },
+    {
+      "check": "J01 all equations have immediate physical figures",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01 every answer quotes original formulas first",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01 local math pre-rendered without placeholders",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01 day/night control available",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02 all equations have immediate physical figures",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02 every answer quotes original formulas first",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02 local math pre-rendered without placeholders",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02 day/night control available",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03 all equations have immediate physical figures",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03 every answer quotes original formulas first",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03 local math pre-rendered without placeholders",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03 day/night control available",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04 all equations have immediate physical figures",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04 every answer quotes original formulas first",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04 local math pre-rendered without placeholders",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04 day/night control available",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Every manifest equation actually appears once",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-01 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-02 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-03 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-04 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-05 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-06 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-07 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-13 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-08 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-09 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-10 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-11 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-12 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-14 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-A1 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-A2 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-A3 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-A4 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J01-A5 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-01 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-02 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-03 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-04 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-05 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-06 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-07 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-12 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-13 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-08 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-09 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-10 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-11 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-A1 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-A2 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-A3 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-A4 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-A5 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J02-A6 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-01 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-02 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-03 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-04 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-05 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-06 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-07 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-08 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-14 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-09 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-10 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-15 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-16 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-11 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-12 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-13 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-A1 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-A2 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-A3 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-A4 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J03-A5 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-01 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-02 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-03 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-04 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-05 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-06 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-07 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-11 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-14 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-15 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-12 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-13 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-08 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-09 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-10 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A1 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A2 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A3 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A4 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A5 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A6 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "J04-A7 physical variable figure is valid SVG",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Jet sequence precedes laser/PFC specialization",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Accepted source record hash remains intact",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Previously accepted nine chapters retain credit",
+      "passed": true,
+      "value": 9.0
+    },
+    {
+      "check": "All four new chapters remain pending learner demonstration",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "check_count": 201,
+  "all_checks_passed": true,
+  "chapters": [
+    {
+      "code": "J01",
+      "English_prose_words": 2092,
+      "display_equations": 19,
+      "formula_figures": 19,
+      "reference_answers": 5
+    },
+    {
+      "code": "J02",
+      "English_prose_words": 2307,
+      "display_equations": 19,
+      "formula_figures": 19,
+      "reference_answers": 6
+    },
+    {
+      "code": "J03",
+      "English_prose_words": 2067,
+      "display_equations": 21,
+      "formula_figures": 21,
+      "reference_answers": 5
+    },
+    {
+      "code": "J04",
+      "English_prose_words": 2589,
+      "display_equations": 22,
+      "formula_figures": 22,
+      "reference_answers": 7
+    }
+  ],
+  "accepted_record_count": 10,
+  "accepted_chapters_retained": 9,
+  "prepared_chapters_are_mastery": false,
+  "benchmarks": {
+    "C_t": 0.9146813564901628,
+    "C_V_collapse": 2.3946301916372628,
+    "q_fastest": 0.6970188972947595,
+    "growth_coefficient": 0.34333870186129933,
+    "viscous_rates_per_s": [
+      105162.7310409919,
+      102790.11360389342,
+      83866.58426037231
+    ],
+    "periodic_fastest_mode": 7,
+    "corner_energy_per_depth_J_per_m": 3.534291735288517e-05,
+    "shock_speed_m_per_s": 1540.5332385522154,
+    "shock_pressure_rise_Pa": 30810664.771044306
+  },
+  "sources": [
+    "https://doi.org/10.1017/jfm.2016.463",
+    "https://doi.org/10.1017/S0022112095003053",
+    "https://doi.org/10.1017/S0022112094000480",
+    "https://doi.org/10.1103/PhysRevX.2.031002",
+    "https://doi.org/10.1063/1.5109097"
+  ]
+}
