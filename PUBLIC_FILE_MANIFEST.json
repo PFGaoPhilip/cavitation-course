@@ -16,13 +16,13 @@
   },
   {
     "file": "SCHEDULE.html",
-    "bytes": 18720,
-    "sha256": "ca24cde5145c3b258826bd86966e85fddc2025f3fd1c2dd845e65e9c619805bf"
+    "bytes": 18974,
+    "sha256": "9ff555544457a84aec51e9f772962499db7b6345ef3ed833704382306fc8e0ad"
   },
   {
     "file": "START.html",
-    "bytes": 2768,
-    "sha256": "87a5722298ba78b90b836523c24b1081d9e29e78a1a22142d5bc1f6e6bf65833"
+    "bytes": 3010,
+    "sha256": "6c84b505bdb7215bc4fd151ed51759154c520cce1fd39b0466660fc9a0626a4b"
   },
   {
     "file": "analysis/cavitation_extension_model.py",
@@ -31,8 +31,8 @@
   },
   {
     "file": "analysis/curriculum/coverage_manifest.json",
-    "bytes": 435082,
-    "sha256": "5acff296c1881a934259e1cd10b0fe5c004c89ca81acb34f41e04e6f2345b3a9"
+    "bytes": 420714,
+    "sha256": "71275ba7777afda72613ad8e0567fa27e68aeea60a8837f2da74e2fc2eea7bff"
   },
   {
     "file": "analysis/curriculum/independent_textbook_audit.md",
@@ -2341,48 +2341,48 @@
   },
   {
     "file": "course/chapters/G01-mechanical-system.html",
-    "bytes": 95086,
-    "sha256": "84edcec2fa3b3041baac90310bc6e20852587f91603aeb24cf88ae476f6f381a"
+    "bytes": 95096,
+    "sha256": "19cf2bb7b7923a5b35481eaa64b5f14ecf3b0d20b66b706fc0231b685485e821"
   },
   {
     "file": "course/chapters/G02-nucleation.html",
-    "bytes": 143304,
-    "sha256": "705e27ec372f5ce855c0c5c019169958f74de7d2326db1542b9a454847d13d8e"
+    "bytes": 143314,
+    "sha256": "eca6774696aa7e5452f4089521cb8c571a83cc695f06606c9545716093195c83"
   },
   {
     "file": "course/chapters/G03-rayleigh-plesset.html",
-    "bytes": 208323,
-    "sha256": "951eb82b6edd17f29694b4e414931bcf4815c6a4f62956b1dd05b0f8161f2e28"
+    "bytes": 208333,
+    "sha256": "abeae8e426dca4d5785d0226da7f953d2127f4d8d563a65a53b83d7ee1ac6dad"
   },
   {
     "file": "course/chapters/G04-heat-and-mass.html",
-    "bytes": 138015,
-    "sha256": "79324a0c66bb3193138fa8cbfac5ffcdf474042ed75069900425b8de0e5d5228"
+    "bytes": 138025,
+    "sha256": "7addcd0141caa9a595660dfa783ff4633905fef5cb7c92674ba771fda0307eef"
   },
   {
     "file": "course/chapters/G05-collapse-and-rebound.html",
-    "bytes": 222586,
-    "sha256": "ff66b3d277ae2d7735a7366bce35713b4ddf01943eb2021e11779a587ccbfcfa"
+    "bytes": 222596,
+    "sha256": "4b205100a20df750bf069af9a1f90bc57a438a6e0228988842a71e0501b74fe0"
   },
   {
     "file": "course/chapters/G06-oscillations.html",
-    "bytes": 147592,
-    "sha256": "67d04b4d1c06a9dbce2c8bcd9acac80f195e8d357e9c7ff5910af1db6164f405"
+    "bytes": 148632,
+    "sha256": "315297ddc8037a1e2342cdf3f257b3b431cd416be80fc60f096fda8dfbfd46a7"
   },
   {
     "file": "course/chapters/G07-compressibility.html",
-    "bytes": 171038,
-    "sha256": "ed4aacffd953093c7a1185cff31ed0304150b9a336049e72d3acbeeca1935fa4"
+    "bytes": 171048,
+    "sha256": "825fe7accef755bb4161dd3a6d22e1361286fa8551c96ac54f8fb5b85d81f7dc"
   },
   {
     "file": "course/chapters/G08-shape-and-boundaries.html",
-    "bytes": 108655,
-    "sha256": "38fb0bcee00fedfc1cf437eb6c5eb05f2a0ccb2df1b01e2f44292de2b8e2b0ba"
+    "bytes": 108665,
+    "sha256": "4db6bcd09d0a020b7d39fc1bdc7547df97c1038f50a96ade9366ad9cb18d3b75"
   },
   {
     "file": "course/chapters/G09-jets-and-transfer.html",
-    "bytes": 106050,
-    "sha256": "b6028548030e4443452a1a73a7f9ebeb25fac66770ab3f9271d007302465dc65"
+    "bytes": 106060,
+    "sha256": "724498405e7f71a86dab58b207ac45d79575806c2b8ecd2103d4adeec7548e39"
   },
   {
     "file": "course/chapters/G10-laser-source-pathways.html",
@@ -2466,8 +2466,8 @@
   },
   {
     "file": "index.html",
-    "bytes": 2768,
-    "sha256": "87a5722298ba78b90b836523c24b1081d9e29e78a1a22142d5bc1f6e6bf65833"
+    "bytes": 3010,
+    "sha256": "6c84b505bdb7215bc4fd151ed51759154c520cce1fd39b0466660fc9a0626a4b"
   },
   {
     "file": "lessons/0001-the-bubble-is-a-moving-boundary.html",

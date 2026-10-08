@@ -57,7 +57,8 @@
       "source_id": "G06",
       "title": "Bubble oscillations as vibration theory",
       "path": "course/chapters/G06-oscillations.html",
-      "status": "pending"
+      "status": "solved",
+      "completion_basis": "current chapter answer checked and accepted"
     },
     {
       "position": 7,
@@ -14436,5 +14437,5 @@
   "original_problem_count": 30,
   "source_atlas_card_count": 35,
   "progress_updated": "2026-10-08",
-  "next_chapter": "G06"
+  "next_chapter": "G13"
 }
