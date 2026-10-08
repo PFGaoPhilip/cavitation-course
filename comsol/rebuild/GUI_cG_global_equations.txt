@@ -1,0 +1,4 @@
+r1	taucG^2*((r1-r1^2/bscG)*r1tt+(1.5-2*r1/bscG)*r1t^2)-(pB1-DP)/DP-taucG*is1cG(chit)/is1cG(1)	1	0
+ediss	edisst-16*pi*muL*R1*U1^2/E0cG	0	0
+erout	eroutt-rhoL*(acG^2/taucG)^2*iocG(chit*(chit/cL+chi/Lout))/E0cG	0	0
+pdet	tf*pdett+pdet-idcG(pAc)/(idcG(1)*DP)	0	0

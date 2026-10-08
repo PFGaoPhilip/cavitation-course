@@ -1,0 +1,543 @@
+\documentclass[11pt]{article}
+\usepackage[margin=23mm]{geometry}
+\usepackage{amsmath,amssymb,longtable,array,hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\setlength{\parindent}{1em}
+\setlength{\emergencystretch}{2em}
+\title{Worked governing equations for the COMSOL rebuild course}
+\author{Conditional model derivation companion}
+\date{9 October 2026}
+\begin{document}\maketitle\tableofcontents
+
+\section{Problem, status and conventions}\label{sec:scope}
+
+The objective is to derive exactly the benchmark and conditional source/gel equations implemented in the course, and to identify their restrictions. The two accepted native calculations were independently reviewed. This companion makes the algebra explicit; it does not supply a new laser, fracture or jet validation.
+
+Exact geometric/conservation identities are distinguished below from constitutive laws and closure choices. The scalar radius source assumes a sphere. Model A solves a linear potential wave in the exterior 3D water and couples it to the nonlinear source. Model B solves a finite-strain 3D gel at stationary equilibrium, with a finite-mass PFP phase state. Neither resolves a moving nonspherical free interface.
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+t; dot; partial t & Time; total time derivative; partial time derivative & s; as appropriate\\
+
+x=(x,y,z); X=(X,Y,Z) & Current spatial and material/reference coordinates & m\\
+
+grad ; grad X; div; I & Spatial gradient; material gradient; divergence; identity tensor & 1/m; 1/m; 1/m; 1\\
+
+dV; dA; n & Volume measure; area measure; domain outward unit normal & m\textasciicircum{}3; m\textasciicircum{}2; 1\\
+
+i,j,k; deltaij; tr; det; : & Indices 1--3; Kronecker identity; trace; determinant; double contraction & 1\\
+
+superscript T; inverse; inverse transpose;  dot ; | dot | & Matrix transpose; inverse of a nonsingular matrix; transpose of its inverse; Euclidean dot product; Euclidean norm & As operand requires\\
+
+pi; exp; log; sqrt; max; min & Circle constant; exponential; natural logarithm; square root; maximum; minimum & As argument requires\\
+
+partial Omega; O(y\textasciicircum{}2) & Boundary of domain Omega; terms of quadratic or higher order in a small dimensionless perturbation y & m\textasciicircum{}2; as expanded\\
+
+\end{longtable}
+
+Pressure symbols without an "ac" or "f" subscript are absolute unless a pressure difference is explicitly shown. A positive radial speed means expansion. At an inner hole/cavity the outward normal of the surrounding water/gel points inward toward the centre. In a source component, COMSOL r1 is normalized radius, not a spatial coordinate; r1t and r1tt are its time derivatives. In the gel, COMSOL u,v,w are displacements, while specific internal energy is written with a phase subscript to avoid ambiguity.
+
+\section{P0: incompressible spherical collapse}\label{sec:p0}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+R(t); a; s & Cavity radius; initial maximum radius; radial position in surrounding water & m\\
+
+v(s,t); rho; p(s,t) & Radial fluid velocity; constant water density; liquid pressure & m/s; kg/m\textasciicircum{}3; Pa\\
+
+pB; pinfinity; Deltap & Liquid-side cavity pressure; far pressure; pinfinity-pB\textgreater{}0 for P0 & Pa\\
+
+xR; vR; tau; xi & R/a; tauR-dot/a; a sqrt(rho/Deltap); integration dummy for radius ratio & 1; 1; s; 1\\
+
+K; E0 & Liquid kinetic energy; initial available mechanical energy & J\\
+
+\end{longtable}
+
+Assumptions: unbounded, inviscid, incompressible, initially still water; a spherical empty cavity; constant Deltap. Boundary data are v(R,t)=R-dot, v to 0 and p to pinfinity as s to infinity; initial data are R(0)=a and R-dot(0)=0. These assumptions deliberately exclude shocks, thermal gas, surface tension and a jet.
+
+\subsection{P1: Integrate mass conservation}
+
+\begin{align}
+\frac{1}{s^2}\frac{\partial(s^2v)}{\partial s}= & ~0, \notag \\
+s^2v= & ~R^2\dot R, \notag \\
+v(s,t)= & ~\frac{R^2\dot R}{s^2}. \label{eq:p0_mass_conservation}
+\end{align}
+
+The integration constant in s is fixed by the no-penetration velocity at the moving spherical boundary.
+
+\subsection{P2: Integrate radial momentum and apply both pressure boundaries}
+
+\begin{align}
+\partial_t v= & ~\frac{2R\dot R^2+R^2\ddot R}{s^2}, \notag \\
+v\partial_s v= & ~-\frac{2R^4\dot R^2}{s^5}, \notag \\
+\frac{p_B-p_\infty}{\rho}= & ~\int_R^\infty(\partial_t v+v\partial_s v)\,ds \notag \\
+= & ~2\dot R^2+R\ddot R-\frac12\dot R^2 \notag \\
+= & ~R\ddot R+\frac32\dot R^2. \label{eq:p0_radial_momentum}
+\end{align}
+
+Substitute the velocity in Eq.~\eqref{eq:p0_mass_conservation} into Euler momentum partial t v+vpartial s v=-(partial s p)/rho. The lower-limit evaluation is performed after computing the partial derivative at fixed s.
+
+\subsection{P3: Integrate the first integral without crossing zero radius}
+
+\begin{align}
+R\ddot R+\frac32\dot R^2= & ~-\frac{\Delta p}{\rho}, \notag \\
+R^3\dot R\ddot R+\frac32R^2\dot R^3= & ~-\frac{\Delta p}{\rho}R^2\dot R, \notag \\
+\frac{d}{dt}\left(\frac12R^3\dot R^2+\frac{\Delta p}{3\rho}R^3\right)= & ~0, \notag \\
+\frac12R^3\dot R^2+\frac{\Delta p}{3\rho}R^3= & ~\frac{\Delta p}{3\rho}a^3, \notag \\
+\dot R^2= & ~\frac{2\Delta p}{3\rho}\left[(a/R)^3-1\right]. \label{eq:p0_first_integral}
+\end{align}
+
+\begin{align}
+\tau\dot x_R= & ~v_R, \notag \\
+\tau\dot v_R= & ~\frac{-1-\frac32v_R^2}{x_R}, \notag \\
+\frac{t(x_R)}{\tau}= & ~\sqrt{\frac32}\int_{x_R}^{1}\frac{\xi^{3/2}}{\sqrt{1-\xi^3}}\,d\xi, \notag \\
+K= & ~\int_R^\infty\frac\rho2v^2\,4\pi s^2ds \notag \\
+= & ~2\pi\rho R^3\dot R^2, \notag \\
+K+\frac{4\pi\Delta p}{3}R^3= & ~E_0=\frac{4\pi\Delta p}{3}a^3. \label{eq:p0_scaled_time_energy}
+\end{align}
+
+Multiplying Eq.~\eqref{eq:p0_radial_momentum} by R\textasciicircum{}2R-dot produces Eq.~\eqref{eq:p0_first_integral}. Its integration constant is fixed by R(0)=a and R-dot(0)=0. The negative square root in Eq.~\eqref{eq:p0_first_integral} describes collapse; separation of variables gives the time integral in Eq.~\eqref{eq:p0_scaled_time_energy}. Checks: both terms of the radius equation have units m\textasciicircum{}2/s\textasciicircum{}2; the initial acceleration is inward; the energy ratio is one. For the supplied a=50  micro m, rho=1000 kg/m\textasciicircum{}3 and Deltap=80 kPa, tau=5.590170  micro s and speed at R/a=0.2 is -81.3224 m/s. The integral reaches t/tau approximately 0.914681 at zero radius, where this ideal model becomes singular. The native stop at R/a approximately 0.05 avoids that singular endpoint.
+
+\section{Derive the incompressible Neo-Hookean reference law}\label{sec:gel-law}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+a; R; lambda; S; s; ell & Reference cavity radius; current cavity radius; R/a; material radial position; current radial position; local s/S & m; m; 1; m; m; 1\\
+
+G; lambdar; lambdatheta; sigmar; sigmatheta & Shear modulus; radial stretch; hoop stretch; radial and hoop Cauchy stress & Pa; 1; 1; Pa; Pa\\
+
+pel; Ws; V; kR & Elastic pressure difference; gel strain energy; cavity volume; a\textasciicircum{}3(lambda\textasciicircum{}3-1) & Pa; J; m\textasciicircum{}3; m\textasciicircum{}3\\
+
+\end{longtable}
+
+This reference is infinite, incompressible and spherical, with zero far-field stress relative to ambient. It is not the finite nearly incompressible 3D FE solution. For Neo-Hookean material the difference sigmatheta-sigmar=G(lambdatheta\textasciicircum{}2-lambdar\textasciicircum{}2); the arbitrary incompressibility pressure cancels from this difference. This constitutive choice is the reference used in the cited PAAm cavitation work, not a formulation-specific fracture model.
+
+\subsection{G1: Integrate incompressibility with the cavity boundary}
+
+\begin{align}
+s^2ds= & ~S^2dS, \notag \\
+s^3-S^3= & ~R^3-a^3=k_R, \notag \\
+\lambda_\theta= & ~s/S=\ell, \notag \\
+\lambda_r= & ~ds/dS=S^2/s^2=\ell^{-2}, \notag \\
+\lambda_r\lambda_\theta^2= & ~1. \label{eq:gel_radial_map}
+\end{align}
+
+\subsection{G2: Integrate radial stress balance with an explicit change of variable}
+
+\begin{align}
+\frac{d\sigma_r}{ds}= & ~\frac{2(\sigma_\theta-\sigma_r)}s, \notag \\
+p_{el}= & ~2G\int_R^\infty(\ell^2-\ell^{-4})\frac{ds}s, \notag \\
+\ell^3= & ~\frac{s^3}{s^3-k_R}, \notag \\
+\frac{d\ell}{\ell}= & ~-(\ell^3-1)\frac{ds}s, \notag \\
+p_{el}= & ~2G\int_1^\lambda\frac{\ell^2-\ell^{-4}}{\ell(\ell^3-1)}\,d\ell \notag \\
+= & ~2G\int_1^\lambda(\ell^{-2}+\ell^{-5})\,d\ell \notag \\
+= & ~\frac G2(5-4/\lambda-\lambda^{-4}). \label{eq:gel_elastic_pressure}
+\end{align}
+
+The change of variable in Eq.~\eqref{eq:gel_elastic_pressure} differentiates the mapping in Eq.~\eqref{eq:gel_radial_map}. The factorization uses (ell6-1)=(ell\textasciicircum{}3-1)(ell\textasciicircum{}3+1). The apparent removable singularity at ell=1 therefore has a finite limit. The pressure is positive for an expanded cavity, with pel(1)=0, slope 4G at lambda=1 and limiting pressure 5G/2 as lambda to infinity.
+
+\subsection{G3: Integrate reversible pressure work}
+
+\begin{align}
+dV= & ~4\pi a^3\lambda^2d\lambda, \notag \\
+W_s= & ~4\pi a^3\int_1^\lambda p_{el}(\ell)\ell^2d\ell \notag \\
+= & ~2\pi Ga^3\int_1^\lambda(5\ell^2-4\ell-\ell^{-2})d\ell \notag \\
+= & ~2\pi Ga^3\left(\frac53\lambda^3-2\lambda^2+\lambda^{-1}-\frac23\right). \label{eq:gel_elastic_work}
+\end{align}
+
+Checks: pressure is in Pa, G a\textasciicircum{}3 is in J, Ws(1)=0, and dWs/dV=pel. Finite outer radius and finite compressibility produce a small FE discrepancy rather than exact equality. Movahed et al. (2016) provides the PAAm comparison and the limited uniaxial stretch proxy.
+
+\section{H0: nonlinear balance and its linearization}\label{sec:h0}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+R0; y; xR; vR; xinit & Equilibrium radius; R/R0-1; R/R0; tauR-dot/R0; initial small y & m; 1; 1; 1; 1\\
+
+pg; pg0; p0; pd & Gas pressure; initial gas pressure; ambient pressure; imposed pressure step & Pa\\
+
+kappa; sigma; eta & Polytropic exponent; cavity surface coefficient; Newtonian radial viscosity & 1; N/m; Pa s\\
+
+Ks; omega0; betad; tau & Linear pressure stiffness; undamped angular frequency; damping rate; 1/omega0 & Pa; 1/s; 1/s; s\\
+
+Ug; V0; E micro  & Polytropic gas energy; initial cavity volume; accumulated viscous loss & J; m\textasciicircum{}3; J\\
+
+\end{longtable}
+
+For H0 assume the same spherical incompressible inertia, add a Newtonian radial loss, constant surface coefficient, polytropic gas and the gel reference law Eq.~\eqref{eq:gel_elastic_pressure}. Initial conditions are R=R0(1+xinit), R-dot=0; the far pressure is p0+pd. The equilibrium reference has pg0=p0+2sigma/R0 and pel(1)=0.
+
+\begin{align}
+p_g= & ~p_{g0}(R_0/R)^{3\kappa}, \notag \\
+R\ddot R+\frac32\dot R^2= & ~\frac{p_g-p_0-p_d-2\sigma/R-4\eta\dot R/R-p_{el}(R/R_0)}\rho. \label{eq:h0_nonlinear_balance}
+\end{align}
+
+\subsection{H2: Expand every first-order term about equilibrium}
+
+\begin{align}
+p_g= & ~p_{g0}(1-3\kappa y)+O(y^2), \notag \\
+2\sigma/R= & ~(2\sigma/R_0)(1-y)+O(y^2), \notag \\
+p_{el}(1+y)= & ~4Gy+O(y^2), \notag \\
+R\ddot R= & ~R_0^2\ddot y+O(y\ddot y), \notag \\
+\dot R^2= & ~R_0^2\dot y^2, \notag \\
+\rho R_0^2\ddot y+4\eta\dot y+K_sy= & ~-p_d. \label{eq:h0_linearization}
+\end{align}
+
+\begin{align}
+K_s= & ~3\kappa p_{g0}-2\sigma/R_0+4G, \notag \\
+\omega_0^2= & ~K_s/(\rho R_0^2), \notag \\
+\beta_d= & ~2\eta/(\rho R_0^2), \notag \\
+\tau= & ~1/\omega_0, \notag \\
+\ddot y+2\beta_d\dot y+\omega_0^2y= & ~-p_d/(\rho R_0^2), \notag \\
+U_g= & ~p_gV/(\kappa-1), \notag \\
+V_0= & ~4\pi R_0^3/3, \notag \\
+& ~\frac{d}{dt}[K+U_g+(p_0+p_d)V+4\pi\sigma R^2+W_s] \notag \\
+= & ~-16\pi\eta R\dot R^2. \label{eq:h0_stiffness_energy}
+\end{align}
+
+Subtracting the zeroth-order balance in Eq.~\eqref{eq:h0_nonlinear_balance} and retaining first-order terms gives Eq.~\eqref{eq:h0_linearization}. All inertial products of perturbations are discarded only in this linearization. The gas-energy formula in Eq.~\eqref{eq:h0_stiffness_energy} requires kappa not equal to 1; here kappa=1.4. The energy identity assumes pd is constant during each run; a time-varying applied pressure would require its external work explicitly. For the H0 values, Ks=506080 Pa and omega0 approximately 2.249622 times 106 s-1. G=0 recovers the fluid reference; eta=0 removes the energy loss. A zero perturbation with pd=0 must remain at equilibrium. The linear approximation is a small-perturbation check, not the full collapse law.
+
+\begin{align}
+\dot U_g= & ~\frac{\dot p_gV+p_g\dot V}{\kappa-1} \notag \\
+= & ~\frac{-\kappa p_g\dot V+p_g\dot V}{\kappa-1} \notag \\
+= & ~-p_g\dot V, \notag \\
+\dot K= & ~4\pi\rho R^2\dot R\left(R\ddot R+\frac32\dot R^2\right), \notag \\
+\frac{d}{dt}[(p_0+p_d)V+4\pi\sigma R^2+W_s]= & ~\left(p_0+p_d+2\sigma/R+p_{el}\right)\dot V. \label{eq:h0_energy_derivatives}
+\end{align}
+
+To verify Eq.~\eqref{eq:h0_stiffness_energy}, differentiate the gas law at fixed entropy, differentiate K from Eq.~\eqref{eq:p0_scaled_time_energy} and use dWs/dV from Eq.~\eqref{eq:gel_elastic_work}. Substitution of Eq.~\eqref{eq:h0_nonlinear_balance} into the kinetic-energy derivative in Eq.~\eqref{eq:h0_energy_derivatives} cancels gas, ambient, capillary and elastic pressure work; only the nonnegative viscous loss remains. The period from Eq.~\eqref{eq:h0_stiffness_energy} is 2pi/omega0 approximately 2.792996  micro s for the supplied inputs.
+
+\section{Model A: conservative source/wave closure}\label{sec:a-wave}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+b; Lout; Omegaw; Gammab; Gammao & Fixed matching radius; outer radius; exterior wave domain; inner and outer surfaces & m; m; m\textasciicircum{}3; m\textasciicircum{}2; m\textasciicircum{}2\\
+
+phi; chi; cL;  micro L & Velocity potential; phitau/a\textasciicircum{}2; water sound speed; water viscosity & m\textasciicircum{}2/s; 1; m/s; Pa s\\
+
+Q; Ab; < dot >b; Ea & Volume flux; matching area; matching-surface average; wave energy & m\textasciicircum{}3/s; m\textasciicircum{}2; as averaged; J\\
+
+M; Kn; U; Ep; Eout; V; A & Near-field inertial coefficient and kinetic energy; source internal/interface energy; ambient/outer-interface potential; outer export plus reactive surface storage; cavity volume; cavity area & kg; J; J; J; J; m\textasciicircum{}3; m\textasciicircum{}2\\
+
+pl; sigmaLL;  micro L; E micro  & PFP liquid absolute pressure; declared outer constant surface coefficient; water viscosity; cumulative viscous loss & Pa; N/m; Pa s; J\\
+
+a; tau; Ab; pB; pinfinity; pac & Initial source radius; a sqrt(rho/pinfinity); 4pib\textasciicircum{}2; liquid-side source pressure; ambient absolute pressure; acoustic gauge pressure & m; s; m\textasciicircum{}2; Pa; Pa; Pa\\
+
+bhat; N; j; Omegapop; Vpop & b/a; source count; source index 1 through N; filled population domain and its volume & 1; 1; 1; m\textasciicircum{}3; m\textasciicircum{}3\\
+
+\end{longtable}
+
+This closure uses a spherical incompressible near-field kinetic energy truncated at fixed b, plus a linear 3D wave potential outside b. It is a declared energy-consistent matched model, not an exact compressible Navier--Stokes/free-interface solution. R must remain below b and source Mach number must remain small. Initial R=a, R-dot=0, phi=0 and phit=0; gas or phase initial states are supplied in M1/M3.
+
+\subsection{A1: Integrate the near kinetic energy and derive its generalized inertia}
+
+\begin{align}
+K_n= & ~2\pi\rho R^4\dot R^2\int_R^b s^{-2}ds \notag \\
+= & ~2\pi\rho R^3(1-R/b)\dot R^2=\frac12M(R)\dot R^2, \notag \\
+M(R)= & ~4\pi\rho(R^3-R^4/b), \notag \\
+\frac{d}{dt}\frac{\partial K_n}{\partial\dot R}-\frac{\partial K_n}{\partial R}= & ~M\ddot R+\frac12\frac{dM}{dR}\dot R^2 \notag \\
+= & ~4\pi\rho R^2\big[(R-R^2/b)\ddot R \notag \\
+& ~\qquad +(3/2-2R/b)\dot R^2\big]. \label{eq:source_truncated_inertia}
+\end{align}
+
+The generalized source force is chosen as 4piR\textasciicircum{}2(pB-pinfinity+rho<phit>b). Dividing Eq.~\eqref{eq:source_truncated_inertia} by 4pirhoR\textasciicircum{}2 gives the implemented source equation. Using an exact finite-shell Bernoulli condition instead would add a matching-velocity term; that is a different closure. The conserved ledger verifies the implemented coupling algebra, not every omitted fluid mechanism.
+
+\begin{align}
+(R-R^2/b)\ddot R+(3/2-2R/b)\dot R^2= & ~(p_B-p_\infty)/\rho+\langle\phi_t\rangle_b, \notag \\
+Q= & ~4\pi R^2\dot R, \notag \\
+\partial_n\phi|_{\Gamma_b}= & ~-Q/A_b, \notag \\
+\phi_{tt}/c_L^2-\nabla^2\phi= & ~0, \notag \\
+\partial_n\phi|_{\Gamma_o}= & ~-\phi_t/c_L-\phi/L_{out}, \notag \\
+p_{ac}= & ~-\rho\phi_t, \notag \\
+\chi= & ~\phi\tau/a^2. \label{eq:source_wave_closure}
+\end{align}
+
+\subsection{A3: Prove source/wave pressure-work cancellation}
+
+\begin{align}
+E_a= & ~\int_{\Omega_w}\frac\rho2(|\nabla\phi|^2+\phi_t^2/c_L^2)dV, \notag \\
+\dot E_a= & ~\rho\int_{\Omega_w}(\nabla\phi\cdot\nabla\phi_t+\phi_t\phi_{tt}/c_L^2)dV \notag \\
+= & ~\rho\int_{\partial\Omega_w}\phi_t\partial_n\phi\,dA \notag \\
+& ~\quad+\rho\int_{\Omega_w}\phi_t(\phi_{tt}/c_L^2-\nabla^2\phi)dV \notag \\
+= & ~-\rho Q\langle\phi_t\rangle_b-\dot E_{out}, \notag \\
+\dot E_{out}= & ~\rho\int_{\Gamma_o}\phi_t(\phi_t/c_L+\phi/L_{out})dA. \label{eq:wave_energy_flux}
+\end{align}
+
+Integration by parts uses the wave PDE in Eq.~\eqref{eq:source_wave_closure} to cancel the displayed volume terms in Eq.~\eqref{eq:wave_energy_flux}. The inner boundary uses the inward water-domain normal and the fixed-flux average. For a polytropic gas U is its gas energy. For the finite PFP state, the thermodynamic argument in section 7 gives dU=-pL dV after including the internal interface.
+
+\begin{align}
+p_B= & ~p_l-2\sigma_{LL}/R-4\mu_L\dot R/R, \notag \\
+E_p= & ~p_\infty V+\sigma_{LL}A, \notag \\
+\dot K_n= & ~(p_B-p_\infty)Q+\rho Q\langle\phi_t\rangle_b, \notag \\
+\dot U= & ~-p_lQ, \notag \\
+\dot E_p= & ~(p_\infty+2\sigma_{LL}/R)Q, \notag \\
+\frac{d}{dt}(K_n+U+E_p)= & ~\rho Q\langle\phi_t\rangle_b-16\pi\mu_LR\dot R^2, \notag \\
+\dot E_\mu= & ~16\pi\mu_LR\dot R^2, \notag \\
+K_n+U+E_p+E_a+E_\mu+E_{out}= & ~E_0. \label{eq:total_source_wave_energy}
+\end{align}
+
+The equal and opposite source pressure work in Eq.~\eqref{eq:wave_energy_flux} and Eq.~\eqref{eq:total_source_wave_energy} cancels. Here pl is the PFP liquid pressure and sigmaLL its declared outer coefficient; in the gas branch replace pl by pg and sigmaLL by the gas/water coefficient. All energy terms use the same reference offsets as the native tables. The wave already takes source pressure work; adding a second radiation-loss term to the radius equation would alter this ledger.
+
+Eout in Eq.~\eqref{eq:wave_energy_flux} contains both the positive time integral of rhophit\textasciicircum{}2/cL over the outer surface and the reactive boundary storage rhointegral Gammaophi\textasciicircum{}2dA/(2Lout), because phiphit=(partial tphi\textasciicircum{}2)/2 and the initial wave is zero. Therefore cumulative Eout is nonnegative, although its instantaneous derivative need not be. It is not interchangeable with a pure propagating-mode radiation integral at an arbitrary observation surface.
+
+\subsection{A5: Convert the dimensional closure to COMSOL fields}
+
+\begin{align}
+R= & ~a x_R, \notag \\
+\phi= & ~(a^2/\tau)\chi, \notag \\
+\rho a^2/(p_\infty\tau^2)= & ~1, \notag \\
+& ~\tau^2\big[(x_R-x_R^2/\widehat b)\ddot x_R+(3/2-2x_R/\widehat b)\dot x_R^2\big] \notag \\
+= & ~(p_B-p_\infty)/p_\infty+\tau\langle\chi_t\rangle_b, \notag \\
+\partial_n\chi|_{\Gamma_b}= & ~-\tau Q/(a^2A_b), \notag \\
+(\partial_n\chi+\chi/L_{out})|_{\Gamma_o}= & ~-\chi_t/c_L, \notag \\
+p_{ac}= & ~-\rho(a^2/\tau)\chi_t. \label{eq:comsol_wave_scaling}
+\end{align}
+
+Insert R=a xR and phi=(a\textasciicircum{}2/tau)chi into Eq.~\eqref{eq:source_wave_closure}, divide by pinfinity/rho and use tau\textasciicircum{}2=rhoa\textasciicircum{}2/pinfinity to obtain Eq.~\eqref{eq:comsol_wave_scaling}. Thus the Coefficient Form PDE has ea=1/cL\textasciicircum{}2, c=1 and zero distributed forcing outside source populations. COMSOL Flux/Source uses partial nchi+qchi=g; the last boundary line sets q=1/Lout and g=-chit/cL. The inner source sets q=0 and g=-tauQ/(a\textasciicircum{}2Ab). These are the exact fields used in M1 and M3.
+
+\subsection{A6: Separate discrete sources from a shared uniform population closure}
+
+\begin{align}
+\partial_n\phi|_{\Gamma_{b,j}}= & ~-Q_j/A_{b,j}, \notag \\
+\dot E_a|_{sources}= & ~-\rho\sum_{j=1}^{N}Q_j\langle\phi_t\rangle_{b,j}, \notag \\
+\phi_{tt}/c_L^2-\nabla^2\phi= & ~-NQ/V_{pop}\quad(\mathbf x\in\Omega_{pop}), \notag \\
+\dot E_a|_{population}= & ~-\rho NQ\langle\phi_t\rangle_{pop}. \label{eq:multiple_source_work}
+\end{align}
+
+For N separate holes apply Eq.~\eqref{eq:source_wave_closure} on each matching surface and let each radius equation use its own surface average of the common wave. The first two lines of Eq.~\eqref{eq:multiple_source_work} follow from summing the boundary contributions in Eq.~\eqref{eq:wave_energy_flux}. For the uniform population, replace holes by volumetric forcing -NQ/Vpop in the filled domain, and use its volume-average feedback for a single shared source state. The wave energy rate follows by multiplying that PDE by rhophit and integrating. N shared sources provide the opposite pressure work, preserving the ledger algebra. A common state is an additional closure assumption. It cannot be accepted from an energy residual alone: the refined case has a large local pressure spread and a negative absolute local pressure.
+
+Checks: Qrhophit has units W; all radius terms are m\textasciicircum{}2/s\textasciicircum{}2; expanding flux points outward; b to infinity recovers the unbounded incompressible radius coefficients. The accepted strongest gas control has maximum Mach approximately 0.03026 and energy residual approximately 0.10289\%. Finite-b sensitivity is a modeling sensitivity, not a statistical confidence interval. Shock, jet focusing, wall stagnation and film release are unresolved.
+
+\section{Receiver and a restricted energy bound}\label{sec:receiver}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+D; pD; pf; fc; tauf & Finite receiver volume; mean gauge pressure; filtered gauge pressure; cutoff frequency; 1/(2pifc) & m\textasciicircum{}3; Pa; Pa; Hz; s\\
+
+h; rmin; Erad; pout & Causal exponential impulse kernel; nearest receiver distance; radiated energy; spherical outgoing pressure & 1/s; m; J; Pa\\
+
+\end{longtable}
+
+The receiver is a cylinder of radius 50  micro m and thickness 5  micro m centred 0.5 mm from the source. It averages gauge pressure and then applies a causal first-order low-pass filter with fc=1 MHz and zero initial state. No point-pressure or differently filtered peak is interchangeable with this measured quantity.
+
+\begin{align}
+p_D(t)= & ~\frac{\int_D p_{ac}(\mathbf x,t)dV}{\int_D1\,dV}, \notag \\
+\tau_f\dot p_f+p_f= & ~p_D, \notag \\
+p_f(0)= & ~0, \notag \\
+h(t)= & ~\tau_f^{-1}e^{-t/\tau_f}\quad(t\ge0), \notag \\
+\int_0^\infty h^2dt= & ~1/(2\tau_f). \label{eq:receiver_filter}
+\end{align}
+
+For a single outgoing spherical propagating mode with positive radiated energy, its energy flux gives the first line below. Cauchy--Schwarz applied to convolution then gives the bound; using the nearest distance is conservative for the declared finite receiver. This is a restricted propagating-mode bound, not an arbitrary near field, focused array or jet bound.
+
+\begin{align}
+\int_{-\infty}^\infty p_{out}^2dt= & ~\frac{\rho c_L E_{rad}}{4\pi r_{min}^2}, \notag \\
+|p_f(t)|^2\leq & ~\left(\int_0^\infty h^2dt\right)\left(\int_{-\infty}^\infty p_{out}^2dt\right), \notag \\
+|p_f(t)|\leq & ~\sqrt{\frac{\rho c_LE_0}{8\pi r_{min}^2\tau_f}}\quad(E_{rad}\le E_0). \label{eq:restricted_pressure_bound}
+\end{align}
+
+Eq.~\eqref{eq:restricted_pressure_bound} uses the kernel norm in Eq.~\eqref{eq:receiver_filter} and assumes the radiated propagating-mode energy does not exceed E0. Checks: the radicand has units Pa\textasciicircum{}2; increasing the distance or filter time reduces the bound. For the declared receiver and highest sampled source energy it is  approximately 318.16 kPa, while the strongest sampled converged native pressure is  approximately 89.61 kPa. The bound is not attained by the sampled sources and does not prove a global physical maximum.
+
+\section{Finite PFP mass, curvature, chemical equilibrium and energy}\label{sec:phase}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+m; ml; mv; fv; rhoD & Total cold PFP mass; liquid/vapor masses; vapor mass fraction; cold liquid density & kg; kg; kg; 1; kg/m\textasciicircum{}3\\
+
+T; T0; rhol; rhov; pl; pv & Common phase temperature; cold temperature; phase densities and absolute pressures & K; K; kg/m\textasciicircum{}3; kg/m\textasciicircum{}3; Pa; Pa\\
+
+ul,uv; gl,gv; sl,sv; S & Phase specific internal energies, Gibbs energies, entropies; total entropy & J/kg; J/kg; J/(kg K); J/K\\
+
+Vl; Vv; Rg; Ag; sigmaLV; sigmaLL & Phase volumes; vapor radius and area; inner and outer coefficients & m\textasciicircum{}3; m\textasciicircum{}3; m; m\textasciicircum{}2; N/m; N/m\\
+
+Utot; Qdep; VD; AD; UD & PFP total internal energy; retained subsystem energy; cold volume, area and internal energy & J; J; m\textasciicircum{}3; m\textasciicircum{}2; J\\
+
+epsilong; theta; qL; qV; rholref; rhovref & Numerical vapor-radius floor; T/T0; log density ratios; fixed density scales & m; 1; 1; 1; kg/m\textasciicircum{}3; kg/m\textasciicircum{}3\\
+
+ad & Cold inventory drop radius; equal to a for the unactivated B reference & m\\
+
+\end{longtable}
+
+Assume a finite PFP inventory, common temperature, bulk EOS in each phase, chemical equilibrium, and constant declared interface coefficients. The radius floor is numerical only. Accepted roots must satisfy positive densities, 0Gao et al., archived in the exact PFP HEOS functions. The capillary controls use room-temperature measurements from Kandadai et al. and the author thesis Table 5.2 (printed p.116): 9.41 mN/m is PFP/saturated-air at 24+/-1  degrees C, not measured hot pure-vapor/gel tension.
+
+\begin{align}
+V_D= & ~4\pi a_d^3/3, \notag \\
+m= & ~\rho_D V_D, \notag \\
+A_D= & ~4\pi a_d^2, \notag \\
+U_D= & ~m u_l(T_0,\rho_D). \label{eq:cold_mass_reference}
+\end{align}
+
+Eq.~\eqref{eq:cold_mass_reference} defines the cold mass and energy reference. The source activation state and the undeformed gel reference can have different volumes; mass remains fixed. The bulk EOS is an empirical Helmholtz correlation with traceable coefficient inputs, not a newly derived molecular law. Its reported range is 148.21--500 K and pressures up to 10 MPa; phase roots outside that range or with rhol=rhov at the critical limit do not justify using the fraction formula below.
+
+\subsection{T1: Solve the mass/volume identity for the vapor fraction}
+
+\begin{align}
+m_l= & ~(1-f_v)m, \notag \\
+m_v= & ~f_vm, \notag \\
+V= & ~m_l/\rho_l+m_v/\rho_v \notag \\
+= & ~m/\rho_l+f_vm(1/\rho_v-1/\rho_l), \notag \\
+f_v= & ~\frac{V-m/\rho_l}{m(1/\rho_v-1/\rho_l)}, \notag \\
+R_g= & ~\left(\frac{3\max(f_vm/\rho_v,4\pi\varepsilon_g^3/3)}{4\pi}\right)^{1/3}. \label{eq:finite_mass_fraction}
+\end{align}
+
+\subsection{T2: Enforce phase equilibrium with curvature}
+
+\begin{align}
+p_v-p_l= & ~2\sigma_{LV}/R_g, \notag \\
+g_l(T,\rho_l)= & ~g_v(T,\rho_v), \notag \\
+U_{tot}= & ~m[(1-f_v)u_l+f_vu_v], \notag \\
+s_l= & ~(u_l+p_l/\rho_l-g_l)/T, \notag \\
+s_v= & ~(u_v+p_v/\rho_v-g_v)/T, \notag \\
+S= & ~m[(1-f_v)s_l+f_vs_v], \notag \\
+T= & ~T_0\theta, \notag \\
+\rho_l= & ~\rho_{lref}e^{q_L}, \notag \\
+\rho_v= & ~\rho_{vref}e^{q_V}. \label{eq:curved_phase_equilibrium}
+\end{align}
+
+The density transforms enforce positivity; they do not enforce a valid vapor fraction. Flat saturation pressure imposed on both phases would violate the first equation. For Model A the phase closure fixes entropy to its supplied activated value. For B the stationary root fixes retained energy instead.
+
+\subsection{T3: Show why phase energy is counted once}
+
+\begin{align}
+dU_{tot}= & ~T\,dS-p_l\,dV_l-p_v\,dV_v+g_l\,dm_l+g_v\,dm_v, \notag \\
+dm_l+dm_v= & ~0, \notag \\
+g_l= & ~g_v, \notag \\
+dA_g/dV_v= & ~2/R_g, \notag \\
+d(U_{tot}+\sigma_{LV}A_g)= & ~T\,dS-p_l\,d(V_l+V_v) \notag \\
+& ~\quad+[-p_v+p_l+2\sigma_{LV}/R_g]dV_v \notag \\
+= & ~T\,dS-p_l\,dV. \label{eq:phase_work_identity}
+\end{align}
+
+In Eq.~\eqref{eq:phase_work_identity}, gldml+gvdmv=0 follows from mass conservation and the chemical-equilibrium condition in Eq.~\eqref{eq:curved_phase_equilibrium}. The coefficient of dVv vanishes by the curved pressure balance in Eq.~\eqref{eq:curved_phase_equilibrium}. This identity uses equilibrium and constant interface energy. It explains the source-energy work cancellation in Eq.~\eqref{eq:total_source_wave_energy}. No extra latent-heat term is permitted on top of the phase internal energies. For B the full cold-to-final retained energy is:
+
+\begin{align}
+Q_{dep}= & ~(U_{tot}-U_D)+W_s+p_0(V-V_D) \notag \\
+& ~\quad+\sigma_{LL}(A-A_D)+\sigma_{LV}A_g. \label{eq:retained_energy_balance}
+\end{align}
+
+Checks: Eq.~\eqref{eq:finite_mass_fraction} is exact mass/volume algebra with dimensionless fv; each Eq.~\eqref{eq:retained_energy_balance} term is J; surface tension times area is energy. At 11.65 pJ the native B root has T approximately 339.197 K, fv approximately 0.16813 and shell thickness approximately 24.12 nm. Thin shells, constant-tension extrapolation, omitted surfactant/disjoining forces and activation kinetics bound the applicability. The supplied activated state is an input, not a derived nucleation path.
+
+\section{Model B: free finite-strain gel and consistent surface variation}\label{sec:b-3d}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+d=(u,v,w); F; J; C; I1bar & Displacement; I+grad X d; det F; cofactor of F; J\textasciicircum{}(-2/3)tr(FTF) & m; 1; 1; 1; 1\\
+
+Kbulk; W; P; deltad; deltaF & Bulk modulus; strain energy per reference volume; first Piola stress; virtual displacement and gradient & Pa; J/m\textasciicircum{}3; Pa; m; 1\\
+
+Gammac0; n0; Js; ns; A; V & Reference inner surface; its gel-domain normal; area Jacobian; current normal; deformed cavity area and volume & m\textasciicircum{}2; 1; 1; 1; m\textasciicircum{}2; m\textasciicircum{}3\\
+
+B; BK; Rfree; lambdaeq; lambdamax & Outer/reference cavity radius ratio; Kbulk/G; volume-equivalent radius; Rfree/a; largest principal stretch & 1; 1; m; 1; 1\\
+
+Omegagel,0; dV0; dA0;  tensor-product ; grad t; Ps & Reference gel domain, volume and area measures; outer product; surface tangential gradient; area-variation stress tensor & m\textasciicircum{}3; m\textasciicircum{}3; m\textasciicircum{}2; 1; 1/m; N/m\\
+
+delta; q & Virtual first variation; cofactor-normal vector C n0, used only in the area-variation proof & as varied; 1\\
+
+\end{longtable}
+
+The reference gel shell has radii a=300 nm and B a=6  micro m, B=20. Kbulk/G=BK=1000. The outer gel boundary has zero traction relative to ambient. Only rigid-body modes are suppressed. The inner boundary receives follower pressure pl-p0 and the surface-energy variation. No radius, shape or displacement is prescribed. The initial displacement in M2 is only a Newton iteration guess. Require an invertible, orientation-preserving deformation: J\textgreater{}0.
+
+\begin{align}
+\mathbf F= & ~\mathbf I+\nabla_X\mathbf d, \notag \\
+J= & ~\det\mathbf F, \notag \\
+W= & ~\frac G2[ J^{-2/3}\operatorname{tr}(\mathbf F^T\mathbf F)-3]+\frac{K_{bulk}}2(J-1)^2, \notag \\
+\mathbf P= & ~\partial W/\partial\mathbf F \notag \\
+= & ~GJ^{-2/3}\left[\mathbf F-\tfrac13\operatorname{tr}(\mathbf F^T\mathbf F)\mathbf F^{-T}\right] \notag \\
+& ~\quad+K_{bulk}(J-1)J\mathbf F^{-T}, \notag \\
+W_s= & ~\int_{\Omega_{gel,0}}W\,dV_0. \label{eq:finite_gel_constitutive_law}
+\end{align}
+
+The mixed pressure formulation is a numerical device for the nearly incompressible constitutive law. It does not turn the finite-K model into the exact incompressible analytic reference.
+
+\subsection{B2: Transform area and compute the free cavity volume}
+
+\begin{align}
+\mathbf C= & ~\operatorname{cof}\mathbf F=J\mathbf F^{-T}, \notag \\
+\mathbf n_0= & ~-\mathbf X/a, \notag \\
+J_s= & ~|\mathbf C\mathbf n_0|, \notag \\
+\mathbf n_s= & ~\mathbf C\mathbf n_0/J_s, \notag \\
+A= & ~\int_{\Gamma_{c0}}J_s\,dA_0, \notag \\
+V= & ~-\frac13\int_{\Gamma_{c0}}(\mathbf X+\mathbf d)\cdot\mathbf C\mathbf n_0\,dA_0, \notag \\
+R_{free}= & ~(3V/4\pi)^{1/3}, \notag \\
+\lambda_{eq}= & ~R_{free}/a. \label{eq:deformed_cavity_area_volume}
+\end{align}
+
+The minus sign follows from using the gel-domain normal, opposite to the cavity-volume outward normal. The volume equation is the divergence theorem with div(x)=3. Material-frame integration is required because Js and C already include deformation. The native surface derivatives use mean(d(u,X)) on the boundary; copying displayed identity constants from a simplified report would remove the deformation physics.
+
+\subsection{B3: Differentiate the cofactor and surface area}
+
+Hold the reference surface fixed. Write q=C n0, so Js=|q| and ns=q/|q| by Eq.~\eqref{eq:deformed_cavity_area_volume}. The determinant differential and inverse-matrix differential give:
+
+\begin{align}
+\delta J= & ~J\operatorname{tr}(\mathbf F^{-1}\delta\mathbf F), \notag \\
+\delta(\mathbf F^{-T})= & ~-\mathbf F^{-T}(\delta\mathbf F)^T\mathbf F^{-T}, \notag \\
+\delta\mathbf C= & ~J\left[\operatorname{tr}(\mathbf F^{-1}\delta\mathbf F)\mathbf F^{-T}\right. \notag \\
+& ~\qquad\left.-\mathbf F^{-T}(\delta\mathbf F)^T\mathbf F^{-T}\right], \notag \\
+\delta\mathbf q= & ~\delta\mathbf C\mathbf n_0. \label{eq:cofactor_variation}
+\end{align}
+
+\begin{align}
+\delta J_s= & ~(\mathbf q/|\mathbf q|)\cdot\delta\mathbf q \notag \\
+= & ~\mathbf n_s\cdot\delta\mathbf q \notag \\
+= & ~J_s\left[\operatorname{tr}(\mathbf F^{-1}\delta\mathbf F)\right. \notag \\
+& ~\qquad\left.-\mathbf n_s\cdot\delta\mathbf F(\mathbf F^{-1}\mathbf n_s)\right] \notag \\
+= & ~\frac{J_s}{J}\left[(\mathbf I-\mathbf n_s\otimes\mathbf n_s)\mathbf C\right] : \delta\mathbf F. \label{eq:surface_area_differential}
+\end{align}
+
+The first line of Eq.~\eqref{eq:surface_area_differential} differentiates the norm. Its third line substitutes Eq.~\eqref{eq:cofactor_variation} and uses ns dot C n0=Js. The last line writes the two scalar products as a double contraction, using C=JF\textasciicircum{}(-T). This derives the tangent projection instead of assuming its form.
+
+\begin{align}
+\delta(\sigma_{LL}A)= & ~\int_{\Gamma_{c0}}\mathbf P_s : \delta\mathbf F\,dA_0, \notag \\
+\mathbf P_s= & ~\sigma_{LL}\frac{J_s}{J}(\mathbf I-\mathbf n_s\otimes\mathbf n_s)\mathbf C, \notag \\
+(P_s)_{ij}= & ~\sigma_{LL}\frac{J_s}{J}\left(C_{ij}-(n_s)_i\sum_{k=1}^3(n_s)_kC_{kj}\right). \label{eq:surface_energy_stress}
+\end{align}
+
+Integrating sigmaLL times Eq.~\eqref{eq:surface_area_differential} over the material surface gives Eq.~\eqref{eq:surface_energy_stress}. The native Weak Contribution uses -Ps:grad t(test d) in COMSOL's residual convention and expands all nine components. For a sphere, differentiating sigmaLL times 4piR\textasciicircum{}2 gives inward capillary pressure 2sigmaLL/R, counted once.
+
+\subsection{B6: State the complete weak mechanical equilibrium}
+
+\begin{align}
+& ~\int_{\Omega_{gel,0}}\mathbf P : \nabla_X\delta\mathbf d\,dV_0+\int_{\Gamma_{c0}}\mathbf P_s : \nabla_X\delta\mathbf d\,dA_0 \notag \\
+= & ~-\int_{\Gamma_{c0}}(p_l-p_0)\mathbf n_s\cdot\delta\mathbf d\,J_s\,dA_0. \label{eq:gel_weak_equilibrium}
+\end{align}
+
+Eq.~\eqref{eq:gel_weak_equilibrium} combines the bulk constitutive derivative in Eq.~\eqref{eq:finite_gel_constitutive_law} with the surface variation in Eq.~\eqref{eq:surface_energy_stress} and the follower-pressure boundary data. The outer surface contributes zero traction; virtual rigid translations/rotations are removed by Rigid Motion Suppression. Tangential surface differentiation may replace the full gradient because Ps annihilates the reference-normal direction: C n0=Js ns makes Ps n0=0. Consequently the nine tangential Weak Contribution terms represent the same surface energy, without adding a separate Laplace pressure.
+
+Checks: Js,J and F are dimensionless; Ps has N/m, and Ps times virtual strain times reference area has J. Positive pl-p0 expands the hole because pressure traction is -(pl-p0)ns. The finite FE elastic work and pressure agree with Eq.~\eqref{eq:gel_elastic_pressure}/Eq.~\eqref{eq:gel_elastic_work} within the recorded small discrepancies. Equivalent stretch and local lambdamax differ, and the local maximum is more mesh-sensitive.
+
+\section{Stability, timescale and unsupported conclusions}\label{sec:limits}
+
+\begin{longtable}{p{.18\linewidth}p{.60\linewidth}p{.15\linewidth}}Symbol & Definition & SI unit\\\hline
+
+Pi; CQ; CT; lambdaf & Net inward restoring pressure; fixed-energy and fixed-temperature derivative partial Pi/partial lambda; cited stretch proxy & Pa; Pa; Pa; 1\\
+
+alphath; kth; rhogel; cp; tth; tin & Thermal diffusivity, conductivity, gel density, heat capacity; diffusion and elastic inertia times & m\textasciicircum{}2/s; W/(m K); kg/m\textasciicircum{}3; J/(kg K); s; s\\
+
+\end{longtable}
+
+\begin{align*}
+\Pi(\lambda)= & ~p_{el}(\lambda)+2\sigma_{LL}/(a\lambda)-(p_l-p_0), \\
+C_Q= & ~\left.\frac{d\Pi}{d\lambda}\right|_{Q_{dep}}, \\
+C_T= & ~\left.\frac{d\Pi}{d\lambda}\right|_T, \\
+\alpha_{th}= & ~k_{th}/(\rho_{gel}c_p), \\
+t_{th}= & ~a^2/\alpha_{th}, \\
+t_{in}= & ~a\sqrt{\rho_{gel}/G}.
+\end{align*}
+
+An infinitesimal outward displacement is radially restoring when the selected closure gives positive C. At 11.65 pJ the independent phase/energy perturbation calculation gives CQ approximately +46.052 kPa per stretch and CT approximately -103.744 kPa per stretch. These are radial stability checks of equilibrium closures, not a proof of stability to nonspherical modes or a nucleation trajectory.
+
+Using declared water-like kth=0.6 W/(m K), rhogel=1006.5 kg/m\textasciicircum{}3 and cp=4180 J/(kg K), tth approximately 0.631  micro s and tin approximately 0.0952  micro s. The draft's 20 ms optical pulse is many orders longer; an insulated post-activation equilibrium is not a long-pulse heating calculation. Incident energy, absorbed energy and local retained Qdep cannot be equated without a spatial absorption/heat-transfer calibration.
+
+lambdaf=2.1 is a uniaxial PAAm screening proxy. It is not the fracture stretch of this gel at a biaxially stretched cavity under rapid heating. 11.75 pJ remains borderline under local-stretch mesh uncertainty; coated low-tension native branches were unconverged. A sealed intact cavity has no specified outlet for a jet. Actual optical activation, formulation-specific rupture, venting and repeatable transfer remain unresolved.
+
+\section{Traceability and second-pass checks}\label{sec:references}
+
+Parameter/expression definitions and numerical verification are linked in the rebuild recipe and signed native-model review. For EOS ranges use Gao et al.; for interfacial measurements use Kandadai et al.; for the gel reference/proxy use Movahed et al.. Li et al. (2024) supplies a water-vapor hydrogel printing precedent, not this embedded-PFP jet validation.
+
+Second-pass audit: the P0/H0 supplied inputs are kept distinct; radius versus diameter, absolute versus gauge pressure and material versus spatial derivatives are explicit. Eq.~\eqref{eq:gel_elastic_pressure} was rechecked by factorization and differentiation; Eq.~\eqref{eq:gel_elastic_work} differentiates to pressure work; Eq.~\eqref{eq:wave_energy_flux}/Eq.~\eqref{eq:total_source_wave_energy} cancel the same signed pressure work; Eq.~\eqref{eq:phase_work_identity}/Eq.~\eqref{eq:retained_energy_balance} count phase/surface energy once; Eq.~\eqref{eq:deformed_cavity_area_volume} uses the correct inner normal and material measure. Unproved activation, jet and fracture steps are left unresolved. The equations are available as complete LaTeX source.
+
+\begin{thebibliography}{9}
+\bibitem{Gao} Gao et al. Bulk fluorocarbon equation of state. \url{https://doi.org/10.1021/acs.iecr.1c02969}.
+\bibitem{Kandadai} Kandadai et al. Interfacial measurements. \url{https://doi.org/10.1021/la100307r}. Author dissertation, Table 5.2, printed p.116, provides the stated 9.41 mN/m PFP/saturated-air reference.
+\bibitem{Movahed} Movahed et al. PAAm cavitation reference and limited failure proxy. \url{https://doi.org/10.1121/1.4961364}.
+\bibitem{Li} Li et al. Water-vapor hydrogel transfer printing. \url{https://doi.org/10.1073/pnas.2318739121}.
+\end{thebibliography}
+\end{document}

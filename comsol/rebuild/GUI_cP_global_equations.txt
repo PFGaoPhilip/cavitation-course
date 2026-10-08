@@ -1,0 +1,7 @@
+r1	taucP^2*((r1-r1^2/bscP)*r1tt+(1.5-2*r1/bscP)*r1t^2)-(pB1-DP)/DP-taucP*is1cP(chit)/is1cP(1)	1	0
+theta1	(pVP1-pLP1-2*sigIcP/Rg1)/DP	1	0
+qL1	(gLP1-gVP1)/(100[kJ/kg])	-2.5199096293844559e-06	0
+qV1	(Sspec1-S0cP)/(100[J/(kg*K)])	-6.0772474348736627e-05	0
+ediss	edisst-1*(16*pi*muL*R1*U1^2)/E0cP	0	0
+erout	eroutt-rhoL*(acP^2/taucP)^2*iocP(chit*(chit/cL+chi/Lout))/E0cP	0	0
+pdet	tf*pdett+pdet-idcP(pAc)/(idcP(1)*DP)	0	0

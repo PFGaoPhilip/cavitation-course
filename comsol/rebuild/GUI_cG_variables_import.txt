@@ -1,0 +1,12 @@
+R1	acG*r1
+U1	acG*r1t
+pg1	betacG*DP*r1^(-3*kap)
+pB1	pg1-2*sigcG/R1-4*muL*U1/R1
+qvol1	4*pi*R1^2*U1
+En	2*pi*rhoL*R1^3*U1^2*(1-R1/bcG)
+Ei	betacG*DP*4*pi*acG^3/(3*(kap-1))*r1^(-3*(kap-1))
+Ep	DP*4*pi*R1^3/3+4*pi*sigcG*R1^2
+phiDt	acG^2/taucG*chit
+pAc	-rhoL*phiDt
+u2ac	(acG^2/taucG)^2*(chix^2+chiy^2+chiz^2)
+Ea	ivcG(rhoL/2*(u2ac+phiDt^2/cL^2))

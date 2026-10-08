@@ -1,0 +1,7 @@
+r1	taucU^2*((r1-r1^2/bscU)*r1tt+(1.5-2*r1/bscU)*r1t^2)-(pB1-DP)/DP-taucU*ipcU(chit)/ipcU(1)	1	0
+theta1	(pVP1-pLP1-2*sigIcU/Rg1)/DP	1	0
+qL1	(gLP1-gVP1)/(100[kJ/kg])	-1.1820766006109311e-05	0
+qV1	(Sspec1-S0cU)/(100[J/(kg*K)])	-0.00028506414542899179	0
+ediss	edisst-100*(16*pi*muL*R1*U1^2)/E0cU	0	0
+erout	eroutt-rhoL*(acU^2/taucU)^2*iocU(chit*(chit/cL+chi/Lout))/E0cU	0	0
+pdet	tf*pdett+pdet-idcU(pAc)/(idcU(1)*DP)	0	0

@@ -1,0 +1,7 @@
+R	R0*c.xr
+U	R0*c.vr/tau
+pg	pg0*c.xr^(-3*kap)
+PiG	G/2*(5-4/c.xr-c.xr^(-4))
+WG	2*pi*G*R0^3*(5*c.xr^3/3-2*c.xr^2+1/c.xr-2/3)
+Etot	2*pi*rho*R^3*U^2+pg*V0*c.xr^3/(kap-1)+(p0+drive)*V0*c.xr^3+4*pi*sigma*R^2+WG
+Einit	pg0*(1+xinit)^(-3*kap)*V0*(1+xinit)^3/(kap-1)+(p0+drive)*V0*(1+xinit)^3+4*pi*sigma*R0^2*(1+xinit)^2+2*pi*G*R0^3*(5*(1+xinit)^3/3-2*(1+xinit)^2+1/(1+xinit)-2/3)

@@ -16,13 +16,13 @@
   },
   {
     "file": "SCHEDULE.html",
-    "bytes": 33344,
-    "sha256": "ff63f990a5c4590657590dc308386238b4b579eb78f4991b82c729bb134bb2ad"
+    "bytes": 33685,
+    "sha256": "3595024de4871b7504f5c450a8609694d7a28d9b2d623b0e82aa1a3962f12aac"
   },
   {
     "file": "START.html",
-    "bytes": 17028,
-    "sha256": "c0251421f34845e18b4f96a287aa63749cf402f84c4799476c1639fb37d417d3"
+    "bytes": 17369,
+    "sha256": "5256c45a1e979798c53e336bbe64168deb08ee291f006da39887e25729273e82"
   },
   {
     "file": "analysis/cavitation_extension_model.py",
@@ -2901,8 +2901,8 @@
   },
   {
     "file": "comsol/README.md",
-    "bytes": 724,
-    "sha256": "d354043dda9db1f4e691fbd72b81de34b375badc035d7230bb2a07d60936fa39"
+    "bytes": 1165,
+    "sha256": "061c1c868da7e408a72acc16820d9d6b06b4135a5ef2410858111aa362316671"
   },
   {
     "file": "comsol/THEORY_REPORT.html",
@@ -2938,6 +2938,16 @@
     "file": "comsol/assets/delivery.js",
     "bytes": 1177,
     "sha256": "41346d9d1ee3ada649a40b01821c4875990f8ce33eecf5492e7e5b176ca09769"
+  },
+  {
+    "file": "comsol/assets/gui-walkthrough.css",
+    "bytes": 2194,
+    "sha256": "c1a2119d53f30acab9f275f874c7d78b2e902f03e3a4d79364c6a771584c961e"
+  },
+  {
+    "file": "comsol/assets/gui-walkthrough.js",
+    "bytes": 1093,
+    "sha256": "7801a3619d8c0232df658b67e9ea1d107e22bf7415a11f8e5b6c0a276bf5815f"
   },
   {
     "file": "comsol/assets/pfc_gel.svg",
@@ -3566,28 +3576,28 @@
   },
   {
     "file": "comsol/index.html",
-    "bytes": 4113,
-    "sha256": "734810d3256df7c49345b1d66b4b83bc46fac44a522938ec8bb320a9fbb314f0"
+    "bytes": 4963,
+    "sha256": "3a298838b8360183c287d411f6e011ac1776b27ec03e2ee62f46b33c88d5621d"
   },
   {
     "file": "comsol/lessons/M1.html",
-    "bytes": 58965,
-    "sha256": "0b05be6e6a80613db14a3e0bd8e90f46881fb0b6512035e0805d386c325291fa"
+    "bytes": 175601,
+    "sha256": "7339253fcc93fec9d4e0ebef770ce04bd45b8793b6e603d86a1d6d2046913006"
   },
   {
     "file": "comsol/lessons/M2.html",
-    "bytes": 76772,
-    "sha256": "3440d94beca04016355dbb51e8e622a39154555223c9f1acd9033217908a0547"
+    "bytes": 166542,
+    "sha256": "eff8e982aba53a9f76bf70e46ae9896f48c02c9775990bf413569dfc328a52f8"
   },
   {
     "file": "comsol/lessons/M3.html",
-    "bytes": 33571,
-    "sha256": "929ca741834364aab0326f3091a5dde85440cc935c624f43c236c57854ba2564"
+    "bytes": 370444,
+    "sha256": "4e48858d95cc233c827edd313112fdab3e71b860dda7a538f4e6f5522148780f"
   },
   {
     "file": "comsol/lessons/M4.html",
-    "bytes": 35753,
-    "sha256": "ca5db169b777ed6c9a4922877d41434cd1b766723935a76bfd3a493627073c9b"
+    "bytes": 76719,
+    "sha256": "9cee81aba793f9aa6068faecb3d88368fb6c60d26e0afc25cf00cda0d9be2819"
   },
   {
     "file": "comsol/plots/flow3d_radial_control.png",
@@ -3655,6 +3665,166 @@
     "sha256": "1ec9a15ec8735dfd6dda4aa2507adbe89d67540f20ec239dced1ec7448ac8823"
   },
   {
+    "file": "comsol/rebuild/GUI_B_parameters_import.txt",
+    "bytes": 347,
+    "sha256": "5854aa806b27baf6975fad0df28045c43a1d99060f3a3e9cb06f17ce03603af3"
+  },
+  {
+    "file": "comsol/rebuild/GUI_B_post_variables_import.txt",
+    "bytes": 622,
+    "sha256": "2494ce0cef0f0f21231d434ee2626643a42a708a17bda81bef22e91801c299d3"
+  },
+  {
+    "file": "comsol/rebuild/GUI_B_surface_variables_import.txt",
+    "bytes": 661,
+    "sha256": "96a9a462f58b2ebfc17b754481193bedebaf372ecc371a0aa5a0964caa19f752"
+  },
+  {
+    "file": "comsol/rebuild/GUI_B_thermo_variables_import.txt",
+    "bytes": 811,
+    "sha256": "03524e87969a2eb15cb3cd40531f906e7c91c16f0be8faf4518a408cc6b90bc5"
+  },
+  {
+    "file": "comsol/rebuild/GUI_Gcase_table.txt",
+    "bytes": 39,
+    "sha256": "bd3d2d012320b047d05896d43bbadf491cf1e000775a384f8a21c29f38a6f4d6"
+  },
+  {
+    "file": "comsol/rebuild/GUI_H0_global_equations.txt",
+    "bytes": 199,
+    "sha256": "d4d3c0afcad69b93b7c59377729264789c93f8cf9e2c3f0766215e2a6b48de34"
+  },
+  {
+    "file": "comsol/rebuild/GUI_H0_parameters_import.txt",
+    "bytes": 242,
+    "sha256": "8f4b73fc6b6e9b3d8b295569b939a78e926a8e5a5af664809c769fefafe008ff"
+  },
+  {
+    "file": "comsol/rebuild/GUI_H0_variables_import.txt",
+    "bytes": 370,
+    "sha256": "dc49b386e9e37c729882044c233b3193f086dcbe1c0c386d4f74caeda75fa162"
+  },
+  {
+    "file": "comsol/rebuild/GUI_LLcase_table.txt",
+    "bytes": 92,
+    "sha256": "3c2393b60dc0f369e13f483a1ff4f296d93a465d03cbfa422982ae89f08d01f5"
+  },
+  {
+    "file": "comsol/rebuild/GUI_LVcase_table.txt",
+    "bytes": 52,
+    "sha256": "e0a44819282daa2c2ee6f67efc8a10cc61c600b913f90a6778f90944781d73be"
+  },
+  {
+    "file": "comsol/rebuild/GUI_P0_global_equations.txt",
+    "bytes": 50,
+    "sha256": "8d52adabf97dbf05d713195650b6da80990eb38f662bfc11dff6db931329867e"
+  },
+  {
+    "file": "comsol/rebuild/GUI_P0_parameters_import.txt",
+    "bytes": 62,
+    "sha256": "c28cc555cd2750db402bcd768c60a15845e1521b7dba3ddad930a1a413690788"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c3_global_equations.txt",
+    "bytes": 955,
+    "sha256": "1949478b66de3cf09958e07ccd8f8f7440f04996c76edbe9667cb043a5590795"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c3_parameters_import.txt",
+    "bytes": 394,
+    "sha256": "8accb66fbf9e08e5566e20c9fb1fa69286095506b87410f5ea3fa0d9b18dc2bc"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c3_variables_import.txt",
+    "bytes": 2528,
+    "sha256": "a1356292601f590208b440aa6a0545332cfee5c55852a9ffad54f111ae081dba"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c5_global_equations.txt",
+    "bytes": 1490,
+    "sha256": "adabccee7a2f0307cc560f7db8ca7a20d2c731f0a78f2a0f93260827ac71423b"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c5_parameters_import.txt",
+    "bytes": 394,
+    "sha256": "012e5cce1c28bc2ae9383fb4138835a2399062b1bea11bb673438eeaeeaed2ea"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c5_variables_import.txt",
+    "bytes": 4114,
+    "sha256": "1d9bc5d97544ad5db5f8f07dfc244bbb207af9c4da914a297029dcb3a5336fa3"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cG_global_equations.txt",
+    "bytes": 257,
+    "sha256": "d881a7af1aa12939cb51ad7d93dc03103a073a5c815288762d861f38cadd5f6a"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cG_parameters_import.txt",
+    "bytes": 283,
+    "sha256": "e041d3602b0dec32228ce7870af815163b1b478e3bc9a200e9ec70212755a1d8"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cG_variables_import.txt",
+    "bytes": 336,
+    "sha256": "ebd7cb6492cefac4f78e56d6fe3f9ca857b4cb81e61963ee550a7730a6974113"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cP_global_equations.txt",
+    "bytes": 415,
+    "sha256": "1bf4866e640276d7a26c72bcf9a874b9ed0dd3d7f320f8fbb1b262935f563afc"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cP_parameters_import.txt",
+    "bytes": 395,
+    "sha256": "ed32e1efb39bf48567eec0dc0ef58621f3d5d91b4a5b6105944ca079b7a5107b"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cP_variables_import.txt",
+    "bytes": 942,
+    "sha256": "8c305d4b73f561af724382603dcaa9c587318bb10a227dcb0471db955c3d8f3a"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cU_global_equations.txt",
+    "bytes": 415,
+    "sha256": "87c2a1ab8acc3b3efb65bbc68d66a66dc2cd3322d5063942f6c5fca0d9e54d48"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cU_parameters_import.txt",
+    "bytes": 385,
+    "sha256": "7fd46b66586fdca5d7e6c15cf949ede4c48a89d3aa13284ea5bef546044810f8"
+  },
+  {
+    "file": "comsol/rebuild/GUI_cU_variables_import.txt",
+    "bytes": 948,
+    "sha256": "df4eed49f5f587440374af1c1e1e8e448ed53f2e4b83e0d6d3ca76c841e34633"
+  },
+  {
+    "file": "comsol/rebuild/GUI_c_global_equations.txt",
+    "bytes": 152,
+    "sha256": "375ff1aab3ef5247e2a6f06bf6ba86fb9611b9b153c4f810392adb0243e1e164"
+  },
+  {
+    "file": "comsol/rebuild/GUI_gasA_table.txt",
+    "bytes": 174,
+    "sha256": "7f784def6c574662632cd487d50521b2547920f732692440b499f99aebb055f7"
+  },
+  {
+    "file": "comsol/rebuild/GUI_gasB_table.txt",
+    "bytes": 156,
+    "sha256": "23a4a04c8f9bb3c50ecbee8c3e616506309d8a2df8813f45fbec3f047ae4bd18"
+  },
+  {
+    "file": "comsol/rebuild/GUI_gasE_table.txt",
+    "bytes": 175,
+    "sha256": "916d9ac430e03d167fa892574a37f5719268f3f80fdc357c601ad9f72961be39"
+  },
+  {
+    "file": "comsol/rebuild/GUI_rhoColdCase_table.txt",
+    "bytes": 84,
+    "sha256": "7b9a1aa37df2ddd2e6410ffc0d5102536be8ca086acb0137176ba079d56626cd"
+  },
+  {
     "file": "comsol/rebuild/Model_A_literal_variables.tsv",
     "bytes": 10853,
     "sha256": "d28b91ac5a8cfb0a23c37295e8e2f8f4a7b4d169d000c66d59404d4e4c3b86f6"
@@ -3715,6 +3885,11 @@
     "sha256": "a60da57aba51771456b9706d6dc1b6b80716b2c1fa944c89586bf3938253ee10"
   },
   {
+    "file": "comsol/rebuild/gui_walkthrough_manifest.json",
+    "bytes": 5894,
+    "sha256": "02c74af3379a0f897c7089fbabfa76d5d6e417fe88ac1eb8e399b8b87762fc16"
+  },
+  {
     "file": "comsol/rebuild/model_recipes.json",
     "bytes": 74314,
     "sha256": "c463d4d069d7608c62297b926895cf96097dd8dd16d3e11eb523fdfb132bee0a"
@@ -3755,9 +3930,24 @@
     "sha256": "ee45f6e0818c44da49c0762e4b97df770d22f5fe4924ce8544dd0a992e395900"
   },
   {
+    "file": "comsol/reference/gui-basics.html",
+    "bytes": 8194,
+    "sha256": "0b6ebd0969a3093a385c366b087f341702bf4eceea1b3fd21598f4da92ba3236"
+  },
+  {
     "file": "comsol/reference/rebuild.html",
-    "bytes": 9492,
-    "sha256": "7e71682d49d25af6ee4f696e04f2a53d4b3b3918dc355538afc38b719e24ddce"
+    "bytes": 10741,
+    "sha256": "064c0fd2f50da9962bb9d228633e640b7bba4aca642e6119f4642f7bb660c776"
+  },
+  {
+    "file": "comsol/reference/worked-theory.html",
+    "bytes": 755380,
+    "sha256": "493024a497b63da2cea64effdee1105652c294819d3675e241e510e990030a78"
+  },
+  {
+    "file": "comsol/reference/worked-theory.tex",
+    "bytes": 41344,
+    "sha256": "2dd864b77e525d493ba208d9bef629ab8519cbd683636cde42566f5c21364737"
   },
   {
     "file": "comsol/scripts/FinalModelA3D.java",
@@ -3815,6 +4005,11 @@
     "sha256": "c7f811721cc3088b61d5b79a1b4043804a924964a2435c4a13979ba29ae5ae53"
   },
   {
+    "file": "comsol/scripts/core_shell_reference.py",
+    "bytes": 4332,
+    "sha256": "d61451f00050b538e112dda0e579b4b66a0b4ed7be9bbc36b7bb404157005f6f"
+  },
+  {
     "file": "comsol/scripts/gel_activation_stability_reference.py",
     "bytes": 5997,
     "sha256": "293705c8dfd71dd0f708c99e6ce43217a6b5c84e3efd6c16af8fbb16ef90f15a"
@@ -3863,6 +4058,16 @@
     "file": "comsol/verification/SOURCE_AND_CONTROL_AUDIT.json",
     "bytes": 1693,
     "sha256": "966dd4f3dd576be0798e5ccd98728936297a96d624049f337fb6a0c1a5621fd2"
+  },
+  {
+    "file": "comsol/verification/TEACHING_REVISION_AUDIT_20261009.json",
+    "bytes": 8800,
+    "sha256": "e993c5e904d0cf9de6f1f60899f86485f5a7e650b9913202bdf608ecaf6d927b"
+  },
+  {
+    "file": "comsol/verification/WORKED_THEORY_AUDIT.json",
+    "bytes": 1522,
+    "sha256": "e664cc860be72569fa8539fbdf2df9fc599867f2691999f931bc6d0db7be1dae"
   },
   {
     "file": "comsol/verification/independent_audit.py",
@@ -4081,8 +4286,8 @@
   },
   {
     "file": "index.html",
-    "bytes": 17028,
-    "sha256": "c0251421f34845e18b4f96a287aa63749cf402f84c4799476c1639fb37d417d3"
+    "bytes": 17369,
+    "sha256": "5256c45a1e979798c53e336bbe64168deb08ee291f006da39887e25729273e82"
   },
   {
     "file": "lessons/0001-the-bubble-is-a-moving-boundary.html",

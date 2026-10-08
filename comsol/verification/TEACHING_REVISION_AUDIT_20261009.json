@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-09",
+  "passed": true,
+  "errors": [],
+  "chapters": [
+    {
+      "chapter": "M1",
+      "steps": 69,
+      "all_expected_observations_present": true
+    },
+    {
+      "chapter": "M2",
+      "steps": 47,
+      "all_expected_observations_present": true
+    },
+    {
+      "chapter": "M3",
+      "steps": 189,
+      "all_expected_observations_present": true
+    },
+    {
+      "chapter": "M4",
+      "steps": 23,
+      "all_expected_observations_present": true
+    }
+  ],
+  "total_numbered_GUI_steps": 328,
+  "exact_import_tables": [
+    {
+      "file": "GUI_P0_parameters_import.txt",
+      "rows": 4,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "c28cc555cd2750db402bcd768c60a15845e1521b7dba3ddad930a1a413690788"
+    },
+    {
+      "file": "GUI_P0_global_equations.txt",
+      "rows": 2,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "8d52adabf97dbf05d713195650b6da80990eb38f662bfc11dff6db931329867e"
+    },
+    {
+      "file": "GUI_H0_parameters_import.txt",
+      "rows": 16,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "8f4b73fc6b6e9b3d8b295569b939a78e926a8e5a5af664809c769fefafe008ff"
+    },
+    {
+      "file": "GUI_H0_variables_import.txt",
+      "rows": 7,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "dc49b386e9e37c729882044c233b3193f086dcbe1c0c386d4f74caeda75fa162"
+    },
+    {
+      "file": "GUI_H0_global_equations.txt",
+      "rows": 5,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "d4d3c0afcad69b93b7c59377729264789c93f8cf9e2c3f0766215e2a6b48de34"
+    },
+    {
+      "file": "GUI_cG_parameters_import.txt",
+      "rows": 19,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "e041d3602b0dec32228ce7870af815163b1b478e3bc9a200e9ec70212755a1d8"
+    },
+    {
+      "file": "GUI_gasA_table.txt",
+      "rows": 7,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "7f784def6c574662632cd487d50521b2547920f732692440b499f99aebb055f7"
+    },
+    {
+      "file": "GUI_gasB_table.txt",
+      "rows": 7,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "23a4a04c8f9bb3c50ecbee8c3e616506309d8a2df8813f45fbec3f047ae4bd18"
+    },
+    {
+      "file": "GUI_gasE_table.txt",
+      "rows": 7,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "916d9ac430e03d167fa892574a37f5719268f3f80fdc357c601ad9f72961be39"
+    },
+    {
+      "file": "GUI_cG_variables_import.txt",
+      "rows": 12,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "ebd7cb6492cefac4f78e56d6fe3f9ca857b4cb81e61963ee550a7730a6974113"
+    },
+    {
+      "file": "GUI_cG_global_equations.txt",
+      "rows": 4,
+      "matching_lessons": [
+        "M1.html"
+      ],
+      "sha256": "d881a7af1aa12939cb51ad7d93dc03103a073a5c815288762d861f38cadd5f6a"
+    },
+    {
+      "file": "GUI_B_parameters_import.txt",
+      "rows": 20,
+      "matching_lessons": [
+        "M2.html"
+      ],
+      "sha256": "5854aa806b27baf6975fad0df28045c43a1d99060f3a3e9cb06f17ce03603af3"
+    },
+    {
+      "file": "GUI_B_surface_variables_import.txt",
+      "rows": 29,
+      "matching_lessons": [
+        "M2.html"
+      ],
+      "sha256": "96a9a462f58b2ebfc17b754481193bedebaf372ecc371a0aa5a0964caa19f752"
+    },
+    {
+      "file": "GUI_B_thermo_variables_import.txt",
+      "rows": 21,
+      "matching_lessons": [
+        "M2.html"
+      ],
+      "sha256": "03524e87969a2eb15cb3cd40531f906e7c91c16f0be8faf4518a408cc6b90bc5"
+    },
+    {
+      "file": "GUI_c_global_equations.txt",
+      "rows": 3,
+      "matching_lessons": [
+        "M2.html"
+      ],
+      "sha256": "375ff1aab3ef5247e2a6f06bf6ba86fb9611b9b153c4f810392adb0243e1e164"
+    },
+    {
+      "file": "GUI_B_post_variables_import.txt",
+      "rows": 20,
+      "matching_lessons": [
+        "M2.html"
+      ],
+      "sha256": "2494ce0cef0f0f21231d434ee2626643a42a708a17bda81bef22e91801c299d3"
+    },
+    {
+      "file": "GUI_cP_parameters_import.txt",
+      "rows": 14,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "ed32e1efb39bf48567eec0dc0ef58621f3d5d91b4a5b6105944ca079b7a5107b"
+    },
+    {
+      "file": "GUI_cP_variables_import.txt",
+      "rows": 28,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "8c305d4b73f561af724382603dcaa9c587318bb10a227dcb0471db955c3d8f3a"
+    },
+    {
+      "file": "GUI_cP_global_equations.txt",
+      "rows": 7,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "1bf4866e640276d7a26c72bcf9a874b9ed0dd3d7f320f8fbb1b262935f563afc"
+    },
+    {
+      "file": "GUI_c3_parameters_import.txt",
+      "rows": 14,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "8accb66fbf9e08e5566e20c9fb1fa69286095506b87410f5ea3fa0d9b18dc2bc"
+    },
+    {
+      "file": "GUI_c3_variables_import.txt",
+      "rows": 68,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "a1356292601f590208b440aa6a0545332cfee5c55852a9ffad54f111ae081dba"
+    },
+    {
+      "file": "GUI_c3_global_equations.txt",
+      "rows": 15,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "1949478b66de3cf09958e07ccd8f8f7440f04996c76edbe9667cb043a5590795"
+    },
+    {
+      "file": "GUI_c5_parameters_import.txt",
+      "rows": 14,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "012e5cce1c28bc2ae9383fb4138835a2399062b1bea11bb673438eeaeeaed2ea"
+    },
+    {
+      "file": "GUI_c5_variables_import.txt",
+      "rows": 108,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "1d9bc5d97544ad5db5f8f07dfc244bbb207af9c4da914a297029dcb3a5336fa3"
+    },
+    {
+      "file": "GUI_c5_global_equations.txt",
+      "rows": 23,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "adabccee7a2f0307cc560f7db8ca7a20d2c731f0a78f2a0f93260827ac71423b"
+    },
+    {
+      "file": "GUI_cU_parameters_import.txt",
+      "rows": 15,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "7fd46b66586fdca5d7e6c15cf949ede4c48a89d3aa13284ea5bef546044810f8"
+    },
+    {
+      "file": "GUI_cU_variables_import.txt",
+      "rows": 28,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "df4eed49f5f587440374af1c1e1e8e448ed53f2e4b83e0d6d3ca76c841e34633"
+    },
+    {
+      "file": "GUI_cU_global_equations.txt",
+      "rows": 7,
+      "matching_lessons": [
+        "M3.html"
+      ],
+      "sha256": "87c2a1ab8acc3b3efb65bbc68d66a66dc2cd3322d5063942f6c5fca0d9e54d48"
+    },
+    {
+      "file": "GUI_Gcase_table.txt",
+      "rows": 4,
+      "matching_lessons": [
+        "M4.html"
+      ],
+      "sha256": "bd3d2d012320b047d05896d43bbadf491cf1e000775a384f8a21c29f38a6f4d6"
+    },
+    {
+      "file": "GUI_LLcase_table.txt",
+      "rows": 4,
+      "matching_lessons": [
+        "M4.html"
+      ],
+      "sha256": "3c2393b60dc0f369e13f483a1ff4f296d93a465d03cbfa422982ae89f08d01f5"
+    },
+    {
+      "file": "GUI_LVcase_table.txt",
+      "rows": 4,
+      "matching_lessons": [
+        "M4.html"
+      ],
+      "sha256": "e0a44819282daa2c2ee6f67efc8a10cc61c600b913f90a6778f90944781d73be"
+    },
+    {
+      "file": "GUI_rhoColdCase_table.txt",
+      "rows": 4,
+      "matching_lessons": [
+        "M4.html"
+      ],
+      "sha256": "7b9a1aa37df2ddd2e6410ffc0d5102536be8ca086acb0137176ba079d56626cd"
+    }
+  ],
+  "native_builder_hashes_unchanged": true,
+  "local_targets_checked": 353,
+  "latex": {
+    "blocks": 31,
+    "later_referenced_numbered_blocks": 30,
+    "all_equation_references_resolve": true,
+    "align_style_and_paragraph_indentation_checked": true,
+    "PDF_compilation": "unverified: built-in compiler Windows sandbox setup failed",
+    "compiler_diagnostic": "exec failed: windows sandbox: helper_unknown_error: setup refresh had errors"
+  },
+  "independent_scalar_derivative_checks": {
+    "random_positive_J_deformations": 25,
+    "maximum_surface_derivative_absolute_error": 2.800505383149243e-10,
+    "maximum_bulk_stress_relative_error": 1.5808444516445913e-10,
+    "maximum_Ps_normal_norm": 3.9959129961690446e-16,
+    "maximum_gel_pressure_quadrature_error_G_units": 2.220446049250313e-16,
+    "P0_speed_at_radius_ratio_0_2_m_s": -81.32240363721016,
+    "H0_Ks_Pa": 506079.99999999994,
+    "H0_period_s": 2.792995790007252e-06
+  },
+  "learner_records_unchanged": true,
+  "learner_mastery_claimed": false,
+  "scope": "Documentation and algebra checks; previously signed review remains the native-model evidence."
+}

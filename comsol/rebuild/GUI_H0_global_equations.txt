@@ -1,0 +1,5 @@
+xr	tau*xrt-vr	1+xinit	0
+vr	tau*vrt-((pg-p0-drive-2*sigma/R-4*eta*U/R-PiG)/Ks-1.5*vr^2)/xr	0	0
+ed	tau*edt-16*pi*eta*R*U^2*tau/Escale	0	0
+xl	tau*xlt-vl	xinit	0
+vl	tau*vlt+2*beta*tau*vl+xl+drive/Ks	0	0

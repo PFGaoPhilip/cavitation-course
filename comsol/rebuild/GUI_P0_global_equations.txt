@@ -1,0 +1,2 @@
+xr	tau*xrt-vr	1	0
+vr	tau*vrt-(-1-1.5*vr^2)/xr	0	0

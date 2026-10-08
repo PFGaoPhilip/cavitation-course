@@ -1,0 +1,181 @@
+{
+  "version": "2026-10-09",
+  "comsol_version": "6.4",
+  "chapters": {
+    "M1": {
+      "steps": 69,
+      "sections": [
+        "orientation",
+        "p0",
+        "h0",
+        "gas-3d"
+      ]
+    },
+    "M2": {
+      "steps": 47,
+      "sections": [
+        "b-start",
+        "b-material",
+        "b-surface",
+        "b-phase",
+        "b-post",
+        "b-plot"
+      ]
+    },
+    "M3": {
+      "steps": 189,
+      "sections": [
+        "population-start",
+        "build-cP",
+        "build-c3",
+        "build-c5",
+        "build-cU"
+      ]
+    },
+    "M4": {
+      "steps": 23,
+      "sections": [
+        "a-sweeps",
+        "a-convergence",
+        "b-checks",
+        "b-sensitivity",
+        "independent-demonstration"
+      ]
+    }
+  },
+  "native_builder_sha256": {
+    "PressureEnvelope3D.java": "fc97654830db34d385808d366f9fd8af1b0584c27a3d7e3d3a746234a969b1d6",
+    "FreeCoreShellFine3D.java": "6de7422b64cb73466147a1161fadb621051c095e545ddc4328794fd60fbf0bcd",
+    "GelSensitivityValid3D.java": "647499705efa5f3ebaad4b9acc105e024b74b68f5a95c00b9e940f296fd293e4"
+  },
+  "exact_tables": {
+    "GUI_P0_parameters_import.txt": {
+      "rows": 4,
+      "sha256": "c28cc555cd2750db402bcd768c60a15845e1521b7dba3ddad930a1a413690788"
+    },
+    "GUI_P0_global_equations.txt": {
+      "rows": 2,
+      "sha256": "8d52adabf97dbf05d713195650b6da80990eb38f662bfc11dff6db931329867e"
+    },
+    "GUI_H0_parameters_import.txt": {
+      "rows": 16,
+      "sha256": "8f4b73fc6b6e9b3d8b295569b939a78e926a8e5a5af664809c769fefafe008ff"
+    },
+    "GUI_H0_variables_import.txt": {
+      "rows": 7,
+      "sha256": "dc49b386e9e37c729882044c233b3193f086dcbe1c0c386d4f74caeda75fa162"
+    },
+    "GUI_H0_global_equations.txt": {
+      "rows": 5,
+      "sha256": "d4d3c0afcad69b93b7c59377729264789c93f8cf9e2c3f0766215e2a6b48de34"
+    },
+    "GUI_cG_parameters_import.txt": {
+      "rows": 19,
+      "sha256": "e041d3602b0dec32228ce7870af815163b1b478e3bc9a200e9ec70212755a1d8"
+    },
+    "GUI_gasA_table.txt": {
+      "rows": 7,
+      "sha256": "7f784def6c574662632cd487d50521b2547920f732692440b499f99aebb055f7"
+    },
+    "GUI_gasB_table.txt": {
+      "rows": 7,
+      "sha256": "23a4a04c8f9bb3c50ecbee8c3e616506309d8a2df8813f45fbec3f047ae4bd18"
+    },
+    "GUI_gasE_table.txt": {
+      "rows": 7,
+      "sha256": "916d9ac430e03d167fa892574a37f5719268f3f80fdc357c601ad9f72961be39"
+    },
+    "GUI_cG_variables_import.txt": {
+      "rows": 12,
+      "sha256": "ebd7cb6492cefac4f78e56d6fe3f9ca857b4cb81e61963ee550a7730a6974113"
+    },
+    "GUI_cG_global_equations.txt": {
+      "rows": 4,
+      "sha256": "d881a7af1aa12939cb51ad7d93dc03103a073a5c815288762d861f38cadd5f6a"
+    },
+    "GUI_B_parameters_import.txt": {
+      "rows": 20,
+      "sha256": "5854aa806b27baf6975fad0df28045c43a1d99060f3a3e9cb06f17ce03603af3"
+    },
+    "GUI_B_surface_variables_import.txt": {
+      "rows": 29,
+      "sha256": "96a9a462f58b2ebfc17b754481193bedebaf372ecc371a0aa5a0964caa19f752"
+    },
+    "GUI_B_thermo_variables_import.txt": {
+      "rows": 21,
+      "sha256": "03524e87969a2eb15cb3cd40531f906e7c91c16f0be8faf4518a408cc6b90bc5"
+    },
+    "GUI_c_global_equations.txt": {
+      "rows": 3,
+      "sha256": "375ff1aab3ef5247e2a6f06bf6ba86fb9611b9b153c4f810392adb0243e1e164"
+    },
+    "GUI_B_post_variables_import.txt": {
+      "rows": 20,
+      "sha256": "2494ce0cef0f0f21231d434ee2626643a42a708a17bda81bef22e91801c299d3"
+    },
+    "GUI_cP_parameters_import.txt": {
+      "rows": 14,
+      "sha256": "ed32e1efb39bf48567eec0dc0ef58621f3d5d91b4a5b6105944ca079b7a5107b"
+    },
+    "GUI_cP_variables_import.txt": {
+      "rows": 28,
+      "sha256": "8c305d4b73f561af724382603dcaa9c587318bb10a227dcb0471db955c3d8f3a"
+    },
+    "GUI_cP_global_equations.txt": {
+      "rows": 7,
+      "sha256": "1bf4866e640276d7a26c72bcf9a874b9ed0dd3d7f320f8fbb1b262935f563afc"
+    },
+    "GUI_c3_parameters_import.txt": {
+      "rows": 14,
+      "sha256": "8accb66fbf9e08e5566e20c9fb1fa69286095506b87410f5ea3fa0d9b18dc2bc"
+    },
+    "GUI_c3_variables_import.txt": {
+      "rows": 68,
+      "sha256": "a1356292601f590208b440aa6a0545332cfee5c55852a9ffad54f111ae081dba"
+    },
+    "GUI_c3_global_equations.txt": {
+      "rows": 15,
+      "sha256": "1949478b66de3cf09958e07ccd8f8f7440f04996c76edbe9667cb043a5590795"
+    },
+    "GUI_c5_parameters_import.txt": {
+      "rows": 14,
+      "sha256": "012e5cce1c28bc2ae9383fb4138835a2399062b1bea11bb673438eeaeeaed2ea"
+    },
+    "GUI_c5_variables_import.txt": {
+      "rows": 108,
+      "sha256": "1d9bc5d97544ad5db5f8f07dfc244bbb207af9c4da914a297029dcb3a5336fa3"
+    },
+    "GUI_c5_global_equations.txt": {
+      "rows": 23,
+      "sha256": "adabccee7a2f0307cc560f7db8ca7a20d2c731f0a78f2a0f93260827ac71423b"
+    },
+    "GUI_cU_parameters_import.txt": {
+      "rows": 15,
+      "sha256": "7fd46b66586fdca5d7e6c15cf949ede4c48a89d3aa13284ea5bef546044810f8"
+    },
+    "GUI_cU_variables_import.txt": {
+      "rows": 28,
+      "sha256": "df4eed49f5f587440374af1c1e1e8e448ed53f2e4b83e0d6d3ca76c841e34633"
+    },
+    "GUI_cU_global_equations.txt": {
+      "rows": 7,
+      "sha256": "87c2a1ab8acc3b3efb65bbc68d66a66dc2cd3322d5063942f6c5fca0d9e54d48"
+    },
+    "GUI_Gcase_table.txt": {
+      "rows": 4,
+      "sha256": "bd3d2d012320b047d05896d43bbadf491cf1e000775a384f8a21c29f38a6f4d6"
+    },
+    "GUI_LLcase_table.txt": {
+      "rows": 4,
+      "sha256": "3c2393b60dc0f369e13f483a1ff4f296d93a465d03cbfa422982ae89f08d01f5"
+    },
+    "GUI_LVcase_table.txt": {
+      "rows": 4,
+      "sha256": "e0a44819282daa2c2ee6f67efc8a10cc61c600b913f90a6778f90944781d73be"
+    },
+    "GUI_rhoColdCase_table.txt": {
+      "rows": 4,
+      "sha256": "7b9a1aa37df2ddd2e6410ffc0d5102536be8ca086acb0137176ba079d56626cd"
+    }
+  }
+}

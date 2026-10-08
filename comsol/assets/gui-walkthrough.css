@@ -1,0 +1,16 @@
+
+html {scroll-behavior:auto}
+.gui-walkthrough {margin:2rem 0 3rem;padding-bottom:2rem;border-bottom:3px solid var(--rule)}
+.gui-toc {display:block;background:var(--panel);padding:1rem;border:1px solid var(--rule);font:15px/1.6 Arial,sans-serif}
+.gui-toc ol {columns:2;margin:.5rem 0;padding-left:1.4rem}.gui-toc li {break-inside:avoid;margin:.2rem 0}
+.gui-step {border:1px solid var(--rule);border-left:4px solid var(--accent);border-radius:6px;padding:1rem 1.3rem;margin:1.3rem 0;background:var(--paper);scroll-margin-top:1rem}
+.gui-step h3 {margin:0;font:600 1.12rem/1.4 Arial,sans-serif}.gui-step .step-title {margin:.3rem 0 .7rem}
+.step-number {background:var(--accent);color:var(--paper);padding:.22rem .45rem;border-radius:4px;margin-right:.3rem;font:600 .95rem Arial,sans-serif}
+.gui-step p {margin:.65rem 0}.step-check {background:var(--panel);padding:.3rem .8rem;margin-top:.75rem}.step-why {color:var(--muted)}
+.gui-step details {padding:.6rem .8rem}.table-scroll {max-width:100%;overflow-x:auto}.gui-walkthrough table {table-layout:fixed;width:100%}
+.gui-walkthrough th:first-child {width:24%}.gui-walkthrough td {overflow-wrap:anywhere}.gui-walkthrough code {font:13px/1.6 Consolas,monospace;white-space:pre-wrap;color:var(--accent)}
+.gui-map {display:grid;grid-template-columns:1fr 1.3fr 1.5fr;gap:.6rem;border:1px dashed var(--rule);padding:1rem;background:var(--panel);font:15px/1.5 Arial,sans-serif}
+.gui-map>div {padding:1rem;border:1px solid var(--rule);background:var(--paper)}.copy-value {display:inline;margin-left:.4rem;padding:.1rem .35rem;border:1px solid var(--rule);background:var(--panel);color:var(--muted);font:11px Arial,sans-serif;cursor:pointer}
+.copy-block {white-space:pre-wrap;overflow-wrap:anywhere}.theory-step {border-bottom:1px solid var(--rule);margin:1.5rem 0;padding-bottom:1rem}.theory-step h3 {font-size:1.15rem}
+@media(max-width:720px){.gui-toc ol{columns:1}.gui-step{padding:.9rem}.gui-map{grid-template-columns:1fr}.gui-walkthrough table{table-layout:auto}.gui-walkthrough th:first-child{width:auto}}
+@media print{.copy-value{display:none}.gui-step{break-inside:avoid;font-size:10pt}.gui-toc{font-size:10pt}details{display:block}}

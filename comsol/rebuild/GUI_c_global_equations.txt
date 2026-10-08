@@ -1,0 +1,3 @@
+theta	(pVP-pLP-2*sigLV/Rg)/p0	1.1655711769961976	0
+qL	(gLP-gVP)/(100[kJ/kg])	-0.11475258143625314	0
+qV	(Qmin-Qdep)/(mp*100[kJ/kg])	1.5473196370961337	0

@@ -1,0 +1,4 @@
+Rmax	50[um]
+rho	1000[kg/m^3]
+DP	80[kPa]
+tau	Rmax*sqrt(rho/DP)

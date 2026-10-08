@@ -1,0 +1,16 @@
+R0	10[um]
+rho	1000[kg/m^3]
+p0	100[kPa]
+sigma	0.072[N/m]
+G	10[kPa]
+eta	0.001[Pa*s]
+kap	1.4
+pg0	p0+2*sigma/R0
+Ks	3*kap*pg0-2*sigma/R0+4*G
+w0	sqrt(Ks/(rho*R0^2))
+tau	1/w0
+beta	2*eta/(rho*R0^2)
+xinit	0.002
+drive	0[Pa]
+V0	4*pi*R0^3/3
+Escale	p0*V0
