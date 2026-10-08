@@ -1,0 +1,10 @@
+{
+  "native_evaluations": 216,
+  "max_relative_errors": {
+    "p": 6.444279251653809e-11,
+    "u": 7.51116712943489e-15,
+    "g": 2.143810096655624e-12
+  },
+  "pass": true,
+  "state_validity_note": "Forced-gas points verify coefficients, not phase stability. Thermodynamic phase and published validity gates are required separately."
+}

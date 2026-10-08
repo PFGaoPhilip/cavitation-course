@@ -1,0 +1,21 @@
+Name	Expression	Description
+a	300[nm]	Reference cavity radius
+B	20	Outer radius / cavity radius
+BK	1000	Bulk/shear modulus control
+G	10[kPa]	Reference PAAm shear modulus; E approximately 30 kPa
+lam	1.8	Analytic verification target and initial guess only; no displacement constraint
+sigTest	sigLL	Reference constant surface energy coefficient
+pLoad	G/2*(5-4/lam-lam^(-4))+2*sigTest/(a*lam)	Known pressure for the independent spherical elastic/capillary control
+Qdep	11.55[pJ]	Net retained subsystem energy after supplied activation; no optical efficiency inferred
+sigLV	0.00941[N/m]	PFP / saturated-air room-temperature reference; heated/nanoscale use is conditional
+nucleusFloor	a/100	Numerical radius floor only; accepted states must be far above it
+sigLL	0.054[N/m]	Pure PFP/water liquid-liquid reference; actual surfactant formulation is unresolved
+Tref	293.15[K]	
+rhoLref	1621.2304497568995[kg/m^3]	
+rhoVref	8.781946533312483[kg/m^3]	
+ad	a	Equivalent PFP droplet radius; distinct from the preformed cavity radius a
+rhoD	1623.3028161533516[kg/m^3]	
+mp	4*pi*ad^3*rhoD/3	
+p0	100[kPa]	
+sig	sigLL	Unused legacy alias: assumed PFP/gel outer coefficient; active loads use sigLL
+lamFail	2.1	PAAm ultimate-stretch reference from Movahed 2016, not a certification of Li 2024 formulation

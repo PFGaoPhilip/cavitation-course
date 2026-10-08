@@ -23,3 +23,7 @@ GitHub Pages 从 main 分支的根目录发布，已包含 index.html 入口和 
 
 KaTeX is distributed with its upstream MIT license in assets/vendor/katex/LICENSE. Scientific sources and their review limitations are cited in the chapters and paper atlas.
 KaTeX 的原 MIT 许可证位于 assets/vendor/katex/LICENSE。科学来源及核查限制列于章节和文献地图。
+
+The COMSOL continuation follows the existing project courses: [M1 pressure assumptions](comsol/lessons/M1.html) → [M2 finite PFP and hydrogel](comsol/lessons/M2.html) → [M3 three to five bubbles](comsol/lessons/M3.html) → [M4 conditional envelope](comsol/lessons/M4.html). Exact rebuild imports, portable Java API sources, native field exports and the independent scientific review accompany the lessons.
+
+COMSOL 续接课程紧随已有项目课程：M1 压力假设 → M2 有限 PFP 与水凝胶 → M3 从三泡到五泡 → M4 有条件包络。课程附精确重建导入项、可移植 Java API 源码、原生场图及独立科学核查。

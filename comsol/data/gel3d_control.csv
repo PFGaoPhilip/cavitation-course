@@ -1,0 +1,6 @@
+% Model,gel3d_control_solved.mph
+% Version,COMSOL 6.4.0.429
+% Date,"Oct 8 2026, 10:01"
+% Table,Table - 
+% lam,B,BK,-c.ic((c.solid.sxx*(X/a)^2+c.solid.syy*(Y/a)^2+c.solid.szz*(Z/a)^2+2*c.solid.sxy*X*Y/a^2+2*c.solid.sxz*X*Z/a^2+2*c.solid.syz*Y*Z/a^2))/c.ic(1) (N/m^2),G/2*(5-4/lam-lam^(-4)) (Pa),c.iv(c.solid.Ws) (J),2*pi*G*a^3*(5*lam^3/3-2*lam^2+1/lam-2/3) (J),c.ic(1) (m^2),c.iv((c.solid.Jel-1)^2)/c.iv(1) (1)
+1.2,20,1000,5920.434347707111,5922.067901234566,1.0473450793530086E-11,1.0471975511966014E-11,1.2566285132930296E-9,6.241413259248132E-9

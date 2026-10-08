@@ -1,0 +1,60 @@
+{
+  "native_EOS_states": 72,
+  "native_EOS_evaluations": 216,
+  "native_EOS_max_relative_error": {
+    "p": 5.4528316783584786e-12,
+    "u": 7.51116712943489e-15,
+    "g": 2.143810096655624e-12
+  },
+  "EOS_scope": "Forced-phase Helmholtz coefficient verification; not coexistence or phase-stability validation.",
+  "heat_control": {
+    "heat3d_control.csv": {
+      "rows": 41,
+      "power_integral_error_W": 3.197442310920451e-14,
+      "absolute_energy_difference_J": 4.733792231535782e-07,
+      "max_analytic_field_RMS_K": 0.005408628162142938,
+      "max_mean_temperature_difference_K": 0.0005804772812894043,
+      "final_energy_J": 0.22752001832595778
+    },
+    "heat3d_control_time.csv": {
+      "rows": 41,
+      "power_integral_error_W": 3.197442310920451e-14,
+      "absolute_energy_difference_J": 4.7358399115532727e-07,
+      "max_analytic_field_RMS_K": 0.005408739265730553,
+      "max_mean_temperature_difference_K": 0.0005807283765761895,
+      "final_energy_J": 0.22752001854385479
+    },
+    "heat3d_control_mesh.csv": {
+      "rows": 41,
+      "power_integral_error_W": 2.4868995751603507e-14,
+      "absolute_energy_difference_J": 4.545065478142932e-07,
+      "max_analytic_field_RMS_K": 0.0018254151529132072,
+      "max_mean_temperature_difference_K": 0.0005573348224174879,
+      "final_energy_J": 0.227519999453176
+    }
+  },
+  "checked_primary_pdf_pages": {
+    "Kandadai_2010": [
+      127,
+      128,
+      130,
+      131,
+      133
+    ],
+    "Movahed_2016": [
+      3,
+      5,
+      7,
+      8,
+      12
+    ],
+    "Li_2024": [
+      4,
+      9
+    ],
+    "Zhao_2023": [
+      11,
+      12
+    ]
+  }
+}

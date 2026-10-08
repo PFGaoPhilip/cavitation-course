@@ -1,0 +1,10 @@
+{
+  "rows": 48,
+  "all_full_vaporization_exceed_reference_failure": true,
+  "vapor_fraction_at_failure_range": [
+    0.0712181033434823,
+    0.6075992252290422
+  ],
+  "scope": "Independent theoretical predictions only. Inventory and stretch are necessary conditions; two-phase equilibrium also requires a positive pressure stiffness at fixed bath temperature. Closed-energy stability is a different test. COMSOL geometry, finite strain, phase closure and refinement must establish the model conclusion.",
+  "laser_energy_link": "No laser-to-droplet deposited-energy or nucleation conversion is inferred."
+}

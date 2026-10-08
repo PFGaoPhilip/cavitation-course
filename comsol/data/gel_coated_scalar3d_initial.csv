@@ -1,0 +1,6 @@
+% Model,gel_coated_scalar3d_configured.mph
+% Version,COMSOL 6.4.0.429
+% Date,"Oct 8 2026, 21:47"
+% Table,Table 2 - 
+% Time,State variable theta,State variable qL,State variable qV (1),c.Temp (K),c.pLP (Pa),c.pVP (Pa),c.Qmin (N*m),c.fv (1),c.Rg (m)
+0,4,3.46603589363824,3.4660010280926232,317.8618691090511,154071.28647063026,172244.8324552552,1.3000028612882167E-11,0.5191200730873778,1.0355604669060538E-6

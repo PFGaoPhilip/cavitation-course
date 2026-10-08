@@ -1,0 +1,136 @@
+{
+  "gas": [
+    {
+      "index": 0,
+      "energy_J": 8.746717546369583e-09,
+      "beta": 0.05,
+      "a_m": 2.5852173032172418e-05
+    },
+    {
+      "index": 1,
+      "energy_J": 8.746717546369583e-09,
+      "beta": 0.1,
+      "a_m": 2.5000000000000204e-05
+    },
+    {
+      "index": 2,
+      "energy_J": 8.746717546369583e-09,
+      "beta": 0.2,
+      "a_m": 2.358535780510154e-05
+    },
+    {
+      "index": 3,
+      "energy_J": 6.771179366037201e-08,
+      "beta": 0.05,
+      "a_m": 5.174480988706573e-05
+    },
+    {
+      "index": 4,
+      "energy_J": 6.771179366037201e-08,
+      "beta": 0.1,
+      "a_m": 5.000000000000001e-05
+    },
+    {
+      "index": 5,
+      "energy_J": 6.771179366037201e-08,
+      "beta": 0.2,
+      "a_m": 4.711252016154397e-05
+    },
+    {
+      "index": 6,
+      "energy_J": 5.5e-08,
+      "beta": 0.1,
+      "a_m": 4.661424294465272e-05
+    }
+  ],
+  "PFP": [
+    {
+      "a_m": 2.488937217816704e-05,
+      "mass_kg": 1.1281810887041304e-12,
+      "initial_liquid_density_kg_m3": 1621.2261243961589,
+      "initial_vapor_density_kg_m3": 8.781413024525923,
+      "initial_T_K": 293.15,
+      "initial_vapor_fraction": 0.5,
+      "initial_outer_pressure_Pa": 70344.0667721252,
+      "initial_core_pressure_Pa": 71101.57557426984,
+      "initial_specific_entropy_J_kg_K": 126.55541943158264,
+      "cold_liquid_radius_m": 5.496994185958388e-06,
+      "cold_density_kg_m3": 1621.4903685295262,
+      "cold_specific_u_J_kg": -9810.20162670429,
+      "phase_and_inner_surface_initial_energy_J": 3.714354605929153e-08,
+      "source_energy_relative_cold_J": 5.499999999999214e-08,
+      "seed_theta": 1.0,
+      "seed_qL": -2.519909629384456e-06,
+      "seed_qV": -6.077247434873663e-05,
+      "N": 1,
+      "total_energy_J": 5.5e-08,
+      "homogenized": false
+    },
+    {
+      "a_m": 1.7235173594713674e-05,
+      "mass_kg": 3.746039178803531e-13,
+      "initial_liquid_density_kg_m3": 1621.224310046598,
+      "initial_vapor_density_kg_m3": 8.781176024530511,
+      "initial_T_K": 293.15,
+      "initial_vapor_fraction": 0.5,
+      "initial_outer_pressure_Pa": 70005.82253022358,
+      "initial_core_pressure_Pa": 71099.7434893195,
+      "initial_specific_entropy_J_kg_K": 126.55604211988535,
+      "cold_liquid_radius_m": 3.806439571650972e-06,
+      "cold_density_kg_m3": 1621.5370905160592,
+      "cold_specific_u_J_kg": -9813.360489254215,
+      "phase_and_inner_surface_initial_energy_J": 1.2344022484094624e-08,
+      "source_energy_relative_cold_J": 1.8333333333318393e-08,
+      "seed_theta": 1.0,
+      "seed_qL": -3.639032094006511e-06,
+      "seed_qV": -8.776166082506493e-05,
+      "N": 3,
+      "total_energy_J": 5.5e-08,
+      "homogenized": false
+    },
+    {
+      "a_m": 1.4525420543577222e-05,
+      "mass_kg": 2.242355161814176e-13,
+      "initial_liquid_density_kg_m3": 1621.2232094199342,
+      "initial_vapor_density_kg_m3": 8.781032259402155,
+      "initial_T_K": 293.15,
+      "initial_vapor_fraction": 0.5,
+      "initial_outer_pressure_Pa": 69800.63755983631,
+      "initial_core_pressure_Pa": 71098.63213709842,
+      "initial_specific_entropy_J_kg_K": 126.55641985399375,
+      "cold_liquid_radius_m": 3.2079464129430387e-06,
+      "cold_density_kg_m3": 1621.5654271537715,
+      "cold_specific_u_J_kg": -9815.276335362829,
+      "phase_and_inner_surface_initial_energy_J": 7.3929719130593444e-09,
+      "source_energy_relative_cold_J": 1.099999999999969e-08,
+      "seed_theta": 1.0,
+      "seed_qL": -4.317918433422696e-06,
+      "seed_qV": -0.0001041337623325709,
+      "N": 5,
+      "total_energy_J": 5.5e-08,
+      "homogenized": false
+    },
+    {
+      "a_m": 5.306097508271119e-06,
+      "mass_kg": 1.0928631037985286e-14,
+      "initial_liquid_density_kg_m3": 1621.2110456749442,
+      "initial_vapor_density_kg_m3": 8.779443647589884,
+      "initial_T_K": 293.15,
+      "initial_vapor_fraction": 0.5,
+      "initial_outer_pressure_Pa": 67533.0977072287,
+      "initial_core_pressure_Pa": 71086.35152459165,
+      "initial_specific_entropy_J_kg_K": 126.56059428419367,
+      "cold_liquid_radius_m": 1.1717086368205036e-06,
+      "cold_density_kg_m3": 1621.8782923900924,
+      "cold_specific_u_J_kg": -9836.42985425392,
+      "phase_and_inner_surface_initial_energy_J": 3.6242449706516206e-10,
+      "source_energy_relative_cold_J": 5.499999999979492e-10,
+      "seed_theta": 1.0,
+      "seed_qL": -1.182076600610931e-05,
+      "seed_qV": -0.0002850641454289918,
+      "N": 100,
+      "total_energy_J": 5.5e-08,
+      "homogenized": true
+    }
+  ]
+}

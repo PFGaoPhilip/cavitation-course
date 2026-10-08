@@ -1,0 +1,5 @@
+numpy>=1.26
+scipy>=1.11
+CoolProp==8.0.0
+matplotlib>=3.8
+beautifulsoup4>=4.12

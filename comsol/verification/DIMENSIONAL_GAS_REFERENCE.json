@@ -1,0 +1,7 @@
+{
+  "method": "Independent dimensional Radau + continuous filtered volume-quadrature receiver",
+  "peak_Pa": 89668.46280151392,
+  "peak_time_s": 5.3400000000000005e-06,
+  "radius_min": 0.16537657191503555,
+  "success": true
+}

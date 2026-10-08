@@ -1,0 +1,77 @@
+Name	Expression	Description
+Lout	0.9[mm]	
+robs	0.5[mm]	
+adet	50[um]	
+hdet	5[um]	
+rhoL	1000[kg/m^3]	
+cL	1480[m/s]	
+muL	1e-3[Pa*s]	
+DP	100[kPa]	
+Tref	293.15[K]	
+Rpop	200[um]	
+tf	1/(2*pi*1[MHz])	
+acP	2.4889372178167041e-05[m]	
+mpcP	1.1281810887041304e-12[kg]	
+S0cP	126.55541943158264[J/(kg*K)]	
+uDcP	-9810.2016267042909[J/kg]	
+rhoDcP	1621.4903685295262[kg/m^3]	
+rDcP	5.4969941859583877e-06[m]	
+bcP	4.9778744356334081e-05[m]	Matching radius; continuum case uses the infinite-near-field dilute limit
+bscP	bcP/acP	
+taucP	acP*sqrt(rhoL/DP)	
+E0cP	5.5000000000000003e-08[J]	Fixed total retained source energy, including finite PFP internal and interface energy
+sigcP	0.054[N/m]	
+sigIcP	0.00941[N/m]	
+rhoLcP	1621.2302097446284[kg/m^3]	
+rhoVcP	8.7819467089401986[kg/m^3]	
+gasCase	0	
+acG	gasA(gasCase)	
+bcG	110[um]	Fixed matching geometry across every gas-case input
+bscG	bcG/acG	
+taucG	acG*sqrt(rhoL/DP)	
+E0cG	gasE(gasCase)	
+betacG	gasB(gasCase)	
+sigcG	0.072[N/m]	
+kap	1.4	
+ac3	1.7235173594713674e-05[m]	
+mpc3	3.746039178803531e-13[kg]	
+S0c3	126.55604211988535[J/(kg*K)]	
+uDc3	-9813.3604892542153[J/kg]	
+rhoDc3	1621.5370905160592[kg/m^3]	
+rDc3	3.8064395716509721e-06[m]	
+bc3	3.4470347189427348e-05[m]	Matching radius; continuum case uses the infinite-near-field dilute limit
+bsc3	bc3/ac3	
+tauc3	ac3*sqrt(rhoL/DP)	
+E0c3	5.5000000000000003e-08[J]	Fixed total retained source energy, including finite PFP internal and interface energy
+sigc3	0.054[N/m]	
+sigIc3	0.00941[N/m]	
+rhoLc3	1621.2302097446284[kg/m^3]	
+rhoVc3	8.7819467089401986[kg/m^3]	
+ac5	1.4525420543577222e-05[m]	
+mpc5	2.242355161814176e-13[kg]	
+S0c5	126.55641985399375[J/(kg*K)]	
+uDc5	-9815.2763353628288[J/kg]	
+rhoDc5	1621.5654271537715[kg/m^3]	
+rDc5	3.2079464129430387e-06[m]	
+bc5	2.9050841087154444e-05[m]	Matching radius; continuum case uses the infinite-near-field dilute limit
+bsc5	bc5/ac5	
+tauc5	ac5*sqrt(rhoL/DP)	
+E0c5	5.5000000000000003e-08[J]	Fixed total retained source energy, including finite PFP internal and interface energy
+sigc5	0.054[N/m]	
+sigIc5	0.00941[N/m]	
+rhoLc5	1621.2302097446284[kg/m^3]	
+rhoVc5	8.7819467089401986[kg/m^3]	
+acU	5.3060975082711189e-06[m]	
+mpcU	1.0928631037985286e-14[kg]	
+S0cU	126.56059428419367[J/(kg*K)]	
+uDcU	-9836.42985425392[J/kg]	
+rhoDcU	1621.8782923900924[kg/m^3]	
+rDcU	1.1717086368205036e-06[m]	
+bcU	1[m]	Matching radius; continuum case uses the infinite-near-field dilute limit
+bscU	bcU/acU	
+taucU	acU*sqrt(rhoL/DP)	
+E0cU	5.5000000000000003e-08[J]	Fixed total retained source energy, including finite PFP internal and interface energy
+sigcU	0.054[N/m]	
+sigIcU	0.00941[N/m]	
+rhoLcU	1621.2302097446284[kg/m^3]	
+rhoVcU	8.7819467089401986[kg/m^3]	

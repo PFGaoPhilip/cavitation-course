@@ -1,0 +1,91 @@
+{
+  "rows": [
+    {
+      "stretch": 1.2,
+      "T_K": 353.78852017292394,
+      "Rgas_m": 2.5109594818673014e-07,
+      "shell_thickness_m": 1.0890405181326985e-07,
+      "p_liquid_Pa": 405922.06790123455,
+      "p_vapor_Pa": 480873.4963727299,
+      "rho_liquid_kg_m3": 1392.5713089242527,
+      "rho_vapor_kg_m3": 57.08353999379981,
+      "vapor_mass_fraction": 0.020618957611393655,
+      "Q_J": 1.253421826109592e-11,
+      "chemical_residual_J_kg": 3.1222953111864626e-08,
+      "volume_relative_residual": -8.972822485020515e-13,
+      "gel_pressure_Pa": 5922.067901234566,
+      "gel_energy_J": 2.8274333882308074e-16,
+      "reference_only": true,
+      "fixed_temperature_restoring_stiffness_Pa_per_stretch": -428354.9615126685,
+      "closed_total_energy_restoring_stiffness_Pa_per_stretch": -312301.4491048525
+    },
+    {
+      "stretch": 1.5,
+      "T_K": 346.4321875268531,
+      "Rgas_m": 3.967099001592432e-07,
+      "shell_thickness_m": 5.329009984075676e-08,
+      "p_liquid_Pa": 350679.012345679,
+      "p_vapor_Pa": 398119.2198939289,
+      "rho_liquid_kg_m3": 1425.3962813248934,
+      "rho_vapor_kg_m3": 46.97322463657461,
+      "vapor_mass_fraction": 0.06691233488878001,
+      "Q_J": 1.1637615155421401e-11,
+      "chemical_residual_J_kg": 3.001332515850663e-11,
+      "volume_relative_residual": -3.3306690738754696e-16,
+      "gel_pressure_Pa": 10679.012345679013,
+      "gel_energy_J": 1.9085175370557993e-15,
+      "reference_only": true,
+      "fixed_temperature_restoring_stiffness_Pa_per_stretch": -197844.07509752782,
+      "closed_total_energy_restoring_stiffness_Pa_per_stretch": -67421.59142944729
+    },
+    {
+      "stretch": 1.8,
+      "T_K": 341.6871905364353,
+      "Rgas_m": 5.077182614669821e-07,
+      "shell_thickness_m": 3.2281738533017955e-08,
+      "p_liquid_Pa": 313412.5895442768,
+      "p_vapor_Pa": 350480.39156822255,
+      "rho_liquid_kg_m3": 1445.467525644101,
+      "rho_vapor_kg_m3": 41.265125361583834,
+      "vapor_mass_fraction": 0.12322198918565708,
+      "Q_J": 1.148493683971697e-11,
+      "chemical_residual_J_kg": -4.006324161309749e-10,
+      "volume_relative_residual": -5.218048215738236e-15,
+      "gel_pressure_Pa": 13412.589544276787,
+      "gel_energy_J": 5.3080349475053144e-15,
+      "reference_only": true,
+      "fixed_temperature_restoring_stiffness_Pa_per_stretch": -130135.27413306292,
+      "closed_total_energy_restoring_stiffness_Pa_per_stretch": 12959.691039577592
+    },
+    {
+      "stretch": 2.1,
+      "T_K": 338.1205699562978,
+      "Rgas_m": 6.089466906992675e-07,
+      "shell_thickness_m": 2.1053309300732516e-08,
+      "p_liquid_Pa": 286647.6673813894,
+      "p_vapor_Pa": 317553.49261608865,
+      "rho_liquid_kg_m3": 1460.0892120372728,
+      "rho_vapor_kg_m3": 37.363440884147494,
+      "vapor_mass_fraction": 0.1924958549909387,
+      "Q_J": 1.1800125234397677e-11,
+      "chemical_residual_J_kg": -8.194547262974083e-10,
+      "volume_relative_residual": -1.1435297153639112e-14,
+      "gel_pressure_Pa": 15219.095952818014,
+      "gel_energy_J": 1.0898947873518865e-14,
+      "reference_only": true,
+      "fixed_temperature_restoring_stiffness_Pa_per_stretch": -93772.50735618873,
+      "closed_total_energy_restoring_stiffness_Pa_per_stretch": 58720.82426212728
+    }
+  ],
+  "mass_kg": 1.835912232640437e-16,
+  "interface_reference": {
+    "PFP_water_N_m": 0.054,
+    "PFP_saturated_air_N_m": 0.00941
+  },
+  "limitations": [
+    "Concentric liquid shell, uniform PFC temperature, continuum capillarity",
+    "Room-temperature tensions; no measured shell/gas-gel law",
+    "Metastable-liquid branch explicitly imposed for phase comparison",
+    "No nucleation probability or laser-to-inclusion energy calibration"
+  ]
+}

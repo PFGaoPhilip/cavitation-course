@@ -3,3 +3,10 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+*.mph
+*.class
+*.class.status
+comsol/.build/
+comsol/scratch/
+comsol/final/
+comsol/logs/

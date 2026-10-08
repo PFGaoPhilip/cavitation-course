@@ -1,0 +1,155 @@
+{
+  "gel_control": {
+    "pressure_relative_error": 0.0002758417422257242,
+    "energy_relative_error": 0.00014087901202453068,
+    "squared_volume_strain": 6.241413259248132e-09,
+    "scope": "one full-3D elastic control at lambda=1.2; independent refinement pending",
+    "analytic_gate_pass": true
+  },
+  "gel_reaction_check": {
+    "max_pressure_relative_error": 0.0004726742531174777,
+    "max_energy_relative_error": 0.00014087901195436459,
+    "cavity_stretches": [
+      1.2,
+      1.5,
+      1.8,
+      2.1
+    ],
+    "max_field_principal_stretches": [
+      1.2085741112746613,
+      1.5174248715133745,
+      1.823591189211884,
+      2.125630935830418
+    ],
+    "scope": "3D nodal reaction/virtual-work and energy checks. Field maxima require independent mesh refinement.",
+    "virtual_work_gate_pass": true
+  },
+  "heat_controls": {
+    "heat3d_control.csv": {
+      "end_time_s": 0.02,
+      "max_source_power_relative_error": 2.7755575615628914e-15,
+      "max_heat_energy_relative_error": 3.2218636800696032e-06,
+      "max_analytic_temperature_RMS_error_K": 0.005408628162142938,
+      "end_analytic_temperature_RMS_error_K": 2.2472052351270364e-05,
+      "initial_interpolation_heat_J": 4.733792231535782e-07,
+      "end_mean_temperature_K": 572.1445043849897,
+      "scope": "Insulated constant-property 3D conduction/source control. It does not predict phase change, losses or target temperature.",
+      "gate_pass": true
+    },
+    "heat3d_control_mesh.csv": {
+      "end_time_s": 0.02,
+      "max_source_power_relative_error": 2.220446049250313e-15,
+      "max_heat_energy_relative_error": 9.613728835233815e-08,
+      "max_analytic_temperature_RMS_error_K": 0.0018254151529132072,
+      "end_analytic_temperature_RMS_error_K": 6.705375787133893e-07,
+      "initial_interpolation_heat_J": 4.545065478142932e-07,
+      "end_mean_temperature_K": 572.144481242399,
+      "scope": "Insulated constant-property 3D conduction/source control. It does not predict phase change, losses or target temperature.",
+      "gate_pass": true
+    },
+    "heat3d_control_time.csv": {
+      "end_time_s": 0.02,
+      "max_source_power_relative_error": 2.7755575615628914e-15,
+      "max_heat_energy_relative_error": 3.2601718547020653e-06,
+      "max_analytic_temperature_RMS_error_K": 0.005408739265730553,
+      "end_analytic_temperature_RMS_error_K": 2.2739246609162504e-05,
+      "initial_interpolation_heat_J": 4.7358399115532727e-07,
+      "end_mean_temperature_K": 572.1445046521827,
+      "scope": "Insulated constant-property 3D conduction/source control. It does not predict phase change, losses or target temperature.",
+      "gate_pass": true
+    },
+    "independent_refinement": {
+      "same_output_times": true,
+      "mesh_refinement_improves_max_RMS": true,
+      "time_refinement_max_mean_change_K": 2.6719601464719744e-07,
+      "time_refinement_max_mode_change_K": 0.0017365040646695196
+    }
+  },
+  "flow_controls": {
+    "flow3d_radial_control.csv": {
+      "end_scaled_time": 0.8,
+      "initial_volume_relative_error": 0.01832614064199678,
+      "max_radius_relative_error": 0.07654313442630989,
+      "max_velocity_relative_error": 0.35789882954527374,
+      "max_sphericity_relative_error": 0.23996459746544607,
+      "scope": "spherical incompressible free-surface control; no jet or shock maximum",
+      "gate_pass": false
+    }
+  },
+  "pfc_screen": [
+    {
+      "cavity_stretch": 1.2,
+      "T_K": 306.66089865752497,
+      "p_required_Pa": 117920.43434770711,
+      "vapor_mass_fraction": 0.5570482641456196,
+      "finite_inventory_valid": true,
+      "matched_droplet_cavity_vapor_fraction": 0.006188203175570554,
+      "mechanical_limit_margin": 0.5714285714285714,
+      "reference_stretch_gate": true,
+      "pressure_reference_relative_error": 0.0002758417422256132,
+      "saturation_pressure_relative_error": 1.2878587085651816e-14,
+      "liquid_density_relative_error": 4.440892098500626e-16,
+      "vapor_density_relative_error": 1.176836406102666e-14,
+      "phase_pressure_relative_residual": 2.2558347231844168e-13,
+      "phase_gibbs_residual_J_kg": 3.938183112950355e-11,
+      "mass_relative_residual": 0.0,
+      "screened_Q_min_J": 1.1737435781245919e-08
+    },
+    {
+      "cavity_stretch": 1.5,
+      "T_K": 307.23750875207037,
+      "p_required_Pa": 120349.91283073874,
+      "vapor_mass_fraction": 1.1184794234213158,
+      "finite_inventory_valid": false,
+      "matched_droplet_cavity_vapor_fraction": 0.02115930941192645,
+      "mechanical_limit_margin": 0.7142857142857143,
+      "reference_stretch_gate": true,
+      "pressure_reference_relative_error": 0.00663923617322304,
+      "saturation_pressure_relative_error": 8.215650382226158e-15,
+      "liquid_density_relative_error": 8.881784197001252e-16,
+      "vapor_density_relative_error": 1.0325074129013956e-14,
+      "phase_pressure_relative_residual": 6.071061012265917e-13,
+      "phase_gibbs_residual_J_kg": 1.1814194067483186e-10,
+      "mass_relative_residual": 1.376744297961504e-16,
+      "screened_Q_min_J": null
+    },
+    {
+      "cavity_stretch": 1.8,
+      "T_K": 307.52395556389894,
+      "p_required_Pa": 121571.20314632461,
+      "vapor_mass_fraction": 1.9585246158826946,
+      "finite_inventory_valid": false,
+      "matched_droplet_cavity_vapor_fraction": 0.0437461302998212,
+      "mechanical_limit_margin": 0.8571428571428571,
+      "reference_stretch_gate": true,
+      "pressure_reference_relative_error": 0.011825725489042593,
+      "saturation_pressure_relative_error": 2.4424906541753444e-15,
+      "liquid_density_relative_error": 1.1102230246251565e-15,
+      "vapor_density_relative_error": 6.661338147750939e-16,
+      "phase_pressure_relative_residual": 3.802827765459947e-13,
+      "phase_gibbs_residual_J_kg": 2.6254554086335702e-11,
+      "mass_relative_residual": 0.0,
+      "screened_Q_min_J": null
+    },
+    {
+      "cavity_stretch": 2.1,
+      "T_K": 307.69755119668804,
+      "p_required_Pa": 122316.01825220838,
+      "vapor_mass_fraction": 3.134047662750621,
+      "finite_inventory_valid": false,
+      "matched_droplet_cavity_vapor_fraction": 0.07542764067190301,
+      "mechanical_limit_margin": 1.0,
+      "reference_stretch_gate": false,
+      "pressure_reference_relative_error": 0.01575516988596881,
+      "saturation_pressure_relative_error": 1.9984014443252818e-15,
+      "liquid_density_relative_error": 9.992007221626409e-16,
+      "vapor_density_relative_error": 4.440892098500626e-16,
+      "phase_pressure_relative_residual": 1.2513246143801704e-12,
+      "phase_gibbs_residual_J_kg": 2.6254554086335702e-11,
+      "mass_relative_residual": 0.0,
+      "screened_Q_min_J": null
+    }
+  ],
+  "final_objective_complete": false,
+  "interpretation": "Analytic and phase closure gates are controls. Source-to-jet predictions, independent spatial/time/domain refinement, failure-law sensitivity, cooling/reset and post-model independent review remain required."
+}

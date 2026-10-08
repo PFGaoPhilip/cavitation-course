@@ -1,0 +1,7 @@
+{
+  "process_id": 152112,
+  "source": "scripts/GelSensitivityOuter3D.java",
+  "status": "stopped_incomplete",
+  "reason": "Outer sweep removed the parameter-in-initial-value warning, but coated case 4 remained at residual estimate 4e4 with damping 1e-4. Isolating scalar initialization with regeneration; no coated native state accepted. Earlier failed checkpoints retain first four converged inner-sweep states.",
+  "evidence": "logs/gel_sensitivity3d_outer.log"
+}

@@ -1,0 +1,29 @@
+case,status,evidence,claim
+A-gas-0,verified numerical reference,refined_gas_small.csv,fixed receiver pressure; no jet
+A-gas-1,verified numerical reference,pressure_envelope_cG.csv,fixed receiver pressure; no jet
+A-gas-2,verified numerical reference,pressure_envelope_cG.csv,fixed receiver pressure; no jet
+A-gas-3,verified numerical reference,pressure_envelope_cG.csv,fixed receiver pressure; no jet
+A-gas-4,verified numerical reference,pressure_envelope_cG.csv,fixed receiver pressure; no jet
+A-gas-5,verified numerical reference,pressure_envelope_cG.csv,fixed receiver pressure; no jet
+A-gas-6,verified numerical reference,pressure_envelope_cG.csv,fixed receiver pressure; no jet
+A-cP,numerically verified source/wave reference,pressure_envelope_cP.csv,55 nJ reference receiver pressure
+A-c3,numerically verified source/wave reference,pressure_envelope_c3.csv,55 nJ reference receiver pressure
+A-c5,numerically verified source/wave reference,pressure_envelope_c5.csv,55 nJ reference receiver pressure
+A-cU refined diagnostic,numerically verified diagnostic; physical uniform closure rejected,refined_phase_uniform.csv,common-state mathematical output only
+B-11.55pJ,solved and numerically verified,data/free_coreshell3d_fine_control.csv,below with numerical margin
+B-11.65pJ,solved and numerically verified,data/free_coreshell3d_fine_control.csv,below with numerical margin
+B-11.75pJ,solved and numerically verified,data/free_coreshell3d_fine_control.csv,borderline
+B-11.82pJ,solved and numerically verified,data/free_coreshell3d_fine_control.csv,exceeds proxy even by equivalent stretch
+B-11.90pJ,solved and numerically verified,data/free_coreshell3d_fine_control.csv,exceeds proxy even by equivalent stretch
+B-sensitivity-0,solved and numerically verified,data/gel_sensitivity3d_valid_control.csv,exceeds reference proxy
+B-sensitivity-1,solved and numerically verified,data/gel_sensitivity3d_valid_control.csv,exceeds reference proxy
+B-sensitivity-2,solved and numerically verified,data/gel_sensitivity3d_valid_control.csv,exceeds reference proxy
+B-sensitivity-3,solved and numerically verified,data/gel_sensitivity3d_valid_control.csv,exceeds reference proxy
+A-gas0-25ns,excluded accuracy failure,data/pressure_envelope_cG.csv,no authoritative short-pulse peak
+A-uniform-25ns,excluded phase accuracy failure,data/pressure_envelope_cU.csv,energy closure alone insufficient
+B-coated,unresolved native convergence/continuum scale,data/gel_coated_diagnostic_status.json,independent roots exist; no native acceptance
+ALE/flow-late-collapse,failed/incomplete,data/three_dimensional_control_verification.json,no accepted late pressure or jet
+Optical calibration,unresolved,resources/laser_pfc_source_inputs.md,incident/heat/local retained budgets distinct
+Activation/nucleation,unresolved,data/gel_activation_stability_reference.json,bulk-saturation lower bound only
+Film/PVC/venting/reset,unresolved,THEORY_REPORT.md,different force paths retained
+Learner independent rebuild,pending demonstration,data/teaching_status.json,no new mastery credit

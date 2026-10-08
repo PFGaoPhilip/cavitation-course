@@ -1,0 +1,1006 @@
+{
+  "reviewer": "Independent post-model subagent /root/independent_model_verifier",
+  "no_primary_gate_JSON_consumed": true,
+  "model_archives": [
+    {
+      "file": "Model_A_Conditional_Pressure_Envelope_3D.mph",
+      "bytes": 5182658325,
+      "mtime_ns": 1791473180885583000,
+      "sha256": "7f8a1f33668056aa98043d18bacf4edfd69c131f28d9d8e2ac1b66fd7eefcad7",
+      "comsol_version": "6.4.0.429",
+      "node_type": "solved",
+      "geometry": [
+        {
+          "tag": "gcP",
+          "dimension": "3"
+        },
+        {
+          "tag": "gcG",
+          "dimension": "3"
+        },
+        {
+          "tag": "gc3",
+          "dimension": "3"
+        },
+        {
+          "tag": "gc5",
+          "dimension": "3"
+        },
+        {
+          "tag": "gcU",
+          "dimension": "3"
+        }
+      ],
+      "physics": {
+        "physics": "Global_ODEs_and_DAEs##Coefficient_form_PDE"
+      },
+      "archive_blocks": {
+        "geometry": {
+          "entries": 16,
+          "total_bytes": 270164
+        },
+        "mesh": {
+          "entries": 5,
+          "total_bytes": 9943271
+        },
+        "solution": {
+          "entries": 323,
+          "total_bytes": 5041438469
+        },
+        "xmesh": {
+          "entries": 7,
+          "total_bytes": 119596212
+        }
+      },
+      "sequences": [
+        {
+          "tag": "sol1",
+          "study": "/study/stdcP",
+          "native": "/soldata/sol5",
+          "names": "1,'t'",
+          "parameter_lists": [
+            {
+              "count": 321,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol2",
+          "study": "/study/stdcG",
+          "native": "/soldata/sol7",
+          "names": "2,'t','gasCase'",
+          "parameter_lists": [
+            {
+              "count": 321,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            },
+            {
+              "count": 7,
+              "first": 0.0,
+              "last": 6.0,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol3",
+          "study": "/study/stdc3",
+          "native": "/soldata/sol10",
+          "names": "1,'t'",
+          "parameter_lists": [
+            {
+              "count": 321,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol4",
+          "study": "/study/stdc5",
+          "native": "/soldata/sol12",
+          "names": "1,'t'",
+          "parameter_lists": [
+            {
+              "count": 321,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol5",
+          "study": "/study/stdcU",
+          "native": "/soldata/sol14",
+          "names": "1,'t'",
+          "parameter_lists": [
+            {
+              "count": 321,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol6",
+          "study": "/study/smallGasRefinement",
+          "native": "/soldata/sol17",
+          "names": "2,'t','gasCase'",
+          "parameter_lists": [
+            {
+              "count": 641,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            },
+            {
+              "count": 1,
+              "first": 0.0,
+              "last": 0.0,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol7",
+          "study": "/study/uniformPfpRefinement",
+          "native": "/soldata/sol19",
+          "names": "1,'t'",
+          "parameter_lists": [
+            {
+              "count": 641,
+              "first": 0.0,
+              "last": 8.000000000000001e-06,
+              "all_finite": true
+            }
+          ]
+        }
+      ],
+      "native_solutions": [
+        {
+          "tag": "sol5",
+          "names": "1,'t'",
+          "state_count": 321,
+          "degree_of_freedom_count": "47162",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            2.5000000000000002e-08,
+            5.0000000000000004e-08,
+            7.500000000000001e-08,
+            1.0000000000000001e-07,
+            1.2500000000000002e-07,
+            1.5000000000000002e-07,
+            1.7500000000000002e-07,
+            2.0000000000000002e-07,
+            2.2500000000000002e-07
+          ],
+          "parameter_last_values": [
+            7.925000000000001e-06,
+            7.95e-06,
+            7.975e-06,
+            8.000000000000001e-06
+          ],
+          "actual_solution_block_count": 15
+        },
+        {
+          "tag": "sol7",
+          "names": "2,'t','gasCase'",
+          "state_count": 2247,
+          "degree_of_freedom_count": "117654",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            0.0,
+            2.5000000000000002e-08,
+            0.0,
+            5.0000000000000004e-08,
+            0.0,
+            7.500000000000001e-08,
+            0.0,
+            1.0000000000000001e-07,
+            0.0
+          ],
+          "parameter_last_values": [
+            7.975e-06,
+            6.0,
+            8.000000000000001e-06,
+            6.0
+          ],
+          "actual_solution_block_count": 155
+        },
+        {
+          "tag": "sol10",
+          "names": "1,'t'",
+          "state_count": 321,
+          "degree_of_freedom_count": "190209",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            2.5000000000000002e-08,
+            5.0000000000000004e-08,
+            7.500000000000001e-08,
+            1.0000000000000001e-07,
+            1.2500000000000002e-07,
+            1.5000000000000002e-07,
+            1.7500000000000002e-07,
+            2.0000000000000002e-07,
+            2.2500000000000002e-07
+          ],
+          "parameter_last_values": [
+            7.925000000000001e-06,
+            7.95e-06,
+            7.975e-06,
+            8.000000000000001e-06
+          ],
+          "actual_solution_block_count": 23
+        },
+        {
+          "tag": "sol12",
+          "names": "1,'t'",
+          "state_count": 321,
+          "degree_of_freedom_count": "287733",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            2.5000000000000002e-08,
+            5.0000000000000004e-08,
+            7.500000000000001e-08,
+            1.0000000000000001e-07,
+            1.2500000000000002e-07,
+            1.5000000000000002e-07,
+            1.7500000000000002e-07,
+            2.0000000000000002e-07,
+            2.2500000000000002e-07
+          ],
+          "parameter_last_values": [
+            7.925000000000001e-06,
+            7.95e-06,
+            7.975e-06,
+            8.000000000000001e-06
+          ],
+          "actual_solution_block_count": 31
+        },
+        {
+          "tag": "sol14",
+          "names": "1,'t'",
+          "state_count": 321,
+          "degree_of_freedom_count": "330068",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            2.5000000000000002e-08,
+            5.0000000000000004e-08,
+            7.500000000000001e-08,
+            1.0000000000000001e-07,
+            1.2500000000000002e-07,
+            1.5000000000000002e-07,
+            1.7500000000000002e-07,
+            2.0000000000000002e-07,
+            2.2500000000000002e-07
+          ],
+          "parameter_last_values": [
+            7.925000000000001e-06,
+            7.95e-06,
+            7.975e-06,
+            8.000000000000001e-06
+          ],
+          "actual_solution_block_count": 14
+        },
+        {
+          "tag": "sol17",
+          "names": "2,'t','gasCase'",
+          "state_count": 641,
+          "degree_of_freedom_count": "330068",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            0.0,
+            1.2500000000000001e-08,
+            0.0,
+            2.5000000000000002e-08,
+            0.0,
+            3.7500000000000005e-08,
+            0.0,
+            5.0000000000000004e-08,
+            0.0
+          ],
+          "parameter_last_values": [
+            7.987500000000001e-06,
+            0.0,
+            8.000000000000001e-06,
+            0.0
+          ],
+          "actual_solution_block_count": 44
+        },
+        {
+          "tag": "sol19",
+          "names": "1,'t'",
+          "state_count": 641,
+          "degree_of_freedom_count": "330068",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            0.0,
+            1.2500000000000001e-08,
+            2.5000000000000002e-08,
+            3.7500000000000005e-08,
+            5.0000000000000004e-08,
+            6.250000000000001e-08,
+            7.500000000000001e-08,
+            8.750000000000001e-08,
+            1.0000000000000001e-07,
+            1.1250000000000001e-07
+          ],
+          "parameter_last_values": [
+            7.9625e-06,
+            7.975e-06,
+            7.987500000000001e-06,
+            8.000000000000001e-06
+          ],
+          "actual_solution_block_count": 27
+        }
+      ],
+      "explicit_result_datasets": [
+        {
+          "tag": "dset1",
+          "solution": "/sol/sol1",
+          "comp": "cP"
+        },
+        {
+          "tag": "datacP",
+          "solution": "/sol/sol1",
+          "comp": "cP"
+        },
+        {
+          "tag": "datacG",
+          "solution": "/sol/sol2",
+          "comp": "cG"
+        },
+        {
+          "tag": "datac3",
+          "solution": "/sol/sol3",
+          "comp": "c3"
+        },
+        {
+          "tag": "datac5",
+          "solution": "/sol/sol4",
+          "comp": "c5"
+        },
+        {
+          "tag": "datacU",
+          "solution": "/sol/sol5",
+          "comp": "cU"
+        },
+        {
+          "tag": "smallGasData",
+          "solution": "/sol/sol6",
+          "comp": "cG"
+        },
+        {
+          "tag": "uniformRefinedData",
+          "solution": "/sol/sol7",
+          "comp": "cU"
+        }
+      ],
+      "parameter_subset": {
+        "a": null,
+        "B": null,
+        "G": null,
+        "sig": null,
+        "sigLL": null,
+        "sigLV": null,
+        "kap": null,
+        "DP": null,
+        "tf": null,
+        "robs": null,
+        "adet": null,
+        "hdet": null,
+        "jetResolved": null
+      },
+      "crc_bad_entry": null,
+      "CRC_provenance": "Preserved earlier full-member CRC run; no final MPH file changes during verifier-only CSV parser correction."
+    },
+    {
+      "file": "Model_B_PFP_Hydrogel_Feasibility_3D.mph",
+      "bytes": 16740342,
+      "mtime_ns": 1791473629367705400,
+      "sha256": "38b18f98c6f11a56da2ba306d354760ec63c0ca00b9132a8d5406a7f42886280",
+      "comsol_version": "6.4.0.429",
+      "node_type": "solved",
+      "geometry": [
+        {
+          "tag": "g",
+          "dimension": "3"
+        }
+      ],
+      "physics": {
+        "physics": "Solid_mechanics##Global_ODEs_and_DAEs"
+      },
+      "archive_blocks": {
+        "geometry": {
+          "entries": 2,
+          "total_bytes": 26542
+        },
+        "mesh": {
+          "entries": 1,
+          "total_bytes": 878547
+        },
+        "solution": {
+          "entries": 8,
+          "total_bytes": 6206483
+        },
+        "xmesh": {
+          "entries": 2,
+          "total_bytes": 6896916
+        }
+      },
+      "sequences": [
+        {
+          "tag": "sol1",
+          "study": "/study/std",
+          "native": "/soldata/sol5",
+          "names": "1,'Qdep'",
+          "parameter_lists": [
+            {
+              "count": 5,
+              "first": 1.155e-11,
+              "last": 1.19e-11,
+              "all_finite": true
+            }
+          ]
+        },
+        {
+          "tag": "sol2",
+          "study": "/study/sensitivity",
+          "native": "/soldata/sol7",
+          "names": "2,'Qdep','caseIndex'",
+          "parameter_lists": [
+            {
+              "count": 1,
+              "first": NaN,
+              "last": NaN,
+              "all_finite": false
+            },
+            {
+              "count": 4,
+              "first": 0.0,
+              "last": 3.0,
+              "all_finite": true
+            }
+          ]
+        }
+      ],
+      "native_solutions": [
+        {
+          "tag": "sol5",
+          "names": "1,'Qdep'",
+          "state_count": 5,
+          "degree_of_freedom_count": "77481",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            1.155e-11,
+            1.165e-11,
+            1.175e-11,
+            1.182e-11,
+            1.19e-11
+          ],
+          "parameter_last_values": [
+            1.165e-11,
+            1.175e-11,
+            1.182e-11,
+            1.19e-11
+          ],
+          "actual_solution_block_count": 2
+        },
+        {
+          "tag": "sol7",
+          "names": "2,'Qdep','caseIndex'",
+          "state_count": 4,
+          "degree_of_freedom_count": "77481",
+          "all_parameter_values_finite": true,
+          "parameter_first_values": [
+            1.3e-11,
+            0.0,
+            1.3e-11,
+            1.0,
+            1.3e-11,
+            2.0,
+            1.3e-11,
+            3.0
+          ],
+          "parameter_last_values": [
+            1.3e-11,
+            2.0,
+            1.3e-11,
+            3.0
+          ],
+          "actual_solution_block_count": 2
+        }
+      ],
+      "explicit_result_datasets": [
+        {
+          "tag": "dset1",
+          "solution": "/sol/sol1",
+          "comp": "c"
+        },
+        {
+          "tag": "sensitivityData",
+          "solution": "/sol/sol2",
+          "comp": "c"
+        }
+      ],
+      "parameter_subset": {
+        "a": null,
+        "B": null,
+        "G": null,
+        "sig": null,
+        "sigLL": null,
+        "sigLV": null,
+        "kap": null,
+        "DP": null,
+        "tf": null,
+        "robs": null,
+        "adet": null,
+        "hdet": null,
+        "jetResolved": null
+      },
+      "crc_bad_entry": null,
+      "CRC_provenance": "Preserved earlier full-member CRC run; no final MPH file changes during verifier-only CSV parser correction."
+    }
+  ],
+  "authoritative_gas_cases": [
+    {
+      "rows": 641,
+      "peak_Pa": 31153.47712866135,
+      "peak_time_s": 2.825e-06,
+      "radius_min": 0.16237485356489462,
+      "wall_Mach_max": 0.03181006086875028,
+      "max_energy_relative_residual_reassembled": 0.0013229044936013531,
+      "reported_energy_residual_consistency": 1.8930169931596907e-16,
+      "wave_error_over_reference_peak": 0.013934171623453562,
+      "radius_error_over_initial_radius": 0.004264964148984113,
+      "reference_peak_error_relative": 0.00012525272164842782,
+      "gas_pressure_max_Pa": 10346445.160028204,
+      "case_index": 0,
+      "excluded_coarse_result": {
+        "rows": 321,
+        "peak_Pa": 31375.260595083288,
+        "peak_time_s": 2.825e-06,
+        "radius_min": 0.16475774184087935,
+        "wall_Mach_max": 0.031924557794761665,
+        "max_energy_relative_residual_reassembled": 0.010451533737954556,
+        "reported_energy_residual_consistency": 1.8951853975046618e-16,
+        "wave_error_over_reference_peak": 0.07718161699244026,
+        "radius_error_over_initial_radius": 0.02147548596695234,
+        "reference_peak_error_relative": 0.007245204195721833,
+        "gas_pressure_max_Pa": 9732345.420197692
+      }
+    },
+    {
+      "rows": 321,
+      "peak_Pa": 21805.693601150106,
+      "peak_time_s": 2.9e-06,
+      "radius_min": 0.2615637090481941,
+      "wall_Mach_max": 0.015854210217807856,
+      "max_energy_relative_residual_reassembled": 0.0014427498050545375,
+      "reported_energy_residual_consistency": 1.8919327909872052e-16,
+      "wave_error_over_reference_peak": 0.018086575911618843,
+      "radius_error_over_initial_radius": 0.0028939606868907952,
+      "reference_peak_error_relative": 0.003308746265112017,
+      "gas_pressure_max_Pa": 2793666.460924171,
+      "case_index": 1
+    },
+    {
+      "rows": 321,
+      "peak_Pa": 12160.988579155528,
+      "peak_time_s": 2.9750000000000003e-06,
+      "radius_min": 0.40676303125598007,
+      "wall_Mach_max": 0.008081726212748941,
+      "max_energy_relative_residual_reassembled": 0.00017668589691942306,
+      "reported_energy_residual_consistency": 1.8915262151725232e-16,
+      "wave_error_over_reference_peak": 0.00720279793111958,
+      "radius_error_over_initial_radius": 0.000804075601847476,
+      "reference_peak_error_relative": 0.0017639037584268324,
+      "gas_pressure_max_Pa": 874572.465672445,
+      "case_index": 2
+    },
+    {
+      "rows": 321,
+      "peak_Pa": 89587.00888482557,
+      "peak_time_s": 5.3500000000000004e-06,
+      "radius_min": 0.16722333666884573,
+      "wall_Mach_max": 0.030276658738618154,
+      "max_energy_relative_residual_reassembled": 0.0032271048866987177,
+      "reported_energy_residual_consistency": 1.95590071916385e-16,
+      "wave_error_over_reference_peak": 0.02703286695040452,
+      "radius_error_over_initial_radius": 0.0026248953724461455,
+      "reference_peak_error_relative": 0.0009053674151575652,
+      "gas_pressure_max_Pa": 9143723.568887038,
+      "case_index": 3
+    },
+    {
+      "rows": 321,
+      "peak_Pa": 53233.860245735406,
+      "peak_time_s": 5.45e-06,
+      "radius_min": 0.2670095916483272,
+      "wall_Mach_max": 0.01513248327055022,
+      "max_energy_relative_residual_reassembled": 0.0002921689715208487,
+      "reported_energy_residual_consistency": 1.9548165169913645e-16,
+      "wave_error_over_reference_peak": 0.005144549342657404,
+      "radius_error_over_initial_radius": 0.0003966169925066487,
+      "reference_peak_error_relative": 0.0029505558869330484,
+      "gas_pressure_max_Pa": 2562047.4994847444,
+      "case_index": 4
+    },
+    {
+      "rows": 321,
+      "peak_Pa": 25712.197747313025,
+      "peak_time_s": 5.600000000000001e-06,
+      "radius_min": 0.4148472285363907,
+      "wall_Mach_max": 0.007718978270268462,
+      "max_energy_relative_residual_reassembled": 2.8442698824313954e-05,
+      "reported_energy_residual_consistency": 1.9546132290840235e-16,
+      "wave_error_over_reference_peak": 0.00801807837017444,
+      "radius_error_over_initial_radius": 6.437294899075408e-05,
+      "reference_peak_error_relative": 0.0006255221157895896,
+      "gas_pressure_max_Pa": 805192.2475981988,
+      "case_index": 5
+    },
+    {
+      "rows": 321,
+      "peak_Pa": 48857.83515369756,
+      "peak_time_s": 5.125e-06,
+      "radius_min": 0.26659497836144197,
+      "wall_Mach_max": 0.01518488503841052,
+      "max_energy_relative_residual_reassembled": 0.0004514127170198066,
+      "reported_energy_residual_consistency": 1.20346441145891e-16,
+      "wave_error_over_reference_peak": 0.005875840794320331,
+      "radius_error_over_initial_radius": 0.0005854392223842986,
+      "reference_peak_error_relative": 0.003934174994386641,
+      "gas_pressure_max_Pa": 2578824.266841897,
+      "case_index": 6
+    }
+  ],
+  "worst_time": {
+    "rows": 641,
+    "peak_Pa": 89610.2512186705,
+    "peak_time_s": 5.3375e-06,
+    "radius_min": 0.16550015989978362,
+    "wall_Mach_max": 0.030260626083677935,
+    "max_energy_relative_residual_reassembled": 0.0010289302365517113,
+    "reported_energy_residual_consistency": 1.95590071916385e-16,
+    "wave_error_over_reference_peak": 0.006303626419484393,
+    "radius_error_over_initial_radius": 0.0005565219682960587,
+    "reference_peak_error_relative": 0.0006461636390490133,
+    "gas_pressure_max_Pa": 9550291.991651742
+  },
+  "worst_mesh": {
+    "rows": 321,
+    "peak_Pa": 89593.13691217612,
+    "peak_time_s": 5.3500000000000004e-06,
+    "radius_min": 0.16724921262770082,
+    "wall_Mach_max": 0.030276895459375258,
+    "max_energy_relative_residual_reassembled": 0.002538668850600622,
+    "reported_energy_residual_consistency": 1.9548165169913645e-16,
+    "wave_error_over_reference_peak": 0.027673773408156094,
+    "radius_error_over_initial_radius": 0.0027156863814667975,
+    "reference_peak_error_relative": 0.0008370262649117777,
+    "gas_pressure_max_Pa": 9137783.421232171
+  },
+  "PFP": {
+    "single": {
+      "rows": 321,
+      "resolved_phase_states": 1,
+      "peak_Pa": 1870.1378324873608,
+      "peak_time_s": 5.025e-06,
+      "energy_relative_residual": 1.7517048217404359e-06,
+      "reported_energy_consistency": 1.2031721850921072e-16,
+      "capillary_jump_relative_error": 0.02272283729745147,
+      "liquid_pressure_relative_error": 0.00018624392636720828,
+      "max_scaled_entropy_error": 2.4881086051209425e-06,
+      "max_Gibbs_residual_J_kg": 0.0033023395072255823,
+      "min_radius_ratio": 0.6328695059961427,
+      "min_vapor_radius_over_floor": 15580.833895851838,
+      "min_shell_thickness_nm": 44.77638373168947,
+      "max_T_K": 317.04384036442246,
+      "min_fv": 0.28047211006635997,
+      "max_fv": 0.5000000000000635
+    },
+    "three": {
+      "rows": 321,
+      "resolved_phase_states": 3,
+      "peak_Pa": 3485.1907220751327,
+      "peak_time_s": 3.7e-06,
+      "energy_relative_residual": 3.715347558963141e-06,
+      "reported_energy_consistency": 1.2031721850921072e-16,
+      "capillary_jump_relative_error": 0.03237269378114342,
+      "liquid_pressure_relative_error": 0.0003784003877476976,
+      "max_scaled_entropy_error": 5.275657803736067e-06,
+      "max_Gibbs_residual_J_kg": 0.00823967558651617,
+      "min_radius_ratio": 0.6128332737296578,
+      "min_vapor_radius_over_floor": 10432.800654631505,
+      "min_shell_thickness_nm": 31.005557246113828,
+      "max_T_K": 318.4653426912141,
+      "min_fv": 0.2652047154573077,
+      "max_fv": 0.5000000000000819
+    },
+    "five": {
+      "rows": 321,
+      "resolved_phase_states": 5,
+      "peak_Pa": 4678.539163294069,
+      "peak_time_s": 3.2750000000000004e-06,
+      "energy_relative_residual": 5.122625368100088e-06,
+      "reported_energy_consistency": 1.2031764202568435e-16,
+      "capillary_jump_relative_error": 0.039393441718105694,
+      "liquid_pressure_relative_error": 0.0005531833037249523,
+      "max_scaled_entropy_error": 7.259917883573053e-06,
+      "max_Gibbs_residual_J_kg": 0.01567395572035224,
+      "min_radius_ratio": 0.6017036745845877,
+      "min_vapor_radius_over_floor": 8625.158821738532,
+      "min_shell_thickness_nm": 26.130384671358048,
+      "max_T_K": 319.25439013409385,
+      "min_fv": 0.2566087473583802,
+      "max_fv": 0.5000000000001371
+    },
+    "uniform_coarse_excluded": {
+      "rows": 321,
+      "resolved_phase_states": 1,
+      "peak_Pa": 16518.163274661503,
+      "peak_time_s": 1.975e-06,
+      "energy_relative_residual": 0.00015544553984342787,
+      "reported_energy_consistency": 1.2031933609157885e-16,
+      "capillary_jump_relative_error": 0.1802350326649629,
+      "liquid_pressure_relative_error": 0.006369198152796487,
+      "max_scaled_entropy_error": 0.0001689661129988451,
+      "max_Gibbs_residual_J_kg": 0.3073556106351987,
+      "min_radius_ratio": 0.4645127782781681,
+      "min_vapor_radius_over_floor": 2380.3609315551053,
+      "min_shell_thickness_nm": 9.543710714607846,
+      "max_T_K": 328.6462826988743,
+      "min_fv": 0.14719092892027452,
+      "max_fv": 0.49999999999999867
+    },
+    "uniform_refined_diagnostic": {
+      "rows": 641,
+      "resolved_phase_states": 1,
+      "peak_Pa": 16651.401620605244,
+      "peak_time_s": 1.975e-06,
+      "energy_relative_residual": 0.0004619582363836079,
+      "reported_energy_consistency": 1.20346441145891e-16,
+      "capillary_jump_relative_error": 0.01863118242058184,
+      "liquid_pressure_relative_error": 0.0006239581412263368,
+      "max_scaled_entropy_error": 1.589131529570409e-05,
+      "max_Gibbs_residual_J_kg": 0.03436844411044149,
+      "min_radius_ratio": 0.4608770794214885,
+      "min_vapor_radius_over_floor": 2359.305930806137,
+      "min_shell_thickness_nm": 9.543710714607846,
+      "max_T_K": 328.8784759652297,
+      "min_fv": 0.14430755176720253,
+      "max_fv": 0.5000000000000012
+    },
+    "five_enlarged_domain": {
+      "rows": 321,
+      "resolved_phase_states": 5,
+      "peak_Pa": 4690.3082499540305,
+      "peak_time_s": 3.2750000000000004e-06,
+      "energy_relative_residual": 5.17428310560664e-06,
+      "reported_energy_consistency": 1.2031764202568435e-16,
+      "capillary_jump_relative_error": 0.03933846306560927,
+      "liquid_pressure_relative_error": 0.0005524034397820201,
+      "max_scaled_entropy_error": 7.2603894251699335e-06,
+      "max_Gibbs_residual_J_kg": 0.015631103635250554,
+      "min_radius_ratio": 0.6017008286985307,
+      "min_vapor_radius_over_floor": 8625.115975044073,
+      "min_shell_thickness_nm": 26.130384671358048,
+      "max_T_K": 319.25459173250687,
+      "min_fv": 0.2566065400124946,
+      "max_fv": 0.5000000000001371
+    }
+  },
+  "uniform_physical": {
+    "max_local_deviation_from_mean_Pa": 62257.058429316814,
+    "minimum_gauge_pressure_Pa": -118966.60887131654,
+    "minimum_absolute_pressure_Pa": -18966.608871316537,
+    "verdict": "REJECT unqualified common-state population prediction"
+  },
+  "gel_mesh": {
+    "equivalent_stretch_max_relative_change": 0.00033555206979452024,
+    "local_stretch_max_relative_change": 0.017538165130692618,
+    "elastic_pressure_vs_analytic_max_relative": 0.00018455462112154652,
+    "elastic_work_vs_analytic_max_relative": 0.0002770580023023772
+  },
+  "gel_independent_EOS": {
+    "CoolProp_version": "8.0.0",
+    "cold_mass_kg": 1.835912232640437e-16,
+    "cold_liquid_density_kg_m3": 1623.3028161533516,
+    "rows": [
+      {
+        "Q_pJ": 11.55,
+        "densityL_relative_difference": 8.881784197001252e-16,
+        "densityV_relative_difference": -2.220446049250313e-16,
+        "Gibbs_residual_J_kg": -1.679518391028978e-08,
+        "mass_volume_residual_relative": -1.8364884850518836e-15,
+        "energy_relative_residual_reassembled": 9.947598300641403e-14,
+        "gas_volume_mass_relative": 2.220446049250313e-15,
+        "capillary_residual_Pa": -9.112409316003323e-08,
+        "stretch_local_max": 1.945864609813547,
+        "equivalent_proxy_pass": true,
+        "local_proxy_pass": true
+      },
+      {
+        "Q_pJ": 11.65,
+        "densityL_relative_difference": 2.220446049250313e-16,
+        "densityV_relative_difference": 0.0,
+        "Gibbs_residual_J_kg": -1.3993485481478274e-08,
+        "mass_volume_residual_relative": -1.9120950518046015e-15,
+        "energy_relative_residual_reassembled": 9.525713551283843e-14,
+        "gas_volume_mass_relative": 2.6645352591003757e-15,
+        "capillary_residual_Pa": -2.2817403078079224e-08,
+        "stretch_local_max": 2.040678724047134,
+        "equivalent_proxy_pass": true,
+        "local_proxy_pass": true
+      },
+      {
+        "Q_pJ": 11.75,
+        "densityL_relative_difference": -4.440892098500626e-16,
+        "densityV_relative_difference": 2.220446049250313e-16,
+        "Gibbs_residual_J_kg": -1.493026502430439e-08,
+        "mass_volume_residual_relative": -2.4954481083915855e-15,
+        "energy_relative_residual_reassembled": -4.5441428397907657e-13,
+        "gas_volume_mass_relative": 2.886579864025407e-15,
+        "capillary_residual_Pa": 6.109239620855078e-06,
+        "stretch_local_max": 2.1109253903643164,
+        "equivalent_proxy_pass": true,
+        "local_proxy_pass": false
+      },
+      {
+        "Q_pJ": 11.819999999999999,
+        "densityL_relative_difference": -4.440892098500626e-16,
+        "densityV_relative_difference": 2.220446049250313e-16,
+        "Gibbs_residual_J_kg": -1.1508291208883747e-08,
+        "mass_volume_residual_relative": -2.171336390388508e-15,
+        "energy_relative_residual_reassembled": 8.992806499463768e-14,
+        "gas_volume_mass_relative": 2.886579864025407e-15,
+        "capillary_residual_Pa": 2.3355823941528797e-09,
+        "stretch_local_max": 2.1528056728867075,
+        "equivalent_proxy_pass": false,
+        "local_proxy_pass": false
+      },
+      {
+        "Q_pJ": 11.9,
+        "densityL_relative_difference": 4.440892098500626e-16,
+        "densityV_relative_difference": -2.220446049250313e-16,
+        "Gibbs_residual_J_kg": -1.0920530257862993e-08,
+        "mass_volume_residual_relative": -2.21597250637223e-15,
+        "energy_relative_residual_reassembled": 8.615330671091215e-14,
+        "gas_volume_mass_relative": 2.6645352591003757e-15,
+        "capillary_residual_Pa": -3.7049176171422005e-08,
+        "stretch_local_max": 2.197453157060383,
+        "equivalent_proxy_pass": false,
+        "local_proxy_pass": false
+      }
+    ],
+    "independent_11_65pJ_root": {
+      "stretch": 2.0012466170462533,
+      "T_K": 339.19751586247673,
+      "vapor_radius_m": 5.762558582519319e-07,
+      "residual_norm": 1.0778570073213127e-13
+    },
+    "independent_11_65pJ_radial_stability": {
+      "fixed_temperature_restoring_Pa_per_unit_stretch": -103743.80746870882,
+      "closed_total_energy_restoring_Pa_per_unit_stretch": 46052.12643145932
+    },
+    "independent_liquid_bulk_saturation_lower_bound": {
+      "T_K": 350.52286275992657,
+      "Q_pJ": 11.549639454978124,
+      "stretch": 1.0485004956380974,
+      "pressure_Pa": 445135.522811253
+    },
+    "independently_recomposed_13pJ_sensitivity_states": [
+      {
+        "case": 0,
+        "Q_pJ": 13.0,
+        "equivalent_stretch": 2.5442166822703007,
+        "local_max_stretch": 2.628705616854246,
+        "complete_energy_relative_residual": 1.0702549957386509e-13,
+        "volume_mass_relative_residual": -2.220446049250313e-15,
+        "Gibbs_residual_J_kg": -6.078607839299366e-09,
+        "capillary_residual_Pa": -5.532638169825077e-08,
+        "equivalent_proxy_pass": false,
+        "local_proxy_pass": false
+      },
+      {
+        "case": 1,
+        "Q_pJ": 13.0,
+        "equivalent_stretch": 2.58575743634466,
+        "local_max_stretch": 2.6759812475966465,
+        "complete_energy_relative_residual": 6.306066779870889e-14,
+        "volume_mass_relative_residual": -1.3322676295501878e-15,
+        "Gibbs_residual_J_kg": -5.577703632297926e-09,
+        "capillary_residual_Pa": 2.9405782697722316e-08,
+        "equivalent_proxy_pass": false,
+        "local_proxy_pass": false
+      },
+      {
+        "case": 2,
+        "Q_pJ": 13.0,
+        "equivalent_stretch": 2.3992101827662173,
+        "local_max_stretch": 2.4657073795180406,
+        "complete_energy_relative_residual": -2.234212814755665e-12,
+        "volume_mass_relative_residual": -1.887379141862766e-15,
+        "Gibbs_residual_J_kg": -9.538098311168142e-09,
+        "capillary_residual_Pa": -4.071625880897045e-08,
+        "equivalent_proxy_pass": false,
+        "local_proxy_pass": false
+      },
+      {
+        "case": 3,
+        "Q_pJ": 13.0,
+        "equivalent_stretch": 2.254485818340436,
+        "local_max_stretch": 2.318458903974394,
+        "complete_energy_relative_residual": 1.4233059175694507e-13,
+        "volume_mass_relative_residual": -2.220446049250313e-15,
+        "Gibbs_residual_J_kg": -1.5236764738801867e-08,
+        "capillary_residual_Pa": 2.3483153199777007e-08,
+        "equivalent_proxy_pass": false,
+        "local_proxy_pass": false
+      }
+    ]
+  },
+  "refinement_peak_changes": {
+    "worst_time_peak": 0.000259438663420708,
+    "worst_mesh_peak": 6.840308016564656e-05,
+    "five_outer_domain_peak": 0.0025155473213298585,
+    "uniform_time_peak": 0.008066171990691373
+  },
+  "spherical_progressive_wave_filtered_bound_Pa": 318155.8668238019,
+  "input_inventory_comparison": {
+    "Model_A_cold_PFP_radii_um": [
+      5.496994185958388,
+      3.806439571650972,
+      3.2079464129430386,
+      1.1717086368205036
+    ],
+    "Model_A_PFP_per_source_mass_kg": [
+      1.1281810887041304e-12,
+      3.746039178803531e-13,
+      2.242355161814176e-13,
+      1.0928631037985286e-14
+    ],
+    "Model_B_cold_radius_um": 0.3
+  },
+  "thermal_times": {
+    "thermal_s": 6.310754999999999e-07,
+    "inertial_s": 9.517615247529184e-08
+  },
+  "independent_dimensional_gas_solution": {
+    "method": "Independent dimensional Radau + continuous filtered volume-quadrature receiver",
+    "peak_Pa": 89668.46280151392,
+    "peak_time_s": 5.3400000000000005e-06,
+    "radius_min": 0.16537657191503555,
+    "success": true
+  },
+  "input_SHA256": {
+    "pressure_envelope_c3.csv": "7a1f99c399d2ebf73936f15140b6918d9b3168769616e395f4802a0ab251a7ae",
+    "pressure_envelope_c5.csv": "610bf3f44dd17cf7b5fc959e6733bc72207b41853e6c5af78749755e00376ca9",
+    "pressure_envelope_cG.csv": "34418b2af1e7f548d7a617b666dbe659b0c06f761fc3b9138e601938a77516b9",
+    "pressure_envelope_cP.csv": "59526640da85cae8bd5af822d9d860ca0d39df5dbe719d059e4e5a1cb02e67c0",
+    "pressure_envelope_cU.csv": "222eb88fc34119007cc571838ef79c9aace6dda0514824b602be61d6bd5f13e7",
+    "free_coreshell3d_fine_control.csv": "7997d46010e58244b7d99490ce8b064b2bc92a241b635e8912ea4186d355db3d",
+    "free_coreshell3d_control.csv": "e9b46d258e2ae2825d1573a783bfca5b57828d00e54a02a313446227231e958b",
+    "gel_sensitivity3d_valid_control.csv": "b2ef756e4f31ba0e4ba1434c8ef38a6b013113fcc61e82ee3af6ff36a8ed5b08",
+    "refined_gas_small.csv": "cd1de1fed3020918b38455d8f11bae84bd78368057b56b76868b24db5f14ac3a",
+    "refined_phase_uniform.csv": "5763d290d2cc6bf55a3c3dfeb4cb5a84dfbce9489d196f4a9043e2e20659ba09",
+    "worst_gas_time.csv": "67dbf90930d6f3489b2cffd06004f33c9d61d443b24808e01fe5ac0545aca263",
+    "worst_gas_mesh.csv": "731de71383d1d16f570ab30513ae660fd92499e930f768ed132c013a7ae46cb8",
+    "five_pfp_domain.csv": "6c02e70f5858726c7b4236cb7df8e42055deefe05497970c3df98c6092da18c2"
+  }
+}

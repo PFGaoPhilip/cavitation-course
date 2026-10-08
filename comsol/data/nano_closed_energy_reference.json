@@ -1,0 +1,121 @@
+{
+  "rows": [
+    {
+      "stretch": 1.05,
+      "T_K": 359.54586151015184,
+      "p_Pa": 558981.7257212752,
+      "vapor_mass_fraction": -0.0012955143085617267,
+      "Q_J": 1.3484553189721557e-11,
+      "fixed_bath_pressure_stiffness_Pa": -401563.03676133376,
+      "closed_total_energy_restoring_stiffness_Pa": -282748.8917403389,
+      "finite_inventory_valid": false,
+      "reference_failure_stretch_ratio": 0.5,
+      "reference_only": true
+    },
+    {
+      "stretch": 1.1,
+      "T_K": 358.12719770332893,
+      "p_Pa": 539766.75090499,
+      "vapor_mass_fraction": 0.006234995371323276,
+      "Q_J": 1.3276455182767507e-11,
+      "fixed_bath_pressure_stiffness_Pa": -367746.8627950152,
+      "closed_total_energy_restoring_stiffness_Pa": -245294.45434338413,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 0.5238095238095238,
+      "reference_only": true
+    },
+    {
+      "stretch": 1.2,
+      "T_K": 355.5326571655316,
+      "p_Pa": 505922.06790123833,
+      "vapor_mass_fraction": 0.02161732989160485,
+      "Q_J": 1.2925039904842447e-11,
+      "fixed_bath_pressure_stiffness_Pa": -311406.89300411526,
+      "closed_total_energy_restoring_stiffness_Pa": -181997.90452927118,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 0.5714285714285714,
+      "reference_only": true
+    },
+    {
+      "stretch": 1.3,
+      "T_K": 353.21717670949977,
+      "p_Pa": 477095.5148629248,
+      "vapor_mass_fraction": 0.037658421082307235,
+      "Q_J": 1.2651558391258763e-11,
+      "fixed_bath_pressure_stiffness_Pa": -266802.7676255679,
+      "closed_total_energy_restoring_stiffness_Pa": -130869.19892084552,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 0.6190476190476191,
+      "reference_only": true
+    },
+    {
+      "stretch": 1.5,
+      "T_K": 349.2558669093872,
+      "p_Pa": 430679.01234567736,
+      "vapor_mass_fraction": 0.07253785923598373,
+      "Q_J": 1.2307623612284515e-11,
+      "fixed_bath_pressure_stiffness_Pa": -201810.69958847735,
+      "closed_total_energy_restoring_stiffness_Pa": -54180.32977846451,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 0.7142857142857143,
+      "reference_only": true
+    },
+    {
+      "stretch": 1.8,
+      "T_K": 344.55076932977386,
+      "p_Pa": 380079.256210943,
+      "vapor_mass_fraction": 0.13399628709049397,
+      "Q_J": 1.222347887518505e-11,
+      "fixed_bath_pressure_stiffness_Pa": -140916.86565394842,
+      "closed_total_energy_restoring_stiffness_Pa": 20656.27952804789,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 0.8571428571428571,
+      "reference_only": true
+    },
+    {
+      "stretch": 2.0,
+      "T_K": 342.00856255034233,
+      "p_Pa": 354687.50000000343,
+      "vapor_mass_fraction": 0.18229590081875915,
+      "Q_J": 1.2418975018242223e-11,
+      "fixed_bath_pressure_stiffness_Pa": -114375.0,
+      "closed_total_energy_restoring_stiffness_Pa": 53997.62499000644,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 0.9523809523809523,
+      "reference_only": true
+    },
+    {
+      "stretch": 2.1,
+      "T_K": 340.875117445041,
+      "p_Pa": 343790.52452424885,
+      "vapor_mass_fraction": 0.20890043033678946,
+      "Q_J": 1.2586677640867005e-11,
+      "fixed_bath_pressure_stiffness_Pa": -103818.68616863294,
+      "closed_total_energy_restoring_stiffness_Pa": 67210.08030610392,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 1.0,
+      "reference_only": true
+    },
+    {
+      "stretch": 2.2,
+      "T_K": 339.82010123730703,
+      "p_Pa": 333877.46738610644,
+      "vapor_mass_fraction": 0.23724207968379732,
+      "Q_J": 1.2799534618748066e-11,
+      "fixed_bath_pressure_stiffness_Pa": -94653.24648713761,
+      "closed_total_energy_restoring_stiffness_Pa": 78550.11872481555,
+      "finite_inventory_valid": true,
+      "reference_failure_stretch_ratio": 1.0476190476190477,
+      "reference_only": true
+    }
+  ],
+  "mass_kg": 1.835912232640437e-16,
+  "initial_liquid_density_kg_m3": 1623.3028161533516,
+  "definition": "Positive restoring stiffness means increasing radius produces lower internal pressure than required by the host. Closed total energy includes finite PFC internal energy, gel strain energy, ambient work and declared interface energy.",
+  "limitations": [
+    "Equilibrium reference after supplied activation, not nucleation",
+    "Bulk-gel constitutive and effective-interface reference properties",
+    "No host heat capacity/heat exchange in the insulated perturbation",
+    "No rate-dependent fracture or liquid-path/exterior-jet prediction"
+  ]
+}

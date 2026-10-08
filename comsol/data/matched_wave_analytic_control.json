@@ -1,0 +1,15 @@
+{
+  "method": "independent exact spherical radiation impedance + nonlinear radius ODE",
+  "a_m": 5e-05,
+  "matching_radius_m": 0.0001,
+  "receiver_center_m": 0.0005,
+  "receiver_radius_m": 5e-05,
+  "receiver_thickness_m": 5e-06,
+  "receiver_filter_s": 1.5915494309189535e-07,
+  "minimum_radius_ratio": 0.26704461945582225,
+  "maximum_wall_speed_m_s": 22.40064082721892,
+  "maximum_wall_Mach": 0.01513556812649927,
+  "maximum_internal_gas_pressure_Pa": 2560636.345378352,
+  "maximum_filtered_receiver_pressure_Pa": 53639.043073323395,
+  "filtered_peak_time_s": 5.459000000000001e-06
+}
