@@ -1,0 +1,96 @@
+{
+  "updated_date": "2026-10-08",
+  "project": "Laser-induced PFC cavitation transfer",
+  "required_theory_path": [
+    "optical deposition",
+    "heat transport",
+    "finite phase inventory and EOS",
+    "nonlinear bubble/interface dynamics",
+    "identified jet and shock mechanisms",
+    "transmitted load and release"
+  ],
+  "project_modules": [
+    {
+      "code": "L01",
+      "title_en": "Laser energy, phase thermodynamics and jet mechanisms",
+      "title_zh": "激光能量、相变热力学与射流机理",
+      "path": "course/chapters/L01-laser-phase-and-jet-mechanisms.html",
+      "status": "pending"
+    },
+    {
+      "code": "L02",
+      "title_en": "Optical heating and finite PFC phase closure",
+      "title_zh": "光学加热与有限 PFC 相变闭合",
+      "status": "planned",
+      "references": [
+        "course/chapters/T01-optical-deposition.html",
+        "course/chapters/G11-phase-change-droplets.html"
+      ]
+    },
+    {
+      "code": "L03",
+      "title_en": "Resolved jets and geometry-specific transfer mechanisms",
+      "title_zh": "解析射流及依赖几何的转印机理",
+      "status": "planned",
+      "references": [
+        "course/chapters/G09-jets-and-transfer.html",
+        "course/chapters/T03-bubble-load-mapping.html"
+      ]
+    },
+    {
+      "code": "L04",
+      "title_en": "Conditional pressure/velocity limits and release-interface loading",
+      "title_zh": "有条件压力／速度极限及释放界面加载",
+      "status": "planned",
+      "references": [
+        "course/appendixes/B-pressure-limits.html"
+      ]
+    },
+    {
+      "code": "A",
+      "title_en": "Hydrogel/PFC: phase, confinement, channels and damage",
+      "title_zh": "水凝胶／PFC：相变、约束、通道与损伤",
+      "status": "reference_to_extend",
+      "path": "course/appendixes/A-hydrogel.html"
+    },
+    {
+      "code": "B",
+      "title_en": "One bubble, 3–5 bubbles, finite arrays and uniform-fluid checks",
+      "title_zh": "单泡、三至五泡、有限阵列及均匀流体核验",
+      "status": "reference_to_extend",
+      "path": "course/appendixes/B-pressure-limits.html"
+    }
+  ],
+  "textbook_role": "Complete reference library; source order retained",
+  "harmonic_oscillation_role": "Optional loss/interaction or validation control; no required extended detour",
+  "architectures": [
+    "PFC in finite water-droplet stamp",
+    "Primary PFC-containing carrier layer below film/PVC",
+    "PFC embedded in hydrogel"
+  ],
+  "primary_force_paths": [
+    "direct liquid-to-film",
+    "liquid-to-intact-PVC-to-film"
+  ],
+  "objectives": [
+    "highest verified single-shot output under stated constraints",
+    "repeatable intact-transfer envelope"
+  ],
+  "exploration_policy": "Preserve multiple hypotheses and benefits; compare discriminating tests without forced early selection",
+  "learning_format": {
+    "artifacts": "English-Chinese",
+    "conversation": "English",
+    "packed_chapters": true,
+    "formula_first_reference_answers": true,
+    "immediate_variable_labeled_formula_figures": true,
+    "radius_derivatives": "Newton dots",
+    "day_night_toggle": true,
+    "paired_technical_colors": true,
+    "one_brief_synthesis_per_exchange": true,
+    "prepared_content_is_mastery": false
+  },
+  "modeler_assignment": "Build and solve fresh COMSOL theory checks; verify and teach independent reconstruction",
+  "preparer_COMSOL_execution": false,
+  "unpublished_source_files_public": false,
+  "material_reference_policy": "Recover earlier published PFC properties for named controls and sensitivity; verify source/state/formulation, without importing previous simulation outputs."
+}

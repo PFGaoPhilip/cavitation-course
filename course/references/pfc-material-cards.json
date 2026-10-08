@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-08",
+  "scope": "Earlier papers/material records recovered for Goal 1; no prior simulation results",
+  "target_assignment": false,
+  "control_cards": [
+    {
+      "id": "PFP_Zhang_constant_control",
+      "compound": "perfluoro-n-pentane",
+      "CAS": "678-26-2",
+      "density_kg_m3": 1630.0,
+      "heat_capacity_J_kgK": 1088.0,
+      "thermal_conductivity_W_mK": 0.05,
+      "thermal_diffusivity_m2_s": 2.8193792854565142e-08,
+      "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+      "source_location": "Table 1, author-manuscript PDF page 9 / printed manuscript page 8",
+      "evidence": "Published study adopted constants; not target measurements",
+      "property_temperature_K": null,
+      "temperature_range_verified": false,
+      "upstream_basis": "PF5: manufacturer listing; PF6: representative commercial PFC fluid comparison. Compound/purity mapping needs checking beyond the paper labels.",
+      "valid_use": "Named constant-coefficient heat-diffusion control and disclosed sensitivity case",
+      "not_validated_for": [
+        "target batch",
+        "high-temperature transport",
+        "high-pressure EOS",
+        "activation threshold",
+        "carrier liquid"
+      ]
+    },
+    {
+      "id": "PF6_Zhang_commercial_control",
+      "compound": null,
+      "CAS": null,
+      "density_kg_m3": 1680.0,
+      "heat_capacity_J_kgK": 1050.0,
+      "thermal_conductivity_W_mK": 0.057,
+      "thermal_diffusivity_m2_s": 3.231292517006803e-08,
+      "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+      "source_location": "Table 1, author-manuscript PDF page 9 / printed manuscript page 8",
+      "evidence": "Published study adopted constants; not target measurements",
+      "property_temperature_K": null,
+      "temperature_range_verified": false,
+      "upstream_basis": "PF5: manufacturer listing; PF6: representative commercial PFC fluid comparison. Compound/purity mapping needs checking beyond the paper labels.",
+      "valid_use": "Named constant-coefficient heat-diffusion control and disclosed sensitivity case",
+      "not_validated_for": [
+        "target batch",
+        "high-temperature transport",
+        "high-pressure EOS",
+        "activation threshold",
+        "carrier liquid"
+      ],
+      "paper_material_label": "PF6 / PFH",
+      "candidate_identity": {
+        "compound": "perfluoro-n-hexane",
+        "CAS": "355-42-0",
+        "confirmed_as_basis_of_these_coefficients": false
+      },
+      "identity_qualification": "Paper-labelled PF6 coefficient set; upstream commercial-PFC comparison does not establish pure n-PFH identity or purity."
+    }
+  ],
+  "additional_PFP_reference": {
+    "source": "https://doi.org/10.1039/D3RA05639B",
+    "source_location": "PDF page 6 / printed page 35045",
+    "density_kg_m3": 1627.0,
+    "heat_capacity_cal_gK": 0.156,
+    "heat_capacity_J_kgK": 652.704,
+    "volumetric_expansion_K_inv": 0.002,
+    "isothermal_compressibility_cm2_dyn": 2.74e-10,
+    "isothermal_compressibility_Pa_inv": 2.74e-09,
+    "property_temperature_K": null,
+    "evidence": "Values used in the published thermophysical argument; cited upstream references 47–48 not independently remeasured",
+    "sound_speed_from_isothermal_compressibility_authorized": false,
+    "heat_capacity_disagreement_resolved": false
+  },
+  "PFP_NIST_heat_capacity": {
+    "compound": "perfluoro-n-pentane",
+    "CAS": "678-26-2",
+    "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C678262&Mask=2",
+    "source_reference": "Campos-Vallette and Diaz (1983)",
+    "source_note": "Interpolated data, as marked by NIST",
+    "temperature_K": 293.0,
+    "molar_J_molK": 188.3,
+    "molar_mass_kg_mol": 0.2880343,
+    "mass_J_kgK": 653.7415856375438,
+    "target_assignment": false,
+    "temperature_dependent_fit": false
+  },
+  "PFP_phase_reference": {
+    "compound": "perfluoro-n-pentane",
+    "CAS": "678-26-2",
+    "molar_mass_kg_mol": 0.2880343,
+    "normal_boiling_K_datasets": [
+      302.6,
+      303.2
+    ],
+    "critical_temperature_K": 421.9,
+    "critical_temperature_uncertainty_K": 0.5,
+    "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C678262&Mask=4",
+    "standard_vaporization_enthalpy_molar_J_mol_datasets": [
+      26600.0,
+      27500.0
+    ],
+    "standard_vaporization_enthalpy_mass_J_kg_datasets": [
+      92350.11246924411,
+      95474.74033474484
+    ],
+    "standard_enthalpy_fit_ranges_K": [
+      [
+        280.0,
+        340.0
+      ],
+      [
+        288.0,
+        338.0
+      ]
+    ],
+    "Antoine": [
+      {
+        "reference": "Crowder et al. 1967",
+        "T_K": [
+          221.17,
+          303.0
+        ],
+        "A": 4.30216,
+        "B_K": 1130.731,
+        "C_K": -38.982
+      },
+      {
+        "reference": "Ermakov and Skripov 1967",
+        "T_K": [
+          300.0,
+          421.9
+        ],
+        "A": 4.38423,
+        "B_K": 1257.758,
+        "C_K": -13.231
+      },
+      {
+        "reference": "Barber and Cady 1956",
+        "T_K": [
+          282.82,
+          337.94
+        ],
+        "A": 4.2063,
+        "B_K": 1103.454,
+        "C_K": -39.77
+      }
+    ],
+    "pressure_units": "bar",
+    "temperature_units": "K",
+    "boiling_is_activation_threshold": false
+  },
+  "PFH_phase_comparison": {
+    "NIST_phase_enthalpy_J_kg": 93183.7423655891,
+    "NIST_enthalpy_temperature_K": 316.0,
+    "NIST_source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C355420&Mask=4",
+    "Wei_reported_enthalpy_J_kg": 102000.0,
+    "Wei_enthalpy_temperature_K": null,
+    "Wei_sensible_heat_37C_to_reported_56C_J_kg": 20000.0,
+    "Wei_source": "https://doi.org/10.1364/OL.39.002599",
+    "evidence": "Source-specific values kept separate, not averaged into a universal constant"
+  },
+  "source_checks": [
+    {
+      "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+      "finding": "Water alpha printed as 0.143 m2/s; k/(rho cp)=1.4330069262e-7 m2/s.",
+      "action": "Use consistent derived diffusivity; preserve source transcription and flag likely missing power of ten."
+    },
+    {
+      "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+      "finding": "PF5 and PF6 diffusivity values agree with k/(rho cp) at printed precision.",
+      "action": "Use derived values with the same constant-coefficient card."
+    },
+    {
+      "source": "https://doi.org/10.1039/D3RA05639B",
+      "finding": "PFP Cp converts to 652.704 J/(kg K), versus 1088 in Zhang.",
+      "action": "Preserve separate source cards; temperatures/upstream basis need reconciliation before calibrated thermal prediction."
+    }
+  ],
+  "formulation_reference": {
+    "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+    "source_location": "PDF page 11 / manuscript page 10",
+    "structure": "W1/O/W2 double emulsion with surface gold nanorods",
+    "diameter_reported_m": [
+      3e-07,
+      5e-07
+    ],
+    "PFP_interfacial_tension_N_m": {
+      "mean": 0.00114,
+      "reported_plus_minus": 0.00025
+    },
+    "PF6_paper_label_interfacial_tension_N_m": {
+      "mean": 0.00159,
+      "reported_plus_minus": 0.00016
+    },
+    "these_are_neat_liquid_surface_tensions": false,
+    "target_assignment": false
+  },
+  "remaining_target_data": "Exact batch/core/shell/absorber and state-dependent properties, EOS/kinetics and carrier rheology remain separate inputs; their absence does not prevent named literature controls."
+}

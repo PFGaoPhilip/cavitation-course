@@ -1,0 +1,431 @@
+{
+  "updated": "2026-10-08",
+  "scope": "Goal 1 theoretical inputs; no target experimental calibration or old model outputs",
+  "evidence_classes": {
+    "measured_target": "Audited target experiment; none supplied for the PFC formulation here",
+    "literature": "Named compound/apparatus, explicit temperature/regime",
+    "estimate": "Declared approximating input with no experimental claim",
+    "synthetic": "Illustrative teaching contract",
+    "unknown": "Target value remains null; actionable measurement/source task"
+  },
+  "target_identity": "Unknown; supplied draft is a water-system reference, not a PFC material card",
+  "target_inputs": [
+    {
+      "input": "PFC compound/CAS and mixture",
+      "value": null,
+      "units": null,
+      "evidence": "unknown target input",
+      "required_next_action": "Obtain formulation/batch chemical identity; do not assign PFH from a teaching example."
+    },
+    {
+      "input": "size/core/shell/aggregation",
+      "value": null,
+      "units": "m",
+      "evidence": "unknown target input",
+      "required_next_action": "DLS plus microscopy/core-shell and aggregation characterization."
+    },
+    {
+      "input": "number density/loading/active fraction",
+      "value": null,
+      "units": "1/m³",
+      "evidence": "unknown target input",
+      "required_next_action": "Count or measure concentration and the absorber-bearing activation-capable fraction."
+    },
+    {
+      "input": "laser waveform/wavelength/spot",
+      "value": null,
+      "units": "W, s, m",
+      "evidence": "unknown target input",
+      "required_next_action": "Calibrate power/energy at the specimen with the actual optical path."
+    },
+    {
+      "input": "interception/absorptance/deposition field",
+      "value": null,
+      "units": "1, W/m³",
+      "evidence": "unknown target input",
+      "required_next_action": "Measure absorber spectrum/placement and account for reflection, attenuation and shielding."
+    },
+    {
+      "input": "PFC liquid/vapor EOS and sound speed",
+      "value": null,
+      "units": "Pa, kg/m³, m/s",
+      "evidence": "unknown target input",
+      "required_next_action": "Select compound-specific verified EOS/transport data over the attained state range."
+    },
+    {
+      "input": "heat capacity/conductivity/phase enthalpy",
+      "value": null,
+      "units": "J/(kg K), W/(m K), J/kg",
+      "evidence": "unknown target input",
+      "required_next_action": "Resolve temperature and state dependence for both PFC and carrier."
+    },
+    {
+      "input": "saturation/activation/phase kinetics",
+      "value": null,
+      "units": "Pa, kg/(m² s)",
+      "evidence": "unknown target input",
+      "required_next_action": "Measure activation statistics and cooling/recondensation; distinguish equilibrium from rates."
+    },
+    {
+      "input": "noncondensable gas and retained phase",
+      "value": null,
+      "units": "kg",
+      "evidence": "unknown target input",
+      "required_next_action": "Observe rebound/reset and independently constrain the retained inventory."
+    },
+    {
+      "input": "shell/interface and carrier rheology",
+      "value": null,
+      "units": "Pa, N/m, Pa s",
+      "evidence": "unknown target input",
+      "required_next_action": "Characterize shell stress/rupture, wetting, surface tension and formulated viscosity."
+    },
+    {
+      "input": "droplet/layer/vent/contact geometry",
+      "value": null,
+      "units": "m",
+      "evidence": "unknown target input",
+      "required_next_action": "Declare the geometry for each architecture and both film/PVC paths."
+    },
+    {
+      "input": "gel thermal/viscoelastic/permeability/failure laws",
+      "value": null,
+      "units": "SI",
+      "evidence": "unknown target input",
+      "required_next_action": "Characterize actual gel at the event temperature, strain and time range."
+    },
+    {
+      "input": "film/PVC/cohesive release law",
+      "value": null,
+      "units": "Pa, m, J/m²",
+      "evidence": "unknown target input",
+      "required_next_action": "Measure thickness/support, dynamic mechanics and release-interface work/traction."
+    },
+    {
+      "input": "pressure and velocity observation definition",
+      "value": null,
+      "units": "m², s, kg",
+      "evidence": "unknown target input",
+      "required_next_action": "Fix area/time response and jet region/mass/tracking before comparing maxima."
+    },
+    {
+      "input": "admissible energy and transfer criteria",
+      "value": null,
+      "units": "J",
+      "evidence": "unknown target input",
+      "required_next_action": "Bound energy/material/geometry/count/delay; define intactness, placement, variability and reset."
+    }
+  ],
+  "PFH_literature_reference": {
+    "compound": "perfluoro-n-hexane",
+    "CAS": "355-42-0",
+    "formula": "C6F14",
+    "target_assignment": false,
+    "molar_mass_kg_mol": 0.3380418,
+    "normal_boiling_K_datasets": [
+      330.3,
+      332.2,
+      333.0
+    ],
+    "phase_source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C355420&Mask=4",
+    "boiling_values_are_activation_threshold": false,
+    "Antoine": {
+      "equation": "log10(P/bar) = A - B/(T + C)",
+      "correlations": [
+        {
+          "reference": "Crowder et al. 1967",
+          "T_K": [
+            256.43,
+            447.08
+          ],
+          "A": 4.07362,
+          "B_K": 1113.329,
+          "C_K": -56.472
+        },
+        {
+          "reference": "Ermakov and Skripov 1967",
+          "T_K": [
+            324.1,
+            451.7
+          ],
+          "A": 4.64693,
+          "B_K": 1570.217,
+          "C_K": 14.047
+        },
+        {
+          "reference": "Dunlap et al. 1958",
+          "T_K": [
+            303.21,
+            330.6
+          ],
+          "A": 2.12401,
+          "B_K": 327.523,
+          "C_K": -175.973
+        }
+      ],
+      "dataset_ranges_are_not_uncertainty_intervals": true,
+      "high_pressure_EOS": false
+    },
+    "vaporization_enthalpy": {
+      "molar_J_mol": 31500,
+      "temperature_K": 316,
+      "mass_J_kg": 93183.7423655891,
+      "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C355420&Mask=4",
+      "usable_as_constant_for_all_states": false
+    },
+    "liquid_heat_capacity": {
+      "molar_J_molK_datasets": [
+        240.2,
+        248.0
+      ],
+      "temperature_K": 273,
+      "mass_J_kgK_datasets": [
+        710.5630132131588,
+        733.6370827513047
+      ],
+      "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C355420&Mask=2",
+      "dataset_spread_is_not_target_confidence_interval": true,
+      "high_temperature_extrapolation_verified": false
+    },
+    "missing_reference_inputs": [
+      "liquid/vapor EOS for predicted pressure range",
+      "temperature-dependent transport",
+      "target shell and accommodation laws"
+    ]
+  },
+  "published_optical_examples": [
+    {
+      "compound": "PFH",
+      "absorber": "clustered interfacial gold",
+      "imaging_laser": {
+        "wavelength_m": 1.064e-06,
+        "pulse_s": 9e-09
+      },
+      "source": "https://doi.org/10.1364/OL.39.002599",
+      "evidence": "literature apparatus",
+      "target_assignment": false,
+      "single_nanodroplet_jet_speed_measured": false
+    },
+    {
+      "compound": "PFP",
+      "absorber": "loaded silica-coated PbS",
+      "laser": {
+        "wavelength_m": 1.064e-06,
+        "pulse_s": 7e-10
+      },
+      "source": "https://doi.org/10.1364/BOE.2.001432",
+      "evidence": "literature apparatus",
+      "target_assignment": false
+    },
+    {
+      "compound": "water",
+      "absorber": "surface gold or distributed dye",
+      "laser_wavelength_m": 4.5e-07,
+      "source": "https://doi.org/10.1063/5.0233144",
+      "evidence": "literature apparatus",
+      "target_assignment": false
+    }
+  ],
+  "L01_exercise": "All values are synthetic water-control inputs and conditional allocations, not project measurements.",
+  "legacy_teaching_parameters": "No inherited scenario optical/geometry values or previous COMSOL results are used as target calibration in this setup.",
+  "recovered_earlier_material_evidence": {
+    "date": "2026-10-08",
+    "scope": "Earlier papers/material records recovered for Goal 1; no prior simulation results",
+    "target_assignment": false,
+    "control_cards": [
+      {
+        "id": "PFP_Zhang_constant_control",
+        "compound": "perfluoro-n-pentane",
+        "CAS": "678-26-2",
+        "density_kg_m3": 1630.0,
+        "heat_capacity_J_kgK": 1088.0,
+        "thermal_conductivity_W_mK": 0.05,
+        "thermal_diffusivity_m2_s": 2.8193792854565142e-08,
+        "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+        "source_location": "Table 1, author-manuscript PDF page 9 / printed manuscript page 8",
+        "evidence": "Published study adopted constants; not target measurements",
+        "property_temperature_K": null,
+        "temperature_range_verified": false,
+        "upstream_basis": "PF5: manufacturer listing; PF6: representative commercial PFC fluid comparison. Compound/purity mapping needs checking beyond the paper labels.",
+        "valid_use": "Named constant-coefficient heat-diffusion control and disclosed sensitivity case",
+        "not_validated_for": [
+          "target batch",
+          "high-temperature transport",
+          "high-pressure EOS",
+          "activation threshold",
+          "carrier liquid"
+        ]
+      },
+      {
+        "id": "PF6_Zhang_commercial_control",
+        "compound": null,
+        "CAS": null,
+        "density_kg_m3": 1680.0,
+        "heat_capacity_J_kgK": 1050.0,
+        "thermal_conductivity_W_mK": 0.057,
+        "thermal_diffusivity_m2_s": 3.231292517006803e-08,
+        "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+        "source_location": "Table 1, author-manuscript PDF page 9 / printed manuscript page 8",
+        "evidence": "Published study adopted constants; not target measurements",
+        "property_temperature_K": null,
+        "temperature_range_verified": false,
+        "upstream_basis": "PF5: manufacturer listing; PF6: representative commercial PFC fluid comparison. Compound/purity mapping needs checking beyond the paper labels.",
+        "valid_use": "Named constant-coefficient heat-diffusion control and disclosed sensitivity case",
+        "not_validated_for": [
+          "target batch",
+          "high-temperature transport",
+          "high-pressure EOS",
+          "activation threshold",
+          "carrier liquid"
+        ],
+        "paper_material_label": "PF6 / PFH",
+        "candidate_identity": {
+          "compound": "perfluoro-n-hexane",
+          "CAS": "355-42-0",
+          "confirmed_as_basis_of_these_coefficients": false
+        },
+        "identity_qualification": "Paper-labelled PF6 coefficient set; upstream commercial-PFC comparison does not establish pure n-PFH identity or purity."
+      }
+    ],
+    "additional_PFP_reference": {
+      "source": "https://doi.org/10.1039/D3RA05639B",
+      "source_location": "PDF page 6 / printed page 35045",
+      "density_kg_m3": 1627.0,
+      "heat_capacity_cal_gK": 0.156,
+      "heat_capacity_J_kgK": 652.704,
+      "volumetric_expansion_K_inv": 0.002,
+      "isothermal_compressibility_cm2_dyn": 2.74e-10,
+      "isothermal_compressibility_Pa_inv": 2.74e-09,
+      "property_temperature_K": null,
+      "evidence": "Values used in the published thermophysical argument; cited upstream references 47–48 not independently remeasured",
+      "sound_speed_from_isothermal_compressibility_authorized": false,
+      "heat_capacity_disagreement_resolved": false
+    },
+    "PFP_NIST_heat_capacity": {
+      "compound": "perfluoro-n-pentane",
+      "CAS": "678-26-2",
+      "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C678262&Mask=2",
+      "source_reference": "Campos-Vallette and Diaz (1983)",
+      "source_note": "Interpolated data, as marked by NIST",
+      "temperature_K": 293.0,
+      "molar_J_molK": 188.3,
+      "molar_mass_kg_mol": 0.2880343,
+      "mass_J_kgK": 653.7415856375438,
+      "target_assignment": false,
+      "temperature_dependent_fit": false
+    },
+    "PFP_phase_reference": {
+      "compound": "perfluoro-n-pentane",
+      "CAS": "678-26-2",
+      "molar_mass_kg_mol": 0.2880343,
+      "normal_boiling_K_datasets": [
+        302.6,
+        303.2
+      ],
+      "critical_temperature_K": 421.9,
+      "critical_temperature_uncertainty_K": 0.5,
+      "source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C678262&Mask=4",
+      "standard_vaporization_enthalpy_molar_J_mol_datasets": [
+        26600.0,
+        27500.0
+      ],
+      "standard_vaporization_enthalpy_mass_J_kg_datasets": [
+        92350.11246924411,
+        95474.74033474484
+      ],
+      "standard_enthalpy_fit_ranges_K": [
+        [
+          280.0,
+          340.0
+        ],
+        [
+          288.0,
+          338.0
+        ]
+      ],
+      "Antoine": [
+        {
+          "reference": "Crowder et al. 1967",
+          "T_K": [
+            221.17,
+            303.0
+          ],
+          "A": 4.30216,
+          "B_K": 1130.731,
+          "C_K": -38.982
+        },
+        {
+          "reference": "Ermakov and Skripov 1967",
+          "T_K": [
+            300.0,
+            421.9
+          ],
+          "A": 4.38423,
+          "B_K": 1257.758,
+          "C_K": -13.231
+        },
+        {
+          "reference": "Barber and Cady 1956",
+          "T_K": [
+            282.82,
+            337.94
+          ],
+          "A": 4.2063,
+          "B_K": 1103.454,
+          "C_K": -39.77
+        }
+      ],
+      "pressure_units": "bar",
+      "temperature_units": "K",
+      "boiling_is_activation_threshold": false
+    },
+    "PFH_phase_comparison": {
+      "NIST_phase_enthalpy_J_kg": 93183.7423655891,
+      "NIST_enthalpy_temperature_K": 316.0,
+      "NIST_source": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C355420&Mask=4",
+      "Wei_reported_enthalpy_J_kg": 102000.0,
+      "Wei_enthalpy_temperature_K": null,
+      "Wei_sensible_heat_37C_to_reported_56C_J_kg": 20000.0,
+      "Wei_source": "https://doi.org/10.1364/OL.39.002599",
+      "evidence": "Source-specific values kept separate, not averaged into a universal constant"
+    },
+    "source_checks": [
+      {
+        "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+        "finding": "Water alpha printed as 0.143 m2/s; k/(rho cp)=1.4330069262e-7 m2/s.",
+        "action": "Use consistent derived diffusivity; preserve source transcription and flag likely missing power of ten."
+      },
+      {
+        "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+        "finding": "PF5 and PF6 diffusivity values agree with k/(rho cp) at printed precision.",
+        "action": "Use derived values with the same constant-coefficient card."
+      },
+      {
+        "source": "https://doi.org/10.1039/D3RA05639B",
+        "finding": "PFP Cp converts to 652.704 J/(kg K), versus 1088 in Zhang.",
+        "action": "Preserve separate source cards; temperatures/upstream basis need reconciliation before calibrated thermal prediction."
+      }
+    ],
+    "formulation_reference": {
+      "source": "https://doi.org/10.1021/acs.jpca.9b02566",
+      "source_location": "PDF page 11 / manuscript page 10",
+      "structure": "W1/O/W2 double emulsion with surface gold nanorods",
+      "diameter_reported_m": [
+        3e-07,
+        5e-07
+      ],
+      "PFP_interfacial_tension_N_m": {
+        "mean": 0.00114,
+        "reported_plus_minus": 0.00025
+      },
+      "PF6_paper_label_interfacial_tension_N_m": {
+        "mean": 0.00159,
+        "reported_plus_minus": 0.00016
+      },
+      "these_are_neat_liquid_surface_tensions": false,
+      "target_assignment": false
+    },
+    "remaining_target_data": "Exact batch/core/shell/absorber and state-dependent properties, EOS/kinetics and carrier rheology remain separate inputs; their absence does not prevent named literature controls."
+  },
+  "material_reference_policy": "Use named literature cards now for controls/sensitivity; characterize target assignment and state extrapolation separately. Reuse material evidence, not previous simulation results."
+}
